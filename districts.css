@@ -689,6 +689,42 @@
   gap: 6px;
 }
 
+.attraction-category-badge {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  padding: 5px 14px;
+  border-radius: var(--radius-full);
+  background: rgba(15, 23, 42, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: #ffffff;
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+.attraction-stay {
+  font-size: 0.82rem;
+  color: var(--text-tertiary);
+  margin-bottom: 18px;
+  line-height: 1.45;
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  background: rgba(0, 113, 227, 0.04);
+  border: 1px solid var(--border-glass);
+  padding: 8px 12px;
+  border-radius: var(--radius-md);
+}
+
+[data-theme="dark"] .attraction-stay {
+  background: rgba(0, 113, 227, 0.1);
+}
+
 .attraction-actions {
   display: flex;
   align-items: center;

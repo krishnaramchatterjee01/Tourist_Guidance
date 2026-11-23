@@ -98,15 +98,15 @@
         <span class="separator">/</span>
         <a href="states.html">States</a>
         <span class="separator">/</span>
-        <span class="current">West Bengal</span>
+        <span class="current" id="breadcrumb-state">West Bengal</span>
       </nav>
 
-      <span class="hero-badge">✦ State Tourism Portal</span>
-      <h1 class="wb-title">Explore West Bengal</h1>
-      <p class="wb-subtitle">Discover the Beauty of West Bengal's 23 Districts</p>
+      <span class="hero-badge" id="hero-badge">✦ State Tourism Portal</span>
+      <h1 class="wb-title" id="wb-title">Explore West Bengal</h1>
+      <p class="wb-subtitle" id="wb-subtitle">Discover the Beauty of West Bengal's 23 Districts</p>
 
       <!-- Key Quick Stats -->
-      <div class="state-stats-bar">
+      <div class="state-stats-bar" id="state-stats-bar">
         <div class="stat-item">
           <strong>23</strong> Districts
         </div>
@@ -188,7 +188,7 @@
         <p>Your premier Apple-inspired travel discovery platform for uncovering the culture, monuments, nature, and majestic diversity of India.</p>
       </div>
 
-      <div class="footer-column">
+      <div class="footer-column" id="footer-nav-col">
         <h4>Navigation</h4>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -199,7 +199,7 @@
         </ul>
       </div>
 
-      <div class="footer-column">
+      <div class="footer-column" id="footer-districts-col">
         <h4>Popular Districts</h4>
         <ul>
           <li><a href="district.html?name=darjeeling">Darjeeling Hills</a></li>
@@ -210,7 +210,7 @@
         </ul>
       </div>
 
-      <div class="footer-column">
+      <div class="footer-column" id="footer-contact-col">
         <h4>Contact &amp; Support</h4>
         <ul>
           <li><a href="mailto:hello@exploreindia.com">hello@exploreindia.com</a></li>
@@ -227,7 +227,7 @@
         <a href="#" class="social-link" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
         <a href="#" class="social-link" aria-label="YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.43z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg></a>
       </div>
-      <p class="copyright">&copy; 2026 Explore India. West Bengal Tourism Directory. All rights reserved.</p>
+      <p class="copyright" id="footer-copyright">&copy; 2026 Explore India. West Bengal Tourism Directory. All rights reserved.</p>
     </div>
   </footer>
 
@@ -294,7 +294,7 @@
         if (e.key === 'Escape' && mobileMenu && mobileMenu.classList.contains('active')) closeMenu();
       });
 
-      // 4. Render All 23 District Cards
+      // 4. State Detection & Rendering
       const grid = document.getElementById('districts-grid');
       const searchInput = document.getElementById('district-search-input');
       const clearBtn = document.getElementById('search-clear-btn');
@@ -307,7 +307,120 @@
 
       if (!grid || typeof WEST_BENGAL_DATA === 'undefined') return;
 
-      const allDistricts = WEST_BENGAL_DATA.districts;
+      // Detect state query parameter (e.g., ?state=andhra-pradesh or ?state=ap)
+      const urlParams = new URLSearchParams(window.location.search);
+      const stateParam = (urlParams.get('state') || '').toLowerCase().trim().replace(/_/g, '-');
+      const isAP = stateParam === 'andhra-pradesh' || stateParam === 'andhra' || stateParam === 'ap' || stateParam === 'andhrapradesh';
+
+      const activeStateData = (typeof getStateData === 'function')
+        ? getStateData(stateParam)
+        : (isAP ? ANDHRA_PRADESH_DATA : WEST_BENGAL_DATA);
+
+      const allDistricts = activeStateData.districts;
+      const stateName = activeStateData.state;
+      const totalCount = allDistricts.length;
+
+      // Dynamically configure page headers, breadcrumbs, stats and footer if viewing Andhra Pradesh
+      if (isAP) {
+        document.title = 'Explore Andhra Pradesh — 26 Districts of Heritage, Coast & Hills';
+        const metaDesc = document.querySelector('meta[name="description"]');
+        if (metaDesc) {
+          metaDesc.setAttribute('content', "Discover the beauty of Andhra Pradesh's 26 districts. Explore Tirumala hills, Gandikota canyon, Visakhapatnam beaches, and Godavari delta.");
+        }
+
+        const breadcrumbEl = document.getElementById('breadcrumb-state');
+        if (breadcrumbEl) breadcrumbEl.textContent = 'Andhra Pradesh';
+
+        const titleEl = document.getElementById('wb-title');
+        if (titleEl) titleEl.textContent = 'Explore Andhra Pradesh';
+
+        const subtitleEl = document.getElementById('wb-subtitle');
+        if (subtitleEl) subtitleEl.textContent = "Discover the Beauty of Andhra Pradesh's 26 Districts";
+
+        const statsBar = document.getElementById('state-stats-bar');
+        if (statsBar) {
+          statsBar.innerHTML = `
+            <div class="stat-item">
+              <strong>26</strong> Districts
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <strong>Amaravati</strong> Capital
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <strong>Eastern Ghats to Bay of Bengal</strong> Terrain
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <strong>162,970 km²</strong> Area
+            </div>
+          `;
+        }
+
+        if (searchInput) {
+          searchInput.setAttribute('placeholder', 'Search districts in Andhra Pradesh...');
+        }
+
+        const filterStatus = document.getElementById('filter-status-text');
+        if (filterStatus) {
+          filterStatus.textContent = 'Browse all official districts across Coastal Andhra & Rayalaseema';
+        }
+
+        if (counter) {
+          counter.textContent = `Showing ${totalCount} of ${totalCount} Districts`;
+        }
+
+        if (resetBtn) {
+          resetBtn.textContent = `View All ${totalCount} Districts`;
+        }
+
+        // Update footer navigation links
+        const footerNavCol = document.getElementById('footer-nav-col');
+        if (footerNavCol) {
+          footerNavCol.innerHTML = `
+            <h4>Navigation</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="west-bengal.html?state=andhra-pradesh">Andhra Pradesh Overview</a></li>
+              <li><a href="district.html?name=visakhapatnam">Visakhapatnam</a></li>
+              <li><a href="district.html?name=tirupati">Tirupati</a></li>
+              <li><a href="district.html?name=ysr-kadapa">Gandikota (Kadapa)</a></li>
+            </ul>
+          `;
+        }
+
+        const footerDistrictsCol = document.getElementById('footer-districts-col');
+        if (footerDistrictsCol) {
+          footerDistrictsCol.innerHTML = `
+            <h4>Popular Districts</h4>
+            <ul>
+              <li><a href="district.html?name=visakhapatnam">Visakhapatnam Coast</a></li>
+              <li><a href="district.html?name=tirupati">Tirumala Hills</a></li>
+              <li><a href="district.html?name=ysr-kadapa">Gandikota Canyon</a></li>
+              <li><a href="district.html?name=alluri-sitharama-raju">Araku Valley</a></li>
+              <li><a href="district.html?name=nandyal">Srisailam Jyotirlinga</a></li>
+            </ul>
+          `;
+        }
+
+        const footerContactCol = document.getElementById('footer-contact-col');
+        if (footerContactCol) {
+          footerContactCol.innerHTML = `
+            <h4>Contact &amp; Support</h4>
+            <ul>
+              <li><a href="mailto:hello@exploreindia.com">hello@exploreindia.com</a></li>
+              <li><a href="tel:+911123456789">+91 11 2345 6789</a></li>
+              <li><span>Amaravati, Andhra Pradesh, India</span></li>
+            </ul>
+          `;
+        }
+
+        const footerCopyright = document.getElementById('footer-copyright');
+        if (footerCopyright) {
+          footerCopyright.innerHTML = '&copy; 2026 Explore India. Andhra Pradesh Tourism Directory. All rights reserved.';
+        }
+      }
 
       function createDistrictCard(district) {
         const card = document.createElement('article');
@@ -386,7 +499,7 @@
         }
       }
 
-      // Initial render of all 23 districts
+      // Initial render of all districts
       renderDistricts(allDistricts);
 
       // 5. Search, Autocomplete & Live Filtering
@@ -407,11 +520,12 @@
           d.headquarters.toLowerCase().includes(query) ||
           d.tagline.toLowerCase().includes(query) ||
           d.knownFor.toLowerCase().includes(query) ||
-          d.attractions.some(a => a.name.toLowerCase().includes(query))
+          d.attractions.some(a => a.name.toLowerCase().includes(query) || (a.category && a.category.toLowerCase().includes(query)))
         );
 
         if (filtered.length === 0) {
-          noResultsText.textContent = `No districts in West Bengal matched "${searchInput.value.trim()}". Try searching for "Darjeeling", "Kolkata", "Purba", etc.`;
+          const suggestions = isAP ? '"Visakhapatnam", "Tirupati", "Kadapa", "Araku"' : '"Darjeeling", "Kolkata", "Purba", etc.';
+          noResultsText.textContent = `No districts in ${stateName} matched "${searchInput.value.trim()}". Try searching for ${suggestions}`;
         }
 
         renderDistricts(filtered);

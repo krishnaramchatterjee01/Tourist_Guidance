@@ -83,20 +83,20 @@
       <div class="district-hero-overlay"></div>
       
       <div class="district-hero-inner">
-        <!-- Back to West Bengal Button -->
+        <!-- Back to State Button -->
         <a href="west-bengal.html" class="back-to-wb-btn" id="back-btn">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <line x1="19" y1="12" x2="5" y2="12"></line>
             <polyline points="12 19 5 12 12 5"></polyline>
           </svg>
-          Back to West Bengal Districts
+          <span id="back-btn-text">Back to West Bengal Districts</span>
         </a>
 
         <!-- Breadcrumbs -->
         <nav class="breadcrumbs" aria-label="Breadcrumb">
           <a href="index.html">Home</a>
           <span class="separator">/</span>
-          <a href="west-bengal.html">West Bengal</a>
+          <a href="west-bengal.html" id="breadcrumb-state-link">West Bengal</a>
           <span class="separator">/</span>
           <span class="current" id="breadcrumb-district-name">District</span>
         </nav>
@@ -147,7 +147,7 @@
     <section class="other-districts-section">
       <div class="section-header" style="text-align: left; margin-bottom: 20px;">
         <span class="section-tag">Continue Exploring</span>
-        <h3 class="section-title" style="font-size: 2rem;">Other Districts in West Bengal</h3>
+        <h3 class="section-title" id="other-districts-title" style="font-size: 2rem;">Other Districts in West Bengal</h3>
       </div>
       <div class="other-districts-grid" id="other-districts-grid">
         <!-- Rendered dynamically -->
@@ -160,8 +160,11 @@
   <div class="no-results-card" id="district-not-found" style="max-width: 600px; margin: 160px auto;">
     <div class="no-results-icon">🗺️</div>
     <h2>District Not Found</h2>
-    <p>We could not find the requested district in West Bengal. Please select from the official list of 23 districts.</p>
-    <a href="west-bengal.html" class="btn" style="padding: 12px 30px;">View All 23 Districts</a>
+    <p id="not-found-desc">We could not find the requested district. Please select from our verified state district directories.</p>
+    <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+      <a href="west-bengal.html?state=andhra-pradesh" class="btn" style="padding: 12px 24px;">Andhra Pradesh (26)</a>
+      <a href="west-bengal.html" class="btn" style="padding: 12px 24px;">West Bengal (23)</a>
+    </div>
   </div>
 
   <!-- ===== ATTRACTION DETAILS MODAL ===== -->
@@ -192,6 +195,10 @@
 
         <div class="modal-highlights" id="modal-highlights">
           <strong>Key Highlights:</strong> <span id="modal-high-text">-</span>
+        </div>
+
+        <div class="modal-accommodation" id="modal-accommodation" style="display: none; margin-bottom: 20px; font-size: 0.88rem; color: var(--text-secondary); line-height: 1.5;">
+          <strong>🏨 Verified Stays:</strong> <span id="modal-stay-text">-</span>
         </div>
 
         <a id="modal-maps-link" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-maps" style="width: 100%; padding: 14px; font-size: 0.95rem;">
@@ -322,16 +329,19 @@
       // 4. Parse URL Parameters & Load District Data
       const urlParams = new URLSearchParams(window.location.search);
       const districtSlug = urlParams.get('name') || urlParams.get('district') || 'darjeeling';
+      const stateHint = urlParams.get('state') || '';
 
       const mainContent = document.getElementById('main-content');
       const notFoundBlock = document.getElementById('district-not-found');
 
-      if (typeof WEST_BENGAL_DATA === 'undefined') {
-        console.error('WEST_BENGAL_DATA not loaded.');
+      if (typeof WEST_BENGAL_DATA === 'undefined' && typeof ANDHRA_PRADESH_DATA === 'undefined') {
+        console.error('Tourism datasets not loaded.');
         return;
       }
 
-      const district = getDistrictBySlug(districtSlug);
+      const district = (typeof getDistrictBySlug === 'function')
+        ? getDistrictBySlug(districtSlug, stateHint)
+        : null;
 
       if (!district) {
         if (mainContent) mainContent.style.display = 'none';
@@ -341,15 +351,39 @@
 
       if (notFoundBlock) notFoundBlock.style.display = 'none';
 
-      // Set Document Title & Metadata
-      document.title = `${district.name} — Explore West Bengal Tourism`;
-      const metaDesc = document.getElementById('page-description');
-      if (metaDesc) metaDesc.setAttribute('content', `${district.name}: ${district.shortDescription} Explore top attractions and plan your visit.`);
+      const stateName = district.stateName || 'West Bengal';
+      const stateSlug = district.stateSlug || 'west-bengal';
+      const isAP = stateSlug === 'andhra-pradesh';
 
-      // Populate Hero Banner
+      // Set Document Title & Metadata
+      document.title = `${district.name} — Explore ${stateName} Tourism`;
+      const metaDesc = document.getElementById('page-description');
+      if (metaDesc) metaDesc.setAttribute('content', `${district.name}: ${district.shortDescription} Explore top attractions and plan your visit in ${stateName}.`);
+
+      // Populate Hero Banner & Navigation
       const heroEl = document.getElementById('district-hero');
       if (heroEl) {
         heroEl.style.backgroundImage = `url('${district.heroImage || district.image}')`;
+      }
+
+      const backBtn = document.getElementById('back-btn');
+      const backBtnText = document.getElementById('back-btn-text');
+      const breadcrumbStateLink = document.getElementById('breadcrumb-state-link');
+
+      if (isAP) {
+        if (backBtn) backBtn.href = 'west-bengal.html?state=andhra-pradesh';
+        if (backBtnText) backBtnText.textContent = 'Back to Andhra Pradesh Districts';
+        if (breadcrumbStateLink) {
+          breadcrumbStateLink.href = 'west-bengal.html?state=andhra-pradesh';
+          breadcrumbStateLink.textContent = 'Andhra Pradesh';
+        }
+      } else {
+        if (backBtn) backBtn.href = 'west-bengal.html';
+        if (backBtnText) backBtnText.textContent = 'Back to West Bengal Districts';
+        if (breadcrumbStateLink) {
+          breadcrumbStateLink.href = 'west-bengal.html';
+          breadcrumbStateLink.textContent = 'West Bengal';
+        }
       }
 
       document.getElementById('breadcrumb-district-name').textContent = district.name;
@@ -375,6 +409,7 @@
         card.innerHTML = `
           <div class="attraction-media">
             <img src="${spot.image}" alt="${spot.name}" loading="lazy">
+            ${spot.category ? `<span class="attraction-category-badge" style="position: absolute; top: 12px; left: 12px; padding: 4px 12px; border-radius: var(--radius-full); background: rgba(0, 0, 0, 0.65); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); color: #ffffff; font-size: 0.74rem; font-weight: 600; letter-spacing: 0.02em; border: 1px solid rgba(255, 255, 255, 0.2);">${spot.category}</span>` : ''}
           </div>
           <div class="attraction-body">
             <h3 class="attraction-name">${spot.name}</h3>
@@ -389,6 +424,10 @@
             <div class="attraction-highlights">
               <strong>✨ Highlights:</strong> ${spot.highlights}
             </div>
+            ${spot.accommodation ? `
+            <div class="attraction-stay" style="font-size: 0.82rem; color: var(--text-tertiary); margin-bottom: 18px; line-height: 1.45; display: flex; align-items: flex-start; gap: 6px;">
+              <span style="color: var(--accent); font-weight: 700; white-space: nowrap;">🏨 Stay:</span> <span>${spot.accommodation}</span>
+            </div>` : ''}
             <div class="attraction-actions">
               <a href="${googleMapsUrl}" target="_blank" rel="noopener noreferrer" class="btn-maps" aria-label="View ${spot.name} on Google Maps">
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -416,8 +455,15 @@
 
       // 6. Populate "Other Districts" Grid
       const otherGrid = document.getElementById('other-districts-grid');
-      if (otherGrid) {
-        const others = WEST_BENGAL_DATA.districts
+      const otherTitle = document.getElementById('other-districts-title');
+      if (otherTitle) {
+        otherTitle.textContent = `Other Districts in ${stateName}`;
+      }
+
+      const stateDataset = isAP ? ANDHRA_PRADESH_DATA : WEST_BENGAL_DATA;
+
+      if (otherGrid && stateDataset && stateDataset.districts) {
+        const others = stateDataset.districts
           .filter(d => d.slug !== district.slug)
           .sort(() => 0.5 - Math.random())
           .slice(0, 4);
@@ -444,6 +490,18 @@
         document.getElementById('modal-loc-text').textContent = spot.location;
         document.getElementById('modal-desc').textContent = spot.description;
         document.getElementById('modal-high-text').textContent = spot.highlights;
+
+        const stayBlock = document.getElementById('modal-accommodation');
+        const stayText = document.getElementById('modal-stay-text');
+        if (stayBlock && stayText) {
+          if (spot.accommodation) {
+            stayText.textContent = spot.accommodation;
+            stayBlock.style.display = 'block';
+          } else {
+            stayBlock.style.display = 'none';
+          }
+        }
+
         document.getElementById('modal-maps-link').href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(spot.mapsQuery)}`;
 
         modal.classList.add('active');
@@ -454,6 +512,8 @@
       function closeModal() {
         modal.classList.remove('active');
         modal.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+      }
         document.body.style.overflow = '';
       }
 

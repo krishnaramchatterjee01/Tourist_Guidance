@@ -176,7 +176,7 @@
       { name: 'Assam', type: 'State', state: 'Northeastern India', url: 'coming-soon.html?title=Assam' },
       { name: 'Madhya Pradesh', type: 'State', state: 'Central India', url: 'coming-soon.html?title=Madhya%20Pradesh' },
       { name: 'Telangana', type: 'State', state: 'Southern India', url: 'coming-soon.html?title=Telangana' },
-      { name: 'Andhra Pradesh', type: 'State', state: 'Southern India', url: 'coming-soon.html?title=Andhra%20Pradesh' },
+      { name: 'Andhra Pradesh', type: 'State', state: 'Southern India', url: 'west-bengal.html?state=andhra-pradesh' },
 
       // 8 Union Territories
       { name: 'Andaman & Nicobar', type: 'Union Territory', state: 'Bay of Bengal Islands', url: 'coming-soon.html?title=Andaman%20and%20Nicobar%20Islands' },
@@ -188,7 +188,7 @@
       { name: 'Lakshadweep', type: 'Union Territory', state: 'Arabian Sea Coral Atolls', url: 'coming-soon.html?title=Lakshadweep' },
       { name: 'Puducherry', type: 'Union Territory', state: 'French Riviera of the East', url: 'coming-soon.html?title=Puducherry' },
 
-      // Iconic Tourist Destinations
+      // Iconic Tourist Destinations & Districts
       { name: 'Taj Mahal', type: 'Tourist Wonder', state: 'Agra, Uttar Pradesh', url: 'top-places.html' },
       { name: 'Golden Temple', type: 'Tourist Wonder', state: 'Amritsar, Punjab', url: 'top-places.html' },
       { name: 'India Gate', type: 'Tourist Wonder', state: 'New Delhi', url: 'top-places.html' },
@@ -202,6 +202,13 @@
       { name: 'Darjeeling', type: 'District', state: 'Tea Hills, West Bengal', url: 'district.html?name=darjeeling' },
       { name: 'Manali', type: 'Destination', state: 'Snow Peaks, Himachal', url: 'explore.html' },
       { name: 'Varanasi', type: 'Destination', state: 'Sacred Ganges Ghats, UP', url: 'top-places.html' },
+      { name: 'Tirupati', type: 'District', state: 'Seven Hills, Andhra Pradesh', url: 'district.html?name=tirupati' },
+      { name: 'Visakhapatnam', type: 'District', state: 'Jewel of the East Coast, Andhra Pradesh', url: 'district.html?name=visakhapatnam' },
+      { name: 'Gandikota', type: 'Tourist Wonder', state: 'Grand Canyon of India, Andhra Pradesh', url: 'district.html?name=ysr-kadapa' },
+      { name: 'Araku Valley', type: 'Destination', state: 'Eastern Ghats, Andhra Pradesh', url: 'district.html?name=alluri-sitharama-raju' },
+      { name: 'Srisailam', type: 'Tourist Wonder', state: 'Jyotirlinga, Andhra Pradesh', url: 'district.html?name=nandyal' },
+      { name: 'Lepakshi', type: 'Tourist Wonder', state: 'Vijayanagara Heritage, Andhra Pradesh', url: 'district.html?name=ananthapuramu' },
+      { name: 'Vijayawada', type: 'District', state: 'Kanaka Durga, Andhra Pradesh', url: 'district.html?name=ntr' },
 
       // Popular PIN Codes
       { name: '110001', type: 'PIN Code', state: 'Connaught Place, New Delhi', url: 'coming-soon.html?title=PIN%20110001' },
@@ -218,6 +225,12 @@
       if (!val) return false;
       const clean = val.trim().toLowerCase();
       return clean === 'west bengal' || clean === 'westbengal' || clean === 'wb' || clean === 'bengal';
+    }
+
+    function isAndhraPradeshQuery(val) {
+      if (!val) return false;
+      const clean = val.trim().toLowerCase();
+      return clean === 'andhra pradesh' || clean === 'andhra' || clean === 'ap' || clean === 'andhrapradesh';
     }
 
     function isDarjeelingQuery(val) {
@@ -277,6 +290,12 @@
       // West Bengal redirection rule
       if (isWestBengalQuery(name)) {
         window.location.href = 'west-bengal.html';
+        return;
+      }
+
+      // Andhra Pradesh redirection rule
+      if (isAndhraPradeshQuery(name)) {
+        window.location.href = 'west-bengal.html?state=andhra-pradesh';
         return;
       }
 
@@ -359,6 +378,10 @@
           window.location.href = 'west-bengal.html';
           return;
         }
+        if (isAndhraPradeshQuery(currentQuery)) {
+          window.location.href = 'west-bengal.html?state=andhra-pradesh';
+          return;
+        }
         if (isDarjeelingQuery(currentQuery)) {
           window.location.href = 'district.html?name=darjeeling';
           return;
@@ -409,6 +432,8 @@
           input.focus();
         } else if (isWestBengalQuery(query)) {
           window.location.href = 'west-bengal.html';
+        } else if (isAndhraPradeshQuery(query)) {
+          window.location.href = 'west-bengal.html?state=andhra-pradesh';
         } else if (isDarjeelingQuery(query)) {
           window.location.href = 'district.html?name=darjeeling';
         } else {
