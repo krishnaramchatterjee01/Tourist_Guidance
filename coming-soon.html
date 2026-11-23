@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="cs-page-title">Destination Coming Soon — Explore India</title>
+  <meta name="description" content="Explore India is expanding. Curated tourist guides, verified attractions, and interactive maps are coming soon for this destination.">
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .cs-hero {
+      min-height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 160px 24px 80px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .cs-card {
+      background: var(--bg-glass-heavy);
+      backdrop-filter: blur(var(--glass-blur-heavy));
+      -webkit-backdrop-filter: blur(var(--glass-blur-heavy));
+      border: 1px solid var(--border-glass);
+      border-radius: var(--radius-xl);
+      padding: 48px 40px;
+      max-width: 720px;
+      width: 100%;
+      margin: 0 auto;
+      box-shadow: var(--shadow-lg);
+      position: relative;
+      z-index: 2;
+    }
+    .cs-icon {
+      font-size: 3.5rem;
+      margin-bottom: 20px;
+      display: inline-block;
+    }
+    .cs-title {
+      font-size: 2.8rem;
+      font-weight: 800;
+      color: var(--text-primary);
+      letter-spacing: -0.03em;
+      margin-bottom: 12px;
+      line-height: 1.15;
+    }
+    .cs-subtitle {
+      font-size: 1.15rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      margin-bottom: 32px;
+    }
+    .cs-actions {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .cs-highlight-box {
+      margin: 28px 0;
+      padding: 18px 24px;
+      background: var(--accent-light);
+      border: 1px solid var(--accent);
+      border-radius: var(--radius-md);
+      text-align: left;
+    }
+    .cs-highlight-box h4 {
+      color: var(--accent);
+      font-size: 0.95rem;
+      font-weight: 700;
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .cs-highlight-box p {
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== FLOATING GLASS NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">✦</span>
+        <span>Explore India</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="states.html">States</a></li>
+        <li><a href="top-places.html">Top Places</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <!-- Search icon toggle -->
+        <a href="index.html#search" class="search-toggle" aria-label="Search" title="Search destinations">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </a>
+
+        <!-- Theme toggle -->
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark and light theme" title="Toggle theme">
+          <svg class="sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Hamburger toggle -->
+        <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <button class="mobile-menu-close" id="mobile-menu-close" aria-label="Close menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+    <a href="index.html" class="mobile-nav-link">Home</a>
+    <a href="explore.html" class="mobile-nav-link">Explore</a>
+    <a href="states.html" class="mobile-nav-link">States</a>
+    <a href="top-places.html" class="mobile-nav-link">Top Places</a>
+  </div>
+
+  <!-- Hero Content -->
+  <header class="cs-hero">
+    <div class="ambient-glow">
+      <div class="glow-1"></div>
+      <div class="glow-2"></div>
+      <div class="glow-3"></div>
+    </div>
+
+    <div class="cs-card">
+      <div class="cs-icon">✨</div>
+      <span class="hero-badge" style="margin-bottom: 12px;">✦ Curated Exploration Portal</span>
+      <h1 class="cs-title" id="destination-title">Coming Soon</h1>
+      <p class="cs-subtitle" id="destination-desc">
+        Our travel research team is meticulously curating verified tourist spots, high-resolution photography, historical heritage insights, and Google Maps navigation for this destination.
+      </p>
+
+      <div class="cs-highlight-box">
+        <h4>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12"></polyline>
+          </svg>
+          Live &amp; Fully Interactive Now: West Bengal
+        </h4>
+        <p>You can currently explore all <strong>23 official districts of West Bengal</strong> with verified attractions, maps coordinates, and district search.</p>
+      </div>
+
+      <div class="cs-actions">
+        <a href="west-bengal.html" class="btn" style="padding: 12px 28px;">
+          Explore West Bengal (23 Districts)
+        </a>
+        <a href="states.html" class="btn btn-outline" style="padding: 12px 28px;">
+          All States &amp; UTs
+        </a>
+        <a href="index.html" class="btn btn-outline" style="padding: 12px 28px;">
+          Return Home
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <span class="logo-icon">✦</span>
+          <span>Explore India</span>
+        </a>
+        <p>Your premier Apple-inspired travel discovery platform for uncovering the culture, monuments, nature, and majestic diversity of India.</p>
+      </div>
+
+      <div class="footer-column">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="explore.html">Explore Destinations</a></li>
+          <li><a href="states.html">All 36 States &amp; UTs</a></li>
+          <li><a href="top-places.html">Top Places</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Active Guides</h4>
+        <ul>
+          <li><a href="west-bengal.html">West Bengal (23 Districts)</a></li>
+          <li><a href="district.html?name=darjeeling">Darjeeling Hills</a></li>
+          <li><a href="district.html?name=kolkata">Kolkata City Guide</a></li>
+          <li><a href="district.html?name=bankura">Bishnupur Terracotta</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Contact &amp; Support</h4>
+        <ul>
+          <li><a href="mailto:hello@exploreindia.com">hello@exploreindia.com</a></li>
+          <li><a href="tel:+911123456789">+91 11 2345 6789</a></li>
+          <li><span>New Delhi, 110001, India</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="social-links">
+        <a href="#" class="social-link" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+        <a href="#" class="social-link" aria-label="Twitter / X"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a>
+        <a href="#" class="social-link" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+        <a href="#" class="social-link" aria-label="YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.43z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg></a>
+      </div>
+      <p class="copyright">&copy; 2026 Explore India. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Theme
+    const savedTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', savedTheme);
+    const toggle = document.getElementById('theme-toggle');
+    if (toggle) {
+      toggle.addEventListener('click', () => {
+        const cur = document.documentElement.getAttribute('data-theme') || 'light';
+        const next = cur === 'dark' ? 'light' : 'dark';
+        document.body.classList.add('transitioning');
+        document.documentElement.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+        setTimeout(() => document.body.classList.remove('transitioning'), 400);
+      });
+    }
+
+    // Mobile menu
+    const hamburger = document.getElementById('hamburger-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const closeBtn = document.getElementById('mobile-menu-close');
+    if (hamburger && mobileMenu) {
+      hamburger.addEventListener('click', () => mobileMenu.classList.toggle('active'));
+    }
+    if (closeBtn) closeBtn.addEventListener('click', () => mobileMenu.classList.remove('active'));
+
+    // Dynamic title from query params
+    const params = new URLSearchParams(window.location.search);
+    const title = params.get('title') || params.get('name') || 'Destination';
+    const cleanTitle = decodeURIComponent(title).trim();
+    if (cleanTitle) {
+      document.getElementById('destination-title').textContent = `${cleanTitle} Guide Coming Soon`;
+      document.getElementById('cs-page-title').textContent = `${cleanTitle} — Explore India Coming Soon`;
+      document.getElementById('destination-desc').textContent = `Our travel curation team is currently finalizing verified itineraries, historical backgrounds, and interactive spot guides for ${cleanTitle}.`;
+    }
+  </script>
+</body>
+</html>

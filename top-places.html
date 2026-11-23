@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top Places — India's Most Loved Destinations</title>
+  <meta name="description" content="Discover India's most iconic monuments, sacred shrines, UNESCO World Heritage marvels, and natural wonders with interactive maps and travel details.">
+  
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== 1. FLOATING GLASS NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">✦</span>
+        <span>Explore India</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="states.html">States</a></li>
+        <li><a href="top-places.html" class="active">Top Places</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <!-- Search icon (redirects to homepage search) -->
+        <a href="index.html#search" class="search-toggle" aria-label="Search destinations" title="Search destinations">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </a>
+
+        <!-- Theme toggle -->
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark and light theme" title="Toggle theme">
+          <svg class="sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 1 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Hamburger toggle button -->
+        <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <button class="mobile-menu-close" id="mobile-menu-close" aria-label="Close menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+    <a href="index.html" class="mobile-nav-link">Home</a>
+    <a href="explore.html" class="mobile-nav-link">Explore</a>
+    <a href="states.html" class="mobile-nav-link">States</a>
+    <a href="top-places.html" class="mobile-nav-link active">Top Places</a>
+  </div>
+
+  <!-- ===== DIRECTORY HERO ===== -->
+  <header class="directory-hero">
+    <div class="ambient-glow">
+      <div class="glow-1"></div>
+      <div class="glow-2"></div>
+      <div class="glow-3"></div>
+    </div>
+
+    <div class="directory-hero-content">
+      <span class="directory-badge">✦ Timeless Indian Landmarks</span>
+      <h1 class="directory-title">India's Most Loved Destinations</h1>
+      <p class="directory-subtitle">Experience world-renowned architectural wonders, sacred sanctuaries, and awe-inspiring heritage sites across the nation.</p>
+
+      <!-- Search Bar -->
+      <div class="search-container" style="max-width: 600px; margin: 0 auto;">
+        <div class="search-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </div>
+        <input 
+          type="text" 
+          id="places-search-input" 
+          class="search-input" 
+          placeholder="Search iconic monuments, temples, or wonders..."
+          autocomplete="off"
+        >
+        <button class="search-btn" id="places-search-clear" style="display: none;" aria-label="Clear search">Clear</button>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="filter-tabs-container">
+        <div class="filter-tabs" role="tablist">
+          <button class="filter-tab active" data-category="all" role="tab">All Places</button>
+          <button class="filter-tab" data-category="unesco" role="tab">UNESCO Heritage</button>
+          <button class="filter-tab" data-category="marvel" role="tab">Architectural Marvels</button>
+          <button class="filter-tab" data-category="nature" role="tab">Natural Wonders</button>
+          <button class="filter-tab" data-category="shrine" role="tab">Sacred Shrines</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== PLACES GRID SECTION ===== -->
+  <main class="section" style="padding-top: 0;">
+    <div class="directory-stats-bar" style="max-width: 1200px; margin: 0 auto 32px;">
+      <div class="directory-count">
+        Showing <span id="visible-count">16</span> Iconic Attractions
+      </div>
+      <div style="font-size: 0.85rem; color: var(--text-tertiary);">
+        Interactive details &amp; direct Google Maps directions
+      </div>
+    </div>
+
+    <div class="places-grid" id="places-grid">
+
+      <!-- 1. Taj Mahal -->
+      <div class="place-card" data-category="unesco" data-name="Taj Mahal" data-loc="Agra, Uttar Pradesh" data-img="https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&auto=format&fit=crop&q=80" data-map="Taj Mahal, Agra, Uttar Pradesh">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&auto=format&fit=crop&q=80" alt="Taj Mahal Mausoleum" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">UNESCO Heritage</span>
+          <h3>Taj Mahal</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Agra, Uttar Pradesh
+          </span>
+          <p>An ivory-white marble mausoleum on the Yamuna riverbank, revered worldwide as the pinnacle of Mughal architecture and an eternal symbol of love.</p>
+          <div style="display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap;">
+            <button class="btn explore-btn open-place-modal" style="flex: 1;">Details</button>
+            <a href="https://www.google.com/maps/search/?api=1&query=Taj+Mahal+Agra" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 10px 16px;" title="View on Google Maps">Maps ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. Golden Temple -->
+      <div class="place-card" data-category="shrine" data-name="Golden Temple" data-loc="Amritsar, Punjab" data-img="https://images.unsplash.com/photo-1609947017136-9daf32a15c38?w=800&auto=format&fit=crop&q=80" data-map="Golden Temple, Amritsar, Punjab">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1609947017136-9daf32a15c38?w=800&auto=format&fit=crop&q=80" alt="Golden Temple Amritsar" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">Sacred Shrines</span>
+          <h3>Golden Temple</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Amritsar, Punjab
+          </span>
+          <p>Sri Harmandir Sahib, the spiritual heart of Sikhism with its gold foil gilded central sanctum and holy Amrit Sarovar nectar pool.</p>
+          <div style="display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap;">
+            <button class="btn explore-btn open-place-modal" style="flex: 1;">Details</button>
+            <a href="https://www.google.com/maps/search/?api=1&query=Golden+Temple+Amritsar" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 10px 16px;">Maps ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. India Gate -->
+      <div class="place-card" data-category="marvel" data-name="India Gate" data-loc="New Delhi" data-img="https://images.unsplash.com/photo-1587474260584-136574528ed5?w=800&auto=format&fit=crop&q=80" data-map="India Gate, New Delhi">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1587474260584-136574528ed5?w=800&auto=format&fit=crop&q=80" alt="India Gate New Delhi" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">Architectural Marvels</span>
+          <h3>India Gate</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            New Delhi
+          </span>
+          <p>A grand 42-meter high triumphal stone arch standing proudly along Kartavya Path, honoring the valor of Indian soldiers with the Amar Jawan Jyoti.</p>
+          <div style="display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap;">
+            <button class="btn explore-btn open-place-modal" style="flex: 1;">Details</button>
+            <a href="https://www.google.com/maps/search/?api=1&query=India+Gate+New+Delhi" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 10px 16px;">Maps ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. Hawa Mahal -->
+      <div class="place-card" data-category="marvel" data-name="Hawa Mahal" data-loc="Jaipur, Rajasthan" data-img="https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&auto=format&fit=crop&q=80" data-map="Hawa Mahal, Jaipur, Rajasthan">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&auto=format&fit=crop&q=80" alt="Hawa Mahal Jaipur" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">Architectural Marvels</span>
+          <h3>Hawa Mahal</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Jaipur, Rajasthan
+          </span>
+          <p>The Palace of Winds, featuring an iconic five-story pink sandstone honeycomb facade with 953 delicately screened jharokha casements.</p>
+          <div style="display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap;">
+            <button class="btn explore-btn open-place-modal" style="flex: 1;">Details</button>
+            <a href="https://www.google.com/maps/search/?api=1&query=Hawa+Mahal+Jaipur" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 10px 16px;">Maps ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5. Dal Lake -->
+      <div class="place-card" data-category="nature" data-name="Dal Lake" data-loc="Srinagar, Jammu & Kashmir" data-img="https://images.unsplash.com/photo-1598091383021-15ddea10925d?w=800&auto=format&fit=crop&q=80" data-map="Dal Lake, Srinagar, Jammu and Kashmir">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1598091383021-15ddea10925d?w=800&auto=format&fit=crop&q=80" alt="Dal Lake Srinagar" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">Natural Wonders</span>
+          <h3>Dal Lake</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Srinagar, Jammu &amp; Kashmir
+          </span>
+          <p>The jewel in the crown of Kashmir, famed for intricately carved cedar wood houseboats, floating vegetable markets, and colorful shikara rides.</p>
+          <div style="display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap;">
+            <button class="btn explore-btn open-place-modal" style="flex: 1;">Details</button>
+            <a href="https://www.google.com/maps/search/?api=1&query=Dal+Lake+Srinagar" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 10px 16px;">Maps ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6. Victoria Memorial -->
+      <div class="place-card" data-category="marvel" data-name="Victoria Memorial" data-loc="Kolkata, West Bengal" data-img="https://images.unsplash.com/photo-1558431382-27e303142255?w=800&auto=format&fit=crop&q=80" data-map="Victoria Memorial, Kolkata, West Bengal">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1558431382-27e303142255?w=800&auto=format&fit=crop&q=80" alt="Victoria Memorial Kolkata" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">Architectural Marvels</span>
+          <h3>Victoria Memorial</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Kolkata, West Bengal
+          </span>
+          <p>An imposing white Makrana marble monument surrounded by lush green lawns, harmonizing British and Mughal architectural designs in the Cultural Capital.</p>
+          <div style="display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap;">
+            <a href="district.html?name=kolkata" class="btn explore-btn" style="flex: 1; text-align: center; background: var(--accent); color: #fff;">Explore Kolkata</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=Victoria+Memorial+Kolkata" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 10px 16px;">Maps ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 7. Qutub Minar -->
+      <div class="place-card" data-category="unesco" data-name="Qutub Minar" data-loc="New Delhi" data-img="https://images.unsplash.com/photo-1587474260584-136574528ed5?w=800&auto=format&fit=crop&q=80" data-map="Qutub Minar, New Delhi">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1587474260584-136574528ed5?w=800&auto=format&fit=crop&q=80" alt="Qutub Minar Tower" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">UNESCO Heritage</span>
+          <h3>Qutub Minar</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            New Delhi
+          </span>
+          <p>A soaring 73-meter fluted red sandstone minaret constructed in 1192, decorated with intricate Arabic inscriptions and surrounded by ancient ruins.</p>
+          <div style="display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap;">
+            <button class="btn explore-btn open-place-modal" style="flex: 1;">Details</button>
+            <a href="https://www.google.com/maps/search/?api=1&query=Qutub+Minar+New+Delhi" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 10px 16px;">Maps ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 8. Meenakshi Temple -->
+      <div class="place-card" data-category="shrine" data-name="Meenakshi Temple" data-loc="Madurai, Tamil Nadu" data-img="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&auto=format&fit=crop&q=80" data-map="Meenakshi Amman Temple, Madurai, Tamil Nadu">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&auto=format&fit=crop&q=80" alt="Meenakshi Temple Gopuram" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">Sacred Shrines</span>
+          <h3>Meenakshi Temple</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Madurai, Tamil Nadu
+          </span>
+          <p>Historic Dravidian temple complex on the Vaigai River, globally acclaimed for 14 towering gopuram gateway towers adorned with thousands of colorful mythological sculptures.</p>
+          <div style="display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap;">
+            <button class="btn explore-btn open-place-modal" style="flex: 1;">Details</button>
+            <a href="https://www.google.com/maps/search/?api=1&query=Meenakshi+Amman+Temple+Madurai" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 10px 16px;">Maps ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 9. Gateway of India -->
+      <div class="place-card" data-category="marvel" data-name="Gateway of India" data-loc="Mumbai, Maharashtra" data-img="https://images.unsplash.com/photo-1567157577867-05ccb1388e66?w=800&auto=format&fit=crop&q=80" data-map="Gateway of India, Mumbai, Maharashtra">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1567157577867-05ccb1388e66?w=800&auto=format&fit=crop&q=80" alt="Gateway of India Mumbai" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">Architectural Marvels</span>
+          <h3>Gateway of India</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Mumbai, Maharashtra
+          </span>
+          <p>An imposing yellow basalt Indo-Saracenic arch built in 1924 overlooking the Arabian Sea, standing beside the legendary Taj Mahal Palace Hotel.</p>
+          <div style="display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap;">
+            <button class="btn explore-btn open-place-modal" style="flex: 1;">Details</button>
+            <a href="https://www.google.com/maps/search/?api=1&query=Gateway+of+India+Mumbai" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 10px 16px;">Maps ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 10. Ajanta & Ellora Caves -->
+      <div class="place-card" data-category="unesco" data-name="Ajanta & Ellora Caves" data-loc="Aurangabad, Maharashtra" data-img="https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80" data-map="Ajanta Caves, Aurangabad, Maharashtra">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80" alt="Ajanta and Ellora Rock Caves" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">UNESCO Heritage</span>
+          <h3>Ajanta &amp; Ellora Caves</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Aurangabad, Maharashtra
+          </span>
+          <p>Ancient rock-cut cave monuments showcasing Buddhist masterwork murals and the awe-inspiring monolithic Kailash Temple carved from top to bottom.</p>
+          <div style="display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap;">
+            <button class="btn explore-btn open-place-modal" style="flex: 1;">Details</button>
+            <a href="https://www.google.com/maps/search/?api=1&query=Ajanta+and+Ellora+Caves" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 10px 16px;">Maps ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 11. Konark Sun Temple -->
+      <div class="place-card" data-category="unesco" data-name="Konark Sun Temple" data-loc="Puri, Odisha" data-img="https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80" data-map="Konark Sun Temple, Puri, Odisha">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80" alt="Konark Sun Temple Stone Wheels" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">UNESCO Heritage</span>
+          <h3>Konark Sun Temple</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Puri, Odisha
+          </span>
+          <p>A 13th-century monument shaped like a colossal chariot with 24 intricately sculpted stone wheels functioning as precise sundials.</p>
+          <div style="display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap;">
+            <button class="btn explore-btn open-place-modal" style="flex: 1;">Details</button>
+            <a href="https://www.google.com/maps/search/?api=1&query=Konark+Sun+Temple+Odisha" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 10px 16px;">Maps ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 12. Mysore Palace -->
+      <div class="place-card" data-category="marvel" data-name="Mysore Palace" data-loc="Mysuru, Karnataka" data-img="https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80" data-map="Mysore Palace, Mysuru, Karnataka">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80" alt="Mysore Palace Karnataka" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">Architectural Marvels</span>
+          <h3>Mysore Palace</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Mysuru, Karnataka
+          </span>
+          <p>The royal residence of the Wadiyar dynasty, stunning in Indo-Saracenic design with stained glass domes, mirrored halls, and 100,000 festival illuminations.</p>
+          <div style="display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap;">
+            <button class="btn explore-btn open-place-modal" style="flex: 1;">Details</button>
+            <a href="https://www.google.com/maps/search/?api=1&query=Mysore+Palace+Mysuru" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 10px 16px;">Maps ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 13. Varanasi Ghats -->
+      <div class="place-card" data-category="shrine" data-name="Varanasi Ghats" data-loc="Varanasi, Uttar Pradesh" data-img="https://images.unsplash.com/photo-1561361513-2d000a50f0dc?w=800&auto=format&fit=crop&q=80" data-map="Dashashwamedh Ghat, Varanasi, Uttar Pradesh">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1561361513-2d000a50f0dc?w=800&auto=format&fit=crop&q=80" alt="Varanasi Ghats Ganges" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">Sacred Shrines</span>
+          <h3>Varanasi Ghats</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Varanasi, Uttar Pradesh
+          </span>
+          <p>88 stone step riverfront ghats lining the sacred River Ganges, where thousand-year-old evening Ganga Aarti brass lamp rituals illuminate the night.</p>
+          <div style="display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap;">
+            <button class="btn explore-btn open-place-modal" style="flex: 1;">Details</button>
+            <a href="https://www.google.com/maps/search/?api=1&query=Dashashwamedh+Ghat+Varanasi" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 10px 16px;">Maps ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 14. Amber Fort -->
+      <div class="place-card" data-category="unesco" data-name="Amber Fort" data-loc="Jaipur, Rajasthan" data-img="https://images.unsplash.com/photo-1477587458883-47145ed94245?w=800&auto=format&fit=crop&q=80" data-map="Amber Palace, Jaipur, Rajasthan">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1477587458883-47145ed94245?w=800&auto=format&fit=crop&q=80" alt="Amber Fort Jaipur" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">UNESCO Heritage</span>
+          <h3>Amber Fort</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Jaipur, Rajasthan
+          </span>
+          <p>A majestic hilltop palace fortress constructed of yellow and pink sandstone, celebrated for the gleaming Sheesh Mahal mirror palace and Maota Lake views.</p>
+          <div style="display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap;">
+            <button class="btn explore-btn open-place-modal" style="flex: 1;">Details</button>
+            <a href="https://www.google.com/maps/search/?api=1&query=Amber+Fort+Jaipur" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 10px 16px;">Maps ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 15. Pangong Tso Lake -->
+      <div class="place-card" data-category="nature" data-name="Pangong Tso Lake" data-loc="Ladakh" data-img="https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?w=800&auto=format&fit=crop&q=80" data-map="Pangong Lake, Ladakh">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?w=800&auto=format&fit=crop&q=80" alt="Pangong Tso Ladakh" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">Natural Wonders</span>
+          <h3>Pangong Tso Lake</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Ladakh
+          </span>
+          <p>A high-altitude endorheic lake at 4,350m elevation, famed for shifting shades of cobalt, turquoise, and emerald against arid Himalayan peaks.</p>
+          <div style="display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap;">
+            <button class="btn explore-btn open-place-modal" style="flex: 1;">Details</button>
+            <a href="https://www.google.com/maps/search/?api=1&query=Pangong+Tso+Ladakh" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 10px 16px;">Maps ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 16. Dudhsagar Falls -->
+      <div class="place-card" data-category="nature" data-name="Dudhsagar Falls" data-loc="Goa" data-img="https://images.unsplash.com/photo-1597735881932-d9664c9bbcea?w=800&auto=format&fit=crop&q=80" data-map="Dudhsagar Falls, Goa">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1597735881932-d9664c9bbcea?w=800&auto=format&fit=crop&q=80" alt="Dudhsagar Waterfalls" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">Natural Wonders</span>
+          <h3>Dudhsagar Falls</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Goa
+          </span>
+          <p>A four-tiered 'Sea of Milk' cascading down 310 meters on the Mandovi River through verdant Bhagwan Mahaveer Sanctuary jungles.</p>
+          <div style="display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap;">
+            <button class="btn explore-btn open-place-modal" style="flex: 1;">Details</button>
+            <a href="https://www.google.com/maps/search/?api=1&query=Dudhsagar+Falls+Goa" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 10px 16px;">Maps ↗</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Empty State -->
+    <div id="no-places-found" style="display: none; text-align: center; padding: 60px 20px;">
+      <span style="font-size: 3rem; display: block; margin-bottom: 16px;">🔍</span>
+      <h3 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 8px;">No places found</h3>
+      <p style="color: var(--text-secondary); max-width: 450px; margin: 0 auto 20px;">We couldn't find any attractions matching your search. Try checking your keywords or reset filters.</p>
+      <button id="reset-places-search-btn" class="btn btn-primary">View All 16 Places</button>
+    </div>
+  </main>
+
+  <!-- ===== GLASS DETAILS MODAL ===== -->
+  <div class="detail-modal-overlay" id="detail-modal-overlay" aria-hidden="true">
+    <div class="detail-modal" role="dialog" aria-modal="true">
+      <div class="detail-modal-header">
+        <img id="modal-img" src="" alt="">
+        <button class="detail-modal-close" id="modal-close-btn" aria-label="Close dialog">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+      <div class="detail-modal-body">
+        <span class="type-badge" id="modal-badge">Iconic Landmark</span>
+        <h3 id="modal-title">Landmark Name</h3>
+        <div class="location" id="modal-location">City, State</div>
+        <p id="modal-desc">Detailed architectural and historical summary.</p>
+
+        <div class="detail-modal-actions">
+          <a href="#" id="modal-maps-link" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Open in Google Maps ↗</a>
+          <button class="btn btn-outline" id="modal-dismiss-btn">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== MINIMAL PREMIUM FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <span class="logo-icon">✦</span>
+          <span>Explore India</span>
+        </a>
+        <p>Your premier Apple-inspired travel discovery platform for uncovering the culture, monuments, nature, and majestic diversity of India.</p>
+      </div>
+
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="explore.html">Explore Destinations</a></li>
+          <li><a href="states.html">States &amp; UTs</a></li>
+          <li><a href="top-places.html">Top Places</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Explore States</h4>
+        <ul>
+          <li><a href="west-bengal.html">West Bengal (23 Districts)</a></li>
+          <li><a href="states.html">All 28 States</a></li>
+          <li><a href="states.html">8 Union Territories</a></li>
+          <li><a href="explore.html">Curated Itineraries</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Contact &amp; Support</h4>
+        <ul>
+          <li><a href="mailto:hello@exploreindia.com">hello@exploreindia.com</a></li>
+          <li><a href="tel:+911123456789">+91 11 2345 6789</a></li>
+          <li><span>New Delhi, 110001, India</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="copyright">&copy; 2026 Explore India. All rights reserved. Designed with Apple-inspired precision.</p>
+    </div>
+  </footer>
+
+  <script>
+    (function() {
+      // Theme
+      const savedTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', savedTheme);
+      const toggle = document.getElementById('theme-toggle');
+      if (toggle) {
+        toggle.addEventListener('click', () => {
+          const cur = document.documentElement.getAttribute('data-theme') || 'light';
+          const next = cur === 'dark' ? 'light' : 'dark';
+          document.documentElement.setAttribute('data-theme', next);
+          localStorage.setItem('theme', next);
+        });
+      }
+
+      // Mobile Menu
+      const hamburger = document.getElementById('hamburger-btn');
+      const mobileMenu = document.getElementById('mobile-menu');
+      const closeBtn = document.getElementById('mobile-menu-close');
+      if (hamburger && mobileMenu) {
+        hamburger.addEventListener('click', () => {
+          mobileMenu.classList.add('active');
+          document.body.style.overflow = 'hidden';
+        });
+        if (closeBtn) {
+          closeBtn.addEventListener('click', () => {
+            mobileMenu.classList.remove('active');
+            document.body.style.overflow = '';
+          });
+        }
+      }
+
+      // Filter & Search
+      const searchInput = document.getElementById('places-search-input');
+      const clearBtn = document.getElementById('places-search-clear');
+      const resetBtn = document.getElementById('reset-places-search-btn');
+      const cards = Array.from(document.querySelectorAll('.place-card'));
+      const countEl = document.getElementById('visible-count');
+      const noFoundEl = document.getElementById('no-places-found');
+      const tabs = Array.from(document.querySelectorAll('.filter-tab'));
+      let currentCategory = 'all';
+
+      function filterCards() {
+        const query = searchInput.value.trim().toLowerCase();
+        clearBtn.style.display = query ? 'block' : 'none';
+
+        let count = 0;
+        cards.forEach(card => {
+          const cat = card.getAttribute('data-category');
+          const name = (card.getAttribute('data-name') || '').toLowerCase();
+          const loc = (card.getAttribute('data-loc') || '').toLowerCase();
+          const text = card.textContent.toLowerCase();
+
+          const matchCat = (currentCategory === 'all' || cat === currentCategory);
+          const matchQuery = !query || name.includes(query) || loc.includes(query) || text.includes(query);
+
+          if (matchCat && matchQuery) {
+            card.style.display = '';
+            count++;
+          } else {
+            card.style.display = 'none';
+          }
+        });
+
+        countEl.textContent = count;
+        noFoundEl.style.display = count === 0 ? 'block' : 'none';
+      }
+
+      tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          tabs.forEach(t => t.classList.remove('active'));
+          tab.classList.add('active');
+          currentCategory = tab.getAttribute('data-category');
+          filterCards();
+        });
+      });
+
+      searchInput.addEventListener('input', filterCards);
+      clearBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        searchInput.focus();
+        filterCards();
+      });
+      resetBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        currentCategory = 'all';
+        tabs.forEach(t => t.classList.toggle('active', t.getAttribute('data-category') === 'all'));
+        filterCards();
+      });
+
+      // Modal
+      const modalOverlay = document.getElementById('detail-modal-overlay');
+      const modalClose = document.getElementById('modal-close-btn');
+      const modalDismiss = document.getElementById('modal-dismiss-btn');
+      const modalImg = document.getElementById('modal-img');
+      const modalBadge = document.getElementById('modal-badge');
+      const modalTitle = document.getElementById('modal-title');
+      const modalLocation = document.getElementById('modal-location');
+      const modalDesc = document.getElementById('modal-desc');
+      const modalMapsLink = document.getElementById('modal-maps-link');
+
+      function openModal(card) {
+        const name = card.getAttribute('data-name');
+        const loc = card.getAttribute('data-loc');
+        const img = card.getAttribute('data-img');
+        const mapQuery = card.getAttribute('data-map') || name;
+        const desc = card.querySelector('p')?.textContent || '';
+        const badge = card.querySelector('.type-badge')?.textContent || 'Attraction';
+
+        modalImg.src = img;
+        modalBadge.textContent = badge;
+        modalTitle.textContent = name;
+        modalLocation.textContent = loc;
+        modalDesc.textContent = desc;
+        modalMapsLink.href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mapQuery)}`;
+
+        modalOverlay.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeModal() {
+        modalOverlay.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+
+      document.querySelectorAll('.open-place-modal').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.preventDefault();
+          const card = btn.closest('.place-card');
+          if (card) openModal(card);
+        });
+      });
+
+      modalClose.addEventListener('click', closeModal);
+      modalDismiss.addEventListener('click', closeModal);
+      modalOverlay.addEventListener('click', (e) => {
+        if (e.target === modalOverlay) closeModal();
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && modalOverlay.classList.contains('active')) closeModal();
+      });
+
+      // Navbar scroll
+      const navbar = document.getElementById('navbar');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 40) navbar.classList.add('scrolled');
+        else navbar.classList.remove('scrolled');
+      }, { passive: true });
+
+    })();
+  </script>
+
+</body>
+</html>

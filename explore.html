@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore Destinations — Discover Your Next Adventure</title>
+  <meta name="description" content="Discover India's most extraordinary destinations. From majestic Himalayan valleys to royal Rajasthani palaces, tranquil backwaters and sacred ghats.">
+  
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== 1. FLOATING GLASS NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">✦</span>
+        <span>Explore India</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="explore.html" class="active">Explore</a></li>
+        <li><a href="states.html">States</a></li>
+        <li><a href="top-places.html">Top Places</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <!-- Search icon (redirects to homepage search) -->
+        <a href="index.html#search" class="search-toggle" aria-label="Search destinations" title="Search destinations">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </a>
+
+        <!-- Theme toggle -->
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark and light theme" title="Toggle theme">
+          <svg class="sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 1 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Hamburger toggle button -->
+        <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <button class="mobile-menu-close" id="mobile-menu-close" aria-label="Close menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+    <a href="index.html" class="mobile-nav-link">Home</a>
+    <a href="explore.html" class="mobile-nav-link active">Explore</a>
+    <a href="states.html" class="mobile-nav-link">States</a>
+    <a href="top-places.html" class="mobile-nav-link">Top Places</a>
+  </div>
+
+  <!-- ===== DIRECTORY HERO ===== -->
+  <header class="directory-hero">
+    <div class="ambient-glow">
+      <div class="glow-1"></div>
+      <div class="glow-2"></div>
+      <div class="glow-3"></div>
+    </div>
+
+    <div class="directory-hero-content">
+      <span class="directory-badge">✦ Curated Indian Travel Experiences</span>
+      <h1 class="directory-title">Discover Your Next Adventure</h1>
+      <p class="directory-subtitle">Explore breathtaking getaways across India, curated by landscape and travel style.</p>
+
+      <!-- Search Bar -->
+      <div class="search-container" style="max-width: 600px; margin: 0 auto;">
+        <div class="search-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </div>
+        <input 
+          type="text" 
+          id="explore-search-input" 
+          class="search-input" 
+          placeholder="Search destinations, states, or themes..."
+          autocomplete="off"
+        >
+        <button class="search-btn" id="explore-search-clear" style="display: none;" aria-label="Clear search">Clear</button>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="filter-tabs-container">
+        <div class="filter-tabs" role="tablist">
+          <button class="filter-tab active" data-category="all" role="tab">All Destinations</button>
+          <button class="filter-tab" data-category="mountains" role="tab">Mountains &amp; Valleys</button>
+          <button class="filter-tab" data-category="heritage" role="tab">Royal Heritage</button>
+          <button class="filter-tab" data-category="coastal" role="tab">Coastal &amp; Beaches</button>
+          <button class="filter-tab" data-category="spiritual" role="tab">Spiritual &amp; Sacred</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== DESTINATIONS GRID SECTION ===== -->
+  <main class="section" style="padding-top: 0;">
+    <div class="directory-stats-bar" style="max-width: 1200px; margin: 0 auto 32px;">
+      <div class="directory-count">
+        Showing <span id="visible-count">16</span> Destinations
+      </div>
+      <div style="font-size: 0.85rem; color: var(--text-tertiary);">
+        Click any card to view details
+      </div>
+    </div>
+
+    <div class="explore-grid" id="explore-grid">
+
+      <!-- 1. Udaipur -->
+      <div class="explore-card" data-category="heritage" data-name="Udaipur" data-state="Rajasthan" data-img="https://images.unsplash.com/photo-1595658658481-d53d3f999875?w=800&auto=format&fit=crop&q=80" data-best="Oct – Mar" data-highlights="City Palace, Lake Pichola, Jag Mandir, Sajjangarh Monsoon Palace">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1595658658481-d53d3f999875?w=800&auto=format&fit=crop&q=80" alt="Udaipur City of Lakes" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">Royal Heritage</span>
+          <h3>Udaipur</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Rajasthan
+          </span>
+          <p>The City of Lakes, celebrated for magnificent royal palaces, shimmering waters, and romantic sunsets along Lake Pichola.</p>
+          <button class="btn explore-btn open-modal-btn">View Details</button>
+        </div>
+      </div>
+
+      <!-- 2. Rishikesh -->
+      <div class="explore-card" data-category="spiritual" data-name="Rishikesh" data-state="Uttarakhand" data-img="https://images.unsplash.com/photo-1583396618422-8e575052a665?w=800&auto=format&fit=crop&q=80" data-best="Sep – Apr" data-highlights="Triveni Ghat Aarti, Laxman Jhula, River Rafting, Yoga Ashrams">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1583396618422-8e575052a665?w=800&auto=format&fit=crop&q=80" alt="Rishikesh River Ganges" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">Spiritual &amp; Sacred</span>
+          <h3>Rishikesh</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Uttarakhand
+          </span>
+          <p>The Yoga Capital of the World, where the sacred Ganges flows through Himalayan valleys, offering spiritual serenity and adventure.</p>
+          <button class="btn explore-btn open-modal-btn">View Details</button>
+        </div>
+      </div>
+
+      <!-- 3. Hampi -->
+      <div class="explore-card" data-category="heritage" data-name="Hampi" data-state="Karnataka" data-img="https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80" data-best="Nov – Feb" data-highlights="Virupaksha Temple, Stone Chariot, Vijaya Vittala, Matanga Hill">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80" alt="Hampi Heritage Ruins" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">Royal Heritage</span>
+          <h3>Hampi</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Karnataka
+          </span>
+          <p>A UNESCO World Heritage Site with monumental Dravidian ruins, boulder-strewn hills, and ancient Vijayanagara stone architecture.</p>
+          <button class="btn explore-btn open-modal-btn">View Details</button>
+        </div>
+      </div>
+
+      <!-- 4. Munnar -->
+      <div class="explore-card" data-category="mountains" data-name="Munnar" data-state="Kerala" data-img="https://images.unsplash.com/photo-1596402184320-417e7178b2cd?w=800&auto=format&fit=crop&q=80" data-best="Sep – Mar" data-highlights="Eravikulam National Park, Mattupetty Dam, Tea Gardens, Anamudi Peak">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1596402184320-417e7178b2cd?w=800&auto=format&fit=crop&q=80" alt="Munnar Tea Hills" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">Mountains &amp; Valleys</span>
+          <h3>Munnar</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Kerala
+          </span>
+          <p>Endless rolling tea gardens, misty hill stations, and refreshing waterfalls nestled high in the Western Ghats.</p>
+          <button class="btn explore-btn open-modal-btn">View Details</button>
+        </div>
+      </div>
+
+      <!-- 5. Andaman Islands -->
+      <div class="explore-card" data-category="coastal" data-name="Andaman Islands" data-state="Andaman & Nicobar" data-img="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80" data-best="Oct – May" data-highlights="Radhanagar Beach, Cellular Jail, Havelock Scuba Diving, Elephant Beach">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80" alt="Andaman Islands Beach" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">Coastal &amp; Beaches</span>
+          <h3>Andaman Islands</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Andaman &amp; Nicobar
+          </span>
+          <p>Crystal turquoise lagoons, pristine coral reefs, and tranquil white sand shores in India's tropical island paradise.</p>
+          <button class="btn explore-btn open-modal-btn">View Details</button>
+        </div>
+      </div>
+
+      <!-- 6. Leh Ladakh -->
+      <div class="explore-card" data-category="mountains" data-name="Leh Ladakh" data-state="Ladakh" data-img="https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?w=800&auto=format&fit=crop&q=80" data-best="May – Sep" data-highlights="Pangong Tso, Nubra Valley, Khardung La, Thiksey Monastery">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?w=800&auto=format&fit=crop&q=80" alt="Leh Ladakh Mountain Passes" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">Mountains &amp; Valleys</span>
+          <h3>Leh Ladakh</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Ladakh
+          </span>
+          <p>The Land of High Mountain Passes, soaring monastery cliffs, and azure high-altitude alpine lakes.</p>
+          <button class="btn explore-btn open-modal-btn">View Details</button>
+        </div>
+      </div>
+
+      <!-- 7. Darjeeling -->
+      <div class="explore-card" data-category="mountains" data-name="Darjeeling" data-state="West Bengal" data-img="https://images.unsplash.com/photo-1622308644420-ec498ef3ccef?w=800&auto=format&fit=crop&q=80" data-best="Mar – May, Oct – Dec" data-highlights="Tiger Hill Sunrise, Batasia Loop, Himalayan Mountaineering, Toy Train">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1622308644420-ec498ef3ccef?w=800&auto=format&fit=crop&q=80" alt="Darjeeling Hills" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">Mountains &amp; Valleys</span>
+          <h3>Darjeeling</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            West Bengal
+          </span>
+          <p>Queen of the Hills, renowned worldwide for premium aromatic tea estates and panoramic views of Mount Kanchenjunga.</p>
+          <a href="district.html?name=darjeeling" class="btn explore-btn" style="background: var(--accent); color: #fff;">Explore District</a>
+        </div>
+      </div>
+
+      <!-- 8. Goa -->
+      <div class="explore-card" data-category="coastal" data-name="Goa" data-state="Goa" data-img="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&auto=format&fit=crop&q=80" data-best="Nov – Mar" data-highlights="Palolem Beach, Fort Aguada, Basilica of Bom Jesus, Dudhsagar Falls">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&auto=format&fit=crop&q=80" alt="Goa Beaches" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">Coastal &amp; Beaches</span>
+          <h3>Goa</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Goa
+          </span>
+          <p>Sun-drenched coastal shores, vibrant beach shacks, historic Portuguese churches, and lush spice plantations.</p>
+          <button class="btn explore-btn open-modal-btn">View Details</button>
+        </div>
+      </div>
+
+      <!-- 9. Varanasi -->
+      <div class="explore-card" data-category="spiritual" data-name="Varanasi" data-state="Uttar Pradesh" data-img="https://images.unsplash.com/photo-1561361513-2d000a50f0dc?w=800&auto=format&fit=crop&q=80" data-best="Oct – Mar" data-highlights="Dashashwamedh Ganga Aarti, Kashi Vishwanath, Sarnath, Boat Rides">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1561361513-2d000a50f0dc?w=800&auto=format&fit=crop&q=80" alt="Varanasi Ganges Ghats" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">Spiritual &amp; Sacred</span>
+          <h3>Varanasi</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Uttar Pradesh
+          </span>
+          <p>One of the world's oldest continually inhabited cities, sacred for evening Ganga Aarti rituals and spiritual renewal.</p>
+          <button class="btn explore-btn open-modal-btn">View Details</button>
+        </div>
+      </div>
+
+      <!-- 10. Manali -->
+      <div class="explore-card" data-category="mountains" data-name="Manali" data-state="Himachal Pradesh" data-img="https://images.unsplash.com/photo-1626621331169-5f34be280ed9?w=800&auto=format&fit=crop&q=80" data-best="Oct – Jun" data-highlights="Solang Valley, Rohtang Pass, Old Manali Cafes, Hadimba Temple">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1626621331169-5f34be280ed9?w=800&auto=format&fit=crop&q=80" alt="Manali Snow Peaks" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">Mountains &amp; Valleys</span>
+          <h3>Manali</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Himachal Pradesh
+          </span>
+          <p>Himalayan resort town famous for snow-covered peaks, pine forests, adventure sports in Solang, and roaring Beas River.</p>
+          <button class="btn explore-btn open-modal-btn">View Details</button>
+        </div>
+      </div>
+
+      <!-- 11. Jaipur -->
+      <div class="explore-card" data-category="heritage" data-name="Jaipur" data-state="Rajasthan" data-img="https://images.unsplash.com/photo-1477587458883-47145ed94245?w=800&auto=format&fit=crop&q=80" data-best="Oct – Mar" data-highlights="Amber Palace, Hawa Mahal, Jantar Mantar, Nahargarh Fort">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1477587458883-47145ed94245?w=800&auto=format&fit=crop&q=80" alt="Jaipur Royal Palace" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">Royal Heritage</span>
+          <h3>Jaipur</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Rajasthan
+          </span>
+          <p>The Pink City, an architectural marvel of pink sandstone forts, astronomical observatories, and vibrant royal bazars.</p>
+          <button class="btn explore-btn open-modal-btn">View Details</button>
+        </div>
+      </div>
+
+      <!-- 12. Alleppey -->
+      <div class="explore-card" data-category="coastal" data-name="Alleppey" data-state="Kerala" data-img="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=800&auto=format&fit=crop&q=80" data-best="Sep – Mar" data-highlights="Houseboat Cruises, Vembanad Lake, Marari Beach, Kuttanad Paddy Fields">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=800&auto=format&fit=crop&q=80" alt="Alleppey Backwaters" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">Coastal &amp; Beaches</span>
+          <h3>Alleppey</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Kerala
+          </span>
+          <p>The Venice of the East, famous for slow-gliding traditional houseboats along palm-fringed canals and tranquil lagoons.</p>
+          <button class="btn explore-btn open-modal-btn">View Details</button>
+        </div>
+      </div>
+
+      <!-- 13. Amritsar -->
+      <div class="explore-card" data-category="spiritual" data-name="Amritsar" data-state="Punjab" data-img="https://images.unsplash.com/photo-1609947017136-9daf32a15c38?w=800&auto=format&fit=crop&q=80" data-best="Oct – Mar" data-highlights="Golden Temple Harmandir Sahib, Wagah Border, Jallianwala Bagh">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1609947017136-9daf32a15c38?w=800&auto=format&fit=crop&q=80" alt="Amritsar Golden Temple" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">Spiritual &amp; Sacred</span>
+          <h3>Amritsar</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Punjab
+          </span>
+          <p>Home of the Golden Temple, where celestial hymns resonate over holy waters and the world's largest community kitchen serves all.</p>
+          <button class="btn explore-btn open-modal-btn">View Details</button>
+        </div>
+      </div>
+
+      <!-- 14. Shillong -->
+      <div class="explore-card" data-category="mountains" data-name="Shillong" data-state="Meghalaya" data-img="https://images.unsplash.com/photo-1597735881932-d9664c9bbcea?w=800&auto=format&fit=crop&q=80" data-best="Sep – May" data-highlights="Elephant Falls, Umiam Lake, Shillong Peak, Laitlum Canyons">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1597735881932-d9664c9bbcea?w=800&auto=format&fit=crop&q=80" alt="Shillong Meghalaya" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">Mountains &amp; Valleys</span>
+          <h3>Shillong</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Meghalaya
+          </span>
+          <p>The Scotland of the East, surrounded by rolling pine-covered peaks, crystal waterfalls, and pristine highland lakes.</p>
+          <button class="btn explore-btn open-modal-btn">View Details</button>
+        </div>
+      </div>
+
+      <!-- 15. Jaisalmer -->
+      <div class="explore-card" data-category="heritage" data-name="Jaisalmer" data-state="Rajasthan" data-img="https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&auto=format&fit=crop&q=80" data-best="Oct – Mar" data-highlights="Sonar Qila Living Fort, Sam Sand Dunes, Patwon Ki Haveli, Desert Safari">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&auto=format&fit=crop&q=80" alt="Jaisalmer Desert Fort" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">Royal Heritage</span>
+          <h3>Jaisalmer</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Rajasthan
+          </span>
+          <p>The Golden City, crowned by a living yellow sandstone citadel that rises out of the rolling dunes of the Great Thar Desert.</p>
+          <button class="btn explore-btn open-modal-btn">View Details</button>
+        </div>
+      </div>
+
+      <!-- 16. Gokarna -->
+      <div class="explore-card" data-category="coastal" data-name="Gokarna" data-state="Karnataka" data-img="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&auto=format&fit=crop&q=80" data-best="Oct – Mar" data-highlights="Om Beach, Kudle Beach, Half Moon Beach, Mahabaleshwar Temple">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&auto=format&fit=crop&q=80" alt="Gokarna Om Beach" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="type-badge">Coastal &amp; Beaches</span>
+          <h3>Gokarna</h3>
+          <span class="card-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Karnataka
+          </span>
+          <p>A tranquil coastal town known for sacred Shiva shrines and crescent-shaped beaches tucked between cliffs and azure waters.</p>
+          <button class="btn explore-btn open-modal-btn">View Details</button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Empty State -->
+    <div id="no-explore-found" style="display: none; text-align: center; padding: 60px 20px;">
+      <span style="font-size: 3rem; display: block; margin-bottom: 16px;">🔍</span>
+      <h3 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 8px;">No destinations found</h3>
+      <p style="color: var(--text-secondary); max-width: 450px; margin: 0 auto 20px;">We couldn't find any destination matching your search. Try adjusting keywords or clear the search.</p>
+      <button id="reset-explore-search-btn" class="btn btn-primary">View All Destinations</button>
+    </div>
+  </main>
+
+  <!-- ===== GLASS DETAILS MODAL ===== -->
+  <div class="detail-modal-overlay" id="detail-modal-overlay" aria-hidden="true">
+    <div class="detail-modal" role="dialog" aria-modal="true">
+      <div class="detail-modal-header">
+        <img id="modal-img" src="" alt="">
+        <button class="detail-modal-close" id="modal-close-btn" aria-label="Close dialog">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+      <div class="detail-modal-body">
+        <span class="type-badge" id="modal-badge">Destination</span>
+        <h3 id="modal-title">Destination Name</h3>
+        <div class="location" id="modal-location">Location, State</div>
+        <p id="modal-desc">Detailed travel description of the destination.</p>
+        
+        <div style="margin-bottom: 20px;">
+          <h4 style="font-size: 0.95rem; font-weight: 700; color: var(--text-primary); margin-bottom: 8px;">Top Attractions &amp; Highlights</h4>
+          <div class="detail-modal-tags" id="modal-highlights"></div>
+        </div>
+
+        <div style="margin-bottom: 24px; padding: 12px 18px; background: var(--bg-glass-light); border-radius: var(--radius-md); border: 1px solid var(--border-light);">
+          <strong style="font-size: 0.88rem; color: var(--text-primary);">Best Season to Visit:</strong>
+          <span id="modal-best-time" style="font-size: 0.88rem; color: var(--text-secondary); margin-left: 6px;"></span>
+        </div>
+
+        <div class="detail-modal-actions">
+          <a href="#" id="modal-explore-link" class="btn btn-primary">Full Travel Guide</a>
+          <button class="btn btn-outline" id="modal-dismiss-btn">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== MINIMAL PREMIUM FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <span class="logo-icon">✦</span>
+          <span>Explore India</span>
+        </a>
+        <p>Your premier Apple-inspired travel discovery platform for uncovering the culture, monuments, nature, and majestic diversity of India.</p>
+      </div>
+
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="explore.html">Explore Destinations</a></li>
+          <li><a href="states.html">States &amp; UTs</a></li>
+          <li><a href="top-places.html">Top Places</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Explore States</h4>
+        <ul>
+          <li><a href="west-bengal.html">West Bengal (23 Districts)</a></li>
+          <li><a href="states.html">All 28 States</a></li>
+          <li><a href="states.html">8 Union Territories</a></li>
+          <li><a href="explore.html">Curated Itineraries</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Contact &amp; Support</h4>
+        <ul>
+          <li><a href="mailto:hello@exploreindia.com">hello@exploreindia.com</a></li>
+          <li><a href="tel:+911123456789">+91 11 2345 6789</a></li>
+          <li><span>New Delhi, 110001, India</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="copyright">&copy; 2026 Explore India. All rights reserved. Designed with Apple-inspired precision.</p>
+    </div>
+  </footer>
+
+  <script>
+    (function() {
+      // Theme
+      const savedTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', savedTheme);
+      const toggle = document.getElementById('theme-toggle');
+      if (toggle) {
+        toggle.addEventListener('click', () => {
+          const cur = document.documentElement.getAttribute('data-theme') || 'light';
+          const next = cur === 'dark' ? 'light' : 'dark';
+          document.documentElement.setAttribute('data-theme', next);
+          localStorage.setItem('theme', next);
+        });
+      }
+
+      // Mobile Menu
+      const hamburger = document.getElementById('hamburger-btn');
+      const mobileMenu = document.getElementById('mobile-menu');
+      const closeBtn = document.getElementById('mobile-menu-close');
+      if (hamburger && mobileMenu) {
+        hamburger.addEventListener('click', () => {
+          mobileMenu.classList.add('active');
+          document.body.style.overflow = 'hidden';
+        });
+        if (closeBtn) {
+          closeBtn.addEventListener('click', () => {
+            mobileMenu.classList.remove('active');
+            document.body.style.overflow = '';
+          });
+        }
+      }
+
+      // Filter & Search
+      const searchInput = document.getElementById('explore-search-input');
+      const clearBtn = document.getElementById('explore-search-clear');
+      const resetBtn = document.getElementById('reset-explore-search-btn');
+      const cards = Array.from(document.querySelectorAll('.explore-card'));
+      const countEl = document.getElementById('visible-count');
+      const noFoundEl = document.getElementById('no-explore-found');
+      const tabs = Array.from(document.querySelectorAll('.filter-tab'));
+      let currentCategory = 'all';
+
+      function filterCards() {
+        const query = searchInput.value.trim().toLowerCase();
+        clearBtn.style.display = query ? 'block' : 'none';
+
+        let count = 0;
+        cards.forEach(card => {
+          const cat = card.getAttribute('data-category');
+          const name = (card.getAttribute('data-name') || '').toLowerCase();
+          const state = (card.getAttribute('data-state') || '').toLowerCase();
+          const text = card.textContent.toLowerCase();
+
+          const matchCat = (currentCategory === 'all' || cat === currentCategory);
+          const matchQuery = !query || name.includes(query) || state.includes(query) || text.includes(query);
+
+          if (matchCat && matchQuery) {
+            card.style.display = '';
+            count++;
+          } else {
+            card.style.display = 'none';
+          }
+        });
+
+        countEl.textContent = count;
+        noFoundEl.style.display = count === 0 ? 'block' : 'none';
+      }
+
+      tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          tabs.forEach(t => t.classList.remove('active'));
+          tab.classList.add('active');
+          currentCategory = tab.getAttribute('data-category');
+          filterCards();
+        });
+      });
+
+      searchInput.addEventListener('input', filterCards);
+      clearBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        searchInput.focus();
+        filterCards();
+      });
+      resetBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        currentCategory = 'all';
+        tabs.forEach(t => t.classList.toggle('active', t.getAttribute('data-category') === 'all'));
+        filterCards();
+      });
+
+      // Modal logic
+      const modalOverlay = document.getElementById('detail-modal-overlay');
+      const modalClose = document.getElementById('modal-close-btn');
+      const modalDismiss = document.getElementById('modal-dismiss-btn');
+      const modalImg = document.getElementById('modal-img');
+      const modalBadge = document.getElementById('modal-badge');
+      const modalTitle = document.getElementById('modal-title');
+      const modalLocation = document.getElementById('modal-location');
+      const modalDesc = document.getElementById('modal-desc');
+      const modalHighlights = document.getElementById('modal-highlights');
+      const modalBestTime = document.getElementById('modal-best-time');
+      const modalExploreLink = document.getElementById('modal-explore-link');
+
+      function openModal(card) {
+        const name = card.getAttribute('data-name');
+        const state = card.getAttribute('data-state');
+        const img = card.getAttribute('data-img');
+        const bestTime = card.getAttribute('data-best');
+        const highlights = card.getAttribute('data-highlights') || '';
+        const desc = card.querySelector('p')?.textContent || '';
+        const badge = card.querySelector('.type-badge')?.textContent || 'Destination';
+
+        modalImg.src = img;
+        modalBadge.textContent = badge;
+        modalTitle.textContent = name;
+        modalLocation.textContent = state;
+        modalDesc.textContent = desc;
+        modalBestTime.textContent = bestTime;
+
+        modalHighlights.innerHTML = highlights.split(',').map(h => `<span class="detail-modal-tag">${h.trim()}</span>`).join('');
+        
+        if (name === 'Darjeeling' || name === 'West Bengal') {
+          modalExploreLink.href = 'district.html?name=darjeeling';
+        } else {
+          modalExploreLink.href = `coming-soon.html?title=${encodeURIComponent(name)}`;
+        }
+
+        modalOverlay.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeModal() {
+        modalOverlay.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+
+      document.querySelectorAll('.open-modal-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.preventDefault();
+          const card = btn.closest('.explore-card');
+          if (card) openModal(card);
+        });
+      });
+
+      modalClose.addEventListener('click', closeModal);
+      modalDismiss.addEventListener('click', closeModal);
+      modalOverlay.addEventListener('click', (e) => {
+        if (e.target === modalOverlay) closeModal();
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && modalOverlay.classList.contains('active')) closeModal();
+      });
+
+      // Navbar scroll
+      const navbar = document.getElementById('navbar');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 40) navbar.classList.add('scrolled');
+        else navbar.classList.remove('scrolled');
+      }, { passive: true });
+
+    })();
+  </script>
+
+</body>
+</html>

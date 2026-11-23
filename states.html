@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore All 28 States & 8 Union Territories — Explore India</title>
+  <meta name="description" content="Discover all 28 states and 8 union territories of India. Complete directory with interactive filters, district guides, and travel highlights.">
+  
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== 1. FLOATING GLASS NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">✦</span>
+        <span>Explore India</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="states.html" class="active">States</a></li>
+        <li><a href="top-places.html">Top Places</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <!-- Search icon (redirects to homepage search) -->
+        <a href="index.html#search" class="search-toggle" aria-label="Search destinations" title="Search destinations">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </a>
+
+        <!-- Theme toggle -->
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark and light theme" title="Toggle theme">
+          <svg class="sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 1 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Hamburger toggle button -->
+        <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <button class="mobile-menu-close" id="mobile-menu-close" aria-label="Close menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+    <a href="index.html" class="mobile-nav-link">Home</a>
+    <a href="explore.html" class="mobile-nav-link">Explore</a>
+    <a href="states.html" class="mobile-nav-link active">States</a>
+    <a href="top-places.html" class="mobile-nav-link">Top Places</a>
+  </div>
+
+  <!-- ===== DIRECTORY HERO ===== -->
+  <header class="directory-hero">
+    <div class="ambient-glow">
+      <div class="glow-1"></div>
+      <div class="glow-2"></div>
+      <div class="glow-3"></div>
+    </div>
+
+    <div class="directory-hero-content">
+      <span class="directory-badge">✦ Complete Pan-India Directory</span>
+      <h1 class="directory-title">Explore India by State</h1>
+      <p class="directory-subtitle">Discover the 28 vibrant states and 8 union territories of India, each rich in distinctive culture, heritage, and landscapes.</p>
+
+      <!-- Instant Filter Search Bar -->
+      <div class="search-container" style="max-width: 600px; margin: 0 auto;">
+        <div class="search-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </div>
+        <input 
+          type="text" 
+          id="state-search-input" 
+          class="search-input" 
+          placeholder="Search states, capitals, or union territories..."
+          autocomplete="off"
+        >
+        <button class="search-btn" id="state-search-clear" style="display: none;" aria-label="Clear search">Clear</button>
+      </div>
+
+      <!-- Segmented Category Filter Tabs -->
+      <div class="filter-tabs-container">
+        <div class="filter-tabs" role="tablist">
+          <button class="filter-tab active" data-category="all" role="tab">All (36)</button>
+          <button class="filter-tab" data-category="state" role="tab">28 States</button>
+          <button class="filter-tab" data-category="ut" role="tab">8 Union Territories</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== MAIN STATES GRID SECTION ===== -->
+  <main class="section" style="padding-top: 0;">
+    <div class="directory-stats-bar" style="max-width: 1200px; margin: 0 auto 32px;">
+      <div class="directory-count">
+        Showing <span id="visible-count">36</span> of 36 Regions
+      </div>
+      <div style="font-size: 0.85rem; color: var(--text-tertiary);">
+        Click any card to explore
+      </div>
+    </div>
+
+    <div class="states-grid" id="states-grid" style="grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 24px;">
+
+      <!-- 1. West Bengal (Featured with active 23 districts directory) -->
+      <div class="state-card" data-category="state" data-name="West Bengal" data-capital="Kolkata" onclick="window.location.href='west-bengal.html'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1558431382-27e303142255?w=800&auto=format&fit=crop&q=80" alt="West Bengal Kolkata Victoria Memorial" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge">State • 23 Districts</span>
+          <h3>West Bengal</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Kolkata • Cultural Capital, Tea Hills &amp; Sundarbans</p>
+          <a href="west-bengal.html" class="btn state-btn" style="background: var(--accent); color: #fff;">Explore 23 Districts</a>
+        </div>
+      </div>
+
+      <!-- 2. Andhra Pradesh -->
+      <div class="state-card" data-category="state" data-name="Andhra Pradesh" data-capital="Amaravati" onclick="window.location.href='coming-soon.html?title=Andhra%20Pradesh'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&auto=format&fit=crop&q=80" alt="Andhra Pradesh" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge">State</span>
+          <h3>Andhra Pradesh</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Amaravati • Tirupati Temple &amp; Coromandel Coast</p>
+          <a href="coming-soon.html?title=Andhra%20Pradesh" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 3. Arunachal Pradesh -->
+      <div class="state-card" data-category="state" data-name="Arunachal Pradesh" data-capital="Itanagar" onclick="window.location.href='coming-soon.html?title=Arunachal%20Pradesh'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&auto=format&fit=crop&q=80" alt="Arunachal Pradesh Monasteries" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge">State</span>
+          <h3>Arunachal Pradesh</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Itanagar • Land of Dawn-Lit Mountains &amp; Tawang</p>
+          <a href="coming-soon.html?title=Arunachal%20Pradesh" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 4. Assam -->
+      <div class="state-card" data-category="state" data-name="Assam" data-capital="Dispur" onclick="window.location.href='coming-soon.html?title=Assam'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1596402184320-417e7178b2cd?w=800&auto=format&fit=crop&q=80" alt="Assam Tea Gardens" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge">State</span>
+          <h3>Assam</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Dispur • Kaziranga Rhinos &amp; Brahmaputra Valley</p>
+          <a href="coming-soon.html?title=Assam" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 5. Bihar -->
+      <div class="state-card" data-category="state" data-name="Bihar" data-capital="Patna" onclick="window.location.href='coming-soon.html?title=Bihar'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1561361513-2d000a50f0dc?w=800&auto=format&fit=crop&q=80" alt="Bihar Ancient Heritage" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge">State</span>
+          <h3>Bihar</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Patna • Bodh Gaya Enlightenment &amp; Ancient Nalanda</p>
+          <a href="coming-soon.html?title=Bihar" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 6. Chhattisgarh -->
+      <div class="state-card" data-category="state" data-name="Chhattisgarh" data-capital="Raipur" onclick="window.location.href='coming-soon.html?title=Chhattisgarh'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1597735881932-d9664c9bbcea?w=800&auto=format&fit=crop&q=80" alt="Chitrakote Falls" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge">State</span>
+          <h3>Chhattisgarh</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Raipur • Chitrakote Horseshoe Falls &amp; Bastar Crafts</p>
+          <a href="coming-soon.html?title=Chhattisgarh" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 7. Goa -->
+      <div class="state-card" data-category="state" data-name="Goa" data-capital="Panaji" onclick="window.location.href='coming-soon.html?title=Goa'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&auto=format&fit=crop&q=80" alt="Goa Beaches" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge">State</span>
+          <h3>Goa</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Panaji • Sun-kissed Beaches &amp; Latin Quarters</p>
+          <a href="coming-soon.html?title=Goa" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 8. Gujarat -->
+      <div class="state-card" data-category="state" data-name="Gujarat" data-capital="Gandhinagar" onclick="window.location.href='coming-soon.html?title=Gujarat'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&auto=format&fit=crop&q=80" alt="Gujarat White Desert" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge">State</span>
+          <h3>Gujarat</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Gandhinagar • White Rann of Kutch &amp; Asiatic Lions</p>
+          <a href="coming-soon.html?title=Gujarat" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 9. Haryana -->
+      <div class="state-card" data-category="state" data-name="Haryana" data-capital="Chandigarh" onclick="window.location.href='coming-soon.html?title=Haryana'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1588714477688-cf28a50e94f7?w=800&auto=format&fit=crop&q=80" alt="Haryana Heritage" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge">State</span>
+          <h3>Haryana</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Chandigarh • Epic Kurukshetra &amp; Sultanpur Bird Sanctuary</p>
+          <a href="coming-soon.html?title=Haryana" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 10. Himachal Pradesh -->
+      <div class="state-card" data-category="state" data-name="Himachal Pradesh" data-capital="Shimla" onclick="window.location.href='coming-soon.html?title=Himachal%20Pradesh'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1626621331169-5f34be280ed9?w=800&auto=format&fit=crop&q=80" alt="Himachal Snow Peaks" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge">State</span>
+          <h3>Himachal Pradesh</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Shimla • Kullu Manali, Spiti Valley &amp; Snow Valleys</p>
+          <a href="coming-soon.html?title=Himachal%20Pradesh" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 11. Jharkhand -->
+      <div class="state-card" data-category="state" data-name="Jharkhand" data-capital="Ranchi" onclick="window.location.href='coming-soon.html?title=Jharkhand'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1597735881932-d9664c9bbcea?w=800&auto=format&fit=crop&q=80" alt="Jharkhand Forests" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge">State</span>
+          <h3>Jharkhand</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Ranchi • Land of Forests, Dassam Falls &amp; Parasnath</p>
+          <a href="coming-soon.html?title=Jharkhand" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 12. Karnataka -->
+      <div class="state-card" data-category="state" data-name="Karnataka" data-capital="Bengaluru" onclick="window.location.href='coming-soon.html?title=Karnataka'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80" alt="Karnataka Hampi Ruins" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge">State</span>
+          <h3>Karnataka</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Bengaluru • Ancient Hampi, Mysore Palace &amp; Coorg Hills</p>
+          <a href="coming-soon.html?title=Karnataka" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 13. Kerala -->
+      <div class="state-card" data-category="state" data-name="Kerala" data-capital="Thiruvananthapuram" onclick="window.location.href='coming-soon.html?title=Kerala'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=800&auto=format&fit=crop&q=80" alt="Kerala Backwaters" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge">State</span>
+          <h3>Kerala</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Thiruvananthapuram • God's Own Country, Backwaters &amp; Munnar</p>
+          <a href="coming-soon.html?title=Kerala" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 14. Madhya Pradesh -->
+      <div class="state-card" data-category="state" data-name="Madhya Pradesh" data-capital="Bhopal" onclick="window.location.href='coming-soon.html?title=Madhya%20Pradesh'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&auto=format&fit=crop&q=80" alt="Madhya Pradesh Khajuraho" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge">State</span>
+          <h3>Madhya Pradesh</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Bhopal • The Heart of India, Khajuraho Temples &amp; Kanha</p>
+          <a href="coming-soon.html?title=Madhya%20Pradesh" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 15. Maharashtra -->
+      <div class="state-card" data-category="state" data-name="Maharashtra" data-capital="Mumbai" onclick="window.location.href='coming-soon.html?title=Maharashtra'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1567157577867-05ccb1388e66?w=800&auto=format&fit=crop&q=80" alt="Maharashtra Gateway of India" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge">State</span>
+          <h3>Maharashtra</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Mumbai • Gateway of India, Ajanta Ellora Caves &amp; Sahyadris</p>
+          <a href="coming-soon.html?title=Maharashtra" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 16. Manipur -->
+      <div class="state-card" data-category="state" data-name="Manipur" data-capital="Imphal" onclick="window.location.href='coming-soon.html?title=Manipur'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1597735881932-d9664c9bbcea?w=800&auto=format&fit=crop&q=80" alt="Manipur Loktak Lake" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge">State</span>
+          <h3>Manipur</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Imphal • Floating Phumdis of Loktak Lake &amp; Kangla Fort</p>
+          <a href="coming-soon.html?title=Manipur" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 17. Meghalaya -->
+      <div class="state-card" data-category="state" data-name="Meghalaya" data-capital="Shillong" onclick="window.location.href='coming-soon.html?title=Meghalaya'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1597735881932-d9664c9bbcea?w=800&auto=format&fit=crop&q=80" alt="Meghalaya Living Root Bridge" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge">State</span>
+          <h3>Meghalaya</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Shillong • Abode of Clouds, Cherrapunji &amp; Living Root Bridges</p>
+          <a href="coming-soon.html?title=Meghalaya" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 18. Mizoram -->
+      <div class="state-card" data-category="state" data-name="Mizoram" data-capital="Aizawl" onclick="window.location.href='coming-soon.html?title=Mizoram'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&auto=format&fit=crop&q=80" alt="Mizoram Hills" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge">State</span>
+          <h3>Mizoram</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Aizawl • Serene Blue Mountains, Vantawng Falls &amp; Bamboo Groves</p>
+          <a href="coming-soon.html?title=Mizoram" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 19. Nagaland -->
+      <div class="state-card" data-category="state" data-name="Nagaland" data-capital="Kohima" onclick="window.location.href='coming-soon.html?title=Nagaland'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1597735881932-d9664c9bbcea?w=800&auto=format&fit=crop&q=80" alt="Nagaland Dzukou Valley" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge">State</span>
+          <h3>Nagaland</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Kohima • Hornbill Festival, Dzukou Valley &amp; Tribal Culture</p>
+          <a href="coming-soon.html?title=Nagaland" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 20. Odisha -->
+      <div class="state-card" data-category="state" data-name="Odisha" data-capital="Bhubaneswar" onclick="window.location.href='coming-soon.html?title=Odisha'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80" alt="Odisha Konark Sun Temple" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge">State</span>
+          <h3>Odisha</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Bhubaneswar • Konark Sun Temple, Jagannath Puri &amp; Chilika</p>
+          <a href="coming-soon.html?title=Odisha" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 21. Punjab -->
+      <div class="state-card" data-category="state" data-name="Punjab" data-capital="Chandigarh" onclick="window.location.href='coming-soon.html?title=Punjab'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1609947017136-9daf32a15c38?w=800&auto=format&fit=crop&q=80" alt="Punjab Golden Temple" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge">State</span>
+          <h3>Punjab</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Chandigarh • Golden Temple Amritsar &amp; Heart of the Five Rivers</p>
+          <a href="coming-soon.html?title=Punjab" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 22. Rajasthan -->
+      <div class="state-card" data-category="state" data-name="Rajasthan" data-capital="Jaipur" onclick="window.location.href='coming-soon.html?title=Rajasthan'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&auto=format&fit=crop&q=80" alt="Rajasthan Desert Palaces" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge">State</span>
+          <h3>Rajasthan</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Jaipur • Land of Royal Kings, Thar Desert &amp; Amber Fort</p>
+          <a href="coming-soon.html?title=Rajasthan" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 23. Sikkim -->
+      <div class="state-card" data-category="state" data-name="Sikkim" data-capital="Gangtok" onclick="window.location.href='coming-soon.html?title=Sikkim'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&auto=format&fit=crop&q=80" alt="Sikkim Kanchenjunga" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge">State</span>
+          <h3>Sikkim</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Gangtok • Kanchenjunga Peaks, Rumtek &amp; Tsomgo Lake</p>
+          <a href="coming-soon.html?title=Sikkim" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 24. Tamil Nadu -->
+      <div class="state-card" data-category="state" data-name="Tamil Nadu" data-capital="Chennai" onclick="window.location.href='coming-soon.html?title=Tamil%20Nadu'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&auto=format&fit=crop&q=80" alt="Tamil Nadu Meenakshi Temple" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge">State</span>
+          <h3>Tamil Nadu</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Chennai • Dravidian Architecture, Madurai &amp; Nilgiri Ooty</p>
+          <a href="coming-soon.html?title=Tamil%20Nadu" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 25. Telangana -->
+      <div class="state-card" data-category="state" data-name="Telangana" data-capital="Hyderabad" onclick="window.location.href='coming-soon.html?title=Telangana'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1572455044327-7348c1be7267?w=800&auto=format&fit=crop&q=80" alt="Telangana Charminar" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge">State</span>
+          <h3>Telangana</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Hyderabad • Historic Charminar, Golconda &amp; Ramappa Temple</p>
+          <a href="coming-soon.html?title=Telangana" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 26. Tripura -->
+      <div class="state-card" data-category="state" data-name="Tripura" data-capital="Agartala" onclick="window.location.href='coming-soon.html?title=Tripura'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1597735881932-d9664c9bbcea?w=800&auto=format&fit=crop&q=80" alt="Tripura Neermahal Palace" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge">State</span>
+          <h3>Tripura</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Agartala • Water Palace Neermahal &amp; Ujjayanta Palace</p>
+          <a href="coming-soon.html?title=Tripura" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 27. Uttar Pradesh -->
+      <div class="state-card" data-category="state" data-name="Uttar Pradesh" data-capital="Lucknow" onclick="window.location.href='coming-soon.html?title=Uttar%20Pradesh'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&auto=format&fit=crop&q=80" alt="Uttar Pradesh Taj Mahal" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge">State</span>
+          <h3>Uttar Pradesh</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Lucknow • Iconic Taj Mahal, Sacred Varanasi &amp; Ayodhya</p>
+          <a href="coming-soon.html?title=Uttar%20Pradesh" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 28. Uttarakhand -->
+      <div class="state-card" data-category="state" data-name="Uttarakhand" data-capital="Dehradun" onclick="window.location.href='coming-soon.html?title=Uttarakhand'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1583396618422-8e575052a665?w=800&auto=format&fit=crop&q=80" alt="Uttarakhand Himalayan Ganges" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge">State</span>
+          <h3>Uttarakhand</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Dehradun • Land of the Gods, Rishikesh, Haridwar &amp; Kedarnath</p>
+          <a href="coming-soon.html?title=Uttarakhand" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 29. Andaman and Nicobar Islands (UT) -->
+      <div class="state-card" data-category="ut" data-name="Andaman and Nicobar Islands" data-capital="Port Blair" onclick="window.location.href='coming-soon.html?title=Andaman%20and%20Nicobar%20Islands'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80" alt="Andaman Pristine Beach" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge ut">Union Territory</span>
+          <h3>Andaman &amp; Nicobar</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Port Blair • Radhanagar Beach, Cellular Jail &amp; Coral Reefs</p>
+          <a href="coming-soon.html?title=Andaman%20and%20Nicobar%20Islands" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 30. Chandigarh (UT) -->
+      <div class="state-card" data-category="ut" data-name="Chandigarh" data-capital="Chandigarh" onclick="window.location.href='coming-soon.html?title=Chandigarh'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1588714477688-cf28a50e94f7?w=800&auto=format&fit=crop&q=80" alt="Chandigarh City Beautiful" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge ut">Union Territory</span>
+          <h3>Chandigarh</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Joint Capital • The City Beautiful, Rock Garden &amp; Sukhna Lake</p>
+          <a href="coming-soon.html?title=Chandigarh" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 31. Dadra and Nagar Haveli and Daman and Diu (UT) -->
+      <div class="state-card" data-category="ut" data-name="Dadra and Nagar Haveli and Daman and Diu" data-capital="Daman" onclick="window.location.href='coming-soon.html?title=Dadra%20and%20Nagar%20Haveli%20and%20Daman%20and%20Diu'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&auto=format&fit=crop&q=80" alt="Daman Portuguese Fort" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge ut">Union Territory</span>
+          <h3>Dadra &amp; Daman &amp; Diu</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Daman • Portuguese Coastal Forts, Silvassa &amp; Jampore Beach</p>
+          <a href="coming-soon.html?title=Dadra%20and%20Nagar%20Haveli%20and%20Daman%20and%20Diu" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 32. Delhi (National Capital Territory) -->
+      <div class="state-card" data-category="ut" data-name="Delhi" data-capital="New Delhi" onclick="window.location.href='coming-soon.html?title=Delhi%20(National%20Capital%20Territory)'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1587474260584-136574528ed5?w=800&auto=format&fit=crop&q=80" alt="Delhi India Gate" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge ut">Union Territory</span>
+          <h3>Delhi (NCT)</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital of India • Red Fort, India Gate, Qutub Minar &amp; Humayun's Tomb</p>
+          <a href="coming-soon.html?title=Delhi%20(National%20Capital%20Territory)" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 33. Jammu and Kashmir (UT) -->
+      <div class="state-card" data-category="ut" data-name="Jammu and Kashmir" data-capital="Srinagar" onclick="window.location.href='coming-soon.html?title=Jammu%20and%20Kashmir'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1598091383021-15ddea10925d?w=800&auto=format&fit=crop&q=80" alt="Jammu and Kashmir Dal Lake" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge ut">Union Territory</span>
+          <h3>Jammu &amp; Kashmir</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capitals: Srinagar &amp; Jammu • Dal Lake Shikaras, Gulmarg &amp; Pahalgam</p>
+          <a href="coming-soon.html?title=Jammu%20and%20Kashmir" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 34. Ladakh (UT) -->
+      <div class="state-card" data-category="ut" data-name="Ladakh" data-capital="Leh" onclick="window.location.href='coming-soon.html?title=Ladakh'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?w=800&auto=format&fit=crop&q=80" alt="Ladakh Mountains" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge ut">Union Territory</span>
+          <h3>Ladakh</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capitals: Leh &amp; Kargil • Pangong Lake, Nubra Valley &amp; Khardung La Pass</p>
+          <a href="coming-soon.html?title=Ladakh" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 35. Lakshadweep (UT) -->
+      <div class="state-card" data-category="ut" data-name="Lakshadweep" data-capital="Kavaratti" onclick="window.location.href='coming-soon.html?title=Lakshadweep'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&auto=format&fit=crop&q=80" alt="Lakshadweep Coral Lagoons" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge ut">Union Territory</span>
+          <h3>Lakshadweep</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Kavaratti • Bangaram Atoll, Agatti Island &amp; Scuba Diving</p>
+          <a href="coming-soon.html?title=Lakshadweep" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- 36. Puducherry (UT) -->
+      <div class="state-card" data-category="ut" data-name="Puducherry" data-capital="Puducherry" onclick="window.location.href='coming-soon.html?title=Puducherry'" style="cursor: pointer;">
+        <img src="https://images.unsplash.com/photo-1600100397608-f010f4433066?w=800&auto=format&fit=crop&q=80" alt="Puducherry French Quarter" loading="lazy">
+        <div class="state-overlay">
+          <span class="type-badge ut">Union Territory</span>
+          <h3>Puducherry</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-bottom: 12px;">Capital: Puducherry • French Colonial Quarters, Promenade &amp; Auroville</p>
+          <a href="coming-soon.html?title=Puducherry" class="btn state-btn">Explore</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Friendly Empty State if search finds nothing -->
+    <div id="no-states-found" style="display: none; text-align: center; padding: 60px 20px;">
+      <span style="font-size: 3rem; display: block; margin-bottom: 16px;">🔍</span>
+      <h3 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 8px;">No states or union territories found</h3>
+      <p style="color: var(--text-secondary); max-width: 450px; margin: 0 auto 20px;">We couldn't find any results matching your search. Try checking your spelling or clear the search to view all 36 regions.</p>
+      <button id="reset-state-search-btn" class="btn btn-primary">View All 36 Regions</button>
+    </div>
+  </main>
+
+  <!-- ===== MINIMAL PREMIUM FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <span class="logo-icon">✦</span>
+          <span>Explore India</span>
+        </a>
+        <p>Your premier Apple-inspired travel discovery platform for uncovering the culture, monuments, nature, and majestic diversity of India.</p>
+      </div>
+
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="explore.html">Explore Destinations</a></li>
+          <li><a href="states.html">States &amp; UTs</a></li>
+          <li><a href="top-places.html">Top Places</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Featured States</h4>
+        <ul>
+          <li><a href="west-bengal.html">West Bengal (23 Districts)</a></li>
+          <li><a href="states.html">All 28 States</a></li>
+          <li><a href="states.html">8 Union Territories</a></li>
+          <li><a href="explore.html">Curated Itineraries</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Contact &amp; Support</h4>
+        <ul>
+          <li><a href="mailto:hello@exploreindia.com">hello@exploreindia.com</a></li>
+          <li><a href="tel:+911123456789">+91 11 2345 6789</a></li>
+          <li><span>New Delhi, 110001, India</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="copyright">&copy; 2026 Explore India. All rights reserved. Designed with Apple-inspired precision.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    // Theme sync
+    (function() {
+      const savedTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', savedTheme);
+      const toggle = document.getElementById('theme-toggle');
+      if (toggle) {
+        toggle.addEventListener('click', () => {
+          const cur = document.documentElement.getAttribute('data-theme') || 'light';
+          const next = cur === 'dark' ? 'light' : 'dark';
+          document.documentElement.setAttribute('data-theme', next);
+          localStorage.setItem('theme', next);
+        });
+      }
+
+      // Mobile Menu
+      const hamburger = document.getElementById('hamburger-btn');
+      const mobileMenu = document.getElementById('mobile-menu');
+      const closeBtn = document.getElementById('mobile-menu-close');
+      if (hamburger && mobileMenu) {
+        hamburger.addEventListener('click', () => {
+          mobileMenu.classList.add('active');
+          document.body.style.overflow = 'hidden';
+        });
+        if (closeBtn) {
+          closeBtn.addEventListener('click', () => {
+            mobileMenu.classList.remove('active');
+            document.body.style.overflow = '';
+          });
+        }
+      }
+
+      // Filter & Search Logic
+      const searchInput = document.getElementById('state-search-input');
+      const clearBtn = document.getElementById('state-search-clear');
+      const resetBtn = document.getElementById('reset-state-search-btn');
+      const cards = Array.from(document.querySelectorAll('.state-card'));
+      const countEl = document.getElementById('visible-count');
+      const noFoundEl = document.getElementById('no-states-found');
+      const tabs = Array.from(document.querySelectorAll('.filter-tab'));
+      let currentCategory = 'all';
+
+      // Check query param (e.g. ?search=rajasthan)
+      const urlParams = new URLSearchParams(window.location.search);
+      const searchParam = urlParams.get('search');
+      if (searchParam && searchInput) {
+        searchInput.value = searchParam;
+      }
+
+      function filterCards() {
+        const query = searchInput.value.trim().toLowerCase();
+        if (query) {
+          clearBtn.style.display = 'block';
+        } else {
+          clearBtn.style.display = 'none';
+        }
+
+        let visibleCount = 0;
+
+        cards.forEach(card => {
+          const category = card.getAttribute('data-category');
+          const name = (card.getAttribute('data-name') || '').toLowerCase();
+          const capital = (card.getAttribute('data-capital') || '').toLowerCase();
+          const text = card.textContent.toLowerCase();
+
+          const matchesCategory = (currentCategory === 'all' || category === currentCategory);
+          const matchesQuery = !query || name.includes(query) || capital.includes(query) || text.includes(query);
+
+          if (matchesCategory && matchesQuery) {
+            card.style.display = '';
+            visibleCount++;
+          } else {
+            card.style.display = 'none';
+          }
+        });
+
+        countEl.textContent = visibleCount;
+        if (visibleCount === 0) {
+          noFoundEl.style.display = 'block';
+        } else {
+          noFoundEl.style.display = 'none';
+        }
+      }
+
+      // Tab click
+      tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          tabs.forEach(t => t.classList.remove('active'));
+          tab.classList.add('active');
+          currentCategory = tab.getAttribute('data-category');
+          filterCards();
+        });
+      });
+
+      // Search input event
+      searchInput.addEventListener('input', filterCards);
+
+      clearBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        searchInput.focus();
+        filterCards();
+      });
+
+      resetBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        currentCategory = 'all';
+        tabs.forEach(t => t.classList.toggle('active', t.getAttribute('data-category') === 'all'));
+        filterCards();
+      });
+
+      // Initial filter execution
+      filterCards();
+
+      // Navbar scroll effect
+      const navbar = document.getElementById('navbar');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 40) navbar.classList.add('scrolled');
+        else navbar.classList.remove('scrolled');
+      }, { passive: true });
+
+    })();
+  </script>
+
+</body>
+</html>

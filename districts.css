@@ -1,0 +1,1020 @@
+/* ============================================================
+   EXPLORE INDIA — WEST BENGAL & DISTRICTS STYLESHEET
+   Style: Apple-inspired Frosted Glassmorphism
+   Compatible with style.css tokens (Light & Dark themes)
+   ============================================================ */
+
+/* ------------------------------------------------------------
+   1. BREADCRUMBS NAVIGATION
+   ------------------------------------------------------------ */
+.breadcrumbs {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 18px;
+  border-radius: var(--radius-full);
+  background: var(--bg-glass);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--border-glass);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-tertiary);
+  margin-bottom: 18px;
+  box-shadow: var(--shadow-sm);
+}
+
+.breadcrumbs a {
+  color: var(--text-secondary);
+  transition: color var(--transition-fast);
+}
+
+.breadcrumbs a:hover {
+  color: var(--accent);
+}
+
+.breadcrumbs .separator {
+  color: var(--text-tertiary);
+  font-size: 0.75rem;
+  opacity: 0.6;
+}
+
+.breadcrumbs .current {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* ------------------------------------------------------------
+   2. WEST BENGAL HERO SECTION
+   ------------------------------------------------------------ */
+.wb-hero {
+  min-height: 55vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 140px 24px 60px;
+  text-align: center;
+  overflow: hidden;
+  background: radial-gradient(circle at 50% 30%, rgba(0, 113, 227, 0.08) 0%, transparent 70%),
+              linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
+}
+
+.wb-hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 860px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.wb-title {
+  font-size: 3.8rem;
+  font-weight: 800;
+  line-height: 1.1;
+  color: var(--text-primary);
+  letter-spacing: -0.035em;
+}
+
+.wb-subtitle {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  max-width: 650px;
+  line-height: 1.55;
+  letter-spacing: -0.01em;
+}
+
+/* State Quick Stats Bar */
+.state-stats-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 10px;
+  padding: 10px 24px;
+  border-radius: var(--radius-full);
+  background: var(--bg-glass);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--border-glass);
+  box-shadow: var(--shadow-sm);
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.stat-item strong {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.stat-divider {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--text-tertiary);
+  opacity: 0.5;
+}
+
+/* ------------------------------------------------------------
+   3. DISTRICT SEARCH & FILTER CONTROLS
+   ------------------------------------------------------------ */
+.district-search-section {
+  max-width: 820px;
+  margin: -25px auto 40px;
+  padding: 0 24px;
+  position: relative;
+  z-index: 10;
+}
+
+.district-search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: var(--bg-glass-heavy);
+  backdrop-filter: blur(var(--glass-blur-heavy));
+  -webkit-backdrop-filter: blur(var(--glass-blur-heavy));
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-full);
+  padding: 8px 8px 8px 22px;
+  box-shadow: var(--shadow-lg);
+  transition: all var(--transition);
+}
+
+.district-search-bar:focus-within {
+  border-color: var(--accent);
+  box-shadow: 0 12px 36px var(--accent-glow), 0 0 0 3px var(--accent-light);
+  transform: translateY(-2px);
+}
+
+.district-search-bar .search-icon {
+  color: var(--text-tertiary);
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.district-search-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  font-size: 1.05rem;
+  color: var(--text-primary);
+  min-width: 0;
+}
+
+.district-search-input::placeholder {
+  color: var(--text-tertiary);
+}
+
+/* Clear Search Button */
+.search-clear-btn {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--border-light);
+  color: var(--text-secondary);
+  margin-right: 8px;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.search-clear-btn:hover {
+  background: var(--border);
+  color: var(--text-primary);
+}
+
+.search-clear-btn.visible {
+  display: flex;
+}
+
+/* Autocomplete Dropdown for Districts */
+.district-autocomplete {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  right: 0;
+  background: var(--bg-glass-heavy);
+  backdrop-filter: blur(var(--glass-blur-heavy));
+  -webkit-backdrop-filter: blur(var(--glass-blur-heavy));
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  max-height: 340px;
+  overflow-y: auto;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(6px);
+  transition: all var(--transition-fast);
+  z-index: 100;
+  text-align: left;
+}
+
+.district-autocomplete.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.district-suggestion-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--border-light);
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  transition: background var(--transition-fast);
+}
+
+.district-suggestion-item:last-child {
+  border-bottom: none;
+}
+
+.district-suggestion-item:hover,
+.district-suggestion-item.active {
+  background: var(--accent-light);
+}
+
+.district-suggestion-item .item-title {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.district-suggestion-item .item-meta {
+  font-size: 0.8rem;
+  color: var(--text-tertiary);
+}
+
+/* Filter Summary Bar */
+.filter-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 18px;
+  padding: 0 8px;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.district-counter-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 4px 14px;
+  border-radius: var(--radius-full);
+  font-size: 0.85rem;
+}
+
+/* ------------------------------------------------------------
+   4. DISTRICT CARDS GRID
+   ------------------------------------------------------------ */
+.districts-container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 20px 24px 100px;
+}
+
+.districts-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.district-card {
+  background: var(--bg-glass);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-glass);
+  display: flex;
+  flex-direction: column;
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+  cursor: pointer;
+  position: relative;
+}
+
+.district-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--border);
+}
+
+.district-card-media {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 16 / 10;
+  background: var(--bg-secondary);
+}
+
+.district-card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.district-card:hover .district-card-media img {
+  transform: scale(1.08);
+}
+
+.district-badge {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: #ffffff;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.district-card-body {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.district-card-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+  margin-bottom: 4px;
+}
+
+.district-tagline {
+  font-size: 0.85rem;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.district-desc {
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+  margin-bottom: 18px;
+  flex: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.district-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 16px;
+  border-top: 1px solid var(--border-light);
+  margin-top: auto;
+}
+
+.attractions-count {
+  font-size: 0.82rem;
+  color: var(--text-tertiary);
+  font-weight: 500;
+}
+
+.district-card-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--accent);
+  transition: transform var(--transition-fast), color var(--transition-fast);
+}
+
+.district-card:hover .district-card-btn {
+  transform: translateX(4px);
+  color: var(--accent-hover);
+}
+
+/* No Results State */
+.no-results-card {
+  display: none;
+  text-align: center;
+  padding: 80px 24px;
+  max-width: 540px;
+  margin: 40px auto;
+  background: var(--bg-glass);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-sm);
+}
+
+.no-results-card.visible {
+  display: block;
+}
+
+.no-results-icon {
+  font-size: 3rem;
+  margin-bottom: 16px;
+  color: var(--text-tertiary);
+}
+
+.no-results-card h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+.no-results-card p {
+  color: var(--text-secondary);
+  font-size: 0.98rem;
+  margin-bottom: 24px;
+}
+
+/* ------------------------------------------------------------
+   5. DISTRICT DETAILS PAGE (district.html)
+   ------------------------------------------------------------ */
+.district-detail-hero {
+  position: relative;
+  min-height: 52vh;
+  padding: 130px 24px 50px;
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.district-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.85) 100%);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  z-index: 1;
+}
+
+.district-hero-inner {
+  position: relative;
+  z-index: 2;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+.back-to-wb-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 18px;
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  transition: all var(--transition-fast);
+}
+
+.back-to-wb-btn:hover {
+  background: rgba(255, 255, 255, 0.32);
+  transform: translateX(-4px);
+}
+
+.district-hero-title {
+  font-size: 3.8rem;
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  margin-bottom: 8px;
+  line-height: 1.1;
+  color: #ffffff;
+}
+
+.district-hero-tagline {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.district-meta-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.meta-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 16px;
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  font-size: 0.82rem;
+  color: #ffffff;
+}
+
+/* District Overview Content */
+.district-overview-section {
+  max-width: 1200px;
+  margin: 40px auto 0;
+  padding: 0 24px;
+}
+
+.district-overview-card {
+  background: var(--bg-glass);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-xl);
+  padding: 36px 40px;
+  box-shadow: var(--shadow-glass);
+}
+
+.district-overview-card h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 14px;
+}
+
+.district-overview-card p {
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+/* ------------------------------------------------------------
+   6. TOURIST ATTRACTIONS SECTION
+   ------------------------------------------------------------ */
+.attractions-section {
+  max-width: 1240px;
+  margin: 60px auto 80px;
+  padding: 0 24px;
+}
+
+.attractions-header {
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.attractions-header .section-tag {
+  color: var(--accent);
+}
+
+.attractions-header .section-title {
+  font-size: 2.4rem;
+}
+
+.attractions-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.attraction-card {
+  background: var(--bg-glass);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-glass);
+  display: flex;
+  flex-direction: column;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.attraction-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-lg);
+}
+
+.attraction-media {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background: var(--bg-secondary);
+}
+
+.attraction-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.attraction-card:hover .attraction-media img {
+  transform: scale(1.08);
+}
+
+.attraction-body {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.attraction-name {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.015em;
+  margin-bottom: 6px;
+}
+
+.attraction-location {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.85rem;
+  color: var(--accent);
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.attraction-desc {
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+  margin-bottom: 18px;
+  flex: 1;
+}
+
+.attraction-highlights {
+  font-size: 0.82rem;
+  color: var(--text-tertiary);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.attraction-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: auto;
+}
+
+/* Google Maps CTA Button */
+.btn-maps {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background: var(--bg-glass-heavy);
+  color: var(--text-primary);
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-full);
+  padding: 10px 16px;
+  font-size: 0.84rem;
+  font-weight: 600;
+  transition: all var(--transition-fast);
+}
+
+.btn-maps:hover {
+  background: #4285F4;
+  color: #ffffff;
+  border-color: #4285F4;
+  box-shadow: 0 4px 16px rgba(66, 133, 244, 0.35);
+  transform: translateY(-2px);
+}
+
+.btn-detail {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background: var(--accent);
+  color: #ffffff;
+  border-radius: var(--radius-full);
+  padding: 10px 18px;
+  font-size: 0.84rem;
+  font-weight: 600;
+  transition: all var(--transition-fast);
+}
+
+.btn-detail:hover {
+  background: var(--accent-hover);
+  box-shadow: 0 4px 16px var(--accent-glow);
+  transform: translateY(-2px);
+}
+
+/* ------------------------------------------------------------
+   7. APPLE-STYLE ATTRACTION DETAILS MODAL
+   ------------------------------------------------------------ */
+.attraction-modal-overlay {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.attraction-modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.attraction-modal {
+  background: var(--bg-primary);
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-xl);
+  max-width: 640px;
+  width: 100%;
+  max-height: 85vh;
+  overflow-y: auto;
+  box-shadow: var(--shadow-lg);
+  transform: scale(0.92) translateY(20px);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+}
+
+.attraction-modal-overlay.active .attraction-modal {
+  transform: scale(1) translateY(0);
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: var(--bg-glass-heavy);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--border-glass);
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: transform var(--transition-fast), background var(--transition-fast);
+}
+
+.modal-close-btn:hover {
+  transform: scale(1.1);
+  background: var(--bg-glass-hover);
+}
+
+.modal-media {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  background: var(--bg-secondary);
+  overflow: hidden;
+}
+
+.modal-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modal-body {
+  padding: 30px;
+}
+
+.modal-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 6px;
+}
+
+.modal-location {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--accent);
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin-bottom: 16px;
+}
+
+.modal-desc {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.65;
+  margin-bottom: 22px;
+}
+
+.modal-highlights {
+  background: var(--bg-secondary);
+  border-radius: var(--radius-md);
+  padding: 16px 20px;
+  margin-bottom: 26px;
+  font-size: 0.92rem;
+  color: var(--text-primary);
+}
+
+.modal-highlights strong {
+  color: var(--accent);
+}
+
+/* ------------------------------------------------------------
+   8. OTHER DISTRICTS NAVIGATION CAROUSEL
+   ------------------------------------------------------------ */
+.other-districts-section {
+  max-width: 1240px;
+  margin: 60px auto 100px;
+  padding: 0 24px;
+}
+
+.other-districts-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-top: 28px;
+}
+
+.other-district-card {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  height: 220px;
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.other-district-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow);
+}
+
+.other-district-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.other-district-card:hover img {
+  transform: scale(1.08);
+}
+
+.other-district-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.1) 60%, transparent 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 18px;
+  color: #ffffff;
+}
+
+.other-district-overlay h4 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.other-district-overlay p {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+/* ------------------------------------------------------------
+   9. RESPONSIVE MEDIA QUERIES
+   ------------------------------------------------------------ */
+@media (max-width: 1024px) {
+  .districts-grid,
+  .attractions-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .other-districts-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .wb-title,
+  .district-hero-title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .wb-hero {
+    padding: 120px 18px 50px;
+    min-height: auto;
+  }
+
+  .wb-title,
+  .district-hero-title {
+    font-size: 2.3rem;
+  }
+
+  .wb-subtitle,
+  .district-hero-tagline {
+    font-size: 1.05rem;
+  }
+
+  .districts-grid,
+  .attractions-grid,
+  .other-districts-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .district-search-section {
+    margin-top: -15px;
+  }
+
+  .district-overview-card {
+    padding: 24px;
+  }
+
+  .attraction-actions {
+    flex-direction: column;
+  }
+
+  .btn-maps,
+  .btn-detail {
+    width: 100%;
+  }
+
+  .district-detail-hero {
+    min-height: 44vh;
+    padding: 110px 18px 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .wb-title,
+  .district-hero-title {
+    font-size: 1.9rem;
+  }
+
+  .state-stats-bar {
+    gap: 12px;
+    padding: 8px 16px;
+    font-size: 0.8rem;
+  }
+
+  .district-search-bar {
+    padding: 6px 6px 6px 16px;
+  }
+
+  .district-search-input {
+    font-size: 0.95rem;
+  }
+
+  .district-card-body {
+    padding: 20px;
+  }
+}
