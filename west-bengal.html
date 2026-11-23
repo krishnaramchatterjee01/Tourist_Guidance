@@ -307,119 +307,115 @@
 
       if (!grid || typeof WEST_BENGAL_DATA === 'undefined') return;
 
-      // Detect state query parameter (e.g., ?state=andhra-pradesh or ?state=ap)
+      // Detect state query parameter (e.g., ?state=andhra-pradesh, ?state=rajasthan, etc.)
       const urlParams = new URLSearchParams(window.location.search);
       const stateParam = (urlParams.get('state') || '').toLowerCase().trim().replace(/_/g, '-');
-      const isAP = stateParam === 'andhra-pradesh' || stateParam === 'andhra' || stateParam === 'ap' || stateParam === 'andhrapradesh';
 
       const activeStateData = (typeof getStateData === 'function')
         ? getStateData(stateParam)
-        : (isAP ? ANDHRA_PRADESH_DATA : WEST_BENGAL_DATA);
+        : WEST_BENGAL_DATA;
 
-      const allDistricts = activeStateData.districts;
+      const allDistricts = activeStateData.districts || [];
       const stateName = activeStateData.state;
+      const stateSlug = activeStateData.slug;
       const totalCount = allDistricts.length;
+      const isWB = stateSlug === 'west-bengal';
 
-      // Dynamically configure page headers, breadcrumbs, stats and footer if viewing Andhra Pradesh
-      if (isAP) {
-        document.title = 'Explore Andhra Pradesh — 26 Districts of Heritage, Coast & Hills';
-        const metaDesc = document.querySelector('meta[name="description"]');
-        if (metaDesc) {
-          metaDesc.setAttribute('content', "Discover the beauty of Andhra Pradesh's 26 districts. Explore Tirumala hills, Gandikota canyon, Visakhapatnam beaches, and Godavari delta.");
-        }
+      // Dynamically configure page headers, breadcrumbs, stats, meta and footer for the active state
+      document.title = `Explore ${stateName} — ${totalCount} Districts | Explore India`;
+      const metaDesc = document.querySelector('meta[name="description"]');
+      if (metaDesc) {
+        metaDesc.setAttribute('content', `Discover the beauty of ${stateName}'s ${totalCount} official districts. Explore heritage, scenic landscapes, monuments, and culture.`);
+      }
 
-        const breadcrumbEl = document.getElementById('breadcrumb-state');
-        if (breadcrumbEl) breadcrumbEl.textContent = 'Andhra Pradesh';
+      const breadcrumbEl = document.getElementById('breadcrumb-state');
+      if (breadcrumbEl) breadcrumbEl.textContent = stateName;
 
-        const titleEl = document.getElementById('wb-title');
-        if (titleEl) titleEl.textContent = 'Explore Andhra Pradesh';
+      const titleEl = document.getElementById('wb-title');
+      if (titleEl) titleEl.textContent = `Explore ${stateName}`;
 
-        const subtitleEl = document.getElementById('wb-subtitle');
-        if (subtitleEl) subtitleEl.textContent = "Discover the Beauty of Andhra Pradesh's 26 Districts";
+      const subtitleEl = document.getElementById('wb-subtitle');
+      if (subtitleEl) subtitleEl.textContent = activeStateData.description || `Discover the Beauty of ${stateName}'s ${totalCount} Districts`;
 
-        const statsBar = document.getElementById('state-stats-bar');
-        if (statsBar) {
-          statsBar.innerHTML = `
-            <div class="stat-item">
-              <strong>26</strong> Districts
-            </div>
-            <div class="stat-divider"></div>
-            <div class="stat-item">
-              <strong>Amaravati</strong> Capital
-            </div>
-            <div class="stat-divider"></div>
-            <div class="stat-item">
-              <strong>Eastern Ghats to Bay of Bengal</strong> Terrain
-            </div>
-            <div class="stat-divider"></div>
-            <div class="stat-item">
-              <strong>162,970 km²</strong> Area
-            </div>
-          `;
-        }
+      const statsBar = document.getElementById('state-stats-bar');
+      if (statsBar) {
+        statsBar.innerHTML = `
+          <div class="stat-item">
+            <strong>${totalCount}</strong> Districts
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <strong>${activeStateData.capital || 'Capital'}</strong> Capital
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <strong>Official LGD</strong> Verified
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <strong>Explore India</strong> Directory
+          </div>
+        `;
+      }
 
-        if (searchInput) {
-          searchInput.setAttribute('placeholder', 'Search districts in Andhra Pradesh...');
-        }
+      if (searchInput) {
+        searchInput.setAttribute('placeholder', `Search districts in ${stateName}...`);
+      }
 
-        const filterStatus = document.getElementById('filter-status-text');
-        if (filterStatus) {
-          filterStatus.textContent = 'Browse all official districts across Coastal Andhra & Rayalaseema';
-        }
+      const filterStatus = document.getElementById('filter-status-text');
+      if (filterStatus) {
+        filterStatus.textContent = `Browse all ${totalCount} official districts across ${stateName}`;
+      }
 
-        if (counter) {
-          counter.textContent = `Showing ${totalCount} of ${totalCount} Districts`;
-        }
+      if (counter) {
+        counter.textContent = `Showing ${totalCount} of ${totalCount} Districts`;
+      }
 
-        if (resetBtn) {
-          resetBtn.textContent = `View All ${totalCount} Districts`;
-        }
+      if (resetBtn) {
+        resetBtn.textContent = `View All ${totalCount} Districts`;
+      }
 
-        // Update footer navigation links
-        const footerNavCol = document.getElementById('footer-nav-col');
-        if (footerNavCol) {
-          footerNavCol.innerHTML = `
-            <h4>Navigation</h4>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="west-bengal.html?state=andhra-pradesh">Andhra Pradesh Overview</a></li>
-              <li><a href="district.html?name=visakhapatnam">Visakhapatnam</a></li>
-              <li><a href="district.html?name=tirupati">Tirupati</a></li>
-              <li><a href="district.html?name=ysr-kadapa">Gandikota (Kadapa)</a></li>
-            </ul>
-          `;
-        }
+      // Update footer navigation links
+      const footerNavCol = document.getElementById('footer-nav-col');
+      if (footerNavCol) {
+        const topDistricts = allDistricts.slice(0, 3);
+        const stateOverviewUrl = isWB ? 'west-bengal.html' : `west-bengal.html?state=${stateSlug}`;
+        footerNavCol.innerHTML = `
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="${stateOverviewUrl}">${stateName} Overview</a></li>
+            ${topDistricts.map(d => `<li><a href="district.html?name=${d.slug}&state=${stateSlug}">${d.name}</a></li>`).join('')}
+          </ul>
+        `;
+      }
 
-        const footerDistrictsCol = document.getElementById('footer-districts-col');
-        if (footerDistrictsCol) {
-          footerDistrictsCol.innerHTML = `
-            <h4>Popular Districts</h4>
-            <ul>
-              <li><a href="district.html?name=visakhapatnam">Visakhapatnam Coast</a></li>
-              <li><a href="district.html?name=tirupati">Tirumala Hills</a></li>
-              <li><a href="district.html?name=ysr-kadapa">Gandikota Canyon</a></li>
-              <li><a href="district.html?name=alluri-sitharama-raju">Araku Valley</a></li>
-              <li><a href="district.html?name=nandyal">Srisailam Jyotirlinga</a></li>
-            </ul>
-          `;
-        }
+      const footerDistrictsCol = document.getElementById('footer-districts-col');
+      if (footerDistrictsCol) {
+        const sampleDistricts = allDistricts.slice(0, 5);
+        footerDistrictsCol.innerHTML = `
+          <h4>Official Districts</h4>
+          <ul>
+            ${sampleDistricts.map(d => `<li><a href="district.html?name=${d.slug}&state=${stateSlug}">${d.name}</a></li>`).join('')}
+          </ul>
+        `;
+      }
 
-        const footerContactCol = document.getElementById('footer-contact-col');
-        if (footerContactCol) {
-          footerContactCol.innerHTML = `
-            <h4>Contact &amp; Support</h4>
-            <ul>
-              <li><a href="mailto:hello@exploreindia.com">hello@exploreindia.com</a></li>
-              <li><a href="tel:+911123456789">+91 11 2345 6789</a></li>
-              <li><span>Amaravati, Andhra Pradesh, India</span></li>
-            </ul>
-          `;
-        }
+      const footerContactCol = document.getElementById('footer-contact-col');
+      if (footerContactCol) {
+        footerContactCol.innerHTML = `
+          <h4>Contact &amp; Support</h4>
+          <ul>
+            <li><a href="mailto:hello@exploreindia.com">hello@exploreindia.com</a></li>
+            <li><a href="tel:+911123456789">+91 11 2345 6789</a></li>
+            <li><span>${activeStateData.capital || stateName}, ${stateName}, India</span></li>
+          </ul>
+        `;
+      }
 
-        const footerCopyright = document.getElementById('footer-copyright');
-        if (footerCopyright) {
-          footerCopyright.innerHTML = '&copy; 2026 Explore India. Andhra Pradesh Tourism Directory. All rights reserved.';
-        }
+      const footerCopyright = document.getElementById('footer-copyright');
+      if (footerCopyright) {
+        footerCopyright.innerHTML = `&copy; 2026 Explore India. ${stateName} Tourism Directory. All rights reserved.`;
       }
 
       function createDistrictCard(district) {
@@ -430,6 +426,10 @@
         card.setAttribute('tabindex', '0');
         card.setAttribute('role', 'button');
         card.setAttribute('aria-label', `Explore ${district.name} district`);
+
+        const hasAttractions = district.attractions && district.attractions.length > 0;
+        const countText = hasAttractions ? `${district.attractions.length} Popular Spots` : 'Directory Profile';
+        const targetUrl = `district.html?name=${district.slug}&state=${stateSlug}`;
 
         card.innerHTML = `
           <div class="district-card-media">
@@ -447,8 +447,8 @@
             </span>
             <p class="district-desc">${district.shortDescription}</p>
             <div class="district-card-footer">
-              <span class="attractions-count">${district.attractions.length} Popular Spots</span>
-              <a href="district.html?name=${district.slug}" class="district-card-btn" tabindex="-1">
+              <span class="attractions-count">${countText}</span>
+              <a href="${targetUrl}" class="district-card-btn" tabindex="-1">
                 Explore District
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                   <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -461,14 +461,14 @@
 
         // Card click navigates to district page
         card.addEventListener('click', (e) => {
-          window.location.href = `district.html?name=${district.slug}`;
+          window.location.href = targetUrl;
         });
 
         // Keyboard navigation (Enter or Space)
         card.addEventListener('keydown', (e) => {
           if (e.key === 'Enter' || e.key === ' ') {
             e.preventDefault();
-            window.location.href = `district.html?name=${district.slug}`;
+            window.location.href = targetUrl;
           }
         });
 
@@ -517,15 +517,14 @@
 
         const filtered = allDistricts.filter(d => 
           d.name.toLowerCase().includes(query) ||
-          d.headquarters.toLowerCase().includes(query) ||
-          d.tagline.toLowerCase().includes(query) ||
-          d.knownFor.toLowerCase().includes(query) ||
-          d.attractions.some(a => a.name.toLowerCase().includes(query) || (a.category && a.category.toLowerCase().includes(query)))
+          (d.headquarters && d.headquarters.toLowerCase().includes(query)) ||
+          (d.tagline && d.tagline.toLowerCase().includes(query)) ||
+          (d.knownFor && d.knownFor.toLowerCase().includes(query)) ||
+          (d.attractions && d.attractions.some(a => a.name.toLowerCase().includes(query) || (a.category && a.category.toLowerCase().includes(query))))
         );
 
         if (filtered.length === 0) {
-          const suggestions = isAP ? '"Visakhapatnam", "Tirupati", "Kadapa", "Araku"' : '"Darjeeling", "Kolkata", "Purba", etc.';
-          noResultsText.textContent = `No districts in ${stateName} matched "${searchInput.value.trim()}". Try searching for ${suggestions}`;
+          noResultsText.textContent = `No districts in ${stateName} matched "${searchInput.value.trim()}". Please check your spelling or clear the search.`;
         }
 
         renderDistricts(filtered);
@@ -540,7 +539,7 @@
 
         const matches = allDistricts.filter(d => 
           d.name.toLowerCase().includes(query) ||
-          d.headquarters.toLowerCase().includes(query)
+          (d.headquarters && d.headquarters.toLowerCase().includes(query))
         ).slice(0, 6);
 
         if (matches.length === 0) {
@@ -549,7 +548,9 @@
         }
 
         activeSuggestionIndex = -1;
-        autocomplete.innerHTML = matches.map((d, i) => `
+        autocomplete.innerHTML = matches.map((d, i) => {
+          const spotCount = d.attractions && d.attractions.length > 0 ? `${d.attractions.length} spots` : 'Official District';
+          return `
           <div class="district-suggestion-item" data-index="${i}" data-slug="${d.slug}" data-name="${d.name}">
             <span class="item-title">
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -558,9 +559,10 @@
               </svg>
               ${d.name}
             </span>
-            <span class="item-meta">HQ: ${d.headquarters} • ${d.attractions.length} spots</span>
+            <span class="item-meta">HQ: ${d.headquarters || d.name} • ${spotCount}</span>
           </div>
-        `).join('');
+        `;
+        }).join('');
 
         autocomplete.classList.add('visible');
 
@@ -569,7 +571,7 @@
             e.preventDefault();
             const slug = el.getAttribute('data-slug');
             if (slug) {
-              window.location.href = `district.html?name=${slug}`;
+              window.location.href = `district.html?name=${slug}&state=${stateSlug}`;
             }
           });
         });
@@ -602,10 +604,10 @@
             e.preventDefault();
             if (activeSuggestionIndex >= 0 && items[activeSuggestionIndex]) {
               const slug = items[activeSuggestionIndex].getAttribute('data-slug');
-              if (slug) window.location.href = `district.html?name=${slug}`;
+              if (slug) window.location.href = `district.html?name=${slug}&state=${stateSlug}`;
             } else if (items.length > 0) {
               const slug = items[0].getAttribute('data-slug');
-              if (slug) window.location.href = `district.html?name=${slug}`;
+              if (slug) window.location.href = `district.html?name=${slug}&state=${stateSlug}`;
             }
             return;
           } else if (e.key === 'Escape') {
@@ -620,7 +622,7 @@
           const firstCard = grid.querySelector('.district-card');
           if (firstCard) {
             const slug = firstCard.getAttribute('data-slug');
-            if (slug) window.location.href = `district.html?name=${slug}`;
+            if (slug) window.location.href = `district.html?name=${slug}&state=${stateSlug}`;
           }
         }
       });

@@ -162,7 +162,8 @@
     <h2>District Not Found</h2>
     <p id="not-found-desc">We could not find the requested district. Please select from our verified state district directories.</p>
     <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
-      <a href="west-bengal.html?state=andhra-pradesh" class="btn" style="padding: 12px 24px;">Andhra Pradesh (26)</a>
+      <a href="states.html" class="btn" style="padding: 12px 24px;">Browse All 28 States</a>
+      <a href="west-bengal.html?state=andhra-pradesh" class="btn" style="padding: 12px 24px;">Andhra Pradesh (28)</a>
       <a href="west-bengal.html" class="btn" style="padding: 12px 24px;">West Bengal (23)</a>
     </div>
   </div>
@@ -353,7 +354,7 @@
 
       const stateName = district.stateName || 'West Bengal';
       const stateSlug = district.stateSlug || 'west-bengal';
-      const isAP = stateSlug === 'andhra-pradesh';
+      const backUrl = stateSlug === 'west-bengal' ? 'west-bengal.html' : `west-bengal.html?state=${stateSlug}`;
 
       // Set Document Title & Metadata
       document.title = `${district.name} — Explore ${stateName} Tourism`;
@@ -370,20 +371,11 @@
       const backBtnText = document.getElementById('back-btn-text');
       const breadcrumbStateLink = document.getElementById('breadcrumb-state-link');
 
-      if (isAP) {
-        if (backBtn) backBtn.href = 'west-bengal.html?state=andhra-pradesh';
-        if (backBtnText) backBtnText.textContent = 'Back to Andhra Pradesh Districts';
-        if (breadcrumbStateLink) {
-          breadcrumbStateLink.href = 'west-bengal.html?state=andhra-pradesh';
-          breadcrumbStateLink.textContent = 'Andhra Pradesh';
-        }
-      } else {
-        if (backBtn) backBtn.href = 'west-bengal.html';
-        if (backBtnText) backBtnText.textContent = 'Back to West Bengal Districts';
-        if (breadcrumbStateLink) {
-          breadcrumbStateLink.href = 'west-bengal.html';
-          breadcrumbStateLink.textContent = 'West Bengal';
-        }
+      if (backBtn) backBtn.href = backUrl;
+      if (backBtnText) backBtnText.textContent = `Back to ${stateName} Districts`;
+      if (breadcrumbStateLink) {
+        breadcrumbStateLink.href = backUrl;
+        breadcrumbStateLink.textContent = stateName;
       }
 
       document.getElementById('breadcrumb-district-name').textContent = district.name;
@@ -400,58 +392,75 @@
       const attractionsGrid = document.getElementById('attractions-grid');
       attractionsGrid.innerHTML = '';
 
-      district.attractions.forEach((spot) => {
-        const card = document.createElement('div');
-        card.className = 'attraction-card';
-
-        const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(spot.mapsQuery)}`;
-
-        card.innerHTML = `
-          <div class="attraction-media">
-            <img src="${spot.image}" alt="${spot.name}" loading="lazy">
-            ${spot.category ? `<span class="attraction-category-badge" style="position: absolute; top: 12px; left: 12px; padding: 4px 12px; border-radius: var(--radius-full); background: rgba(0, 0, 0, 0.65); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); color: #ffffff; font-size: 0.74rem; font-weight: 600; letter-spacing: 0.02em; border: 1px solid rgba(255, 255, 255, 0.2);">${spot.category}</span>` : ''}
-          </div>
-          <div class="attraction-body">
-            <h3 class="attraction-name">${spot.name}</h3>
-            <span class="attraction-location">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                <circle cx="12" cy="10" r="3"></circle>
-              </svg>
-              ${spot.location}
-            </span>
-            <p class="attraction-desc">${spot.description}</p>
-            <div class="attraction-highlights">
-              <strong>✨ Highlights:</strong> ${spot.highlights}
-            </div>
-            ${spot.accommodation ? `
-            <div class="attraction-stay" style="font-size: 0.82rem; color: var(--text-tertiary); margin-bottom: 18px; line-height: 1.45; display: flex; align-items: flex-start; gap: 6px;">
-              <span style="color: var(--accent); font-weight: 700; white-space: nowrap;">🏨 Stay:</span> <span>${spot.accommodation}</span>
-            </div>` : ''}
-            <div class="attraction-actions">
-              <a href="${googleMapsUrl}" target="_blank" rel="noopener noreferrer" class="btn-maps" aria-label="View ${spot.name} on Google Maps">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon>
-                  <line x1="8" y1="2" x2="8" y2="18"></line>
-                  <line x1="16" y1="6" x2="16" y2="22"></line>
-                </svg>
-                Google Maps
-              </a>
-              <button class="btn-detail open-modal-btn" type="button" aria-label="Explore details for ${spot.name}">
-                Explore Details
-              </button>
-            </div>
-          </div>
+      if (!district.attractions || district.attractions.length === 0) {
+        const fallbackCard = document.createElement('div');
+        fallbackCard.className = 'no-attractions-card';
+        fallbackCard.style.cssText = 'text-align: center; padding: 48px 24px; background: var(--bg-card); border: 1px solid var(--border-glass); border-radius: var(--radius-lg); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); grid-column: 1 / -1; max-width: 600px; margin: 0 auto; width: 100%;';
+        fallbackCard.innerHTML = `
+          <div style="font-size: 2.4rem; margin-bottom: 14px;">📍</div>
+          <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 8px; color: var(--text-primary);">Tourist destinations will be added soon.</h3>
+          <p style="color: var(--text-secondary); font-size: 0.92rem; line-height: 1.6; margin-bottom: 20px;">
+            Detailed verified spots, heritage monuments, and navigation guides for ${district.name} district are being curated for this directory.
+          </p>
+          <a href="${backUrl}" class="btn" style="display: inline-flex; align-items: center; gap: 8px; padding: 10px 22px; font-size: 0.88rem; text-decoration: none;">
+            ← Back to ${stateName} Districts
+          </a>
         `;
+        attractionsGrid.appendChild(fallbackCard);
+      } else {
+        district.attractions.forEach((spot) => {
+          const card = document.createElement('div');
+          card.className = 'attraction-card';
 
-        // Bind modal trigger
-        const detailBtn = card.querySelector('.open-modal-btn');
-        if (detailBtn) {
-          detailBtn.addEventListener('click', () => openModal(spot));
-        }
+          const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(spot.mapsQuery)}`;
 
-        attractionsGrid.appendChild(card);
-      });
+          card.innerHTML = `
+            <div class="attraction-media">
+              <img src="${spot.image}" alt="${spot.name}" loading="lazy">
+              ${spot.category ? `<span class="attraction-category-badge" style="position: absolute; top: 12px; left: 12px; padding: 4px 12px; border-radius: var(--radius-full); background: rgba(0, 0, 0, 0.65); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); color: #ffffff; font-size: 0.74rem; font-weight: 600; letter-spacing: 0.02em; border: 1px solid rgba(255, 255, 255, 0.2);">${spot.category}</span>` : ''}
+            </div>
+            <div class="attraction-body">
+              <h3 class="attraction-name">${spot.name}</h3>
+              <span class="attraction-location">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                ${spot.location}
+              </span>
+              <p class="attraction-desc">${spot.description}</p>
+              <div class="attraction-highlights">
+                <strong>✨ Highlights:</strong> ${spot.highlights}
+              </div>
+              ${spot.accommodation ? `
+              <div class="attraction-stay" style="font-size: 0.82rem; color: var(--text-tertiary); margin-bottom: 18px; line-height: 1.45; display: flex; align-items: flex-start; gap: 6px;">
+                <span style="color: var(--accent); font-weight: 700; white-space: nowrap;">🏨 Stay:</span> <span>${spot.accommodation}</span>
+              </div>` : ''}
+              <div class="attraction-actions">
+                <a href="${googleMapsUrl}" target="_blank" rel="noopener noreferrer" class="btn-maps" aria-label="View ${spot.name} on Google Maps">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon>
+                    <line x1="8" y1="2" x2="8" y2="18"></line>
+                    <line x1="16" y1="6" x2="16" y2="22"></line>
+                  </svg>
+                  Google Maps
+                </a>
+                <button class="btn-detail open-modal-btn" type="button" aria-label="Explore details for ${spot.name}">
+                  Explore Details
+                </button>
+              </div>
+            </div>
+          `;
+
+          // Bind modal trigger
+          const detailBtn = card.querySelector('.open-modal-btn');
+          if (detailBtn) {
+            detailBtn.addEventListener('click', () => openModal(spot));
+          }
+
+          attractionsGrid.appendChild(card);
+        });
+      }
 
       // 6. Populate "Other Districts" Grid
       const otherGrid = document.getElementById('other-districts-grid');
@@ -460,7 +469,7 @@
         otherTitle.textContent = `Other Districts in ${stateName}`;
       }
 
-      const stateDataset = isAP ? ANDHRA_PRADESH_DATA : WEST_BENGAL_DATA;
+      const stateDataset = (typeof getStateData === 'function') ? getStateData(stateSlug) : null;
 
       if (otherGrid && stateDataset && stateDataset.districts) {
         const others = stateDataset.districts
@@ -468,15 +477,18 @@
           .sort(() => 0.5 - Math.random())
           .slice(0, 4);
 
-        otherGrid.innerHTML = others.map(od => `
-          <a href="district.html?name=${od.slug}" class="other-district-card">
+        otherGrid.innerHTML = others.map(od => {
+          const count = od.attractions && od.attractions.length > 0 ? `${od.attractions.length} Attractions` : 'Official District';
+          return `
+          <a href="district.html?name=${od.slug}&state=${stateSlug}" class="other-district-card">
             <img src="${od.image}" alt="${od.name}" loading="lazy">
             <div class="other-district-overlay">
               <h4>${od.name}</h4>
-              <p>${od.attractions.length} Attractions • ${od.headquarters}</p>
+              <p>${count} • ${od.headquarters}</p>
             </div>
           </a>
-        `).join('');
+        `;
+        }).join('');
       }
 
       // 7. Modal Functionality
@@ -512,8 +524,6 @@
       function closeModal() {
         modal.classList.remove('active');
         modal.setAttribute('aria-hidden', 'true');
-        document.body.style.overflow = '';
-      }
         document.body.style.overflow = '';
       }
 

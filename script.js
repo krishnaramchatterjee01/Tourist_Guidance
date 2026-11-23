@@ -158,25 +158,35 @@
 
     // Comprehensive Indian tourism dataset
     const searchDatabase = [
-      // 28 Indian States
-      { name: 'West Bengal', type: 'State', state: 'Eastern India', url: 'west-bengal.html' },
-      { name: 'Rajasthan', type: 'State', state: 'Northern India', url: 'coming-soon.html?title=Rajasthan' },
-      { name: 'Kerala', type: 'State', state: 'Southern India', url: 'coming-soon.html?title=Kerala' },
-      { name: 'Himachal Pradesh', type: 'State', state: 'Northern India', url: 'coming-soon.html?title=Himachal%20Pradesh' },
-      { name: 'Goa', type: 'State', state: 'Western Coast', url: 'coming-soon.html?title=Goa' },
-      { name: 'Sikkim', type: 'State', state: 'Northeastern India', url: 'coming-soon.html?title=Sikkim' },
-      { name: 'Meghalaya', type: 'State', state: 'Northeastern India', url: 'coming-soon.html?title=Meghalaya' },
-      { name: 'Uttarakhand', type: 'State', state: 'Northern India', url: 'coming-soon.html?title=Uttarakhand' },
-      { name: 'Karnataka', type: 'State', state: 'Southern India', url: 'coming-soon.html?title=Karnataka' },
-      { name: 'Tamil Nadu', type: 'State', state: 'Southern India', url: 'coming-soon.html?title=Tamil%20Nadu' },
-      { name: 'Maharashtra', type: 'State', state: 'Western India', url: 'coming-soon.html?title=Maharashtra' },
-      { name: 'Punjab', type: 'State', state: 'Northern India', url: 'coming-soon.html?title=Punjab' },
-      { name: 'Gujarat', type: 'State', state: 'Western India', url: 'coming-soon.html?title=Gujarat' },
-      { name: 'Odisha', type: 'State', state: 'Eastern India', url: 'coming-soon.html?title=Odisha' },
-      { name: 'Assam', type: 'State', state: 'Northeastern India', url: 'coming-soon.html?title=Assam' },
-      { name: 'Madhya Pradesh', type: 'State', state: 'Central India', url: 'coming-soon.html?title=Madhya%20Pradesh' },
-      { name: 'Telangana', type: 'State', state: 'Southern India', url: 'coming-soon.html?title=Telangana' },
-      { name: 'Andhra Pradesh', type: 'State', state: 'Southern India', url: 'west-bengal.html?state=andhra-pradesh' },
+      // All 28 Indian States
+      { name: 'Andhra Pradesh', type: 'State', state: 'Southern India • 28 Districts', url: 'west-bengal.html?state=andhra-pradesh' },
+      { name: 'Arunachal Pradesh', type: 'State', state: 'Northeastern India • 27 Districts', url: 'west-bengal.html?state=arunachal-pradesh' },
+      { name: 'Assam', type: 'State', state: 'Northeastern India • 35 Districts', url: 'west-bengal.html?state=assam' },
+      { name: 'Bihar', type: 'State', state: 'Eastern India • 38 Districts', url: 'west-bengal.html?state=bihar' },
+      { name: 'Chhattisgarh', type: 'State', state: 'Central India • 33 Districts', url: 'west-bengal.html?state=chhattisgarh' },
+      { name: 'Goa', type: 'State', state: 'Western Coast • 3 Districts', url: 'west-bengal.html?state=goa' },
+      { name: 'Gujarat', type: 'State', state: 'Western India • 34 Districts', url: 'west-bengal.html?state=gujarat' },
+      { name: 'Haryana', type: 'State', state: 'Northern India • 23 Districts', url: 'west-bengal.html?state=haryana' },
+      { name: 'Himachal Pradesh', type: 'State', state: 'Northern India • 12 Districts', url: 'west-bengal.html?state=himachal-pradesh' },
+      { name: 'Jharkhand', type: 'State', state: 'Eastern India • 24 Districts', url: 'west-bengal.html?state=jharkhand' },
+      { name: 'Karnataka', type: 'State', state: 'Southern India • 31 Districts', url: 'west-bengal.html?state=karnataka' },
+      { name: 'Kerala', type: 'State', state: 'Southern India • 14 Districts', url: 'west-bengal.html?state=kerala' },
+      { name: 'Madhya Pradesh', type: 'State', state: 'Central India • 55 Districts', url: 'west-bengal.html?state=madhya-pradesh' },
+      { name: 'Maharashtra', type: 'State', state: 'Western India • 36 Districts', url: 'west-bengal.html?state=maharashtra' },
+      { name: 'Manipur', type: 'State', state: 'Northeastern India • 16 Districts', url: 'west-bengal.html?state=manipur' },
+      { name: 'Meghalaya', type: 'State', state: 'Northeastern India • 12 Districts', url: 'west-bengal.html?state=meghalaya' },
+      { name: 'Mizoram', type: 'State', state: 'Northeastern India • 11 Districts', url: 'west-bengal.html?state=mizoram' },
+      { name: 'Nagaland', type: 'State', state: 'Northeastern India • 17 Districts', url: 'west-bengal.html?state=nagaland' },
+      { name: 'Odisha', type: 'State', state: 'Eastern India • 30 Districts', url: 'west-bengal.html?state=odisha' },
+      { name: 'Punjab', type: 'State', state: 'Northern India • 23 Districts', url: 'west-bengal.html?state=punjab' },
+      { name: 'Rajasthan', type: 'State', state: 'Northern India • 41 Districts', url: 'west-bengal.html?state=rajasthan' },
+      { name: 'Sikkim', type: 'State', state: 'Northeastern India • 6 Districts', url: 'west-bengal.html?state=sikkim' },
+      { name: 'Tamil Nadu', type: 'State', state: 'Southern India • 38 Districts', url: 'west-bengal.html?state=tamil-nadu' },
+      { name: 'Telangana', type: 'State', state: 'Southern India • 33 Districts', url: 'west-bengal.html?state=telangana' },
+      { name: 'Tripura', type: 'State', state: 'Northeastern India • 8 Districts', url: 'west-bengal.html?state=tripura' },
+      { name: 'Uttar Pradesh', type: 'State', state: 'Northern India • 75 Districts', url: 'west-bengal.html?state=uttar-pradesh' },
+      { name: 'Uttarakhand', type: 'State', state: 'Northern India • 13 Districts', url: 'west-bengal.html?state=uttarakhand' },
+      { name: 'West Bengal', type: 'State', state: 'Eastern India • 23 Districts', url: 'west-bengal.html' },
 
       // 8 Union Territories
       { name: 'Andaman & Nicobar', type: 'Union Territory', state: 'Bay of Bengal Islands', url: 'coming-soon.html?title=Andaman%20and%20Nicobar%20Islands' },
@@ -221,16 +231,61 @@
     let activeIndex = -1;
     let blurTimer = null;
 
-    function isWestBengalQuery(val) {
-      if (!val) return false;
-      const clean = val.trim().toLowerCase();
-      return clean === 'west bengal' || clean === 'westbengal' || clean === 'wb' || clean === 'bengal';
-    }
+    const STATE_DIRECTORY_MAP = {
+      'west bengal': 'west-bengal.html',
+      'westbengal': 'west-bengal.html',
+      'wb': 'west-bengal.html',
+      'bengal': 'west-bengal.html',
+      'andhra pradesh': 'west-bengal.html?state=andhra-pradesh',
+      'andhra': 'west-bengal.html?state=andhra-pradesh',
+      'ap': 'west-bengal.html?state=andhra-pradesh',
+      'arunachal pradesh': 'west-bengal.html?state=arunachal-pradesh',
+      'arunachal': 'west-bengal.html?state=arunachal-pradesh',
+      'assam': 'west-bengal.html?state=assam',
+      'bihar': 'west-bengal.html?state=bihar',
+      'chhattisgarh': 'west-bengal.html?state=chhattisgarh',
+      'goa': 'west-bengal.html?state=goa',
+      'gujarat': 'west-bengal.html?state=gujarat',
+      'haryana': 'west-bengal.html?state=haryana',
+      'himachal pradesh': 'west-bengal.html?state=himachal-pradesh',
+      'himachal': 'west-bengal.html?state=himachal-pradesh',
+      'hp': 'west-bengal.html?state=himachal-pradesh',
+      'jharkhand': 'west-bengal.html?state=jharkhand',
+      'karnataka': 'west-bengal.html?state=karnataka',
+      'kerala': 'west-bengal.html?state=kerala',
+      'madhya pradesh': 'west-bengal.html?state=madhya-pradesh',
+      'mp': 'west-bengal.html?state=madhya-pradesh',
+      'maharashtra': 'west-bengal.html?state=maharashtra',
+      'mh': 'west-bengal.html?state=maharashtra',
+      'manipur': 'west-bengal.html?state=manipur',
+      'meghalaya': 'west-bengal.html?state=meghalaya',
+      'mizoram': 'west-bengal.html?state=mizoram',
+      'nagaland': 'west-bengal.html?state=nagaland',
+      'odisha': 'west-bengal.html?state=odisha',
+      'orissa': 'west-bengal.html?state=odisha',
+      'punjab': 'west-bengal.html?state=punjab',
+      'rajasthan': 'west-bengal.html?state=rajasthan',
+      'rj': 'west-bengal.html?state=rajasthan',
+      'sikkim': 'west-bengal.html?state=sikkim',
+      'tamil nadu': 'west-bengal.html?state=tamil-nadu',
+      'tn': 'west-bengal.html?state=tamil-nadu',
+      'tamilnadu': 'west-bengal.html?state=tamil-nadu',
+      'telangana': 'west-bengal.html?state=telangana',
+      'tripura': 'west-bengal.html?state=tripura',
+      'uttar pradesh': 'west-bengal.html?state=uttar-pradesh',
+      'up': 'west-bengal.html?state=uttar-pradesh',
+      'uttarpradesh': 'west-bengal.html?state=uttar-pradesh',
+      'uttarakhand': 'west-bengal.html?state=uttarakhand',
+      'uk': 'west-bengal.html?state=uttarakhand'
+    };
 
-    function isAndhraPradeshQuery(val) {
-      if (!val) return false;
-      const clean = val.trim().toLowerCase();
-      return clean === 'andhra pradesh' || clean === 'andhra' || clean === 'ap' || clean === 'andhrapradesh';
+    function getStateDirectoryUrl(val) {
+      if (!val) return null;
+      const clean = val.trim().toLowerCase().replace(/_/g, '-');
+      if (STATE_DIRECTORY_MAP[clean]) return STATE_DIRECTORY_MAP[clean];
+      const slugKey = clean.replace(/\s+/g, '-');
+      if (STATE_DIRECTORY_MAP[slugKey]) return STATE_DIRECTORY_MAP[slugKey];
+      return null;
     }
 
     function isDarjeelingQuery(val) {
@@ -287,15 +342,10 @@
       input.value = name;
       hideSuggestions();
 
-      // West Bengal redirection rule
-      if (isWestBengalQuery(name)) {
-        window.location.href = 'west-bengal.html';
-        return;
-      }
-
-      // Andhra Pradesh redirection rule
-      if (isAndhraPradeshQuery(name)) {
-        window.location.href = 'west-bengal.html?state=andhra-pradesh';
+      // State directory redirection rule for all 28 states
+      const stateDirUrl = getStateDirectoryUrl(name);
+      if (stateDirUrl) {
+        window.location.href = stateDirUrl;
         return;
       }
 
@@ -374,12 +424,9 @@
       } else if (e.key === 'Enter') {
         e.preventDefault();
         const currentQuery = input.value.trim();
-        if (isWestBengalQuery(currentQuery)) {
-          window.location.href = 'west-bengal.html';
-          return;
-        }
-        if (isAndhraPradeshQuery(currentQuery)) {
-          window.location.href = 'west-bengal.html?state=andhra-pradesh';
+        const stateDirUrl = getStateDirectoryUrl(currentQuery);
+        if (stateDirUrl) {
+          window.location.href = stateDirUrl;
           return;
         }
         if (isDarjeelingQuery(currentQuery)) {
@@ -430,14 +477,15 @@
         const query = input.value.trim();
         if (!query) {
           input.focus();
-        } else if (isWestBengalQuery(query)) {
-          window.location.href = 'west-bengal.html';
-        } else if (isAndhraPradeshQuery(query)) {
-          window.location.href = 'west-bengal.html?state=andhra-pradesh';
-        } else if (isDarjeelingQuery(query)) {
-          window.location.href = 'district.html?name=darjeeling';
         } else {
-          selectItem(query);
+          const stateDirUrl = getStateDirectoryUrl(query);
+          if (stateDirUrl) {
+            window.location.href = stateDirUrl;
+          } else if (isDarjeelingQuery(query)) {
+            window.location.href = 'district.html?name=darjeeling';
+          } else {
+            selectItem(query);
+          }
         }
       });
     }
