@@ -14637,3 +14637,11 @@ if (typeof module !== 'undefined' && module.exports) {
     ...STATES_DATA
   };
 }
+
+export {
+  STATES_DATA,
+  getStateData,
+  getDistrictBySlug,
+  searchDistricts
+};
+export default STATES_DATA;
