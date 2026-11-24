@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import SmartImage from './common/SmartImage';
 
 export default function AttractionModal({ spot, onClose }) {
   useEffect(() => {
@@ -52,7 +53,7 @@ export default function AttractionModal({ spot, onClose }) {
         </button>
 
         <div className="modal-media">
-          <img id="modal-img" src={spot.image} alt={spot.name} />
+          <SmartImage id="modal-img" src={spot.image} alt={spot.name} />
         </div>
 
         <div className="modal-body">

@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import SmartImage from './common/SmartImage';
 
 export default function DestinationModal({ item, onClose, type = 'explore' }) {
   useEffect(() => {
@@ -55,7 +56,7 @@ export default function DestinationModal({ item, onClose, type = 'explore' }) {
         </button>
 
         <div className="detail-modal-image">
-          <img id="modal-img" src={item.img} alt={item.name} />
+          <SmartImage id="modal-img" src={item.img} alt={item.name} />
           <span className="detail-modal-badge" id="modal-badge">
             {item.badge || (isExplore ? 'Destination' : 'Attraction')}
           </span>

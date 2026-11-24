@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useSearchParams, useNavigate } from 'react-router-dom';
 import { regionsData } from '../data/regionsData';
+import SmartImage from '../components/common/SmartImage';
 
 const TABS = [
   { key: 'all', label: 'All (36)' },
@@ -147,7 +148,7 @@ export default function States() {
                 onClick={() => navigate(targetUrl)}
                 style={{ cursor: 'pointer' }}
               >
-                <img
+                <SmartImage
                   src={region.image}
                   alt={region.alt || region.name}
                   loading="lazy"
