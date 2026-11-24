@@ -243,14 +243,7 @@ input {
 }
 
 .logo-icon {
-  color: var(--accent);
-  font-size: 1.15rem;
-  display: inline-block;
-  transition: transform 0.4s ease;
-}
-
-.logo:hover .logo-icon {
-  transform: rotate(90deg) scale(1.15);
+  display: none;
 }
 
 /* Nav Links */
@@ -310,23 +303,30 @@ input {
   border-color: var(--border);
 }
 
-/* Smooth Animated Sun/Moon Toggle */
-.theme-toggle .sun,
-.theme-toggle .moon {
+/* Smooth Animated Theme Toggle Icon */
+.theme-toggle .sun {
   position: absolute;
   width: 18px;
   height: 18px;
-  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease, color var(--transition-fast), stroke var(--transition-fast);
+}
+
+.theme-toggle .moon {
+  display: none !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
 }
 
 [data-theme="light"] .theme-toggle .sun {
-  opacity: 0;
-  transform: rotate(90deg) scale(0.4);
-}
-
-[data-theme="light"] .theme-toggle .moon {
   opacity: 1;
   transform: rotate(0deg) scale(1);
+  color: #000000;
+  stroke: #000000;
+}
+
+[data-theme="light"] .theme-toggle:hover .sun {
+  color: #000000;
+  stroke: #000000;
 }
 
 [data-theme="dark"] .theme-toggle .sun {
@@ -336,7 +336,7 @@ input {
 
 [data-theme="dark"] .theme-toggle .moon {
   opacity: 0;
-  transform: rotate(-90deg) scale(0.4);
+  display: none !important;
 }
 
 /* Hamburger Button */
