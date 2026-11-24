@@ -154,41 +154,38 @@ export default function SearchAutocomplete({ onCardMatch }) {
 
   return (
     <div className="search-container">
-      <div className="search-bar">
-        <span className="search-icon">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <circle cx="11" cy="11" r="8"></circle>
-            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-          </svg>
-        </span>
-        <input
-          type="text"
-          id="search-input"
-          ref={inputRef}
-          value={query}
-          onChange={handleInputChange}
-          onKeyDown={handleKeyDown}
-          onFocus={handleFocus}
-          onBlur={handleBlur}
-          placeholder="Search Indian states, iconic monuments, heritage sites, or PIN codes..."
-          autoComplete="off"
-          spellCheck="false"
-          aria-label="Search destinations"
-          aria-autocomplete="list"
-          aria-controls="search-suggestions"
-        />
-        <button
-          className="search-btn"
-          id="search-btn"
-          type="button"
-          onClick={handleSearchSubmit}
-          aria-label="Search"
-        >
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <polyline points="9 18 15 12 9 6"></polyline>
-          </svg>
-        </button>
+      <div className="search-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
       </div>
+      <input
+        type="text"
+        id="search-input"
+        className="search-input"
+        ref={inputRef}
+        value={query}
+        onChange={handleInputChange}
+        onKeyDown={handleKeyDown}
+        onFocus={handleFocus}
+        onBlur={handleBlur}
+        placeholder="Search states, districts, tourist places or PIN codes..."
+        autoComplete="off"
+        spellCheck="false"
+        aria-label="Search destinations"
+        aria-autocomplete="list"
+        aria-controls="search-suggestions"
+      />
+      <button
+        className="search-btn"
+        id="search-btn"
+        type="button"
+        onClick={handleSearchSubmit}
+        aria-label="Search"
+      >
+        Search
+      </button>
 
       {/* Autocomplete Suggestions Dropdown */}
       <div

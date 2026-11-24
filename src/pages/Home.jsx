@@ -13,32 +13,81 @@ export default function Home() {
   useEffect(() => {
     document.title = 'Explore India — Discover Breathtaking Destinations';
 
-    if (typeof window !== 'undefined') {
-      const prefersReducedMotion =
-        window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-      if (!prefersReducedMotion) {
-        gsap.registerPlugin(ScrollTrigger);
+    const prefersReducedMotion =
+      typeof window !== 'undefined' &&
+      window.matchMedia &&
+      window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-        const heroTl = gsap.timeline({ defaults: { ease: 'power3.out' } });
+    if (prefersReducedMotion) return;
 
-        const navbarInner = document.querySelector('.navbar-inner');
-        if (navbarInner) {
-          heroTl.from(navbarInner, { y: -35, opacity: 0, duration: 0.9 }, 0.1);
-        }
+    gsap.registerPlugin(ScrollTrigger);
 
-        const heroBadge = document.querySelector('.hero-badge');
-        const heroTitle = document.querySelector('.hero-title');
-        const heroSubtitle = document.querySelector('.hero-subtitle');
-        const searchContainer = document.querySelector('.search-container');
-        const firstSection = document.querySelector('#carousel-section');
+    const ctx = gsap.context(() => {
+      const heroTl = gsap.timeline({ defaults: { ease: 'power3.out' } });
 
-        if (heroBadge) heroTl.from(heroBadge, { y: 20, opacity: 0, duration: 0.7 }, 0.2);
-        if (heroTitle) heroTl.from(heroTitle, { y: 35, opacity: 0, duration: 0.9 }, 0.35);
-        if (heroSubtitle) heroTl.from(heroSubtitle, { y: 25, opacity: 0, duration: 0.8 }, 0.5);
-        if (searchContainer) heroTl.from(searchContainer, { y: 25, opacity: 0, duration: 0.8 }, 0.65);
-        if (firstSection) heroTl.from(firstSection, { opacity: 0, duration: 1 }, 0.8);
+      const navbarInner = document.querySelector('.navbar-inner');
+      const heroBadge = document.querySelector('.hero-badge');
+      const heroTitle = document.querySelector('.hero-title');
+      const heroSubtitle = document.querySelector('.hero-subtitle');
+      const searchContainer = document.querySelector('.search-container');
+      const firstSection = document.querySelector('#carousel-section');
+
+      if (navbarInner) {
+        heroTl.fromTo(
+          navbarInner,
+          { y: -35, opacity: 0 },
+          { y: 0, opacity: 1, duration: 0.9, clearProps: 'transform,opacity' },
+          0.1
+        );
       }
-    }
+
+      if (heroBadge) {
+        heroTl.fromTo(
+          heroBadge,
+          { y: 20, opacity: 0 },
+          { y: 0, opacity: 1, duration: 0.7, clearProps: 'transform,opacity' },
+          0.2
+        );
+      }
+
+      if (heroTitle) {
+        heroTl.fromTo(
+          heroTitle,
+          { y: 35, opacity: 0 },
+          { y: 0, opacity: 1, duration: 0.9, clearProps: 'transform,opacity' },
+          0.35
+        );
+      }
+
+      if (heroSubtitle) {
+        heroTl.fromTo(
+          heroSubtitle,
+          { y: 25, opacity: 0 },
+          { y: 0, opacity: 1, duration: 0.8, clearProps: 'transform,opacity' },
+          0.5
+        );
+      }
+
+      if (searchContainer) {
+        heroTl.fromTo(
+          searchContainer,
+          { y: 25, opacity: 0 },
+          { y: 0, opacity: 1, duration: 0.8, clearProps: 'transform,opacity' },
+          0.65
+        );
+      }
+
+      if (firstSection) {
+        heroTl.fromTo(
+          firstSection,
+          { opacity: 0 },
+          { opacity: 1, duration: 1, clearProps: 'opacity' },
+          0.8
+        );
+      }
+    });
+
+    return () => ctx.revert();
   }, []);
 
   const handleCardMatch = (name) => {
@@ -59,12 +108,15 @@ export default function Home() {
   return (
     <main>
       {/* ===== 3. HERO SECTION WITH SEARCH ===== */}
-      <section className="hero" id="home">
-        <div className="ambient-glow glow-1"></div>
-        <div className="ambient-glow glow-2"></div>
+      <header className="hero" id="hero">
+        <div className="ambient-glow">
+          <div className="glow-1"></div>
+          <div className="glow-2"></div>
+          <div className="glow-3"></div>
+        </div>
 
-        <div className="hero-content" data-animate="fade-up">
-          <div className="hero-badge">Discover Incredible India</div>
+        <div className="hero-content">
+          <span className="hero-badge">Discover Incredible India</span>
           <h1 className="hero-title">Experience the Timeless Soul of India</h1>
           <p className="hero-subtitle">
             Immerse yourself in centuries of living heritage, royal palaces, sacred ghats, tranquil backwaters, and pristine peaks.
@@ -72,7 +124,7 @@ export default function Home() {
 
           <SearchAutocomplete onCardMatch={handleCardMatch} />
         </div>
-      </section>
+      </header>
 
       {/* ===== 4. UNION TERRITORIES ADVERTISEMENT SLIDER ===== */}
       <SliderSection
