@@ -102,7 +102,18 @@ All photographic assets have been verified, curated for geographical accuracy, a
 
 ## 5. Curated District Images (`public/images/districts/`)
 
-- **Arunachal Pradesh (`public/images/districts/arunachal-pradesh/`):** All 27 official districts have distinct local photographic imagery (`anjaw.jpg`, `bichom.jpg`, `changlang.jpg`, `dibang-valley.jpg`, `east-kameng.jpg`, `east-siang.jpg`, `kamle.jpg`, `keyi-panyor.jpg`, `kra-daadi.jpg`, `kurung-kumey.jpg`, `leparada.jpg`, `lohit.jpg`, `longding.jpg`, `lower-dibang-valley.jpg`, `lower-siang.jpg`, `lower-subansiri.jpg`, `namsai.jpg`, `pakke-kessang.jpg`, `papum-pare.jpg`, `shi-yomi.jpg`, `siang.jpg`, `tawang.jpg`, `tirap.jpg`, `upper-siang.jpg`, `upper-subansiri.jpg`, `west-kameng.jpg`, `west-siang.jpg`).
-- **Andhra Pradesh (`public/images/districts/andhra-pradesh/`):** All 28 official districts have distinct local photographic imagery.
-- **West Bengal (`public/images/districts/west-bengal/`):** All 23 official districts have distinct local photographic imagery.
+### Arunachal Pradesh (`public/images/districts/arunachal-pradesh/`)
+- **Anjaw** (`anjaw.jpg`): Dong Valley at first sunrise over the emerald Lohit River, pine-covered alpine hills and snow-dusted Himalayan peaks.
+- **Bichom** (`bichom.jpg`): Nafra alpine river valley, terraced hillside cultivation, and traditional wooden homes of the Sajolang tribe.
+- **Changlang** (`changlang.jpg`): Namdapha National Park pristine subtropical rainforest, turquoise Noa-Dihing River, and the Patkai mountain range.
+- **Dibang Valley** (`dibang-valley.jpg`): Anini rolling high-altitude meadows, crystal-clear turquoise Dibang River, and snow-capped Mishmi Hills.
+- **East Kameng** (`east-kameng.jpg`): Rushing emerald Kameng River near Seppa, traditional cane suspension footbridge, and subtropical foothill rainforests.
+- **East Siang** (`east-siang.jpg`): Turquoise Siang River (Brahmaputra) at Pasighat with wide white-pebble banks and foothill rainforests.
+- **Kamle** (`kamle.jpg`): Raga emerald terraced rice fields, elevated Nyishi bamboo huts, and the meandering Kamle River.
+- **Keyi Panyor** (`keyi-panyor.jpg`): Yachuli valley emerald Keyi River, terraced paddy fields, Nyishi settlements, and pine groves.
+- **Kra Daadi** (`kra-daadi.jpg`): Palin river gorge with traditional hanging cane suspension footbridge amidst forested Himalayan cliffs.
+- **Tawang** (`tawang.jpg`): Historic 300-year-old Tawang Monastery (Galden Namgey Lhatse).
+- *(Remaining districts currently in progress with unique cultural and geographical subjects)*
+
+### Other States (`public/images/districts/`)
 - **Uttar Pradesh (`public/images/districts/uttar-pradesh/`):** Key verified landmarks (`agra.jpg`, `ayodhya.jpg`, `jhansi.jpg`, `lucknow.jpg`, `mathura.jpg`, `prayagraj.jpg`, `varanasi.jpg`). Remaining administrative districts safely render clean SVG placeholders with zero Taj Mahal inheritance.
