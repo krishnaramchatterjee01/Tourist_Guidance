@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141822" />
+      <stop offset="50%" stop-color="#1b202c" />
+      <stop offset="100%" stop-color="#11141c" />
+    </linearGradient>
+
+    <!-- Subtle Ambient Glow -->
+    <radialGradient id="ambientGlow" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#0071e3" stop-opacity="0.18" />
+      <stop offset="60%" stop-color="#0071e3" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Mountain Gradient Back -->
+    <linearGradient id="mtnBack" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#2a3244" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#181d29" stop-opacity="0.95" />
+    </linearGradient>
+
+    <!-- Mountain Gradient Front -->
+    <linearGradient id="mtnFront" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#343e54" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#1a202d" stop-opacity="0.98" />
+    </linearGradient>
+
+    <!-- Subtle Horizon Line Gradient -->
+    <linearGradient id="horizonGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0071e3" stop-opacity="0" />
+      <stop offset="50%" stop-color="#0071e3" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#0071e3" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Base Canvas -->
+  <rect width="800" height="500" fill="url(#bgGrad)" />
+  <rect width="800" height="500" fill="url(#ambientGlow)" />
+
+  <!-- Background Decorative Rings -->
+  <circle cx="400" cy="210" r="140" fill="none" stroke="rgba(255, 255, 255, 0.03)" stroke-width="1" />
+  <circle cx="400" cy="210" r="95" fill="none" stroke="rgba(255, 255, 255, 0.05)" stroke-width="1" stroke-dasharray="4 4" />
+
+  <!-- Stylized Mountain Silhouette Layer (Back) -->
+  <path d="M 120 420 L 260 270 L 370 360 L 510 240 L 640 370 L 730 300 L 800 370 L 800 500 L 0 500 L 0 420 Z" fill="url(#mtnBack)" />
+
+  <!-- Stylized Mountain Silhouette Layer (Front) -->
+  <path d="M 0 450 L 170 330 L 300 420 L 440 290 L 590 410 L 720 330 L 800 400 L 800 500 L 0 500 Z" fill="url(#mtnFront)" />
+
+  <!-- Horizon Highlight Line -->
+  <line x1="100" y1="460" x2="700" y2="460" stroke="url(#horizonGrad)" stroke-width="1.5" />
+
+  <!-- Centered Minimalist Camera / Landscape Badge -->
+  <g transform="translate(400, 195)">
+    <!-- Subtle Icon Backdrop -->
+    <rect x="-42" y="-38" width="84" height="76" rx="20" fill="rgba(255, 255, 255, 0.05)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1.2" />
+
+    <!-- Icon: Clean Landscape Frame -->
+    <g fill="none" stroke="rgba(255, 255, 255, 0.7)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="-24" y="-20" width="48" height="38" rx="6" />
+      <circle cx="-11" cy="-7" r="3.5" fill="rgba(255, 255, 255, 0.6)" stroke="none" />
+      <path d="M -24 9 L -9 -6 L 9 10 L 15 4 L 24 12" />
+    </g>
+  </g>
+
+  <!-- Typography Labels -->
+  <text x="400" y="278" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="rgba(255, 255, 255, 0.65)" letter-spacing="2px">
+    IMAGE UNAVAILABLE
+  </text>
+  <text x="400" y="300" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="400" fill="rgba(255, 255, 255, 0.35)" letter-spacing="0.5px">
+    Explore India — Curated Destination Archive
+  </text>
+</svg>
