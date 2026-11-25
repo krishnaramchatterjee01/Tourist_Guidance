@@ -12,7 +12,7 @@ export const topPlacesData = [
     "category": "shrine",
     "name": "Golden Temple",
     "location": "Amritsar, Punjab",
-    "img": "https://images.unsplash.com/photo-1609947017136-9daf32a15c38?w=800&auto=format&fit=crop&q=80",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Golden_Temple_-_Amritsar_India.jpg/1000px-Golden_Temple_-_Amritsar_India.jpg",
     "mapQuery": "Golden Temple, Amritsar, Punjab",
     "badge": "Sacred Shrines",
     "desc": "Sri Harmandir Sahib, the spiritual heart of Sikhism with its gold foil gilded central sanctum and holy Amrit Sarovar nectar pool."
@@ -138,7 +138,7 @@ export const topPlacesData = [
     "category": "nature",
     "name": "Dudhsagar Falls",
     "location": "Goa",
-    "img": "https://images.unsplash.com/photo-1597735881932-d9664c9bbcea?w=800&auto=format&fit=crop&q=80",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Dudhsagar_Falls.jpg/1000px-Dudhsagar_Falls.jpg",
     "mapQuery": "Dudhsagar Falls, Goa",
     "badge": "Natural Wonders",
     "desc": "A four-tiered 'Sea of Milk' cascading down 310 meters on the Mandovi River through verdant Bhagwan Mahaveer Sanctuary jungles."

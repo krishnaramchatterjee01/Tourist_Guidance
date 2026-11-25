@@ -24,7 +24,7 @@ export const homeSlidersData = {
     },
     {
       "destination": "Dadra and Nagar Haveli and Daman and Diu",
-      "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=1200&auto=format&fit=crop&q=80",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Diu_Fort.JPG/1200px-Diu_Fort.JPG",
       "alt": "Daman and Diu Forts",
       "badge": "Union Territory",
       "title": "Dadra & Daman & Diu",
@@ -79,7 +79,7 @@ export const homeSlidersData = {
     },
     {
       "destination": "Puducherry",
-      "image": "https://images.unsplash.com/photo-1600100397608-f010f4433066?w=1200&auto=format&fit=crop&q=80",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Beach_Promenade,_Pondicherry,_India.jpg/1200px-Beach_Promenade,_Pondicherry,_India.jpg",
       "alt": "Puducherry Promenade",
       "badge": "Union Territory",
       "title": "Puducherry",
@@ -103,7 +103,7 @@ export const homeSlidersData = {
     },
     {
       "destination": "Rishikesh",
-      "image": "https://images.unsplash.com/photo-1583396618422-8e575052a665?w=1000&auto=format&fit=crop&q=80",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Lakshman_Jhula,_Rishikesh,_Uttarakhand,_India.jpg/1000px-Lakshman_Jhula,_Rishikesh,_Uttarakhand,_India.jpg",
       "alt": "Rishikesh River Ganges",
       "badge": "Spiritual & Sacred",
       "title": "Rishikesh",
@@ -171,7 +171,7 @@ export const homeSlidersData = {
     },
     {
       "destination": "Golden Temple",
-      "image": "https://images.unsplash.com/photo-1609947017136-9daf32a15c38?w=1000&auto=format&fit=crop&q=80",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Golden_Temple_-_Amritsar_India.jpg/1000px-Golden_Temple_-_Amritsar_India.jpg",
       "alt": "Golden Temple Amritsar",
       "badge": "Sacred Shrines",
       "title": "Golden Temple",

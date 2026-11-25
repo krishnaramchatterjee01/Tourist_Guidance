@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router-dom';
 import { getDistrictBySlug, getStateData } from '../data/districtsData';
+import { getDistrictImage, getDistrictHeroImage } from '../data/districtImages';
 import AttractionModal from '../components/AttractionModal';
 import SmartImage from '../components/common/SmartImage';
 import { useBackgroundImage } from '../hooks/useBackgroundImage';
@@ -35,16 +36,18 @@ export default function DistrictDetail() {
     window.scrollTo(0, 0);
   }, [district, stateName]);
 
+  const stateData = useMemo(() => {
+    return getStateData(stateSlug);
+  }, [stateSlug]);
+
   const otherDistricts = useMemo(() => {
-    if (!district) return [];
-    const stateData = getStateData(stateSlug);
-    if (!stateData?.districts) return [];
+    if (!district || !stateData?.districts) return [];
     return stateData.districts
       .filter((d) => d.slug !== district.slug)
       .slice(0, 4);
-  }, [district, stateSlug]);
+  }, [district, stateData]);
 
-  const rawBg = district ? (district.heroImage || district.image) : '';
+  const rawBg = district ? getDistrictHeroImage(district, stateData) : '';
   const heroBg = useBackgroundImage(rawBg);
 
   if (!district) {
@@ -323,7 +326,7 @@ export default function DistrictDetail() {
                   to={`/district.html?name=${od.slug}&state=${stateSlug}`}
                   className="other-district-card"
                 >
-                  <SmartImage src={od.image} alt={od.name} loading="lazy" />
+                  <SmartImage src={getDistrictImage(od, stateData)} alt={od.name} loading="lazy" />
                   <div className="other-district-overlay">
                     <h4>{od.name}</h4>
                     <p>{countText} • {od.headquarters}</p>
