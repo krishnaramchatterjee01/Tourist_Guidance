@@ -60,6 +60,37 @@
               linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
 }
 
+.wb-hero.has-state-bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wb-hero.has-state-bg .wb-title {
+  color: #ffffff;
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.6);
+}
+
+.wb-hero.has-state-bg .wb-subtitle {
+  color: rgba(255, 255, 255, 0.92);
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.6);
+}
+
+.wb-hero.has-state-bg .hero-badge {
+  background: rgba(0, 113, 227, 0.35);
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(8px);
+}
+
+.wb-hero.has-state-bg .stat-item {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.wb-hero.has-state-bg .stat-item strong {
+  color: #ffffff;
+}
+
 .wb-hero-content {
   position: relative;
   z-index: 2;

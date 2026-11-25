@@ -123,7 +123,12 @@ export default function StateDirectory() {
   return (
     <>
       {/* ===== WEST BENGAL / STATE HERO ===== */}
-      <header className="wb-hero">
+      <header
+        className="wb-hero has-state-bg"
+        style={{
+          backgroundImage: `linear-gradient(180deg, rgba(15, 23, 42, 0.55) 0%, rgba(15, 23, 42, 0.82) 100%), url('/images/states/${stateSlug}.jpg')`
+        }}
+      >
         <div className="ambient-glow">
           <div className="glow-1"></div>
           <div className="glow-2"></div>
