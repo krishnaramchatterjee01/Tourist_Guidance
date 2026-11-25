@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState, useImperativeHandle, forwardRef } from 'react';
 import { Link } from 'react-router-dom';
 import gsap from 'gsap';
+import SmartImage from './common/SmartImage';
 
 const SliderSection = forwardRef(function SliderSection(
   {
@@ -295,7 +296,7 @@ const SliderSection = forwardRef(function SliderSection(
                     aria-roledescription="slide"
                     data-destination={slide.destination || slide.title}
                   >
-                    <img
+                    <SmartImage
                       src={slide.image}
                       alt={slide.alt || slide.title}
                       loading={idx === 0 ? 'eager' : 'lazy'}
@@ -326,7 +327,7 @@ const SliderSection = forwardRef(function SliderSection(
                     data-destination={slide.destination || slide.title}
                   >
                     <div className="card-image">
-                      <img
+                      <SmartImage
                         src={slide.image}
                         alt={slide.alt || slide.title}
                         loading={idx === 0 ? 'eager' : 'lazy'}
@@ -366,7 +367,7 @@ const SliderSection = forwardRef(function SliderSection(
                   data-destination={slide.destination || slide.title}
                 >
                   <div className="card-image">
-                    <img
+                    <SmartImage
                       src={slide.image}
                       alt={slide.alt || slide.title}
                       loading={idx === 0 ? 'eager' : 'lazy'}

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { exploreData } from '../data/exploreData';
 import DestinationModal from '../components/DestinationModal';
+import SmartImage from '../components/common/SmartImage';
 
 const CATEGORIES = [
   { key: 'all', label: 'All Destinations' },
@@ -130,7 +131,7 @@ export default function Explore() {
               data-highlights={item.highlights}
             >
               <div className="card-image">
-                <img src={item.img} alt={item.name} loading="lazy" />
+                <SmartImage src={item.img} alt={item.name} loading="lazy" />
               </div>
               <div className="card-body">
                 <span className="type-badge">{item.badge}</span>

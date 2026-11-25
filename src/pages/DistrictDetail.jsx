@@ -1,7 +1,10 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router-dom';
 import { getDistrictBySlug, getStateData } from '../data/districtsData';
+import { getDistrictImage, getDistrictHeroImage } from '../data/districtImages';
 import AttractionModal from '../components/AttractionModal';
+import SmartImage from '../components/common/SmartImage';
+import { useBackgroundImage } from '../hooks/useBackgroundImage';
 
 export default function DistrictDetail() {
   const { districtSlug: paramSlug } = useParams();
@@ -33,14 +36,19 @@ export default function DistrictDetail() {
     window.scrollTo(0, 0);
   }, [district, stateName]);
 
+  const stateData = useMemo(() => {
+    return getStateData(stateSlug);
+  }, [stateSlug]);
+
   const otherDistricts = useMemo(() => {
-    if (!district) return [];
-    const stateData = getStateData(stateSlug);
-    if (!stateData?.districts) return [];
+    if (!district || !stateData?.districts) return [];
     return stateData.districts
       .filter((d) => d.slug !== district.slug)
       .slice(0, 4);
-  }, [district, stateSlug]);
+  }, [district, stateData]);
+
+  const rawBg = district ? getDistrictHeroImage(district, stateData) : '';
+  const heroBg = useBackgroundImage(rawBg);
 
   if (!district) {
     return (
@@ -66,8 +74,6 @@ export default function DistrictDetail() {
       </main>
     );
   }
-
-  const heroBg = district.heroImage || district.image;
 
   return (
     <main id="main-content">
@@ -212,7 +218,7 @@ export default function DistrictDetail() {
               return (
                 <div key={`${spot.name}-${idx}`} className="attraction-card">
                   <div className="attraction-media">
-                    <img src={spot.image} alt={spot.name} loading="lazy" />
+                    <SmartImage src={spot.image} alt={spot.name} loading="lazy" />
                     {spot.category && (
                       <span
                         className="attraction-category-badge"
@@ -320,7 +326,7 @@ export default function DistrictDetail() {
                   to={`/district.html?name=${od.slug}&state=${stateSlug}`}
                   className="other-district-card"
                 >
-                  <img src={od.image} alt={od.name} loading="lazy" />
+                  <SmartImage src={getDistrictImage(od, stateData)} alt={od.name} loading="lazy" />
                   <div className="other-district-overlay">
                     <h4>{od.name}</h4>
                     <p>{countText} • {od.headquarters}</p>

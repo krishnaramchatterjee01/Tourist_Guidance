@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { Link, useParams, useSearchParams, useNavigate } from 'react-router-dom';
 import { getStateData } from '../data/districtsData';
+import { getDistrictImage } from '../data/districtImages';
+import SmartImage from '../components/common/SmartImage';
 
 export default function StateDirectory() {
   const { stateSlug: paramSlug } = useParams();
@@ -276,7 +278,7 @@ export default function StateDirectory() {
                 }}
               >
                 <div className="district-card-media">
-                  <img src={d.image} alt={`${d.name} scenery`} loading="lazy" />
+                  <SmartImage src={getDistrictImage(d, stateData)} alt={`${d.name} scenery`} loading="lazy" />
                   <span className="district-badge">{d.division || 'Official District'}</span>
                 </div>
                 <div className="district-card-body">
