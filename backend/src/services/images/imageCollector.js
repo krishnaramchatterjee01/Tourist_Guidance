@@ -55,6 +55,21 @@ export class ImageCollectorService {
   }
 
   /**
+   * Load verified authentic Wikimedia Commons dataset for Assam (Phase 4)
+   */
+  getAssamVerifiedDataset() {
+    const datasetPath = path.resolve(__dirname, 'verifiedAssamDataset.json');
+    if (fs.existsSync(datasetPath)) {
+      try {
+        return JSON.parse(fs.readFileSync(datasetPath, 'utf8'));
+      } catch (err) {
+        console.error('[CIMS Collector] Error parsing verifiedAssamDataset.json:', err.message);
+      }
+    }
+    return null;
+  }
+
+  /**
    * Helper to upsert a verified image into `images` table
    */
   async upsertImage(conn, imgData, districtName = null, stateName = 'West Bengal') {
@@ -501,6 +516,123 @@ export class ImageCollectorService {
 
       await conn.commit();
       console.log(`[CIMS] Arunachal Pradesh Pilot synchronization complete:`);
+      console.log(`  - State Hero & Card: 100% live authentic Wikimedia URLs`);
+      console.log(`  - Districts primary images: ${districtsUpdated} / ${districtRows.length}`);
+      console.log(`  - Districts backup images: ${backupsConfigured}`);
+
+      return {
+        success: true,
+        districtsCovered: districtsUpdated,
+        backupsConfigured,
+        totalDistricts: districtRows.length
+      };
+    } catch (err) {
+      await conn.rollback();
+      console.error('[CIMS Collection Error]:', err.message);
+      return { success: false, error: err.message };
+    } finally {
+      conn.release();
+    }
+  }
+
+  /**
+   * Seeds/Collects Centralized Images for Assam Pilot (Phase 4)
+   * 35 Districts + 1 State Hero + 1 State Card
+   */
+  async collectAssamPilot({ forceRefresh = false } = {}) {
+    const pool = getPool();
+    if (!pool) return { success: false, message: 'Database connection offline' };
+
+    const dataset = this.getAssamVerifiedDataset();
+    if (!dataset) {
+      return { success: false, message: 'verifiedAssamDataset.json not found or unreadable' };
+    }
+
+    // 1. Fetch Assam State Record
+    const [stateRows] = await pool.query('SELECT * FROM states WHERE slug = "assam"');
+    if (!stateRows || stateRows.length === 0) {
+      return { success: false, message: 'Assam state record not found in database' };
+    }
+    const assamState = stateRows[0];
+
+    // 2. Fetch all Assam districts
+    const [districtRows] = await pool.query(
+      'SELECT * FROM districts WHERE state_id = ? ORDER BY id ASC',
+      [assamState.id]
+    );
+
+    console.log(`[CIMS] Found ${districtRows.length} Assam districts in database.`);
+
+    const conn = await pool.getConnection();
+    try {
+      await conn.beginTransaction();
+
+      // Seed State Hero Image
+      if (dataset.state.hero) {
+        const heroImgId = await this.upsertImage(conn, dataset.state.hero, null, 'Assam');
+        if (heroImgId) {
+          await this.upsertEntityImage(conn, {
+            entityType: 'state',
+            stateId: assamState.id,
+            imageId: heroImgId,
+            role: 'hero'
+          });
+        }
+      }
+
+      // Seed State Card Image
+      if (dataset.state.card) {
+        const cardImgId = await this.upsertImage(conn, dataset.state.card, null, 'Assam');
+        if (cardImgId) {
+          await this.upsertEntityImage(conn, {
+            entityType: 'state',
+            stateId: assamState.id,
+            imageId: cardImgId,
+            role: 'primary'
+          });
+        }
+      }
+
+      // Seed all 35 Districts (Primary + Backup)
+      let districtsUpdated = 0;
+      let backupsConfigured = 0;
+
+      for (const d of districtRows) {
+        const distData = dataset.districts[d.slug];
+        if (!distData || !distData.primary) {
+          console.warn(`[CIMS] No dataset found for Assam district slug: ${d.slug}`);
+          continue;
+        }
+
+        // Primary Image
+        const primaryImgId = await this.upsertImage(conn, distData.primary, d.name, 'Assam');
+        if (primaryImgId) {
+          await this.upsertEntityImage(conn, {
+            entityType: 'district',
+            districtId: d.id,
+            imageId: primaryImgId,
+            role: 'primary'
+          });
+          districtsUpdated++;
+        }
+
+        // Backup Image (if present)
+        if (distData.backup) {
+          const backupImgId = await this.upsertImage(conn, distData.backup, d.name, 'Assam');
+          if (backupImgId) {
+            await this.upsertEntityImage(conn, {
+              entityType: 'district',
+              districtId: d.id,
+              imageId: backupImgId,
+              role: 'backup'
+            });
+            backupsConfigured++;
+          }
+        }
+      }
+
+      await conn.commit();
+      console.log(`[CIMS] Assam Pilot synchronization complete:`);
       console.log(`  - State Hero & Card: 100% live authentic Wikimedia URLs`);
       console.log(`  - Districts primary images: ${districtsUpdated} / ${districtRows.length}`);
       console.log(`  - Districts backup images: ${backupsConfigured}`);
