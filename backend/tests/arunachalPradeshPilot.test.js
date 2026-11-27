@@ -76,8 +76,8 @@ describe('Arunachal Pradesh CIMS Image System - Regression & Verification Suite'
     assert.equal(urls.size, 28, 'Expected 28 unique AP district images');
   });
 
-  test('TEST 7: Non-pilot states (Chhattisgarh) remain 100% unchanged', async () => {
-    const res = await request(app).get('/api/states/chhattisgarh/districts');
+  test('TEST 7: Non-pilot states (Haryana) remain 100% unchanged', async () => {
+    const res = await request(app).get('/api/states/haryana/districts');
     assert.equal(res.status, 200);
     assert.equal(res.body.success, true);
     assert.ok(res.body.data.length > 0);

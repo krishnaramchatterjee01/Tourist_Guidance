@@ -66,8 +66,8 @@ describe('Andhra Pradesh CIMS Image System - Regression & Verification Suite', (
     assert.equal(urls.size, 23, 'Expected 23 unique WB district images');
   });
 
-  test('TEST 6: Non-pilot states (Chhattisgarh) remain 100% unchanged', async () => {
-    const res = await request(app).get('/api/states/chhattisgarh/districts');
+  test('TEST 6: Non-pilot states (Haryana) remain 100% unchanged', async () => {
+    const res = await request(app).get('/api/states/haryana/districts');
     assert.equal(res.status, 200);
     assert.equal(res.body.success, true);
     assert.ok(res.body.data.length > 0);

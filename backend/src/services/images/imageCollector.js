@@ -85,6 +85,51 @@ export class ImageCollectorService {
   }
 
   /**
+   * Load verified authentic Wikimedia Commons dataset for Chhattisgarh (Phase 6)
+   */
+  getChhattisgarhVerifiedDataset() {
+    const datasetPath = path.resolve(__dirname, 'verifiedChhattisgarhDataset.json');
+    if (fs.existsSync(datasetPath)) {
+      try {
+        return JSON.parse(fs.readFileSync(datasetPath, 'utf8'));
+      } catch (err) {
+        console.error('[CIMS Collector] Error parsing verifiedChhattisgarhDataset.json:', err.message);
+      }
+    }
+    return null;
+  }
+
+  /**
+   * Load verified authentic Wikimedia Commons dataset for Goa (Phase 7)
+   */
+  getGoaVerifiedDataset() {
+    const datasetPath = path.resolve(__dirname, 'verifiedGoaDataset.json');
+    if (fs.existsSync(datasetPath)) {
+      try {
+        return JSON.parse(fs.readFileSync(datasetPath, 'utf8'));
+      } catch (err) {
+        console.error('[CIMS Collector] Error parsing verifiedGoaDataset.json:', err.message);
+      }
+    }
+    return null;
+  }
+
+  /**
+   * Load verified authentic Wikimedia Commons dataset for Gujarat (Phase 8)
+   */
+  getGujaratVerifiedDataset() {
+    const datasetPath = path.resolve(__dirname, 'verifiedGujaratDataset.json');
+    if (fs.existsSync(datasetPath)) {
+      try {
+        return JSON.parse(fs.readFileSync(datasetPath, 'utf8'));
+      } catch (err) {
+        console.error('[CIMS Collector] Error parsing verifiedGujaratDataset.json:', err.message);
+      }
+    }
+    return null;
+  }
+
+  /**
    * Helper to upsert a verified image into `images` table
    */
   async upsertImage(conn, imgData, districtName = null, stateName = 'West Bengal') {
@@ -765,6 +810,357 @@ export class ImageCollectorService {
 
       await conn.commit();
       console.log(`[CIMS] Bihar Pilot synchronization complete:`);
+      console.log(`  - State Hero & Card: 100% live authentic Wikimedia URLs`);
+      console.log(`  - Districts primary images: ${districtsUpdated} / ${districtRows.length}`);
+      console.log(`  - Districts backup images: ${backupsConfigured}`);
+
+      return {
+        success: true,
+        districtsCovered: districtsUpdated,
+        backupsConfigured,
+        totalDistricts: districtRows.length
+      };
+    } catch (err) {
+      await conn.rollback();
+      console.error('[CIMS Collection Error]:', err.message);
+      return { success: false, error: err.message };
+    } finally {
+      conn.release();
+    }
+  }
+
+  /**
+   * Seeds/Collects Centralized Images for Chhattisgarh Pilot (Phase 6)
+   * 33 Districts + 1 State Hero + 1 State Card
+   */
+  async collectChhattisgarhPilot({ forceRefresh = false } = {}) {
+    const pool = getPool();
+    if (!pool) return { success: false, message: 'Database connection offline' };
+
+    const dataset = this.getChhattisgarhVerifiedDataset();
+    if (!dataset) {
+      return { success: false, message: 'verifiedChhattisgarhDataset.json not found or unreadable' };
+    }
+
+    // 1. Fetch Chhattisgarh State Record
+    const [stateRows] = await pool.query('SELECT * FROM states WHERE slug = "chhattisgarh"');
+    if (!stateRows || stateRows.length === 0) {
+      return { success: false, message: 'Chhattisgarh state record not found in database' };
+    }
+    const cgState = stateRows[0];
+
+    // 2. Fetch all Chhattisgarh districts
+    const [districtRows] = await pool.query(
+      'SELECT * FROM districts WHERE state_id = ? ORDER BY id ASC',
+      [cgState.id]
+    );
+
+    console.log(`[CIMS] Found ${districtRows.length} Chhattisgarh districts in database.`);
+
+    const conn = await pool.getConnection();
+    try {
+      await conn.beginTransaction();
+
+      // Seed State Hero Image
+      if (dataset.state.hero) {
+        const heroImgId = await this.upsertImage(conn, dataset.state.hero, null, 'Chhattisgarh');
+        if (heroImgId) {
+          await this.upsertEntityImage(conn, {
+            entityType: 'state',
+            stateId: cgState.id,
+            imageId: heroImgId,
+            role: 'hero'
+          });
+        }
+      }
+
+      // Seed State Card Image
+      if (dataset.state.card) {
+        const cardImgId = await this.upsertImage(conn, dataset.state.card, null, 'Chhattisgarh');
+        if (cardImgId) {
+          await this.upsertEntityImage(conn, {
+            entityType: 'state',
+            stateId: cgState.id,
+            imageId: cardImgId,
+            role: 'primary'
+          });
+        }
+      }
+
+      // Seed all 33 Districts (Primary + Backup)
+      let districtsUpdated = 0;
+      let backupsConfigured = 0;
+
+      for (const d of districtRows) {
+        const distData = dataset.districts[d.slug];
+        if (!distData || !distData.primary) {
+          console.warn(`[CIMS] No dataset found for Chhattisgarh district slug: ${d.slug}`);
+          continue;
+        }
+
+        // Primary Image
+        const primaryImgId = await this.upsertImage(conn, distData.primary, d.name, 'Chhattisgarh');
+        if (primaryImgId) {
+          await this.upsertEntityImage(conn, {
+            entityType: 'district',
+            districtId: d.id,
+            imageId: primaryImgId,
+            role: 'primary'
+          });
+          districtsUpdated++;
+        }
+
+        // Backup Image (if present)
+        if (distData.backup) {
+          const backupImgId = await this.upsertImage(conn, distData.backup, d.name, 'Chhattisgarh');
+          if (backupImgId) {
+            await this.upsertEntityImage(conn, {
+              entityType: 'district',
+              districtId: d.id,
+              imageId: backupImgId,
+              role: 'backup'
+            });
+            backupsConfigured++;
+          }
+        }
+      }
+
+      await conn.commit();
+      console.log(`[CIMS] Chhattisgarh Pilot synchronization complete:`);
+      console.log(`  - State Hero & Card: 100% live authentic Wikimedia URLs`);
+      console.log(`  - Districts primary images: ${districtsUpdated} / ${districtRows.length}`);
+      console.log(`  - Districts backup images: ${backupsConfigured}`);
+
+      return {
+        success: true,
+        districtsCovered: districtsUpdated,
+        backupsConfigured,
+        totalDistricts: districtRows.length
+      };
+    } catch (err) {
+      await conn.rollback();
+      console.error('[CIMS Collection Error]:', err.message);
+      return { success: false, error: err.message };
+    } finally {
+      conn.release();
+    }
+  }
+
+  /**
+   * Seeds/Collects Centralized Images for Goa Pilot (Phase 7)
+   * 3 Districts + 1 State Hero + 1 State Card
+   */
+  async collectGoaPilot({ forceRefresh = false } = {}) {
+    const pool = getPool();
+    if (!pool) return { success: false, message: 'Database connection offline' };
+
+    const dataset = this.getGoaVerifiedDataset();
+    if (!dataset) {
+      return { success: false, message: 'verifiedGoaDataset.json not found or unreadable' };
+    }
+
+    // 1. Fetch Goa State Record
+    const [stateRows] = await pool.query('SELECT * FROM states WHERE slug = "goa"');
+    if (!stateRows || stateRows.length === 0) {
+      return { success: false, message: 'Goa state record not found in database' };
+    }
+    const goaState = stateRows[0];
+
+    // 2. Fetch all Goa districts
+    const [districtRows] = await pool.query(
+      'SELECT * FROM districts WHERE state_id = ? ORDER BY id ASC',
+      [goaState.id]
+    );
+
+    console.log(`[CIMS] Found ${districtRows.length} Goa districts in database.`);
+
+    const conn = await pool.getConnection();
+    try {
+      await conn.beginTransaction();
+
+      // Seed State Hero Image
+      if (dataset.state.hero) {
+        const heroImgId = await this.upsertImage(conn, dataset.state.hero, null, 'Goa');
+        if (heroImgId) {
+          await this.upsertEntityImage(conn, {
+            entityType: 'state',
+            stateId: goaState.id,
+            imageId: heroImgId,
+            role: 'hero'
+          });
+        }
+      }
+
+      // Seed State Card Image
+      if (dataset.state.card) {
+        const cardImgId = await this.upsertImage(conn, dataset.state.card, null, 'Goa');
+        if (cardImgId) {
+          await this.upsertEntityImage(conn, {
+            entityType: 'state',
+            stateId: goaState.id,
+            imageId: cardImgId,
+            role: 'primary'
+          });
+        }
+      }
+
+      // Seed all Districts (Primary + Backup)
+      let districtsUpdated = 0;
+      let backupsConfigured = 0;
+
+      for (const d of districtRows) {
+        const distData = dataset.districts[d.slug];
+        if (!distData || !distData.primary) {
+          console.warn(`[CIMS] No dataset found for Goa district slug: ${d.slug}`);
+          continue;
+        }
+
+        // Primary Image
+        const primaryImgId = await this.upsertImage(conn, distData.primary, d.name, 'Goa');
+        if (primaryImgId) {
+          await this.upsertEntityImage(conn, {
+            entityType: 'district',
+            districtId: d.id,
+            imageId: primaryImgId,
+            role: 'primary'
+          });
+          districtsUpdated++;
+        }
+
+        // Backup Image (if present)
+        if (distData.backup) {
+          const backupImgId = await this.upsertImage(conn, distData.backup, d.name, 'Goa');
+          if (backupImgId) {
+            await this.upsertEntityImage(conn, {
+              entityType: 'district',
+              districtId: d.id,
+              imageId: backupImgId,
+              role: 'backup'
+            });
+            backupsConfigured++;
+          }
+        }
+      }
+
+      await conn.commit();
+      console.log(`[CIMS] Goa Pilot synchronization complete:`);
+      console.log(`  - State Hero & Card: 100% live authentic Wikimedia URLs`);
+      console.log(`  - Districts primary images: ${districtsUpdated} / ${districtRows.length}`);
+      console.log(`  - Districts backup images: ${backupsConfigured}`);
+
+      return {
+        success: true,
+        districtsCovered: districtsUpdated,
+        backupsConfigured,
+        totalDistricts: districtRows.length
+      };
+    } catch (err) {
+      await conn.rollback();
+      console.error('[CIMS Collection Error]:', err.message);
+      return { success: false, error: err.message };
+    } finally {
+      conn.release();
+    }
+  }
+
+  /**
+   * Seeds/Collects Centralized Images for Gujarat Pilot (Phase 8)
+   * 34 Districts + 1 State Hero + 1 State Card
+   */
+  async collectGujaratPilot({ forceRefresh = false } = {}) {
+    const pool = getPool();
+    if (!pool) return { success: false, message: 'Database connection offline' };
+
+    const dataset = this.getGujaratVerifiedDataset();
+    if (!dataset) {
+      return { success: false, message: 'verifiedGujaratDataset.json not found or unreadable' };
+    }
+
+    // 1. Fetch Gujarat State Record
+    const [stateRows] = await pool.query('SELECT * FROM states WHERE slug = "gujarat"');
+    if (!stateRows || stateRows.length === 0) {
+      return { success: false, message: 'Gujarat state record not found in database' };
+    }
+    const gujState = stateRows[0];
+
+    // 2. Fetch all Gujarat districts
+    const [districtRows] = await pool.query(
+      'SELECT * FROM districts WHERE state_id = ? ORDER BY id ASC',
+      [gujState.id]
+    );
+
+    console.log(`[CIMS] Found ${districtRows.length} Gujarat districts in database.`);
+
+    const conn = await pool.getConnection();
+    try {
+      await conn.beginTransaction();
+
+      // Seed State Hero Image
+      if (dataset.state.hero) {
+        const heroImgId = await this.upsertImage(conn, dataset.state.hero, null, 'Gujarat');
+        if (heroImgId) {
+          await this.upsertEntityImage(conn, {
+            entityType: 'state',
+            stateId: gujState.id,
+            imageId: heroImgId,
+            role: 'hero'
+          });
+        }
+      }
+
+      // Seed State Card Image
+      if (dataset.state.card) {
+        const cardImgId = await this.upsertImage(conn, dataset.state.card, null, 'Gujarat');
+        if (cardImgId) {
+          await this.upsertEntityImage(conn, {
+            entityType: 'state',
+            stateId: gujState.id,
+            imageId: cardImgId,
+            role: 'primary'
+          });
+        }
+      }
+
+      // Seed all 34 Districts (Primary + Backup)
+      let districtsUpdated = 0;
+      let backupsConfigured = 0;
+
+      for (const d of districtRows) {
+        const distData = dataset.districts[d.slug];
+        if (!distData || !distData.primary) {
+          console.warn(`[CIMS] No dataset found for Gujarat district slug: ${d.slug}`);
+          continue;
+        }
+
+        // Primary Image
+        const primaryImgId = await this.upsertImage(conn, distData.primary, d.name, 'Gujarat');
+        if (primaryImgId) {
+          await this.upsertEntityImage(conn, {
+            entityType: 'district',
+            districtId: d.id,
+            imageId: primaryImgId,
+            role: 'primary'
+          });
+          districtsUpdated++;
+        }
+
+        // Backup Image (if present)
+        if (distData.backup) {
+          const backupImgId = await this.upsertImage(conn, distData.backup, d.name, 'Gujarat');
+          if (backupImgId) {
+            await this.upsertEntityImage(conn, {
+              entityType: 'district',
+              districtId: d.id,
+              imageId: backupImgId,
+              role: 'backup'
+            });
+            backupsConfigured++;
+          }
+        }
+      }
+
+      await conn.commit();
+      console.log(`[CIMS] Gujarat Pilot synchronization complete:`);
       console.log(`  - State Hero & Card: 100% live authentic Wikimedia URLs`);
       console.log(`  - Districts primary images: ${districtsUpdated} / ${districtRows.length}`);
       console.log(`  - Districts backup images: ${backupsConfigured}`);
