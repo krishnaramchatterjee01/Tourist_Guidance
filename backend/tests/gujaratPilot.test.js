@@ -126,8 +126,8 @@ describe('Gujarat CIMS Image System - Regression & Verification Suite', () => {
     assert.equal(urls.size, 3, 'Expected 3 unique Goa district images');
   });
 
-  test('TEST 12: Non-pilot states (Haryana) remain 100% unchanged', async () => {
-    const res = await request(app).get('/api/states/haryana/districts');
+  test('TEST 12: Non-pilot states (Meghalaya) remain 100% unchanged', async () => {
+    const res = await request(app).get('/api/states/meghalaya/districts');
     assert.equal(res.status, 200);
     assert.equal(res.body.success, true);
     assert.ok(res.body.data.length > 0);

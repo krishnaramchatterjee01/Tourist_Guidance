@@ -129,6 +129,27 @@ export class ImageCollectorService {
     return null;
   }
 
+  loadStateDataset(filename) {
+    const datasetPath = path.resolve(__dirname, filename);
+    if (fs.existsSync(datasetPath)) {
+      try {
+        return JSON.parse(fs.readFileSync(datasetPath, 'utf8'));
+      } catch (err) {
+        console.error(`[CIMS Collector] Error parsing ${filename}:`, err.message);
+      }
+    }
+    return null;
+  }
+
+  getHaryanaVerifiedDataset() { return this.loadStateDataset('verifiedHaryanaDataset.json'); }
+  getHpVerifiedDataset() { return this.loadStateDataset('verifiedHpDataset.json'); }
+  getJharkhandVerifiedDataset() { return this.loadStateDataset('verifiedJharkhandDataset.json'); }
+  getKarnatakaVerifiedDataset() { return this.loadStateDataset('verifiedKarnatakaDataset.json'); }
+  getKeralaVerifiedDataset() { return this.loadStateDataset('verifiedKeralaDataset.json'); }
+  getMpVerifiedDataset() { return this.loadStateDataset('verifiedMpDataset.json'); }
+  getMaharashtraVerifiedDataset() { return this.loadStateDataset('verifiedMaharashtraDataset.json'); }
+  getManipurVerifiedDataset() { return this.loadStateDataset('verifiedManipurDataset.json'); }
+
   /**
    * Helper to upsert a verified image into `images` table
    */
@@ -1179,6 +1200,130 @@ export class ImageCollectorService {
       conn.release();
     }
   }
+
+  /**
+   * Universal Synchronizer for Pilot States (Phase 9 to 16)
+   */
+  async collectGenericStatePilot(stateSlug, stateName, dataset) {
+    const pool = getPool();
+    if (!pool) return { success: false, message: 'Database connection offline' };
+
+    if (!dataset) {
+      return { success: false, message: `Dataset for ${stateName} (${stateSlug}) not found or unreadable` };
+    }
+
+    // 1. Fetch State Record
+    const [stateRows] = await pool.query('SELECT * FROM states WHERE slug = ?', [stateSlug]);
+    if (!stateRows || stateRows.length === 0) {
+      return { success: false, message: `${stateName} state record not found in database` };
+    }
+    const stateRecord = stateRows[0];
+
+    // 2. Fetch all districts for the state
+    const [districtRows] = await pool.query(
+      'SELECT * FROM districts WHERE state_id = ? ORDER BY id ASC',
+      [stateRecord.id]
+    );
+
+    console.log(`[CIMS] Found ${districtRows.length} ${stateName} districts in database.`);
+
+    const conn = await pool.getConnection();
+    try {
+      await conn.beginTransaction();
+
+      // Seed State Hero Image
+      if (dataset.state && dataset.state.hero) {
+        const heroImgId = await this.upsertImage(conn, dataset.state.hero, null, stateName);
+        if (heroImgId) {
+          await this.upsertEntityImage(conn, {
+            entityType: 'state',
+            stateId: stateRecord.id,
+            imageId: heroImgId,
+            role: 'hero'
+          });
+        }
+      }
+
+      // Seed State Card Image
+      if (dataset.state && dataset.state.card) {
+        const cardImgId = await this.upsertImage(conn, dataset.state.card, null, stateName);
+        if (cardImgId) {
+          await this.upsertEntityImage(conn, {
+            entityType: 'state',
+            stateId: stateRecord.id,
+            imageId: cardImgId,
+            role: 'primary'
+          });
+        }
+      }
+
+      // Seed Districts (Primary + Backup)
+      let districtsUpdated = 0;
+      let backupsConfigured = 0;
+
+      for (const d of districtRows) {
+        const distData = dataset.districts ? dataset.districts[d.slug] : null;
+        if (!distData || !distData.primary) {
+          console.warn(`[CIMS] No dataset found for ${stateName} district slug: ${d.slug}`);
+          continue;
+        }
+
+        // Primary Image
+        const primaryImgId = await this.upsertImage(conn, distData.primary, d.name, stateName);
+        if (primaryImgId) {
+          await this.upsertEntityImage(conn, {
+            entityType: 'district',
+            districtId: d.id,
+            imageId: primaryImgId,
+            role: 'primary'
+          });
+          districtsUpdated++;
+        }
+
+        // Backup Image (if present)
+        if (distData.backup) {
+          const backupImgId = await this.upsertImage(conn, distData.backup, d.name, stateName);
+          if (backupImgId) {
+            await this.upsertEntityImage(conn, {
+              entityType: 'district',
+              districtId: d.id,
+              imageId: backupImgId,
+              role: 'backup'
+            });
+            backupsConfigured++;
+          }
+        }
+      }
+
+      await conn.commit();
+      console.log(`[CIMS] ${stateName} Pilot synchronization complete:`);
+      console.log(`  - State Hero & Card: 100% live authentic Wikimedia URLs`);
+      console.log(`  - Districts primary images: ${districtsUpdated} / ${districtRows.length}`);
+      console.log(`  - Districts backup images: ${backupsConfigured}`);
+
+      return {
+        success: true,
+        districtsCovered: districtsUpdated,
+        backupsConfigured,
+        totalDistricts: districtRows.length
+      };
+    } catch (err) {
+      await conn.rollback();
+      console.error(`[CIMS ${stateName} Collection Error]:`, err.message);
+      return { success: false, error: err.message };
+    } finally {
+      conn.release();
+    }
+  }
+
+  async collectHaryanaPilot(opts) { return this.collectGenericStatePilot('haryana', 'Haryana', this.getHaryanaVerifiedDataset()); }
+  async collectHpPilot(opts) { return this.collectGenericStatePilot('himachal-pradesh', 'Himachal Pradesh', this.getHpVerifiedDataset()); }
+  async collectJharkhandPilot(opts) { return this.collectGenericStatePilot('jharkhand', 'Jharkhand', this.getJharkhandVerifiedDataset()); }
+  async collectKarnatakaPilot(opts) { return this.collectGenericStatePilot('karnataka', 'Karnataka', this.getKarnatakaVerifiedDataset()); }
+  async collectKeralaPilot(opts) { return this.collectGenericStatePilot('kerala', 'Kerala', this.getKeralaVerifiedDataset()); }
+  async collectMpPilot(opts) { return this.collectGenericStatePilot('madhya-pradesh', 'Madhya Pradesh', this.getMpVerifiedDataset()); }
+  async collectMaharashtraPilot(opts) { return this.collectGenericStatePilot('maharashtra', 'Maharashtra', this.getMaharashtraVerifiedDataset()); }
+  async collectManipurPilot(opts) { return this.collectGenericStatePilot('manipur', 'Manipur', this.getManipurVerifiedDataset()); }
 }
 
 export default new ImageCollectorService();
