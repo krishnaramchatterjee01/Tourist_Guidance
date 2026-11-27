@@ -56,8 +56,8 @@ describe('West Bengal CIMS Image System - Regression & Verification Suite', () =
     assert.match(state.image, /^https:\/\/(upload|thumb)\.wikimedia\.org\//);
   });
 
-  test('TEST 5: Non-pilot states (Bihar) remain 100% unchanged', async () => {
-    const res = await request(app).get('/api/states/bihar/districts');
+  test('TEST 5: Non-pilot states (Chhattisgarh) remain 100% unchanged', async () => {
+    const res = await request(app).get('/api/states/chhattisgarh/districts');
     assert.equal(res.status, 200);
     assert.equal(res.body.success, true);
     assert.ok(res.body.data.length > 0);
