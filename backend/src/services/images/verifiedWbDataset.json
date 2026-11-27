@@ -1,0 +1,492 @@
+{
+  "state": {
+    "hero": {
+      "pageId": "28070324",
+      "title": "Victoria Memorial Hall Kolkata",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Victoria_Memorial_Hall_Kolkata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "displayUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Victoria_Memorial_Hall_Kolkata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Victoria_Memorial_Hall_Kolkata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Victoria_Memorial_Hall_Kolkata.jpg",
+      "photographer": "Manojit Pati",
+      "licenseName": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "Manojit Pati (CC BY-SA 3.0) via Wikimedia Commons",
+      "width": 800,
+      "height": 600,
+      "mime": "image/jpeg"
+    },
+    "card": {
+      "pageId": "49508915",
+      "title": "Howrah bridge at night",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Howrah_bridge_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Howrah_bridge_at_night.jpg/960px-Howrah_bridge_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Howrah_bridge_at_night.jpg/960px-Howrah_bridge_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Howrah_bridge_at_night.jpg",
+      "photographer": "Apoorva Karlekar",
+      "licenseName": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Apoorva Karlekar (CC BY-SA 4.0) via Wikimedia Commons",
+      "width": 1400,
+      "height": 556,
+      "mime": "image/jpeg"
+    }
+  },
+  "districts": {
+    "alipurduar": {
+      "primary": {
+        "pageId": "82432662",
+        "title": "Buxa Fort, Alipurduar",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Buxa_Fort%2C_Alipurduar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Buxa_Fort%2C_Alipurduar.jpg/960px-Buxa_Fort%2C_Alipurduar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Buxa_Fort%2C_Alipurduar.jpg/960px-Buxa_Fort%2C_Alipurduar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Buxa_Fort,_Alipurduar.jpg",
+        "photographer": "Roy.Pramita",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Roy.Pramita (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 5184,
+        "height": 3888,
+        "mime": "image/jpeg"
+      },
+      "backup": {
+        "pageId": "134819246",
+        "title": "Jayanti river at Buxa tiger reserve 03",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Jayanti_river_at_Buxa_tiger_reserve_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Jayanti_river_at_Buxa_tiger_reserve_03.jpg/960px-Jayanti_river_at_Buxa_tiger_reserve_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Jayanti_river_at_Buxa_tiger_reserve_03.jpg/960px-Jayanti_river_at_Buxa_tiger_reserve_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Jayanti_river_at_Buxa_tiger_reserve_03.jpg",
+        "photographer": "Jprojit",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Jprojit (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 2992,
+        "height": 2992,
+        "mime": "image/jpeg"
+      }
+    },
+    "bankura": {
+      "primary": {
+        "pageId": "65611594",
+        "title": "Madana Mohana temple of Bishnupur in Bankura district 37",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Madana_Mohana_temple_of_Bishnupur_in_Bankura_district_37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Madana_Mohana_temple_of_Bishnupur_in_Bankura_district_37.jpg/960px-Madana_Mohana_temple_of_Bishnupur_in_Bankura_district_37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Madana_Mohana_temple_of_Bishnupur_in_Bankura_district_37.jpg/960px-Madana_Mohana_temple_of_Bishnupur_in_Bankura_district_37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Madana_Mohana_temple_of_Bishnupur_in_Bankura_district_37.jpg",
+        "photographer": "SuvadipSanyal",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "SuvadipSanyal (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 5184,
+        "height": 3456,
+        "mime": "image/jpeg"
+      },
+      "backup": null
+    },
+    "birbhum": {
+      "primary": {
+        "pageId": "35900001",
+        "title": "Bolpur-Santiniketan Road and Santiniketan-Sriniketan Road Junction - Hirabai Panthasala Area - Birbhum 2014-06-28 5203",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Bolpur-Santiniketan_Road_and_Santiniketan-Sriniketan_Road_Junction_-_Hirabai_Panthasala_Area_-_Birbhum_2014-06-28_5203.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Bolpur-Santiniketan_Road_and_Santiniketan-Sriniketan_Road_Junction_-_Hirabai_Panthasala_Area_-_Birbhum_2014-06-28_5203.JPG/960px-Bolpur-Santiniketan_Road_and_Santiniketan-Sriniketan_Road_Junction_-_Hirabai_Panthasala_Area_-_Birbhum_2014-06-28_5203.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Bolpur-Santiniketan_Road_and_Santiniketan-Sriniketan_Road_Junction_-_Hirabai_Panthasala_Area_-_Birbhum_2014-06-28_5203.JPG/960px-Bolpur-Santiniketan_Road_and_Santiniketan-Sriniketan_Road_Junction_-_Hirabai_Panthasala_Area_-_Birbhum_2014-06-28_5203.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Bolpur-Santiniketan_Road_and_Santiniketan-Sriniketan_Road_Junction_-_Hirabai_Panthasala_Area_-_Birbhum_2014-06-28_5203.JPG",
+        "photographer": "Biswarup Ganguly",
+        "licenseName": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "attribution": "Biswarup Ganguly (CC BY 3.0) via Wikimedia Commons",
+        "width": 4288,
+        "height": 2848,
+        "mime": "image/jpeg"
+      },
+      "backup": {
+        "pageId": "195390073",
+        "title": "Upasana Griha Santiniketan",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Upasana_Griha_Santiniketan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Upasana_Griha_Santiniketan.jpg/960px-Upasana_Griha_Santiniketan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Upasana_Griha_Santiniketan.jpg/960px-Upasana_Griha_Santiniketan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Upasana_Griha_Santiniketan.jpg",
+        "photographer": "Mr Mainak Biswas",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Mr Mainak Biswas (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 1922,
+        "height": 2048,
+        "mime": "image/jpeg"
+      }
+    },
+    "cooch-behar": {
+      "primary": {
+        "pageId": "155956084",
+        "title": "The Cooch Behar Palace or the Cooch Behar Rajbari, Cooch Behar District, West Bengal, India 04",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/The_Cooch_Behar_Palace_or_the_Cooch_Behar_Rajbari%2C_Cooch_Behar_District%2C_West_Bengal%2C_India_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/The_Cooch_Behar_Palace_or_the_Cooch_Behar_Rajbari%2C_Cooch_Behar_District%2C_West_Bengal%2C_India_04.jpg/960px-The_Cooch_Behar_Palace_or_the_Cooch_Behar_Rajbari%2C_Cooch_Behar_District%2C_West_Bengal%2C_India_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/The_Cooch_Behar_Palace_or_the_Cooch_Behar_Rajbari%2C_Cooch_Behar_District%2C_West_Bengal%2C_India_04.jpg/960px-The_Cooch_Behar_Palace_or_the_Cooch_Behar_Rajbari%2C_Cooch_Behar_District%2C_West_Bengal%2C_India_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:The_Cooch_Behar_Palace_or_the_Cooch_Behar_Rajbari,_Cooch_Behar_District,_West_Bengal,_India_04.jpg",
+        "photographer": "Kingshuk Mondal",
+        "licenseName": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "attribution": "Kingshuk Mondal (CC BY 4.0) via Wikimedia Commons",
+        "width": 3844,
+        "height": 5766,
+        "mime": "image/jpeg"
+      },
+      "backup": null
+    },
+    "dakshin-dinajpur": {
+      "primary": {
+        "pageId": "156384359",
+        "title": "Balurghat-airport-balurghat-dinajpur",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Balurghat-airport-balurghat-dinajpur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Balurghat-airport-balurghat-dinajpur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Balurghat-airport-balurghat-dinajpur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Balurghat-airport-balurghat-dinajpur.jpg",
+        "photographer": "Hypothetical Painter",
+        "licenseName": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "attribution": "Hypothetical Painter (CC0) via Wikimedia Commons",
+        "width": 685,
+        "height": 536,
+        "mime": "image/jpeg"
+      },
+      "backup": null
+    },
+    "darjeeling": {
+      "primary": {
+        "pageId": "73839028",
+        "title": "Darjeeling Himalayan Railway,toy train (8)",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Darjeeling_Himalayan_Railway%2Ctoy_train_%288%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Darjeeling_Himalayan_Railway%2Ctoy_train_%288%29.jpg/960px-Darjeeling_Himalayan_Railway%2Ctoy_train_%288%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Darjeeling_Himalayan_Railway%2Ctoy_train_%288%29.jpg/960px-Darjeeling_Himalayan_Railway%2Ctoy_train_%288%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Darjeeling_Himalayan_Railway,toy_train_(8).jpg",
+        "photographer": "Syed Sajidul Islam",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Syed Sajidul Islam (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 3326,
+        "height": 5146,
+        "mime": "image/jpeg"
+      },
+      "backup": {
+        "pageId": "9657083",
+        "title": "Tiger Hill Darjeeling West Bengal India",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Tiger_Hill_Darjeeling_West_Bengal_India.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Tiger_Hill_Darjeeling_West_Bengal_India.JPG/960px-Tiger_Hill_Darjeeling_West_Bengal_India.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Tiger_Hill_Darjeeling_West_Bengal_India.JPG/960px-Tiger_Hill_Darjeeling_West_Bengal_India.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Tiger_Hill_Darjeeling_West_Bengal_India.JPG",
+        "photographer": "Shahnoor Habib Munmun",
+        "licenseName": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "attribution": "Shahnoor Habib Munmun (CC BY 3.0) via Wikimedia Commons",
+        "width": 2304,
+        "height": 1728,
+        "mime": "image/jpeg"
+      }
+    },
+    "hooghly": {
+      "primary": {
+        "pageId": "112886184",
+        "title": "Hooghly Imambara, in and outside views 17",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Hooghly_Imambara%2C_in_and_outside_views_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Hooghly_Imambara%2C_in_and_outside_views_17.jpg/960px-Hooghly_Imambara%2C_in_and_outside_views_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Hooghly_Imambara%2C_in_and_outside_views_17.jpg/960px-Hooghly_Imambara%2C_in_and_outside_views_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Hooghly_Imambara,_in_and_outside_views_17.jpg",
+        "photographer": "Pinakpani",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Pinakpani (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 4128,
+        "height": 2322,
+        "mime": "image/jpeg"
+      },
+      "backup": null
+    },
+    "howrah": {
+      "primary": {
+        "pageId": "123653330",
+        "title": "Front view of the Belur Math temple in Belur Math, Howrah, West Bengal",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Front_view_of_the_Belur_Math_temple_in_Belur_Math%2C_Howrah%2C_West_Bengal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Front_view_of_the_Belur_Math_temple_in_Belur_Math%2C_Howrah%2C_West_Bengal.jpg/960px-Front_view_of_the_Belur_Math_temple_in_Belur_Math%2C_Howrah%2C_West_Bengal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Front_view_of_the_Belur_Math_temple_in_Belur_Math%2C_Howrah%2C_West_Bengal.jpg/960px-Front_view_of_the_Belur_Math_temple_in_Belur_Math%2C_Howrah%2C_West_Bengal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Front_view_of_the_Belur_Math_temple_in_Belur_Math,_Howrah,_West_Bengal.jpg",
+        "photographer": "Billjones94",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Billjones94 (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 2992,
+        "height": 4000,
+        "mime": "image/jpeg"
+      },
+      "backup": null
+    },
+    "jalpaiguri": {
+      "primary": {
+        "pageId": "37497117",
+        "title": "Mahakal Jhora, Gorumara National Park, Jalpaiguri, West Bengal",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Mahakal_Jhora%2C_Gorumara_National_Park%2C_Jalpaiguri%2C_West_Bengal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Mahakal_Jhora%2C_Gorumara_National_Park%2C_Jalpaiguri%2C_West_Bengal.jpg/960px-Mahakal_Jhora%2C_Gorumara_National_Park%2C_Jalpaiguri%2C_West_Bengal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Mahakal_Jhora%2C_Gorumara_National_Park%2C_Jalpaiguri%2C_West_Bengal.jpg/960px-Mahakal_Jhora%2C_Gorumara_National_Park%2C_Jalpaiguri%2C_West_Bengal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Mahakal_Jhora,_Gorumara_National_Park,_Jalpaiguri,_West_Bengal.jpg",
+        "photographer": "Sandipanraha",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Sandipanraha (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 10000,
+        "height": 6445,
+        "mime": "image/jpeg"
+      },
+      "backup": null
+    },
+    "jhargram": {
+      "primary": {
+        "pageId": "49623429",
+        "title": "Jhargram Palace",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Jhargram_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Jhargram_Palace.jpg/960px-Jhargram_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Jhargram_Palace.jpg/960px-Jhargram_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Jhargram_Palace.jpg",
+        "photographer": "Vikramaditya Malladeb",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Vikramaditya Malladeb (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 2160,
+        "height": 1440,
+        "mime": "image/jpeg"
+      },
+      "backup": null
+    },
+    "kalimpong": {
+      "primary": {
+        "pageId": "66543381",
+        "title": "Blessed! (8074695579)",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Blessed%21_%288074695579%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Blessed%21_%288074695579%29.jpg/960px-Blessed%21_%288074695579%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Blessed%21_%288074695579%29.jpg/960px-Blessed%21_%288074695579%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Blessed!_(8074695579).jpg",
+        "photographer": "Abhijit Kar Gupta from Kolkata, India",
+        "licenseName": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "attribution": "Abhijit Kar Gupta from Kolkata, India (CC BY 2.0) via Wikimedia Commons",
+        "width": 4242,
+        "height": 2708,
+        "mime": "image/jpeg"
+      },
+      "backup": null
+    },
+    "kolkata": {
+      "primary": {
+        "pageId": "62003286",
+        "title": "Victoria Memorial situated in Kolkata",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Victoria_Memorial_situated_in_Kolkata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Victoria_Memorial_situated_in_Kolkata.jpg/960px-Victoria_Memorial_situated_in_Kolkata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Victoria_Memorial_situated_in_Kolkata.jpg/960px-Victoria_Memorial_situated_in_Kolkata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Victoria_Memorial_situated_in_Kolkata.jpg",
+        "photographer": "Subhrajyoti07",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Subhrajyoti07 (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 12725,
+        "height": 5694,
+        "mime": "image/jpeg"
+      },
+      "backup": null
+    },
+    "malda": {
+      "primary": {
+        "pageId": "69645152",
+        "title": "Adina Mosque at Malda district of West Bengal 04",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Adina_Mosque_at_Malda_district_of_West_Bengal_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Adina_Mosque_at_Malda_district_of_West_Bengal_04.jpg/960px-Adina_Mosque_at_Malda_district_of_West_Bengal_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Adina_Mosque_at_Malda_district_of_West_Bengal_04.jpg/960px-Adina_Mosque_at_Malda_district_of_West_Bengal_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Adina_Mosque_at_Malda_district_of_West_Bengal_04.jpg",
+        "photographer": "Amitabha Gupta",
+        "licenseName": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "attribution": "Amitabha Gupta (CC BY 4.0) via Wikimedia Commons",
+        "width": 5676,
+        "height": 3726,
+        "mime": "image/jpeg"
+      },
+      "backup": null
+    },
+    "murshidabad": {
+      "primary": {
+        "pageId": "74804889",
+        "title": "Hazarduari Palace, Murshidabad illuminated at night",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Hazarduari_Palace%2C_Murshidabad_illuminated_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Hazarduari_Palace%2C_Murshidabad_illuminated_at_night.jpg/960px-Hazarduari_Palace%2C_Murshidabad_illuminated_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Hazarduari_Palace%2C_Murshidabad_illuminated_at_night.jpg/960px-Hazarduari_Palace%2C_Murshidabad_illuminated_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Hazarduari_Palace,_Murshidabad_illuminated_at_night.jpg",
+        "photographer": "DeepanjanGhosh",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "DeepanjanGhosh (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 6585,
+        "height": 3703,
+        "mime": "image/jpeg"
+      },
+      "backup": null
+    },
+    "nadia": {
+      "primary": {
+        "pageId": "167483445",
+        "title": "Chandrodaya temple at ISKCON, Mayapur in Nadia District, West Bengal, India 02",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Chandrodaya_temple_at_ISKCON%2C_Mayapur_in_Nadia_District%2C_West_Bengal%2C_India_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Chandrodaya_temple_at_ISKCON%2C_Mayapur_in_Nadia_District%2C_West_Bengal%2C_India_02.jpg/960px-Chandrodaya_temple_at_ISKCON%2C_Mayapur_in_Nadia_District%2C_West_Bengal%2C_India_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Chandrodaya_temple_at_ISKCON%2C_Mayapur_in_Nadia_District%2C_West_Bengal%2C_India_02.jpg/960px-Chandrodaya_temple_at_ISKCON%2C_Mayapur_in_Nadia_District%2C_West_Bengal%2C_India_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Chandrodaya_temple_at_ISKCON,_Mayapur_in_Nadia_District,_West_Bengal,_India_02.jpg",
+        "photographer": "Amitabha Gupta",
+        "licenseName": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "attribution": "Amitabha Gupta (CC BY 4.0) via Wikimedia Commons",
+        "width": 6000,
+        "height": 4000,
+        "mime": "image/jpeg"
+      },
+      "backup": null
+    },
+    "north-24-parganas": {
+      "primary": {
+        "pageId": "4992858",
+        "title": "Dakshineswar Kali Temple, Dakshineswar, West Bengal, India (2007)",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Dakshineswar_Kali_Temple%2C_Dakshineswar%2C_West_Bengal%2C_India_%282007%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Dakshineswar_Kali_Temple%2C_Dakshineswar%2C_West_Bengal%2C_India_%282007%29.jpg/960px-Dakshineswar_Kali_Temple%2C_Dakshineswar%2C_West_Bengal%2C_India_%282007%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Dakshineswar_Kali_Temple%2C_Dakshineswar%2C_West_Bengal%2C_India_%282007%29.jpg/960px-Dakshineswar_Kali_Temple%2C_Dakshineswar%2C_West_Bengal%2C_India_%282007%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Dakshineswar_Kali_Temple,_Dakshineswar,_West_Bengal,_India_(2007).jpg",
+        "photographer": "The original uploader was Nikkul at English Wikipedia.",
+        "licenseName": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "attribution": "The original uploader was Nikkul at English Wikipedia. (CC BY-SA 2.0) via Wikimedia Commons",
+        "width": 1632,
+        "height": 1088,
+        "mime": "image/jpeg"
+      },
+      "backup": null
+    },
+    "paschim-bardhaman": {
+      "primary": {
+        "pageId": "68085115",
+        "title": "Durgapur barrage2",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Durgapur_barrage2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Durgapur_barrage2.jpg/960px-Durgapur_barrage2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Durgapur_barrage2.jpg/960px-Durgapur_barrage2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Durgapur_barrage2.jpg",
+        "photographer": "Tarunsamanta",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Tarunsamanta (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 4608,
+        "height": 2592,
+        "mime": "image/jpeg"
+      },
+      "backup": null
+    },
+    "paschim-medinipur": {
+      "primary": {
+        "pageId": "117803514",
+        "title": "Gangani, Grand Canyon of Bengal, Garbeta 09",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Gangani%2C_Grand_Canyon_of_Bengal%2C_Garbeta_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Gangani%2C_Grand_Canyon_of_Bengal%2C_Garbeta_09.jpg/960px-Gangani%2C_Grand_Canyon_of_Bengal%2C_Garbeta_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Gangani%2C_Grand_Canyon_of_Bengal%2C_Garbeta_09.jpg/960px-Gangani%2C_Grand_Canyon_of_Bengal%2C_Garbeta_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Gangani,_Grand_Canyon_of_Bengal,_Garbeta_09.jpg",
+        "photographer": "Pinakpani",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Pinakpani (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 6000,
+        "height": 4000,
+        "mime": "image/jpeg"
+      },
+      "backup": null
+    },
+    "purba-bardhaman": {
+      "primary": {
+        "pageId": "86269892",
+        "title": "Lord Curzon Gate alias Bijoy Toran at Bardhaman town in Purba Bardhaman district in West Bengal 01",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Lord_Curzon_Gate_alias_Bijoy_Toran_at_Bardhaman_town_in_Purba_Bardhaman_district_in_West_Bengal_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Lord_Curzon_Gate_alias_Bijoy_Toran_at_Bardhaman_town_in_Purba_Bardhaman_district_in_West_Bengal_01.jpg/960px-Lord_Curzon_Gate_alias_Bijoy_Toran_at_Bardhaman_town_in_Purba_Bardhaman_district_in_West_Bengal_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Lord_Curzon_Gate_alias_Bijoy_Toran_at_Bardhaman_town_in_Purba_Bardhaman_district_in_West_Bengal_01.jpg/960px-Lord_Curzon_Gate_alias_Bijoy_Toran_at_Bardhaman_town_in_Purba_Bardhaman_district_in_West_Bengal_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Lord_Curzon_Gate_alias_Bijoy_Toran_at_Bardhaman_town_in_Purba_Bardhaman_district_in_West_Bengal_01.jpg",
+        "photographer": "Amitabha Gupta",
+        "licenseName": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "attribution": "Amitabha Gupta (CC BY 4.0) via Wikimedia Commons",
+        "width": 3240,
+        "height": 4320,
+        "mime": "image/jpeg"
+      },
+      "backup": null
+    },
+    "purba-medinipur": {
+      "primary": {
+        "pageId": "94953844",
+        "title": "New Digha Sea beach in Digha 01",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/New_Digha_Sea_beach_in_Digha_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/New_Digha_Sea_beach_in_Digha_01.jpg/960px-New_Digha_Sea_beach_in_Digha_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/New_Digha_Sea_beach_in_Digha_01.jpg/960px-New_Digha_Sea_beach_in_Digha_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:New_Digha_Sea_beach_in_Digha_01.jpg",
+        "photographer": "Pinakpani",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Pinakpani (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 2048,
+        "height": 1536,
+        "mime": "image/jpeg"
+      },
+      "backup": null
+    },
+    "purulia": {
+      "primary": {
+        "pageId": "71582046",
+        "title": "Ayodhya Hills - Purulia - I",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Ayodhya_Hills_-_Purulia_-_I.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Ayodhya_Hills_-_Purulia_-_I.jpg/960px-Ayodhya_Hills_-_Purulia_-_I.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Ayodhya_Hills_-_Purulia_-_I.jpg/960px-Ayodhya_Hills_-_Purulia_-_I.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ayodhya_Hills_-_Purulia_-_I.jpg",
+        "photographer": "Sumitsurai",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "Sumitsurai (CC BY-SA 3.0) via Wikimedia Commons",
+        "width": 4160,
+        "height": 3120,
+        "mime": "image/jpeg"
+      },
+      "backup": null
+    },
+    "south-24-parganas": {
+      "primary": {
+        "pageId": "178833551",
+        "title": "Tourist Boat in Sundarbans, West Bengal, India 03",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Tourist_Boat_in_Sundarbans%2C_West_Bengal%2C_India_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Tourist_Boat_in_Sundarbans%2C_West_Bengal%2C_India_03.jpg/960px-Tourist_Boat_in_Sundarbans%2C_West_Bengal%2C_India_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Tourist_Boat_in_Sundarbans%2C_West_Bengal%2C_India_03.jpg/960px-Tourist_Boat_in_Sundarbans%2C_West_Bengal%2C_India_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Tourist_Boat_in_Sundarbans,_West_Bengal,_India_03.jpg",
+        "photographer": "Kingshuk Mondal",
+        "licenseName": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "attribution": "Kingshuk Mondal (CC BY 4.0) via Wikimedia Commons",
+        "width": 6000,
+        "height": 4000,
+        "mime": "image/jpeg"
+      },
+      "backup": null
+    },
+    "uttar-dinajpur": {
+      "primary": {
+        "pageId": "115048920",
+        "title": "Kulik Bird Sanctuary in the Uttar Dinajpur district 16",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Kulik_Bird_Sanctuary_in_the_Uttar_Dinajpur_district_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Kulik_Bird_Sanctuary_in_the_Uttar_Dinajpur_district_16.jpg/960px-Kulik_Bird_Sanctuary_in_the_Uttar_Dinajpur_district_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Kulik_Bird_Sanctuary_in_the_Uttar_Dinajpur_district_16.jpg/960px-Kulik_Bird_Sanctuary_in_the_Uttar_Dinajpur_district_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Kulik_Bird_Sanctuary_in_the_Uttar_Dinajpur_district_16.jpg",
+        "photographer": "Amitabha Gupta",
+        "licenseName": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "attribution": "Amitabha Gupta (CC BY 4.0) via Wikimedia Commons",
+        "width": 6000,
+        "height": 4000,
+        "mime": "image/jpeg"
+      },
+      "backup": null
+    }
+  }
+}

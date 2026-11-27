@@ -1,6 +1,7 @@
 import app from './app.js';
 import { env } from './config/env.js';
 import { testConnection } from './config/db.js';
+import imageScheduler from './services/images/imageScheduler.js';
 
 const PORT = env.PORT || 5000;
 
@@ -16,6 +17,8 @@ const server = app.listen(PORT, async () => {
   const dbCheck = await testConnection();
   if (dbCheck.connected) {
     console.log('[MySQL] Database connection pool verified successfully.');
+    // Start background image verification scheduler
+    imageScheduler.start();
   } else {
     console.warn(`[MySQL Warning] Database connection pending: ${dbCheck.error}`);
     console.warn('[MySQL Warning] Ensure MySQL is running on 3306 and .env credentials are valid.');
@@ -25,6 +28,7 @@ const server = app.listen(PORT, async () => {
 // Graceful Shutdown Handling
 function shutdown(signal) {
   console.log(`\nReceived ${signal}. Gracefully shutting down Express server...`);
+  imageScheduler.stop();
   server.close(() => {
     console.log('HTTP server closed.');
     process.exit(0);

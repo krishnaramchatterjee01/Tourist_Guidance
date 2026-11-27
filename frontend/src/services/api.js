@@ -142,6 +142,46 @@ export async function searchDestinations(query, { signal, limit = 20 } = {}) {
   return res.data || [];
 }
 
+// ==========================================
+// 7. Centralized Image Management System (CIMS)
+// ==========================================
+export async function reportImageFailure(imageId, reason = 'Client image load failure') {
+  if (!imageId) return null;
+  return request('/images/report-failure', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ imageId, reason })
+  });
+}
+
+export async function getAdminImageOverview({ signal } = {}) {
+  const res = await request('/admin/images/overview', { signal });
+  return res.data || null;
+}
+
+export async function getAdminImagesList({ status, districtId, signal } = {}) {
+  const params = new URLSearchParams();
+  if (status) params.append('status', status);
+  if (districtId) params.append('districtId', String(districtId));
+
+  const queryStr = params.toString() ? `?${params.toString()}` : '';
+  const res = await request(`/admin/images${queryStr}`, { signal });
+  return res.data || [];
+}
+
+export async function verifyAdminImage(id) {
+  if (!id) return null;
+  return request(`/admin/images/${encodeURIComponent(id)}/verify`, {
+    method: 'POST'
+  });
+}
+
+export async function collectWestBengalPilot() {
+  return request('/admin/images/collect-wb', {
+    method: 'POST'
+  });
+}
+
 export default {
   getHealth,
   getReadiness,
@@ -154,5 +194,10 @@ export default {
   getDestinations,
   getTopPlaces,
   getFeaturedDestinations,
-  searchDestinations
+  searchDestinations,
+  reportImageFailure,
+  getAdminImageOverview,
+  getAdminImagesList,
+  verifyAdminImage,
+  collectWestBengalPilot
 };

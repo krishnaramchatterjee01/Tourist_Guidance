@@ -5,6 +5,7 @@ import districtController from '../controllers/districtController.js';
 import placeController from '../controllers/placeController.js';
 import collectionController from '../controllers/collectionController.js';
 import searchController from '../controllers/searchController.js';
+import imageController from '../controllers/imageController.js';
 
 const router = Router();
 
@@ -68,5 +69,14 @@ router.get('/featured', collectionController.getFeatured);
 // 6. Global Search
 // ==========================================
 router.get('/search', searchController.search);
+
+// ==========================================
+// 7. Centralized Image Management System (CIMS)
+// ==========================================
+router.post('/images/report-failure', imageController.reportFailure);
+router.get('/admin/images/overview', imageController.getDashboardOverview);
+router.get('/admin/images', imageController.getAdminImagesList);
+router.post('/admin/images/:id/verify', imageController.triggerManualVerify);
+router.post('/admin/images/collect-wb', imageController.triggerCollectPilot);
 
 export default router;

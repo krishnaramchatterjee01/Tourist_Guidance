@@ -313,7 +313,14 @@ export default function DistrictDetail() {
                   to={`/district.html?name=${od.slug}&state=${stateSlug}`}
                   className="other-district-card"
                 >
-                  <SmartImage src={od.image} alt={od.name} loading="lazy" />
+                  <SmartImage
+                    src={od.thumbnailUrl || od.image}
+                    alt={od.name}
+                    loading="lazy"
+                    onlineImageId={od.onlineImageId}
+                    photographer={od.photographer}
+                    license={od.license}
+                  />
                   <div className="other-district-overlay">
                     <h4>{od.name}</h4>
                     <p>{countText} • {od.headquarters}</p>

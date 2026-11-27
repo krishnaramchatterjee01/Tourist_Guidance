@@ -42,6 +42,17 @@ export function serializeDistrict(row, state = null, attractions = null) {
   const stateSlug = state?.slug || row.state_slug;
   const stateName = state?.name || row.state_name;
 
+  // Primary image selection order:
+  // 1. Verified CIMS online primary image
+  // 2. Verified CIMS online backup image
+  // 3. For West Bengal: neutral SVG placeholder to strictly prevent cloned photographs!
+  // 4. For non-pilot states: existing row.image_url
+  const isWestBengal = stateSlug === 'west-bengal' || stateName === 'West Bengal';
+  const onlineUrl = row.online_image_url || row.backup_image_url;
+  const safeFallback = isWestBengal ? '/assets/images/destination-placeholder.svg' : row.image_url;
+  const finalImage = onlineUrl || safeFallback;
+  const finalThumb = row.online_thumbnail_url || onlineUrl || safeFallback;
+
   const data = {
     id: row.id,
     name: row.name,
@@ -51,8 +62,17 @@ export function serializeDistrict(row, state = null, attractions = null) {
     tagline: row.tagline || `Heart of ${stateName || 'India'}`,
     shortDescription: row.short_description || `${row.name} is an officially recognized administrative district.`,
     fullDescription: row.full_description || row.short_description,
-    image: row.image_url,
-    heroImage: row.hero_image_url || row.image_url,
+    image: finalImage,
+    thumbnailUrl: finalThumb,
+    heroImage: row.hero_image_url || onlineUrl || finalImage,
+    backupImage: row.backup_image_url || null,
+    onlineImageId: row.online_image_id || null,
+    photographer: row.image_photographer || null,
+    license: row.image_license || null,
+    licenseUrl: row.image_license_url || null,
+    attribution: row.image_attribution || null,
+    sourcePageUrl: row.image_source_url || null,
+    imageStatus: row.image_status || 'verified',
     stateSlug: stateSlug,
     stateName: stateName,
     bestTimeToVisit: row.best_time_to_visit,

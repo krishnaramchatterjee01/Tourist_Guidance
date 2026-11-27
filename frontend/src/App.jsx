@@ -10,6 +10,7 @@ import TopPlaces from './pages/TopPlaces';
 import StateDirectory from './pages/StateDirectory';
 import DistrictDetail from './pages/DistrictDetail';
 import ComingSoon from './pages/ComingSoon';
+import AdminImages from './pages/AdminImages';
 
 export default function App() {
   const location = useLocation();
@@ -61,6 +62,9 @@ export default function App() {
         {/* Coming Soon */}
         <Route path="/coming-soon" element={<ComingSoon />} />
         <Route path="/coming-soon.html" element={<ComingSoon />} />
+
+        {/* Centralized Image System Admin Dashboard */}
+        <Route path="/admin/images" element={<AdminImages />} />
 
         {/* Fallback */}
         <Route path="*" element={<Home />} />

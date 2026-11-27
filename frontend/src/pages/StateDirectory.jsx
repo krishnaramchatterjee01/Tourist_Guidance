@@ -148,7 +148,7 @@ export default function StateDirectory() {
       <header
         className="wb-hero has-state-bg"
         style={{
-          backgroundImage: `linear-gradient(180deg, rgba(15, 23, 42, 0.55) 0%, rgba(15, 23, 42, 0.82) 100%), url('/images/states/${stateSlug}.jpg')`
+          backgroundImage: `linear-gradient(180deg, rgba(15, 23, 42, 0.55) 0%, rgba(15, 23, 42, 0.82) 100%), url('${stateData?.heroImage || stateData?.image || `/images/states/${stateSlug}.jpg`}')`
         }}
       >
         <div className="ambient-glow">
@@ -336,7 +336,14 @@ export default function StateDirectory() {
                   }}
                 >
                   <div className="district-card-media">
-                    <SmartImage src={d.image} alt={`${d.name} scenery`} loading="lazy" />
+                    <SmartImage
+                      src={d.thumbnailUrl || d.image}
+                      alt={`${d.name} scenery`}
+                      loading="lazy"
+                      onlineImageId={d.onlineImageId}
+                      photographer={d.photographer}
+                      license={d.license}
+                    />
                     <span className="district-badge">{d.division || 'Official District'}</span>
                   </div>
                   <div className="district-card-body">

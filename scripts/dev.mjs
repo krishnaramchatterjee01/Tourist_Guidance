@@ -1,4 +1,4 @@
-import { spawn } from 'child_process';
+import { spawn, exec } from 'child_process';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -15,6 +15,20 @@ console.log(' Backend API:  http://localhost:5000');
 console.log(' Frontend UI:  http://localhost:3000');
 console.log('====================================================\n');
 
+let browserOpened = false;
+function openBrowserOnce() {
+  if (browserOpened) return;
+  browserOpened = true;
+  console.log('\x1b[32m[System] Auto-launching default browser: http://localhost:3000\x1b[0m');
+  if (isWindows) {
+    exec('cmd /c start http://localhost:3000');
+  } else if (process.platform === 'darwin') {
+    exec('open http://localhost:3000');
+  } else {
+    exec('xdg-open http://localhost:3000');
+  }
+}
+
 function runProcess(name, args, prefix, colorCode) {
   const child = spawn(npmCmd, args, {
     cwd: rootDir,
@@ -30,6 +44,9 @@ function runProcess(name, args, prefix, colorCode) {
     for (const line of lines) {
       if (line.trim()) {
         console.log(`${color}[${prefix}]${reset} ${line}`);
+        if (prefix === 'Frontend' && (line.includes('ready in') || line.includes('Local:'))) {
+          setTimeout(openBrowserOnce, 600);
+        }
       }
     }
   });

@@ -1,5 +1,6 @@
 import React, { forwardRef, useState, useRef } from 'react';
 import defaultFallbackImage from '../../assets/images/destination-placeholder.svg';
+import { reportImageFailure } from '../../services/api';
 
 // Safe terminal fallback (transparent 1x1 data URI) to prevent infinite loops if fallback fails
 const TERMINAL_FALLBACK =
@@ -8,7 +9,8 @@ const TERMINAL_FALLBACK =
 const isValidString = (val) => typeof val === 'string' && val.trim().length > 0;
 
 /**
- * SmartImage — Centralized, resilient image component with automatic fallback handling.
+ * SmartImage — Centralized, resilient image component with automatic fallback handling
+ * and self-healing error reporting to the backend.
  *
  * Supports all standard <img> attributes, forwardRef, loading, decoding, fetchPriority,
  * srcSet, sizes, onLoad, and onError callbacks.
@@ -26,8 +28,14 @@ const SmartImage = forwardRef(function SmartImage(
     loading,
     decoding,
     fetchPriority,
+    onlineImageId,
+    photographer,
+    license,
+    attribution,
+    sourcePageUrl,
     onLoad,
     onError,
+    title,
     ...restProps
   },
   ref
@@ -41,12 +49,14 @@ const SmartImage = forwardRef(function SmartImage(
     fallbackFailed: false
   });
 
-  // Track current source to discard stale asynchronous error events
+  // Track current source and failure reporting to prevent duplicates
   const currentSrcRef = useRef(src);
+  const reportedRef = useRef(false);
 
   // Sync state if src prop changes during component lifecycle
   if (imgState.source !== src) {
     currentSrcRef.current = src;
+    reportedRef.current = false;
     setImgState({
       source: src,
       hasError: !isOriginalValid,
@@ -61,7 +71,15 @@ const SmartImage = forwardRef(function SmartImage(
     }
 
     if (!imgState.hasError) {
-      // Original image failed: switch to fallback image
+      // Original image failed: trigger automated self-healing report if onlineImageId is provided
+      if (onlineImageId && !reportedRef.current) {
+        reportedRef.current = true;
+        reportImageFailure(onlineImageId, 'Client image load failure').catch(() => {
+          // Non-blocking report attempt
+        });
+      }
+
+      // Switch to fallback image
       setImgState((prev) => ({
         ...prev,
         hasError: true
@@ -101,21 +119,31 @@ const SmartImage = forwardRef(function SmartImage(
   const effectiveSrcSet = imgState.hasError ? undefined : srcSet;
   const effectiveSizes = imgState.hasError ? undefined : sizes;
 
+  // Compute attribution hover text if available
+  const effectiveTitle =
+    title ||
+    (photographer
+      ? `Photo by ${photographer}${license ? ` (${license})` : ''}`
+      : undefined);
+
   return (
     <img
       ref={ref}
       src={effectiveSrc}
       alt={alt}
+      title={effectiveTitle}
       className={className}
       style={style}
       loading={loading}
       decoding={decoding}
-      fetchPriority={fetchPriority}
+      fetchpriority={fetchPriority}
       srcSet={effectiveSrcSet}
       sizes={effectiveSizes}
       onLoad={handleLoad}
       onError={handleError}
       data-fallback={imgState.hasError ? 'true' : undefined}
+      data-license={license || undefined}
+      data-photographer={photographer || undefined}
       {...restProps}
     />
   );
