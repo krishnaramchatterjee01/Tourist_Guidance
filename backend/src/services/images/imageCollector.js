@@ -25,9 +25,24 @@ export class ImageCollectorService {
   }
 
   /**
+   * Load verified authentic Wikimedia Commons dataset for Andhra Pradesh
+   */
+  getApVerifiedDataset() {
+    const datasetPath = path.resolve(__dirname, 'verifiedApDataset.json');
+    if (fs.existsSync(datasetPath)) {
+      try {
+        return JSON.parse(fs.readFileSync(datasetPath, 'utf8'));
+      } catch (err) {
+        console.error('[CIMS Collector] Error parsing verifiedApDataset.json:', err.message);
+      }
+    }
+    return null;
+  }
+
+  /**
    * Helper to upsert a verified image into `images` table
    */
-  async upsertImage(conn, imgData, districtName = null) {
+  async upsertImage(conn, imgData, districtName = null, stateName = 'West Bengal') {
     const providerImageId = imgData.pageId ? `Page:${imgData.pageId}` : `File:${imgData.title}.jpg`;
     
     let [existing] = await conn.query(
@@ -65,7 +80,7 @@ export class ImageCollectorService {
           imgData.sourcePageUrl,
           imgData.title,
           imgData.title,
-          `${imgData.title} in West Bengal`,
+          `${imgData.title} in ${stateName}`,
           imgData.photographer || 'Wikimedia Contributor',
           imgData.licenseName || 'CC BY-SA 4.0',
           imgData.licenseUrl || 'https://creativecommons.org/licenses/by-sa/4.0/',
@@ -80,7 +95,7 @@ export class ImageCollectorService {
           source_page_url, title, description, alt_text, photographer_name,
           license_name, license_url, attribution_text, width, height, format,
           state, district, status, review_status, consecutive_failures, next_verification_at
-        ) VALUES ('wikimedia', ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'West Bengal', ?, 'verified', 'auto_approved', 0, DATE_ADD(CURRENT_TIMESTAMP, INTERVAL 24 HOUR))`,
+        ) VALUES ('wikimedia', ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'verified', 'auto_approved', 0, DATE_ADD(CURRENT_TIMESTAMP, INTERVAL 24 HOUR))`,
         [
           providerImageId,
           imgData.originalUrl,
@@ -89,7 +104,7 @@ export class ImageCollectorService {
           imgData.sourcePageUrl,
           imgData.title,
           imgData.title,
-          `${imgData.title} in West Bengal`,
+          `${imgData.title} in ${stateName}`,
           imgData.photographer || 'Wikimedia Contributor',
           imgData.licenseName || 'CC BY-SA 4.0',
           imgData.licenseUrl || 'https://creativecommons.org/licenses/by-sa/4.0/',
@@ -97,6 +112,7 @@ export class ImageCollectorService {
           imgData.width || 960,
           imgData.height || 640,
           imgData.mime || 'image/jpeg',
+          stateName,
           districtName
         ]
       );
@@ -232,6 +248,124 @@ export class ImageCollectorService {
       console.log(`[CIMS] West Bengal Pilot synchronization complete:`);
       console.log(`  - State Hero & Card: 100% live authentic Wikimedia URLs`);
       console.log(`  - Districts primary images: ${districtsUpdated} / 23`);
+      console.log(`  - Districts backup images: ${backupsConfigured}`);
+
+      return {
+        success: true,
+        districtsCovered: districtsUpdated,
+        backupsConfigured,
+        totalDistricts: districtRows.length
+      };
+    } catch (err) {
+      await conn.rollback();
+      console.error('[CIMS Collection Error]:', err.message);
+      return { success: false, error: err.message };
+    } finally {
+      conn.release();
+    }
+  }
+
+  /**
+   * Seeds/Collects Centralized Images for Andhra Pradesh Pilot (Phase 2)
+   */
+  async collectAndhraPradeshPilot({ forceRefresh = false } = {}) {
+    const pool = getPool();
+    if (!pool) return { success: false, message: 'Database connection offline' };
+
+    const dataset = this.getApVerifiedDataset();
+    if (!dataset) {
+      return { success: false, message: 'Verified AP dataset file not found' };
+    }
+
+    console.log('[CIMS] Starting Andhra Pradesh Pilot Image Collection from Authentic Wikimedia Dataset...');
+
+    // 1. Fetch Andhra Pradesh State Record
+    const [stateRows] = await pool.query('SELECT * FROM states WHERE slug = "andhra-pradesh"');
+    if (!stateRows || stateRows.length === 0) {
+      return { success: false, message: 'Andhra Pradesh state record not found in database' };
+    }
+    const apState = stateRows[0];
+
+    // 2. Fetch all Andhra Pradesh districts
+    const [districtRows] = await pool.query(
+      'SELECT * FROM districts WHERE state_id = ? ORDER BY id ASC',
+      [apState.id]
+    );
+
+    console.log(`[CIMS] Found ${districtRows.length} Andhra Pradesh districts in database.`);
+
+    const conn = await pool.getConnection();
+    try {
+      await conn.beginTransaction();
+
+      // Seed State Hero Image
+      if (dataset.state.hero) {
+        const heroImgId = await this.upsertImage(conn, dataset.state.hero, null, 'Andhra Pradesh');
+        if (heroImgId) {
+          await this.upsertEntityImage(conn, {
+            entityType: 'state',
+            stateId: apState.id,
+            imageId: heroImgId,
+            role: 'hero'
+          });
+        }
+      }
+
+      // Seed State Card Image
+      if (dataset.state.card) {
+        const cardImgId = await this.upsertImage(conn, dataset.state.card, null, 'Andhra Pradesh');
+        if (cardImgId) {
+          await this.upsertEntityImage(conn, {
+            entityType: 'state',
+            stateId: apState.id,
+            imageId: cardImgId,
+            role: 'primary'
+          });
+        }
+      }
+
+      // Seed all 28 Districts (Primary + Backup)
+      let districtsUpdated = 0;
+      let backupsConfigured = 0;
+
+      for (const d of districtRows) {
+        const distData = dataset.districts[d.slug];
+        if (!distData || !distData.primary) {
+          console.warn(`[CIMS] No dataset found for AP district slug: ${d.slug}`);
+          continue;
+        }
+
+        // Primary Image
+        const primaryImgId = await this.upsertImage(conn, distData.primary, d.name, 'Andhra Pradesh');
+        if (primaryImgId) {
+          await this.upsertEntityImage(conn, {
+            entityType: 'district',
+            districtId: d.id,
+            imageId: primaryImgId,
+            role: 'primary'
+          });
+          districtsUpdated++;
+        }
+
+        // Backup Image (if present)
+        if (distData.backup) {
+          const backupImgId = await this.upsertImage(conn, distData.backup, d.name, 'Andhra Pradesh');
+          if (backupImgId) {
+            await this.upsertEntityImage(conn, {
+              entityType: 'district',
+              districtId: d.id,
+              imageId: backupImgId,
+              role: 'backup'
+            });
+            backupsConfigured++;
+          }
+        }
+      }
+
+      await conn.commit();
+      console.log(`[CIMS] Andhra Pradesh Pilot synchronization complete:`);
+      console.log(`  - State Hero & Card: 100% live authentic Wikimedia URLs`);
+      console.log(`  - Districts primary images: ${districtsUpdated} / ${districtRows.length}`);
       console.log(`  - Districts backup images: ${backupsConfigured}`);
 
       return {
