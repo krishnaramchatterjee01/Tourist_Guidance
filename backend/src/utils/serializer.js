@@ -45,10 +45,10 @@ export function serializeDistrict(row, state = null, attractions = null) {
   // Primary image selection order:
   // 1. Verified CIMS online primary image
   // 2. Verified CIMS online backup image
-  // 3. For Pilot states (West Bengal & Andhra Pradesh): neutral SVG placeholder to strictly prevent cloned photographs!
+  // 3. For Pilot states (West Bengal, Andhra Pradesh & Arunachal Pradesh): neutral SVG placeholder to strictly prevent cloned photographs!
   // 4. For non-pilot states: existing row.image_url
-  const isPilotState = ['west-bengal', 'andhra-pradesh'].includes(stateSlug?.toLowerCase()) ||
-                       ['West Bengal', 'Andhra Pradesh'].includes(stateName);
+  const isPilotState = ['west-bengal', 'andhra-pradesh', 'arunachal-pradesh'].includes(stateSlug?.toLowerCase()) ||
+                       ['West Bengal', 'Andhra Pradesh', 'Arunachal Pradesh'].includes(stateName);
   const onlineUrl = row.online_image_url || row.backup_image_url;
   const safeFallback = isPilotState ? '/assets/images/destination-placeholder.svg' : row.image_url;
   const finalImage = onlineUrl || safeFallback;

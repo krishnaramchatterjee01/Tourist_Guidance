@@ -40,10 +40,29 @@ export class ImageCollectorService {
   }
 
   /**
+   * Load verified authentic Wikimedia Commons dataset for Arunachal Pradesh (Phase 3)
+   */
+  getArunachalVerifiedDataset() {
+    const datasetPath = path.resolve(__dirname, 'verifiedArunachalDataset.json');
+    if (fs.existsSync(datasetPath)) {
+      try {
+        return JSON.parse(fs.readFileSync(datasetPath, 'utf8'));
+      } catch (err) {
+        console.error('[CIMS Collector] Error parsing verifiedArunachalDataset.json:', err.message);
+      }
+    }
+    return null;
+  }
+
+  /**
    * Helper to upsert a verified image into `images` table
    */
   async upsertImage(conn, imgData, districtName = null, stateName = 'West Bengal') {
     const providerImageId = imgData.pageId ? `Page:${imgData.pageId}` : `File:${imgData.title}.jpg`;
+    const cleanTitle = (imgData.title || 'Landmark').substring(0, 255);
+    const cleanPhotographer = (imgData.photographer || 'Wikimedia Contributor').replace(/\s+/g, ' ').trim().substring(0, 150);
+    const cleanLicense = (imgData.licenseName || 'CC BY-SA 4.0').substring(0, 100);
+    const cleanAlt = `${cleanTitle} in ${stateName}`.substring(0, 255);
     
     let [existing] = await conn.query(
       'SELECT id FROM images WHERE (provider_name = "wikimedia" AND provider_image_id = ?) OR display_url = ?',
@@ -78,11 +97,11 @@ export class ImageCollectorService {
           imgData.displayUrl,
           imgData.thumbnailUrl || imgData.displayUrl,
           imgData.sourcePageUrl,
-          imgData.title,
-          imgData.title,
-          `${imgData.title} in ${stateName}`,
-          imgData.photographer || 'Wikimedia Contributor',
-          imgData.licenseName || 'CC BY-SA 4.0',
+          cleanTitle,
+          cleanTitle,
+          cleanAlt,
+          cleanPhotographer,
+          cleanLicense,
           imgData.licenseUrl || 'https://creativecommons.org/licenses/by-sa/4.0/',
           imgData.attribution,
           imgId
@@ -102,11 +121,11 @@ export class ImageCollectorService {
           imgData.displayUrl,
           imgData.thumbnailUrl || imgData.displayUrl,
           imgData.sourcePageUrl,
-          imgData.title,
-          imgData.title,
-          `${imgData.title} in ${stateName}`,
-          imgData.photographer || 'Wikimedia Contributor',
-          imgData.licenseName || 'CC BY-SA 4.0',
+          cleanTitle,
+          cleanTitle,
+          cleanAlt,
+          cleanPhotographer,
+          cleanLicense,
           imgData.licenseUrl || 'https://creativecommons.org/licenses/by-sa/4.0/',
           imgData.attribution,
           imgData.width || 960,
@@ -364,6 +383,124 @@ export class ImageCollectorService {
 
       await conn.commit();
       console.log(`[CIMS] Andhra Pradesh Pilot synchronization complete:`);
+      console.log(`  - State Hero & Card: 100% live authentic Wikimedia URLs`);
+      console.log(`  - Districts primary images: ${districtsUpdated} / ${districtRows.length}`);
+      console.log(`  - Districts backup images: ${backupsConfigured}`);
+
+      return {
+        success: true,
+        districtsCovered: districtsUpdated,
+        backupsConfigured,
+        totalDistricts: districtRows.length
+      };
+    } catch (err) {
+      await conn.rollback();
+      console.error('[CIMS Collection Error]:', err.message);
+      return { success: false, error: err.message };
+    } finally {
+      conn.release();
+    }
+  }
+
+  /**
+   * Seeds/Collects Centralized Images for Arunachal Pradesh Pilot (Phase 3)
+   */
+  async collectArunachalPradeshPilot({ forceRefresh = false } = {}) {
+    const pool = getPool();
+    if (!pool) return { success: false, message: 'Database connection offline' };
+
+    const dataset = this.getArunachalVerifiedDataset();
+    if (!dataset) {
+      return { success: false, message: 'Verified Arunachal dataset file not found' };
+    }
+
+    console.log('[CIMS] Starting Arunachal Pradesh Pilot Image Collection from Authentic Wikimedia Dataset...');
+
+    // 1. Fetch Arunachal Pradesh State Record
+    const [stateRows] = await pool.query('SELECT * FROM states WHERE slug = "arunachal-pradesh"');
+    if (!stateRows || stateRows.length === 0) {
+      return { success: false, message: 'Arunachal Pradesh state record not found in database' };
+    }
+    const arState = stateRows[0];
+
+    // 2. Fetch all Arunachal Pradesh districts
+    const [districtRows] = await pool.query(
+      'SELECT * FROM districts WHERE state_id = ? ORDER BY id ASC',
+      [arState.id]
+    );
+
+    console.log(`[CIMS] Found ${districtRows.length} Arunachal Pradesh districts in database.`);
+
+    const conn = await pool.getConnection();
+    try {
+      await conn.beginTransaction();
+
+      // Seed State Hero Image
+      if (dataset.state.hero) {
+        const heroImgId = await this.upsertImage(conn, dataset.state.hero, null, 'Arunachal Pradesh');
+        if (heroImgId) {
+          await this.upsertEntityImage(conn, {
+            entityType: 'state',
+            stateId: arState.id,
+            imageId: heroImgId,
+            role: 'hero'
+          });
+        }
+      }
+
+      // Seed State Card Image
+      if (dataset.state.card) {
+        const cardImgId = await this.upsertImage(conn, dataset.state.card, null, 'Arunachal Pradesh');
+        if (cardImgId) {
+          await this.upsertEntityImage(conn, {
+            entityType: 'state',
+            stateId: arState.id,
+            imageId: cardImgId,
+            role: 'primary'
+          });
+        }
+      }
+
+      // Seed all 27 Districts (Primary + Backup)
+      let districtsUpdated = 0;
+      let backupsConfigured = 0;
+
+      for (const d of districtRows) {
+        const distData = dataset.districts[d.slug];
+        if (!distData || !distData.primary) {
+          console.warn(`[CIMS] No dataset found for Arunachal district slug: ${d.slug}`);
+          continue;
+        }
+
+        // Primary Image
+        const primaryImgId = await this.upsertImage(conn, distData.primary, d.name, 'Arunachal Pradesh');
+        if (primaryImgId) {
+          await this.upsertEntityImage(conn, {
+            entityType: 'district',
+            districtId: d.id,
+            imageId: primaryImgId,
+            role: 'primary'
+          });
+          districtsUpdated++;
+        }
+
+        // Backup Image (if present)
+        if (distData.backup) {
+          const backupImgId = await this.upsertImage(conn, distData.backup, d.name, 'Arunachal Pradesh');
+          if (backupImgId) {
+            await this.upsertEntityImage(conn, {
+              entityType: 'district',
+              districtId: d.id,
+              imageId: backupImgId,
+              role: 'backup'
+            });
+            backupsConfigured++;
+          }
+        }
+      }
+
+      await conn.commit();
+      console.log(`[CIMS] Arunachal Pradesh Pilot synchronization complete:`);
       console.log(`  - State Hero & Card: 100% live authentic Wikimedia URLs`);
       console.log(`  - Districts primary images: ${districtsUpdated} / ${districtRows.length}`);
       console.log(`  - Districts backup images: ${backupsConfigured}`);

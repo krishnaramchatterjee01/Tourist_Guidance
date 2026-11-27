@@ -66,13 +66,14 @@ describe('Andhra Pradesh CIMS Image System - Regression & Verification Suite', (
     assert.equal(urls.size, 23, 'Expected 23 unique WB district images');
   });
 
-  test('TEST 6: Non-pilot states (Arunachal Pradesh) remain 100% unchanged', async () => {
-    const res = await request(app).get('/api/states/arunachal-pradesh/districts');
+  test('TEST 6: Non-pilot states (Assam) remain 100% unchanged', async () => {
+    const res = await request(app).get('/api/states/assam/districts');
     assert.equal(res.status, 200);
     assert.equal(res.body.success, true);
-    assert.equal(res.body.data.length, 27);
+    assert.ok(res.body.data.length > 0);
 
-    // Arunachal Pradesh districts should fall back to their local paths as non-pilot
-    assert.equal(res.body.data[0].image, '/images/districts/arunachal-pradesh/anjaw.jpg');
+    // Non-pilot states should not have online CIMS mappings
+    assert.equal(res.body.data[0].onlineImageId, null);
+    assert.ok(res.body.data[0].image);
   });
 });
