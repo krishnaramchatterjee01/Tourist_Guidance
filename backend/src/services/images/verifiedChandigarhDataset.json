@@ -1,0 +1,83 @@
+{
+  "state": {
+    "name": "Chandigarh",
+    "slug": "chandigarh",
+    "hero": {
+      "pageId": "41268601",
+      "fileTitle": "File:Sunset view at Sukhna lake Chandigarh, India.JPG",
+      "title": "Sunset view at Sukhna lake Chandigarh, India",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Sunset_view_at_Sukhna_lake_Chandigarh%2C_India.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Sunset_view_at_Sukhna_lake_Chandigarh%2C_India.JPG/960px-Sunset_view_at_Sukhna_lake_Chandigarh%2C_India.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Sunset_view_at_Sukhna_lake_Chandigarh%2C_India.JPG/960px-Sunset_view_at_Sukhna_lake_Chandigarh%2C_India.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Sunset_view_at_Sukhna_lake_Chandigarh,_India.JPG",
+      "photographer": "Harvinder Chandigarh",
+      "licenseName": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Harvinder Chandigarh (CC BY-SA 4.0) via Wikimedia Commons",
+      "width": 4608,
+      "height": 3456,
+      "mime": "image/jpeg",
+      "isLandscape": true
+    },
+    "card": {
+      "pageId": "3524758",
+      "fileTitle": "File:Open Hand monument, Chandigarh.jpg",
+      "title": "Open Hand monument, Chandigarh",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Open_Hand_monument%2C_Chandigarh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Open_Hand_monument%2C_Chandigarh.jpg/960px-Open_Hand_monument%2C_Chandigarh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Open_Hand_monument%2C_Chandigarh.jpg/960px-Open_Hand_monument%2C_Chandigarh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Open_Hand_monument,_Chandigarh.jpg",
+      "photographer": "Raakesh Blokhra",
+      "licenseName": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attribution": "Raakesh Blokhra (CC BY-SA 2.0) via Wikimedia Commons",
+      "width": 2048,
+      "height": 1536,
+      "mime": "image/jpeg",
+      "isLandscape": true
+    }
+  },
+  "districts": {
+    "chandigarh": {
+      "slug": "chandigarh",
+      "name": "Chandigarh",
+      "location": "Le Corbusier Capitol Complex, Rock Garden and serene Sukhna Lake",
+      "primary": {
+        "pageId": "50686064",
+        "fileTitle": "File:Chandigarh Rock Garden 4.jpg",
+        "title": "Chandigarh Rock Garden 4",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Chandigarh_Rock_Garden_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Chandigarh_Rock_Garden_4.jpg/960px-Chandigarh_Rock_Garden_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Chandigarh_Rock_Garden_4.jpg/960px-Chandigarh_Rock_Garden_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Chandigarh_Rock_Garden_4.jpg",
+        "photographer": "Ijon",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Ijon (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 3264,
+        "height": 2448,
+        "mime": "image/jpeg",
+        "isLandscape": true,
+        "locationDescription": "Le Corbusier Capitol Complex, Rock Garden and serene Sukhna Lake (Chandigarh Rock Garden 4)"
+      },
+      "backup": {
+        "pageId": "52611806",
+        "fileTitle": "File:Rock Garden, Chandigarh 114.jpg",
+        "title": "Rock Garden, Chandigarh 114",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Rock_Garden%2C_Chandigarh_114.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Rock_Garden%2C_Chandigarh_114.jpg/960px-Rock_Garden%2C_Chandigarh_114.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Rock_Garden%2C_Chandigarh_114.jpg/960px-Rock_Garden%2C_Chandigarh_114.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Rock_Garden,_Chandigarh_114.jpg",
+        "photographer": "Antanana",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Antanana (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 4000,
+        "height": 3000,
+        "mime": "image/jpeg",
+        "isLandscape": true,
+        "locationDescription": "Le Corbusier Capitol Complex, Rock Garden and serene Sukhna Lake - Alternative view (Rock Garden, Chandigarh 114)"
+      }
+    }
+  }
+}

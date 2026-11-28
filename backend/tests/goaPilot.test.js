@@ -119,7 +119,7 @@ describe('Goa CIMS Image System - Regression & Verification Suite', () => {
 
   test('Non-pilot territory fallback preserves static image URL', () => {
     const mockRow = { id: 999, name: 'Control District', image_url: '/assets/images/control.jpg' };
-    const mockState = { slug: 'delhi', name: 'Delhi' };
+    const mockState = { slug: 'non-pilot-territory', name: 'Non Pilot Territory' };
     const serialized = serializeDistrict(mockRow, mockState);
     assert.equal(serialized.onlineImageId, null);
     assert.equal(serialized.image, '/assets/images/control.jpg');

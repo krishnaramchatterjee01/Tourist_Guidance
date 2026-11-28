@@ -1,0 +1,83 @@
+{
+  "state": {
+    "name": "Lakshadweep",
+    "slug": "lakshadweep",
+    "hero": {
+      "pageId": "112397639",
+      "fileTitle": "File:Bangaram Island (5799661931).jpg",
+      "title": "Bangaram Island (5799661931)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Bangaram_Island_%285799661931%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Bangaram_Island_%285799661931%29.jpg/960px-Bangaram_Island_%285799661931%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Bangaram_Island_%285799661931%29.jpg/960px-Bangaram_Island_%285799661931%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Bangaram_Island_(5799661931).jpg",
+      "photographer": "Mike Prince from Bangalore, India",
+      "licenseName": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Mike Prince from Bangalore, India (CC BY 2.0) via Wikimedia Commons",
+      "width": 2048,
+      "height": 1365,
+      "mime": "image/jpeg",
+      "isLandscape": true
+    },
+    "card": {
+      "pageId": "7014009",
+      "fileTitle": "File:Agatti island, Lakshadweep.jpg",
+      "title": "Agatti island, Lakshadweep",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Agatti_island%2C_Lakshadweep.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Agatti_island%2C_Lakshadweep.jpg/960px-Agatti_island%2C_Lakshadweep.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Agatti_island%2C_Lakshadweep.jpg/960px-Agatti_island%2C_Lakshadweep.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Agatti_island,_Lakshadweep.jpg",
+      "photographer": "icultist",
+      "licenseName": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "icultist (CC BY 2.0) via Wikimedia Commons",
+      "width": 1024,
+      "height": 657,
+      "mime": "image/jpeg",
+      "isLandscape": true
+    }
+  },
+  "districts": {
+    "lakshadweep": {
+      "slug": "lakshadweep",
+      "name": "Lakshadweep",
+      "location": "Untouched turquoise lagoons at Bangaram, coral reefs of Agatti and Kavaratti",
+      "primary": {
+        "pageId": "510983",
+        "fileTitle": "File:LakshadweepIsland.jpg",
+        "title": "LakshadweepIsland",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/LakshadweepIsland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/LakshadweepIsland.jpg/960px-LakshadweepIsland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/LakshadweepIsland.jpg/960px-LakshadweepIsland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:LakshadweepIsland.jpg",
+        "photographer": "Lenish Namath",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Lenish Namath (CC BY-SA 3.0) via Wikimedia Commons",
+        "width": 3038,
+        "height": 2012,
+        "mime": "image/jpeg",
+        "isLandscape": true,
+        "locationDescription": "Untouched turquoise lagoons at Bangaram, coral reefs of Agatti and Kavaratti (LakshadweepIsland)"
+      },
+      "backup": {
+        "pageId": "5652361",
+        "fileTitle": "File:Sea off Bangaram island, Lakshadweep.jpg",
+        "title": "Sea off Bangaram island, Lakshadweep",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Sea_off_Bangaram_island%2C_Lakshadweep.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Sea_off_Bangaram_island%2C_Lakshadweep.jpg/960px-Sea_off_Bangaram_island%2C_Lakshadweep.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Sea_off_Bangaram_island%2C_Lakshadweep.jpg/960px-Sea_off_Bangaram_island%2C_Lakshadweep.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Sea_off_Bangaram_island,_Lakshadweep.jpg",
+        "photographer": "https://www.flickr.com/photos/binux/",
+        "licenseName": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "attribution": "https://www.flickr.com/photos/binux/ (CC BY-SA 2.0) via Wikimedia Commons",
+        "width": 2048,
+        "height": 1536,
+        "mime": "image/jpeg",
+        "isLandscape": true,
+        "locationDescription": "Untouched turquoise lagoons at Bangaram, coral reefs of Agatti and Kavaratti - Alternative view (Sea off Bangaram island, Lakshadweep)"
+      }
+    }
+  }
+}

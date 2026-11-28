@@ -161,6 +161,14 @@ export class ImageCollectorService {
   getTripuraVerifiedDataset() { return this.loadStateDataset('verifiedTripuraDataset.json'); }
   getUttarPradeshVerifiedDataset() { return this.loadStateDataset('verifiedUttarPradeshDataset.json'); }
   getUttarakhandVerifiedDataset() { return this.loadStateDataset('verifiedUttarakhandDataset.json'); }
+  getAndamanAndNicobarIslandsVerifiedDataset() { return this.loadStateDataset('verifiedAndamanAndNicobarIslandsDataset.json'); }
+  getChandigarhVerifiedDataset() { return this.loadStateDataset('verifiedChandigarhDataset.json'); }
+  getDadraAndNagarHaveliAndDamanAndDiuVerifiedDataset() { return this.loadStateDataset('verifiedDadraAndNagarHaveliAndDamanAndDiuDataset.json'); }
+  getDelhiVerifiedDataset() { return this.loadStateDataset('verifiedDelhiDataset.json'); }
+  getJammuAndKashmirVerifiedDataset() { return this.loadStateDataset('verifiedJammuAndKashmirDataset.json'); }
+  getLadakhVerifiedDataset() { return this.loadStateDataset('verifiedLadakhDataset.json'); }
+  getLakshadweepVerifiedDataset() { return this.loadStateDataset('verifiedLakshadweepDataset.json'); }
+  getPuducherryVerifiedDataset() { return this.loadStateDataset('verifiedPuducherryDataset.json'); }
 
   /**
    * Helper to upsert a verified image into `images` table
@@ -1348,6 +1356,14 @@ export class ImageCollectorService {
   async collectTripuraPilot(opts) { return this.collectGenericStatePilot('tripura', 'Tripura', this.getTripuraVerifiedDataset()); }
   async collectUttarPradeshPilot(opts) { return this.collectGenericStatePilot('uttar-pradesh', 'Uttar Pradesh', this.getUttarPradeshVerifiedDataset()); }
   async collectUttarakhandPilot(opts) { return this.collectGenericStatePilot('uttarakhand', 'Uttarakhand', this.getUttarakhandVerifiedDataset()); }
+  async collectAndamanAndNicobarIslandsPilot(opts) { return this.collectGenericStatePilot('andaman-and-nicobar-islands', 'Andaman and Nicobar Islands', this.getAndamanAndNicobarIslandsVerifiedDataset()); }
+  async collectChandigarhPilot(opts) { return this.collectGenericStatePilot('chandigarh', 'Chandigarh', this.getChandigarhVerifiedDataset()); }
+  async collectDadraAndNagarHaveliAndDamanAndDiuPilot(opts) { return this.collectGenericStatePilot('dadra-and-nagar-haveli-and-daman-and-diu', 'Dadra and Nagar Haveli and Daman and Diu', this.getDadraAndNagarHaveliAndDamanAndDiuVerifiedDataset()); }
+  async collectDelhiPilot(opts) { return this.collectGenericStatePilot('delhi', 'Delhi', this.getDelhiVerifiedDataset()); }
+  async collectJammuAndKashmirPilot(opts) { return this.collectGenericStatePilot('jammu-and-kashmir', 'Jammu and Kashmir', this.getJammuAndKashmirVerifiedDataset()); }
+  async collectLadakhPilot(opts) { return this.collectGenericStatePilot('ladakh', 'Ladakh', this.getLadakhVerifiedDataset()); }
+  async collectLakshadweepPilot(opts) { return this.collectGenericStatePilot('lakshadweep', 'Lakshadweep', this.getLakshadweepVerifiedDataset()); }
+  async collectPuducherryPilot(opts) { return this.collectGenericStatePilot('puducherry', 'Puducherry', this.getPuducherryVerifiedDataset()); }
 }
 
 export default new ImageCollectorService();

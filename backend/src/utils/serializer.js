@@ -54,7 +54,9 @@ export function serializeDistrict(row, state = null, attractions = null) {
     'kerala', 'madhya-pradesh', 'maharashtra', 'manipur',
     'meghalaya', 'mizoram', 'nagaland', 'odisha',
     'punjab', 'rajasthan', 'sikkim', 'tamil-nadu',
-    'telangana', 'tripura', 'uttar-pradesh', 'uttarakhand'
+    'telangana', 'tripura', 'uttar-pradesh', 'uttarakhand',
+    'andaman-and-nicobar-islands', 'chandigarh', 'dadra-and-nagar-haveli-and-daman-and-diu',
+    'delhi', 'jammu-and-kashmir', 'ladakh', 'lakshadweep', 'puducherry'
   ].includes(stateSlug?.toLowerCase()) ||
   [
     'West Bengal', 'Andhra Pradesh', 'Arunachal Pradesh', 'Assam',
@@ -63,7 +65,9 @@ export function serializeDistrict(row, state = null, attractions = null) {
     'Kerala', 'Madhya Pradesh', 'Maharashtra', 'Manipur',
     'Meghalaya', 'Mizoram', 'Nagaland', 'Odisha',
     'Punjab', 'Rajasthan', 'Sikkim', 'Tamil Nadu',
-    'Telangana', 'Tripura', 'Uttar Pradesh', 'Uttarakhand'
+    'Telangana', 'Tripura', 'Uttar Pradesh', 'Uttarakhand',
+    'Andaman and Nicobar Islands', 'Chandigarh', 'Dadra and Nagar Haveli and Daman and Diu',
+    'Delhi', 'Jammu and Kashmir', 'Ladakh', 'Lakshadweep', 'Puducherry'
   ].includes(stateName);
   const onlineUrl = row.online_image_url || row.backup_image_url;
   const safeFallback = isPilotState ? '/assets/images/destination-placeholder.svg' : row.image_url;
