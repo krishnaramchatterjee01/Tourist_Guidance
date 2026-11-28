@@ -1,0 +1,292 @@
+[
+  {
+    "stateId": 7,
+    "stateName": "Gujarat",
+    "slug": "gujarat",
+    "regionType": "state",
+    "primary": {
+      "action": "REPLACED_AND_ENHANCED",
+      "previousImageId": 392,
+      "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Sun_Temple%2C_Modhera_01.jpg/960px-Sun_Temple%2C_Modhera_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "previousScore": 74,
+      "newImageId": 1810,
+      "newUrl": "https://live.staticflickr.com/65535/52746751472_f1310e3ef9_b.jpg",
+      "newScore": 82,
+      "provider": "openverse",
+      "license": "BY",
+      "attribution": "Rann Utsav Festival, Gujarat, India by Ninara via Openverse",
+      "operations": [
+        "aspect_ratio_optimization",
+        "exposure_and_contrast_leveling",
+        "white_balance_correction",
+        "controlled_edge_sharpening"
+      ],
+      "resolution": "1200x800+",
+      "reason": "Score improved from 74 to 82 (High Quality): Explicit state geographical match: Gujarat"
+    },
+    "hero": {
+      "action": "RETAINED",
+      "imageId": 391,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/GJ25K-31-N-Patan_Rani-ki-Vav_view_from_entrance_3D.jpg/960px-GJ25K-31-N-Patan_Rani-ki-Vav_view_from_entrance_3D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "score": 72,
+      "provider": "wikimedia",
+      "license": "CC BY 4.0",
+      "attribution": "VasuVR (CC BY 4.0) via Wikimedia Commons",
+      "operations": [],
+      "resolution": "9120x3400",
+      "reason": "Existing image is already superior or matches candidate quality (72 pts)"
+    },
+    "apiVerification": {
+      "verified": true,
+      "activePrimaryUrl": "https://live.staticflickr.com/65535/52746751472_f1310e3ef9_b.jpg",
+      "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/GJ25K-31-N-Patan_Rani-ki-Vav_view_from_entrance_3D.jpg/960px-GJ25K-31-N-Patan_Rani-ki-Vav_view_from_entrance_3D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+  },
+  {
+    "stateId": 8,
+    "stateName": "Haryana",
+    "slug": "haryana",
+    "regionType": "state",
+    "primary": {
+      "action": "RETAINED",
+      "imageId": 460,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Yadvindra_garden_or_Pinjore_garden%2Cchandigarh.jpg/960px-Yadvindra_garden_or_Pinjore_garden%2Cchandigarh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "score": 71,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 3.0",
+      "attribution": "Minaxi choudhary (CC BY-SA 3.0) via Wikimedia Commons",
+      "operations": [],
+      "resolution": "1575x1121",
+      "reason": "Existing image is already superior or matches candidate quality (71 pts)"
+    },
+    "hero": {
+      "action": "REPLACED_AND_ENHANCED",
+      "previousImageId": 459,
+      "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Brahma_Sarovar.JPG/960px-Brahma_Sarovar.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "previousScore": 72,
+      "newImageId": 1811,
+      "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Pinjore_Gardens%2C_Panchkula%2C_Haryana.jpg/1920px-Pinjore_Gardens%2C_Panchkula%2C_Haryana.jpg",
+      "newScore": 99,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Pinjore Gardens, Panchkula, Haryana by Kanad Sanyal (CC BY-SA 4.0) via Wikimedia Commons",
+      "operations": [
+        "aspect_ratio_optimization",
+        "exposure_and_contrast_leveling",
+        "white_balance_correction",
+        "controlled_edge_sharpening",
+        "wikimedia_high_res_1920px_render"
+      ],
+      "resolution": "4K/UHD",
+      "reason": "Score improved from 72 to 99 (Premium): Verified iconic landmark: Pinjore Gardens in Haryana"
+    },
+    "apiVerification": {
+      "verified": true,
+      "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Yadvindra_garden_or_Pinjore_garden%2Cchandigarh.jpg/960px-Yadvindra_garden_or_Pinjore_garden%2Cchandigarh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Pinjore_Gardens%2C_Panchkula%2C_Haryana.jpg/1920px-Pinjore_Gardens%2C_Panchkula%2C_Haryana.jpg"
+    }
+  },
+  {
+    "stateId": 9,
+    "stateName": "Himachal Pradesh",
+    "slug": "himachal-pradesh",
+    "regionType": "state",
+    "primary": {
+      "action": "REPLACED_AND_ENHANCED",
+      "previousImageId": 508,
+      "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Beautiful_Khajjair_01.jpg/960px-Beautiful_Khajjair_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "previousScore": 74,
+      "newImageId": 522,
+      "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Steps_in_Key_Gompa_monastery%2C_Spiti_Valley%2C_Himachal_Pradesh%2C_India.jpg/1200px-Steps_in_Key_Gompa_monastery%2C_Spiti_Valley%2C_Himachal_Pradesh%2C_India.jpg",
+      "newScore": 99,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Steps in Key Gompa monastery, Spiti Valley, Himachal Pradesh, India by Mike Shaw (CC BY-SA 4.0) via Wikimedia Commons",
+      "operations": [
+        "aspect_ratio_optimization",
+        "exposure_and_contrast_leveling",
+        "white_balance_correction",
+        "controlled_edge_sharpening",
+        "wikimedia_high_res_1200px_render"
+      ],
+      "resolution": "1200x800+",
+      "reason": "Score improved from 74 to 99 (Premium): Verified iconic landmark: Spiti Valley in Himachal Pradesh"
+    },
+    "hero": {
+      "action": "REPLACED_AND_ENHANCED",
+      "previousImageId": 507,
+      "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Dhankar_Gompa%2C_Spiti.jpg/960px-Dhankar_Gompa%2C_Spiti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "previousScore": 74,
+      "newImageId": 1812,
+      "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Hills_of_Manali.jpg/1920px-Hills_of_Manali.jpg",
+      "newScore": 89,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Hills of Manali by Satyamrai7777 (CC BY-SA 4.0) via Wikimedia Commons",
+      "operations": [
+        "aspect_ratio_optimization",
+        "exposure_and_contrast_leveling",
+        "white_balance_correction",
+        "controlled_edge_sharpening",
+        "wikimedia_high_res_1920px_render"
+      ],
+      "resolution": "FullHD",
+      "reason": "Score improved from 74 to 89 (High Quality): Explicit state geographical match: Himachal Pradesh"
+    },
+    "apiVerification": {
+      "verified": true,
+      "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Steps_in_Key_Gompa_monastery%2C_Spiti_Valley%2C_Himachal_Pradesh%2C_India.jpg/1200px-Steps_in_Key_Gompa_monastery%2C_Spiti_Valley%2C_Himachal_Pradesh%2C_India.jpg",
+      "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Hills_of_Manali.jpg/1920px-Hills_of_Manali.jpg"
+    }
+  },
+  {
+    "stateId": 10,
+    "stateName": "Jharkhand",
+    "slug": "jharkhand",
+    "regionType": "state",
+    "primary": {
+      "action": "REPLACED_AND_ENHANCED",
+      "previousImageId": 534,
+      "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Dasam_Falls_in_September.jpg/960px-Dasam_Falls_in_September.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "previousScore": 67,
+      "newImageId": 533,
+      "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Hundru_Falls%2C_Jharkhand%2C_India_9.jpg/1200px-Hundru_Falls%2C_Jharkhand%2C_India_9.jpg",
+      "newScore": 99,
+      "provider": "wikimedia",
+      "license": "CC BY 4.0",
+      "attribution": "Hundru Falls, Jharkhand, India 9 by Kingshuk Mondal (CC BY 4.0) via Wikimedia Commons",
+      "operations": [
+        "aspect_ratio_optimization",
+        "exposure_and_contrast_leveling",
+        "white_balance_correction",
+        "controlled_edge_sharpening",
+        "wikimedia_high_res_1200px_render"
+      ],
+      "resolution": "1200x800+",
+      "reason": "Score improved from 67 to 99 (Premium): Verified iconic landmark: Hundru Falls in Jharkhand"
+    },
+    "hero": {
+      "action": "RETAINED",
+      "imageId": 533,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Hundru_Falls%2C_Jharkhand%2C_India_9.jpg/1200px-Hundru_Falls%2C_Jharkhand%2C_India_9.jpg",
+      "score": 98,
+      "provider": "wikimedia",
+      "license": "CC BY 4.0",
+      "attribution": "Kingshuk Mondal (CC BY 4.0) via Wikimedia Commons",
+      "operations": [],
+      "resolution": "4000x3000",
+      "reason": "Existing image is already superior or matches candidate quality (98 pts)"
+    },
+    "apiVerification": {
+      "verified": true,
+      "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Hundru_Falls%2C_Jharkhand%2C_India_9.jpg/1200px-Hundru_Falls%2C_Jharkhand%2C_India_9.jpg",
+      "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Hundru_Falls%2C_Jharkhand%2C_India_9.jpg/1200px-Hundru_Falls%2C_Jharkhand%2C_India_9.jpg"
+    }
+  },
+  {
+    "stateId": 11,
+    "stateName": "Karnataka",
+    "slug": "karnataka",
+    "regionType": "state",
+    "primary": {
+      "action": "REPLACED_AND_ENHANCED",
+      "previousImageId": 582,
+      "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Amba_Vilas_Palace_at_night..jpg/960px-Amba_Vilas_Palace_at_night..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "previousScore": 70,
+      "newImageId": 1813,
+      "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/15th-16th_century_Vaishnavism_Vitthala_temple_Garuda_stone_chariot%2C_Hampi_Hindu_monuments_Karnataka_2.jpg/1200px-15th-16th_century_Vaishnavism_Vitthala_temple_Garuda_stone_chariot%2C_Hampi_Hindu_monuments_Karnataka_2.jpg",
+      "newScore": 99,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "attribution": "15th-16th century Vaishnavism Vitthala temple Garuda stone chariot, Hampi Hindu monuments Karnataka 2 by Ms Sarah Welch (CC BY-SA 4.0) via Wikimedia Commons",
+      "operations": [
+        "aspect_ratio_optimization",
+        "exposure_and_contrast_leveling",
+        "white_balance_correction",
+        "controlled_edge_sharpening",
+        "wikimedia_high_res_1200px_render"
+      ],
+      "resolution": "1200x800+",
+      "reason": "Score improved from 70 to 99 (Premium): Verified iconic landmark: Hampi ruins in Karnataka"
+    },
+    "hero": {
+      "action": "REPLACED_AND_ENHANCED",
+      "previousImageId": 581,
+      "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Stone-Chariot-Hampi-Karnataka-01.jpg/960px-Stone-Chariot-Hampi-Karnataka-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "previousScore": 83,
+      "newImageId": 626,
+      "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Mysore_palace_at_night_01.jpg/1920px-Mysore_palace_at_night_01.jpg",
+      "newScore": 97,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Mysore palace at night 01 by Pinakpani (CC BY-SA 4.0) via Wikimedia Commons",
+      "operations": [
+        "aspect_ratio_optimization",
+        "exposure_and_contrast_leveling",
+        "white_balance_correction",
+        "controlled_edge_sharpening",
+        "wikimedia_high_res_1920px_render"
+      ],
+      "resolution": "4K/UHD",
+      "reason": "Score improved from 83 to 97 (Premium): Verified iconic landmark: Mysore Palace in Karnataka"
+    },
+    "apiVerification": {
+      "verified": true,
+      "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/15th-16th_century_Vaishnavism_Vitthala_temple_Garuda_stone_chariot%2C_Hampi_Hindu_monuments_Karnataka_2.jpg/1200px-15th-16th_century_Vaishnavism_Vitthala_temple_Garuda_stone_chariot%2C_Hampi_Hindu_monuments_Karnataka_2.jpg",
+      "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Mysore_palace_at_night_01.jpg/1920px-Mysore_palace_at_night_01.jpg"
+    }
+  },
+  {
+    "stateId": 12,
+    "stateName": "Kerala",
+    "slug": "kerala",
+    "regionType": "state",
+    "primary": {
+      "action": "REPLACED_AND_ENHANCED",
+      "previousImageId": 646,
+      "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Fishing_nets_in_Fort_Kochi.jpg/960px-Fishing_nets_in_Fort_Kochi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "previousScore": 72,
+      "newImageId": 1625,
+      "newUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Make_Way_For_The_Houseboat%21_-_Backwaters_of_Alappuzha.jpg/1200px-Make_Way_For_The_Houseboat%21_-_Backwaters_of_Alappuzha.jpg",
+      "newScore": 82,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Make Way For The Houseboat! - Backwaters of Alappuzha by 16paruljain (CC BY-SA 4.0) via Wikimedia Commons",
+      "operations": [
+        "aspect_ratio_optimization",
+        "exposure_and_contrast_leveling",
+        "white_balance_correction",
+        "controlled_edge_sharpening",
+        "wikimedia_high_res_1200px_render"
+      ],
+      "resolution": "1200x800+",
+      "reason": "Score improved from 72 to 82 (High Quality): Explicit state geographical match: Kerala"
+    },
+    "hero": {
+      "action": "REPLACED_AND_ENHANCED",
+      "previousImageId": 645,
+      "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Munnar_tea_gardens.jpg/960px-Munnar_tea_gardens.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "previousScore": 72,
+      "newImageId": 645,
+      "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Munnar_tea_gardens.jpg/1920px-Munnar_tea_gardens.jpg",
+      "newScore": 87,
+      "provider": "wikimedia",
+      "license": "Public domain",
+      "attribution": "Munnar tea gardens by Wikimedia Commons Contributor (Public domain) via Wikimedia Commons",
+      "operations": [
+        "aspect_ratio_optimization",
+        "exposure_and_contrast_leveling",
+        "white_balance_correction",
+        "controlled_edge_sharpening",
+        "wikimedia_high_res_1920px_render"
+      ],
+      "resolution": "4K/UHD",
+      "reason": "Score improved from 72 to 87 (High Quality): Explicit state geographical match: Kerala"
+    },
+    "apiVerification": {
+      "verified": true,
+      "activePrimaryUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Make_Way_For_The_Houseboat%21_-_Backwaters_of_Alappuzha.jpg/1200px-Make_Way_For_The_Houseboat%21_-_Backwaters_of_Alappuzha.jpg",
+      "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Munnar_tea_gardens.jpg/1920px-Munnar_tea_gardens.jpg"
+    }
+  }
+]

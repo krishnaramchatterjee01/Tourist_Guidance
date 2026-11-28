@@ -1,0 +1,72 @@
+| 01 | Andhra Pradesh | Primary Card | #1803 | **100** | wikimedia | 1200x800+ | HTTP 200 (jpeg, 267KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 02 | Andhra Pradesh | Hero Banner | #1804 | **100** | wikimedia | 4K/UHD | HTTP 200 (jpeg, 724KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 03 | Arunachal Pradesh | Primary Card | #124 | **98** | wikimedia | 1280x800 | HTTP 200 (jpeg, 201KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 04 | Arunachal Pradesh | Hero Banner | #1805 | **100** | wikimedia | FullHD | HTTP 200 (jpeg, 459KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 05 | Assam | Primary Card | #178 | **94** | wikimedia | 1280x800 | HTTP 200 (jpeg, 175KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 06 | Assam | Hero Banner | #177 | **92** | wikimedia | FullHD | HTTP 200 (jpeg, 202KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 07 | Bihar | Primary Card | #1806 | **100** | wikimedia | 1280x800 | HTTP 200 (jpeg, 442KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 08 | Bihar | Hero Banner | #1807 | **83** | openverse | FullHD | HTTP 200 (jpeg, 178KB) | `https://live.staticflickr.com/3531/3946578949_ec9aa2...` |
+| 09 | Chhattisgarh | Primary Card | #1808 | **85** | wikimedia | 1280x800 | HTTP 200 (jpeg, 305KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 10 | Chhattisgarh | Hero Banner | #1845 | **89** | wikimedia | 4K/UHD | HTTP 200 (jpeg, 319KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 11 | Goa | Primary Card | #384 | **100** | wikimedia | 1280x800 | HTTP 200 (jpeg, 335KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 12 | Goa | Hero Banner | #383 | **86** | wikimedia | FullHD | HTTP 200 (jpeg, 432KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 13 | Gujarat | Primary Card | #1810 | **83** | openverse | 1280x800 | HTTP 200 (jpeg, 165KB) | `https://live.staticflickr.com/65535/52746751472_f131...` |
+| 14 | Gujarat | Hero Banner | #1849 | **99** | wikimedia | FullHD | HTTP 200 (jpeg, 328KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 15 | Haryana | Primary Card | #1850 | **99** | wikimedia | 1200x800+ | HTTP 200 (jpeg, 208KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 16 | Haryana | Hero Banner | #1811 | **100** | wikimedia | FullHD | HTTP 200 (jpeg, 357KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 17 | Himachal Pradesh | Primary Card | #522 | **99** | wikimedia | 1200x800+ | HTTP 200 (jpeg, 263KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 18 | Himachal Pradesh | Hero Banner | #1812 | **90** | wikimedia | FullHD | HTTP 200 (jpeg, 478KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 19 | Jharkhand | Primary Card | #1831 | **99** | wikimedia | 1200x800+ | HTTP 200 (jpeg, 508KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 20 | Jharkhand | Hero Banner | #533 | **98** | wikimedia | 1200x800+ | HTTP 200 (jpeg, 565KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 21 | Karnataka | Primary Card | #1813 | **100** | wikimedia | 1280x800 | HTTP 200 (jpeg, 319KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 22 | Karnataka | Hero Banner | #626 | **92** | wikimedia | FullHD | HTTP 200 (jpeg, 463KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 23 | Kerala | Primary Card | #1832 | **86** | openverse | 1200x800+ | HTTP 200 (jpeg, 146KB) | `https://live.staticflickr.com/3789/10944368005_9b0ba...` |
+| 24 | Kerala | Hero Banner | #645 | **87** | wikimedia | 4K/UHD | HTTP 200 (jpeg, 177KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 25 | Madhya Pradesh | Primary Card | #1814 | **89** | wikimedia | 1200x800+ | HTTP 200 (jpeg, 263KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 26 | Madhya Pradesh | Hero Banner | #1815 | **91** | wikimedia | FullHD | HTTP 200 (jpeg, 659KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 27 | Maharashtra | Primary Card | #1833 | **87** | wikimedia | 1200x800+ | HTTP 200 (jpeg, 848KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 28 | Maharashtra | Hero Banner | #783 | **94** | wikimedia | FullHD | HTTP 200 (jpeg, 362KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 29 | Manipur | Primary Card | #856 | **100** | wikimedia | 1280x800 | HTTP 200 (jpeg, 195KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 30 | Manipur | Hero Banner | #855 | **98** | wikimedia | FullHD | HTTP 200 (jpeg, 115KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 31 | Meghalaya | Primary Card | #1834 | **97** | wikimedia | 1200x800+ | HTTP 200 (jpeg, 914KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 32 | Meghalaya | Hero Banner | #889 | **92** | wikimedia | FullHD | HTTP 200 (jpeg, 243KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 33 | Mizoram | Primary Card | #1851 | **99** | wikimedia | 1200x800+ | HTTP 200 (jpeg, 314KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 34 | Mizoram | Hero Banner | #913 | **96** | wikimedia | FullHD | HTTP 200 (jpeg, 269KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 35 | Nagaland | Primary Card | #1852 | **99** | wikimedia | 1200x800+ | HTTP 200 (jpeg, 239KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 36 | Nagaland | Hero Banner | #936 | **81** | wikimedia | FullHD | HTTP 200 (jpeg, 275KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 37 | Odisha | Primary Card | #1835 | **99** | wikimedia | 1200x800+ | HTTP 200 (jpeg, 634KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 38 | Odisha | Hero Banner | #969 | **92** | wikimedia | FullHD | HTTP 200 (jpeg, 338KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 39 | Punjab | Primary Card | #1846 | **99** | wikimedia | 1200x800+ | HTTP 200 (jpeg, 315KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 40 | Punjab | Hero Banner | #1817 | **100** | wikimedia | FullHD | HTTP 200 (jpeg, 639KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 41 | Rajasthan | Primary Card | #1818 | **100** | wikimedia | 1280x800 | HTTP 200 (jpeg, 121KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 42 | Rajasthan | Hero Banner | #1819 | **98** | openverse | FullHD | HTTP 200 (jpeg, 807KB) | `https://pd.w.org/2024/10/169671ce0e7bc9338.86480131-...` |
+| 43 | Sikkim | Primary Card | #1820 | **100** | wikimedia | 1280x800 | HTTP 200 (jpeg, 273KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 44 | Sikkim | Hero Banner | #1161 | **94** | wikimedia | FullHD | HTTP 200 (jpeg, 85KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 45 | Tamil Nadu | Primary Card | #1821 | **100** | wikimedia | 1280x800 | HTTP 200 (jpeg, 325KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 46 | Tamil Nadu | Hero Banner | #1837 | **82** | wikimedia | FullHD | HTTP 200 (jpeg, 182KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 47 | Telangana | Primary Card | #1822 | **98** | wikimedia | 1280x800 | HTTP 200 (jpeg, 511KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 48 | Telangana | Hero Banner | #1838 | **91** | openverse | FullHD | HTTP 200 (jpeg, 1128KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 49 | Tripura | Primary Card | #1839 | **89** | wikimedia | 1200x800+ | HTTP 200 (jpeg, 99KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 50 | Tripura | Hero Banner | #1844 | **99** | wikimedia | FullHD | HTTP 200 (jpeg, 799KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 51 | Uttar Pradesh | Primary Card | #1825 | **100** | wikimedia | 1280x800 | HTTP 200 (jpeg, 176KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 52 | Uttar Pradesh | Hero Banner | #1333 | **90** | wikimedia | FullHD | HTTP 200 (jpeg, 376KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 53 | Uttarakhand | Primary Card | #1853 | **97** | wikimedia | 1200x800+ | HTTP 200 (jpeg, 216KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 54 | Uttarakhand | Hero Banner | #1826 | **91** | wikimedia | FullHD | HTTP 200 (jpeg, 861KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 55 | West Bengal | Primary Card | #1840 | **96** | wikimedia | 1200x800+ | HTTP 200 (jpeg, 372KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 56 | West Bengal | Hero Banner | #26 | **81** | wikimedia | FullHD | HTTP 200 (jpeg, 142KB) | `https://upload.wikimedia.org/wikipedia/commons/7/75/...` |
+| 57 | Andaman and Nicobar Islands | Primary Card | #1841 | **80** | openverse | 1200x800+ | HTTP 200 (jpeg, 94KB) | `https://live.staticflickr.com/7141/6713219837_66eb97...` |
+| 58 | Andaman and Nicobar Islands | Hero Banner | #1511 | **94** | wikimedia | FullHD | HTTP 200 (jpeg, 180KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 59 | Chandigarh | Primary Card | #1520 | **100** | wikimedia | 1280x800 | HTTP 200 (jpeg, 241KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 60 | Chandigarh | Hero Banner | #1518 | **98** | wikimedia | FullHD | HTTP 200 (jpeg, 118KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 61 | Dadra and Nagar Haveli and Daman and Diu | Primary Card | #1523 | **92** | wikimedia | 1280x800 | HTTP 200 (jpeg, 416KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 62 | Dadra and Nagar Haveli and Daman and Diu | Hero Banner | #1522 | **94** | wikimedia | FullHD | HTTP 200 (jpeg, 113KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 63 | Delhi | Primary Card | #1828 | **87** | wikimedia | 1280x800 | HTTP 200 (jpeg, 150KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 64 | Delhi | Hero Banner | #1842 | **82** | openverse | FullHD | HTTP 200 (jpeg, 139KB) | `https://live.staticflickr.com/5536/9710410947_eed27a...` |
+| 65 | Jammu and Kashmir | Primary Card | #1829 | **87** | openverse | 1280x800 | HTTP 200 (jpeg, 165KB) | `https://live.staticflickr.com/5498/10434926295_49bb0...` |
+| 66 | Jammu and Kashmir | Hero Banner | #1847 | **86** | openverse | FullHD | HTTP 200 (jpeg, 191KB) | `https://live.staticflickr.com/3234/2776565130_b36db5...` |
+| 67 | Ladakh | Primary Card | #1843 | **87** | wikimedia | 1200x800+ | HTTP 200 (jpeg, 158KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 68 | Ladakh | Hero Banner | #1848 | **89** | wikimedia | 4K/UHD | HTTP 200 (jpeg, 500KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 69 | Lakshadweep | Primary Card | #1602 | **83** | wikimedia | 1280x800 | HTTP 200 (jpeg, 104KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 70 | Lakshadweep | Hero Banner | #1854 | **99** | wikimedia | 4K/UHD | HTTP 200 (jpeg, 648KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 71 | Puducherry | Primary Card | #1611 | **93** | wikimedia | 1200x800+ | HTTP 200 (jpeg, 318KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |
+| 72 | Puducherry | Hero Banner | #1855 | **93** | wikimedia | 4K/UHD | HTTP 200 (jpeg, 507KB) | `https://upload.wikimedia.org/wikipedia/commons/thumb...` |

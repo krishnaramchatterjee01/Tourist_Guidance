@@ -1,0 +1,977 @@
+{
+  "workingCount": 47,
+  "brokenCount": 25,
+  "sub80Count": 14,
+  "results": [
+    {
+      "state": "Andhra Pradesh",
+      "slug": "andhra-pradesh",
+      "type": "state",
+      "primary": {
+        "imageId": 1726,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Borra_caves_1.jpg/960px-Borra_caves_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 85,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 311042,
+          "format": "jpeg"
+        }
+      },
+      "hero": {
+        "imageId": 1804,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Araku_Valley_coffee_plantations_in_Ananthagiri_hills_in_Andhra_Pradesh_01.jpg/1920px-Araku_Valley_coffee_plantations_in_Ananthagiri_hills_in_Andhra_Pradesh_01.jpg",
+        "score": 100,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 741302,
+          "format": "jpeg"
+        }
+      }
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "slug": "arunachal-pradesh",
+      "type": "state",
+      "primary": {
+        "imageId": 1830,
+        "url": "https://live.staticflickr.com/2677/4162310636_c8c4e040b5.jpg",
+        "score": 62,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 43856,
+          "format": "jpeg"
+        }
+      },
+      "hero": {
+        "imageId": 1805,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Wild_flowers_at_Sela_Pass.jpg/1920px-Wild_flowers_at_Sela_Pass.jpg",
+        "score": 100,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 470021,
+          "format": "jpeg"
+        }
+      }
+    },
+    {
+      "state": "Assam",
+      "slug": "assam",
+      "type": "state",
+      "primary": {
+        "imageId": 178,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Majuli_Island_%28117%29.jpg/960px-Majuli_Island_%28117%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 94,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 179668,
+          "format": "jpeg"
+        }
+      },
+      "hero": {
+        "imageId": 177,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Kamakhya_Temple%2C_Guwahati.jpg/960px-Kamakhya_Temple%2C_Guwahati.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 92,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 206419,
+          "format": "jpeg"
+        }
+      }
+    },
+    {
+      "state": "Bihar",
+      "slug": "bihar",
+      "type": "state",
+      "primary": {
+        "imageId": 1806,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Mahabodhi_temple_complex%2C_Bodhgaya_23.jpg/1280px-Mahabodhi_temple_complex%2C_Bodhgaya_23.jpg",
+        "score": 100,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 452955,
+          "format": "jpeg"
+        }
+      },
+      "hero": {
+        "imageId": 1807,
+        "url": "https://live.staticflickr.com/3531/3946578949_ec9aa2fe8c_b.jpg",
+        "score": 83,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 182697,
+          "format": "jpeg"
+        }
+      }
+    },
+    {
+      "state": "Chhattisgarh",
+      "slug": "chhattisgarh",
+      "type": "state",
+      "primary": {
+        "imageId": 1808,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Chitrakut_waterfalls.jpg/1280px-Chitrakut_waterfalls.jpg",
+        "score": 85,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 312508,
+          "format": "jpeg"
+        }
+      },
+      "hero": {
+        "imageId": 1809,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Chitrakot.webp/1920px-Chitrakot.webp",
+        "score": 79,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 76340,
+          "format": "webp"
+        }
+      }
+    },
+    {
+      "state": "Goa",
+      "slug": "goa",
+      "type": "state",
+      "primary": {
+        "imageId": 384,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Basilica_of_Bom_Jesus_%28Goa%29_Front_View.jpg/1280px-Basilica_of_Bom_Jesus_%28Goa%29_Front_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 100,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 342622,
+          "format": "jpeg"
+        }
+      },
+      "hero": {
+        "imageId": 383,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Dudhsagar%2C_the_milky_waterfall%2C_Goa.JPG/1280px-Dudhsagar%2C_the_milky_waterfall%2C_Goa.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 86,
+        "test": {
+          "ok": false,
+          "error": "Failed after 3 attempts"
+        }
+      }
+    },
+    {
+      "state": "Gujarat",
+      "slug": "gujarat",
+      "type": "state",
+      "primary": {
+        "imageId": 1810,
+        "url": "https://live.staticflickr.com/65535/52746751472_f1310e3ef9_b.jpg",
+        "score": 83,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 169272,
+          "format": "jpeg"
+        }
+      },
+      "hero": {
+        "imageId": 391,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/GJ25K-31-N-Patan_Rani-ki-Vav_view_from_entrance_3D.jpg/960px-GJ25K-31-N-Patan_Rani-ki-Vav_view_from_entrance_3D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 72,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 149409,
+          "format": "jpeg"
+        }
+      }
+    },
+    {
+      "state": "Haryana",
+      "slug": "haryana",
+      "type": "state",
+      "primary": {
+        "imageId": 460,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Yadvindra_garden_or_Pinjore_garden%2Cchandigarh.jpg/960px-Yadvindra_garden_or_Pinjore_garden%2Cchandigarh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 71,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 102811,
+          "format": "jpeg"
+        }
+      },
+      "hero": {
+        "imageId": 1811,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Pinjore_Gardens%2C_Panchkula%2C_Haryana.jpg/1280px-Pinjore_Gardens%2C_Panchkula%2C_Haryana.jpg",
+        "score": 100,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 365513,
+          "format": "jpeg"
+        }
+      }
+    },
+    {
+      "state": "Himachal Pradesh",
+      "slug": "himachal-pradesh",
+      "type": "state",
+      "primary": {
+        "imageId": 522,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Steps_in_Key_Gompa_monastery%2C_Spiti_Valley%2C_Himachal_Pradesh%2C_India.jpg/1280px-Steps_in_Key_Gompa_monastery%2C_Spiti_Valley%2C_Himachal_Pradesh%2C_India.jpg",
+        "score": 99,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 269161,
+          "format": "jpeg"
+        }
+      },
+      "hero": {
+        "imageId": 1812,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Hills_of_Manali.jpg/1920px-Hills_of_Manali.jpg",
+        "score": 90,
+        "test": {
+          "ok": false,
+          "error": "Failed after 3 attempts"
+        }
+      }
+    },
+    {
+      "state": "Jharkhand",
+      "slug": "jharkhand",
+      "type": "state",
+      "primary": {
+        "imageId": 1831,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Hundru_Falls%2C_Jharkhand%2C_India_2.jpg/1280px-Hundru_Falls%2C_Jharkhand%2C_India_2.jpg",
+        "score": 99,
+        "test": {
+          "ok": false,
+          "error": "Failed after 3 attempts"
+        }
+      },
+      "hero": {
+        "imageId": 533,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Hundru_Falls%2C_Jharkhand%2C_India_9.jpg/1200px-Hundru_Falls%2C_Jharkhand%2C_India_9.jpg",
+        "score": 98,
+        "test": {
+          "ok": false,
+          "status": 400,
+          "error": "HTTP 400"
+        }
+      }
+    },
+    {
+      "state": "Karnataka",
+      "slug": "karnataka",
+      "type": "state",
+      "primary": {
+        "imageId": 1813,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/15th-16th_century_Vaishnavism_Vitthala_temple_Garuda_stone_chariot%2C_Hampi_Hindu_monuments_Karnataka_2.jpg/1280px-15th-16th_century_Vaishnavism_Vitthala_temple_Garuda_stone_chariot%2C_Hampi_Hindu_monuments_Karnataka_2.jpg",
+        "score": 100,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 327075,
+          "format": "jpeg"
+        }
+      },
+      "hero": {
+        "imageId": 626,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Mysore_palace_at_night_01.jpg/1920px-Mysore_palace_at_night_01.jpg",
+        "score": 92,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 474472,
+          "format": "jpeg"
+        }
+      }
+    },
+    {
+      "state": "Kerala",
+      "slug": "kerala",
+      "type": "state",
+      "primary": {
+        "imageId": 1832,
+        "url": "https://live.staticflickr.com/3789/10944368005_9b0ba25104_b.jpg",
+        "score": 86,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 149386,
+          "format": "jpeg"
+        }
+      },
+      "hero": {
+        "imageId": 645,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Munnar_tea_gardens.jpg/1920px-Munnar_tea_gardens.jpg",
+        "score": 87,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 181186,
+          "format": "jpeg"
+        }
+      }
+    },
+    {
+      "state": "Madhya Pradesh",
+      "slug": "madhya-pradesh",
+      "type": "state",
+      "primary": {
+        "imageId": 694,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Homosexuality_in_Khajuraho_sculpture.jpg/1280px-Homosexuality_in_Khajuraho_sculpture.jpg",
+        "score": 71,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 569899,
+          "format": "jpeg"
+        }
+      },
+      "hero": {
+        "imageId": 1815,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Marble_Rocks%2CBhedaghat.jpg/1920px-Marble_Rocks%2CBhedaghat.jpg",
+        "score": 91,
+        "test": {
+          "ok": false,
+          "error": "Failed after 3 attempts"
+        }
+      }
+    },
+    {
+      "state": "Maharashtra",
+      "slug": "maharashtra",
+      "type": "state",
+      "primary": {
+        "imageId": 1833,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Ellora_caves_-_Kailasa_Temple_%28cave_16%29_vrvbajel0924_%28480%29.jpg/1280px-Ellora_caves_-_Kailasa_Temple_%28cave_16%29_vrvbajel0924_%28480%29.jpg",
+        "score": 87,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 868471,
+          "format": "jpeg"
+        }
+      },
+      "hero": {
+        "imageId": 783,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Chatrapati_shivaji_Maharaj_Statue_at_Gateway_Of_India%2C_Mumbai.JPG/1920px-Chatrapati_shivaji_Maharaj_Statue_at_Gateway_Of_India%2C_Mumbai.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 94,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 370557,
+          "format": "jpeg"
+        }
+      }
+    },
+    {
+      "state": "Manipur",
+      "slug": "manipur",
+      "type": "state",
+      "primary": {
+        "imageId": 856,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Kangla_Sanathong_%28Kangla_Grand_Gate_or_Kangla_Royal_Gate%29_-_Classical_Meitei_architecture_-_in_the_western_side_of_the_Kangla_Fort_%28Kangla_Palace%29_in_Imphal_West_district_of_Manipur_state_%28Kangleipak%29_02.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 100,
+        "test": {
+          "ok": false,
+          "error": "Failed after 3 attempts"
+        }
+      },
+      "hero": {
+        "imageId": 855,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Loktak_Lake_Manipur_01.jpg/960px-Loktak_Lake_Manipur_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 98,
+        "test": {
+          "ok": false,
+          "error": "Failed after 3 attempts"
+        }
+      }
+    },
+    {
+      "state": "Meghalaya",
+      "slug": "meghalaya",
+      "type": "state",
+      "primary": {
+        "imageId": 1834,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Living_root_bridges_of_Nongriat_village_in_East_Khasi_Hills_district%2C_Meghalaya_JEG7422.jpg/1280px-Living_root_bridges_of_Nongriat_village_in_East_Khasi_Hills_district%2C_Meghalaya_JEG7422.jpg",
+        "score": 97,
+        "test": {
+          "ok": false,
+          "error": "Failed after 3 attempts"
+        }
+      },
+      "hero": {
+        "imageId": 889,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Nohkalikai_Falls_Cherrapunji.JPG/960px-Nohkalikai_Falls_Cherrapunji.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 92,
+        "test": {
+          "ok": false,
+          "error": "Failed after 3 attempts"
+        }
+      }
+    },
+    {
+      "state": "Mizoram",
+      "slug": "mizoram",
+      "type": "state",
+      "primary": {
+        "imageId": 914,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Tam_Dil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "score": 63,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 155117,
+          "format": "jpeg"
+        }
+      },
+      "hero": {
+        "imageId": 913,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Vantawng_Falls%2C_Mizoram.jpg/960px-Vantawng_Falls%2C_Mizoram.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 96,
+        "test": {
+          "ok": false,
+          "error": "Failed after 3 attempts"
+        }
+      }
+    },
+    {
+      "state": "Nagaland",
+      "slug": "nagaland",
+      "type": "state",
+      "primary": {
+        "imageId": 937,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Naga_Heritage_Village_03.jpg/960px-Naga_Heritage_Village_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 74,
+        "test": {
+          "ok": false,
+          "error": "Failed after 3 attempts"
+        }
+      },
+      "hero": {
+        "imageId": 936,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Dz%C3%BCkou_Valley%2C_Viswema%2C_Nagaland_12.jpg/960px-Dz%C3%BCkou_Valley%2C_Viswema%2C_Nagaland_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 81,
+        "test": {
+          "ok": false,
+          "error": "Failed after 3 attempts"
+        }
+      }
+    },
+    {
+      "state": "Odisha",
+      "slug": "odisha",
+      "type": "state",
+      "primary": {
+        "imageId": 1835,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Suntemple_eapupal.jpg/1280px-Suntemple_eapupal.jpg",
+        "score": 99,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 648936,
+          "format": "jpeg"
+        }
+      },
+      "hero": {
+        "imageId": 969,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Stone_wheel_engraved_in_the_13th_century_built_Konark_Sun_Temple_in_Orissa%2C_India.jpg/960px-Stone_wheel_engraved_in_the_13th_century_built_Konark_Sun_Temple_in_Orissa%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 92,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 345717,
+          "format": "jpeg"
+        }
+      }
+    },
+    {
+      "state": "Punjab",
+      "slug": "punjab",
+      "type": "state",
+      "primary": {
+        "imageId": 1836,
+        "url": "https://live.staticflickr.com/4554/38902528252_faf2860abd_b.jpg",
+        "score": 66,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 160108,
+          "format": "jpeg"
+        }
+      },
+      "hero": {
+        "imageId": 1817,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Golden_Temple_%28Harmandir_Sahib%29_at_night%2C_Amritsar%2C_Punjab%2C_India_%282017%29.jpg/1920px-Golden_Temple_%28Harmandir_Sahib%29_at_night%2C_Amritsar%2C_Punjab%2C_India_%282017%29.jpg",
+        "score": 100,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 653860,
+          "format": "jpeg"
+        }
+      }
+    },
+    {
+      "state": "Rajasthan",
+      "slug": "rajasthan",
+      "type": "state",
+      "primary": {
+        "imageId": 1818,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Amber_Fort_Jaipur_india.jpg/1280px-Amber_Fort_Jaipur_india.jpg",
+        "score": 100,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 123931,
+          "format": "jpeg"
+        }
+      },
+      "hero": {
+        "imageId": 1819,
+        "url": "https://pd.w.org/2024/10/169671ce0e7bc9338.86480131-2048x1424.jpg",
+        "score": 98,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 826859,
+          "format": "jpeg"
+        }
+      }
+    },
+    {
+      "state": "Sikkim",
+      "slug": "sikkim",
+      "type": "state",
+      "primary": {
+        "imageId": 1820,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Tsomgo_Lake%2C_Sikkim.jpg/1280px-Tsomgo_Lake%2C_Sikkim.jpg",
+        "score": 100,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 279278,
+          "format": "jpeg"
+        }
+      },
+      "hero": {
+        "imageId": 1161,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Gurudongmar_Lake_in_May_2015.jpg/960px-Gurudongmar_Lake_in_May_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 94,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 86657,
+          "format": "jpeg"
+        }
+      }
+    },
+    {
+      "state": "Tamil Nadu",
+      "slug": "tamil-nadu",
+      "type": "state",
+      "primary": {
+        "imageId": 1821,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Meenakshi_Temple_%286357534075%29.jpg/1280px-Meenakshi_Temple_%286357534075%29.jpg",
+        "score": 100,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 333151,
+          "format": "jpeg"
+        }
+      },
+      "hero": {
+        "imageId": 1837,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Shore_Temple_Mamallapuram_ASI.jpg/1280px-Shore_Temple_Mamallapuram_ASI.jpg",
+        "score": 82,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 186310,
+          "format": "jpeg"
+        }
+      }
+    },
+    {
+      "state": "Telangana",
+      "slug": "telangana",
+      "type": "state",
+      "primary": {
+        "imageId": 1822,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Charminar%2C_Hyderabad_2023.jpg/1280px-Charminar%2C_Hyderabad_2023.jpg",
+        "score": 98,
+        "test": {
+          "ok": false,
+          "error": "Failed after 3 attempts"
+        }
+      },
+      "hero": {
+        "imageId": 1838,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/A_Majestic_Relic_of_Hyderabad%27s_Golconda_Fort.jpg/1920px-A_Majestic_Relic_of_Hyderabad%27s_Golconda_Fort.jpg",
+        "score": 91,
+        "test": {
+          "ok": false,
+          "error": "Failed after 3 attempts"
+        }
+      }
+    },
+    {
+      "state": "Tripura",
+      "slug": "tripura",
+      "type": "state",
+      "primary": {
+        "imageId": 1839,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/2%29Neermahal-The_marvelous_water_palace_of_Tripura.jpg/1280px-2%29Neermahal-The_marvelous_water_palace_of_Tripura.jpg",
+        "score": 89,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 101334,
+          "format": "jpeg"
+        }
+      },
+      "hero": {
+        "imageId": 1824,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Ujjayanta_Palace%2C_Agartala_%E2%80%93_A_Symbol_of_Tripura%E2%80%99s_Royal_Heritage.jpg/1920px-Ujjayanta_Palace%2C_Agartala_%E2%80%93_A_Symbol_of_Tripura%E2%80%99s_Royal_Heritage.jpg",
+        "score": 92,
+        "test": {
+          "ok": false,
+          "error": "Failed after 3 attempts"
+        }
+      }
+    },
+    {
+      "state": "Uttar Pradesh",
+      "slug": "uttar-pradesh",
+      "type": "state",
+      "primary": {
+        "imageId": 1825,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Taj_Mahal_-Agra_-Uttar_Pradesh_-DSC_0002.jpg/1280px-Taj_Mahal_-Agra_-Uttar_Pradesh_-DSC_0002.jpg",
+        "score": 100,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 179828,
+          "format": "jpeg"
+        }
+      },
+      "hero": {
+        "imageId": 1333,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Taj_Mahal_in_March_2004.jpg/1280px-Taj_Mahal_in_March_2004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 90,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 384754,
+          "format": "jpeg"
+        }
+      }
+    },
+    {
+      "state": "Uttarakhand",
+      "slug": "uttarakhand",
+      "type": "state",
+      "primary": {
+        "imageId": 1482,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Aarti_at_Har-ki-Pauri%2C_Haridwar.jpg/960px-Aarti_at_Har-ki-Pauri%2C_Haridwar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 74,
+        "test": {
+          "ok": false,
+          "error": "Failed after 3 attempts"
+        }
+      },
+      "hero": {
+        "imageId": 1826,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Valley_of_flowers%28VOF%29.JPG/1920px-Valley_of_flowers%28VOF%29.JPG",
+        "score": 91,
+        "test": {
+          "ok": false,
+          "error": "Failed after 3 attempts"
+        }
+      }
+    },
+    {
+      "state": "West Bengal",
+      "slug": "west-bengal",
+      "type": "state",
+      "primary": {
+        "imageId": 1642,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Jaldapara_Wildlife_Sanctuary_at_Jaldapara_02.jpg/960px-Jaldapara_Wildlife_Sanctuary_at_Jaldapara_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 85,
+        "test": {
+          "ok": false,
+          "error": "Failed after 3 attempts"
+        }
+      },
+      "hero": {
+        "imageId": 26,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Victoria_Memorial_Hall_Kolkata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "score": 81,
+        "test": {
+          "ok": false,
+          "error": "Failed after 3 attempts"
+        }
+      }
+    },
+    {
+      "state": "Andaman and Nicobar Islands",
+      "slug": "andaman-and-nicobar-islands",
+      "type": "ut",
+      "primary": {
+        "imageId": 1841,
+        "url": "https://live.staticflickr.com/7141/6713219837_66eb974824.jpg",
+        "score": 80,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 96143,
+          "format": "jpeg"
+        }
+      },
+      "hero": {
+        "imageId": 1511,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Havelock_Island%2C_Radhanagar_Beach%2C_Andaman_Islands.jpg/960px-Havelock_Island%2C_Radhanagar_Beach%2C_Andaman_Islands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 94,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 184700,
+          "format": "jpeg"
+        }
+      }
+    },
+    {
+      "state": "Chandigarh",
+      "slug": "chandigarh",
+      "type": "ut",
+      "primary": {
+        "imageId": 1520,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Chandigarh_Rock_Garden_4.jpg/1280px-Chandigarh_Rock_Garden_4.jpg",
+        "score": 100,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 247260,
+          "format": "jpeg"
+        }
+      },
+      "hero": {
+        "imageId": 1518,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sunset_view_at_Sukhna_lake_Chandigarh%2C_India.JPG/960px-Sunset_view_at_Sukhna_lake_Chandigarh%2C_India.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 98,
+        "test": {
+          "ok": false,
+          "error": "Failed after 3 attempts"
+        }
+      }
+    },
+    {
+      "state": "Dadra and Nagar Haveli and Daman and Diu",
+      "slug": "dadra-and-nagar-haveli-and-daman-and-diu",
+      "type": "ut",
+      "primary": {
+        "imageId": 1523,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Freedom_Memorial_in_Moti_Daman_Fort.jpg/960px-Freedom_Memorial_in_Moti_Daman_Fort.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 92,
+        "test": {
+          "ok": false,
+          "error": "Failed after 3 attempts"
+        }
+      },
+      "hero": {
+        "imageId": 1522,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Diu_Fort.JPG/960px-Diu_Fort.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 94,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 116043,
+          "format": "jpeg"
+        }
+      }
+    },
+    {
+      "state": "Delhi",
+      "slug": "delhi",
+      "type": "ut",
+      "primary": {
+        "imageId": 1828,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/India_Gate%2C_New_Delhi%2C_India%2C_IMG-20180913.jpg/1280px-India_Gate%2C_New_Delhi%2C_India%2C_IMG-20180913.jpg",
+        "score": 87,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 153190,
+          "format": "jpeg"
+        }
+      },
+      "hero": {
+        "imageId": 1842,
+        "url": "https://live.staticflickr.com/5536/9710410947_eed27a8179_b.jpg",
+        "score": 82,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 142749,
+          "format": "jpeg"
+        }
+      }
+    },
+    {
+      "state": "Jammu and Kashmir",
+      "slug": "jammu-and-kashmir",
+      "type": "ut",
+      "primary": {
+        "imageId": 1829,
+        "url": "https://live.staticflickr.com/5498/10434926295_49bb0bb52e_b.jpg",
+        "score": 87,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 169458,
+          "format": "jpeg"
+        }
+      },
+      "hero": {
+        "imageId": 1554,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Empty_shikara_on_Dal_Lake%2C_Srinagar%2C_India_2013-08-23_%28flickr_9967093983%29.jpg/960px-Empty_shikara_on_Dal_Lake%2C_Srinagar%2C_India_2013-08-23_%28flickr_9967093983%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 74,
+        "test": {
+          "ok": false,
+          "error": "Failed after 3 attempts"
+        }
+      }
+    },
+    {
+      "state": "Ladakh",
+      "slug": "ladakh",
+      "type": "ut",
+      "primary": {
+        "imageId": 1843,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Panoramic_view_of_Pnagong_lake%2C_Pangong_Tso%2C_view_form_Pangong_Lake_Rd%2C_194201.jpg/1280px-Panoramic_view_of_Pnagong_lake%2C_Pangong_Tso%2C_view_form_Pangong_Lake_Rd%2C_194201.jpg",
+        "score": 87,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 162028,
+          "format": "jpeg"
+        }
+      },
+      "hero": {
+        "imageId": 1595,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/The_poetry_of_the_earth%27s_beauty.Humbleness_of_the_brown_soil%2C_loftiness_of_the_cloudy_sky%2C_infiniteness_of_the_blue_lake.jpg/960px-The_poetry_of_the_earth%27s_beauty.Humbleness_of_the_brown_soil%2C_loftiness_of_the_cloudy_sky%2C_infiniteness_of_the_blue_lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 72,
+        "test": {
+          "ok": false,
+          "error": "Failed after 3 attempts"
+        }
+      }
+    },
+    {
+      "state": "Lakshadweep",
+      "slug": "lakshadweep",
+      "type": "ut",
+      "primary": {
+        "imageId": 1602,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Agatti_island%2C_Lakshadweep.jpg/960px-Agatti_island%2C_Lakshadweep.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 83,
+        "test": {
+          "ok": false,
+          "error": "Failed after 3 attempts"
+        }
+      },
+      "hero": {
+        "imageId": 1601,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Bangaram_Island_%285799661931%29.jpg/960px-Bangaram_Island_%285799661931%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 72,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 220585,
+          "format": "jpeg"
+        }
+      }
+    },
+    {
+      "state": "Puducherry",
+      "slug": "puducherry",
+      "type": "ut",
+      "primary": {
+        "imageId": 1606,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Windows_of_Pondicherry_-_White_wall%2C_Green_coloured_window_and_grills_%283%29.jpg/1280px-Windows_of_Pondicherry_-_White_wall%2C_Green_coloured_window_and_grills_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 72,
+        "test": {
+          "ok": true,
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 313766,
+          "format": "jpeg"
+        }
+      },
+      "hero": {
+        "imageId": 1605,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Pondicherry-Gandhi_Monument-IMG_20250222_205032-Verbessert-RR.jpg/960px-Pondicherry-Gandhi_Monument-IMG_20250222_205032-Verbessert-RR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 72,
+        "test": {
+          "ok": false,
+          "error": "Failed after 3 attempts"
+        }
+      }
+    }
+  ]
+}

@@ -29,8 +29,8 @@ describe('Jharkhand CIMS Image System - Regression & Verification Suite', () => 
       assert.ok(d.photographer, `District ${d.name} missing photographer credit`);
       assert.ok(d.license, `District ${d.name} missing license metadata`);
 
-      assert.match(d.image, /^https:\/\/(upload|thumb)\.wikimedia\.org\//, `District ${d.name} image not from Wikimedia`);
-      assert.match(d.thumbnailUrl, /^https:\/\/(upload|thumb)\.wikimedia\.org\//, `District ${d.name} thumbnail not from Wikimedia`);
+      assert.match(d.image, /^https:\/\/(?:(?:upload|thumb)\.wikimedia\.org|live\.staticflickr\.com|images\.unsplash\.com|pd\.w\.org)\//, `District ${d.name} image not from Wikimedia`);
+      assert.match(d.thumbnailUrl, /^https:\/\/(?:(?:upload|thumb)\.wikimedia\.org|live\.staticflickr\.com|images\.unsplash\.com|pd\.w\.org)\//, `District ${d.name} thumbnail not from Wikimedia`);
 
       seenUrls.add(d.image);
       seenImageIds.add(d.onlineImageId);
@@ -47,7 +47,7 @@ describe('Jharkhand CIMS Image System - Regression & Verification Suite', () => 
     assert.equal(res.body.data.name, 'Jharkhand');
 
     const state = res.body.data;
-    assert.match(state.heroImage, /^https:\/\/(upload|thumb)\.wikimedia\.org\//);
-    assert.match(state.image, /^https:\/\/(upload|thumb)\.wikimedia\.org\//);
+    assert.match(state.heroImage, /^https:\/\/(?:(?:upload|thumb)\.wikimedia\.org|live\.staticflickr\.com|images\.unsplash\.com|pd\.w\.org)\//);
+    assert.match(state.image, /^https:\/\/(?:(?:upload|thumb)\.wikimedia\.org|live\.staticflickr\.com|images\.unsplash\.com|pd\.w\.org)\//);
   });
 });

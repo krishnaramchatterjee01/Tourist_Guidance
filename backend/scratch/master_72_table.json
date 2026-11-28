@@ -1,0 +1,2023 @@
+{
+  "totalWorking": 72,
+  "totalBroken": 0,
+  "totalSub80": 0,
+  "table": [
+    {
+      "num": 1,
+      "stateName": "Andhra Pradesh",
+      "slug": "andhra-pradesh",
+      "regionType": "state",
+      "role": "Primary Card",
+      "imageId": 1803,
+      "title": "Gandikota Fort Cuddapah Andhra Pradesh PIC 01",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "1200x800+",
+      "scores": {
+        "total": 100,
+        "geo": 30,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Gandikota_Fort_Cuddapah_Andhra_Pradesh_PIC_0156.JPG/1280px-Gandikota_Fort_Cuddapah_Andhra_Pradesh_PIC_0156.JPG",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 267,
+        "error": null
+      }
+    },
+    {
+      "num": 2,
+      "stateName": "Andhra Pradesh",
+      "slug": "andhra-pradesh",
+      "regionType": "state",
+      "role": "Hero Banner",
+      "imageId": 1804,
+      "title": "Araku Valley coffee plantations in Ananthagir",
+      "provider": "wikimedia",
+      "license": "CC BY 4.0",
+      "resolutionLabel": "4K/UHD",
+      "scores": {
+        "total": 100,
+        "geo": 30,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Araku_Valley_coffee_plantations_in_Ananthagiri_hills_in_Andhra_Pradesh_01.jpg/1920px-Araku_Valley_coffee_plantations_in_Ananthagiri_hills_in_Andhra_Pradesh_01.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 724,
+        "error": null
+      }
+    },
+    {
+      "num": 3,
+      "stateName": "Arunachal Pradesh",
+      "slug": "arunachal-pradesh",
+      "regionType": "state",
+      "role": "Primary Card",
+      "imageId": 124,
+      "title": "An Apatani Old lady in Ziro valley of Arunach",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "1280x800",
+      "scores": {
+        "total": 98,
+        "geo": 30,
+        "tech": 23,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/An_Apatani_Old_lady_in_Ziro_valley_of_Arunachal_Pradesh.jpg/960px-An_Apatani_Old_lady_in_Ziro_valley_of_Arunachal_Pradesh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 201,
+        "error": null
+      }
+    },
+    {
+      "num": 4,
+      "stateName": "Arunachal Pradesh",
+      "slug": "arunachal-pradesh",
+      "regionType": "state",
+      "role": "Hero Banner",
+      "imageId": 1805,
+      "title": "Wild flowers at Sela Pass",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "FullHD",
+      "scores": {
+        "total": 100,
+        "geo": 30,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Wild_flowers_at_Sela_Pass.jpg/1920px-Wild_flowers_at_Sela_Pass.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 459,
+        "error": null
+      }
+    },
+    {
+      "num": 5,
+      "stateName": "Assam",
+      "slug": "assam",
+      "regionType": "state",
+      "role": "Primary Card",
+      "imageId": 178,
+      "title": "Majuli Island (117)",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "1280x800",
+      "scores": {
+        "total": 94,
+        "geo": 24,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Majuli_Island_%28117%29.jpg/960px-Majuli_Island_%28117%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 175,
+        "error": null
+      }
+    },
+    {
+      "num": 6,
+      "stateName": "Assam",
+      "slug": "assam",
+      "regionType": "state",
+      "role": "Hero Banner",
+      "imageId": 177,
+      "title": "Kamakhya Temple, Guwahati",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 3.0",
+      "resolutionLabel": "FullHD",
+      "scores": {
+        "total": 92,
+        "geo": 24,
+        "tech": 23,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Kamakhya_Temple%2C_Guwahati.jpg/960px-Kamakhya_Temple%2C_Guwahati.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 202,
+        "error": null
+      }
+    },
+    {
+      "num": 7,
+      "stateName": "Bihar",
+      "slug": "bihar",
+      "regionType": "state",
+      "role": "Primary Card",
+      "imageId": 1806,
+      "title": "Mahabodhi temple complex, Bodhgaya 23",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "1280x800",
+      "scores": {
+        "total": 100,
+        "geo": 30,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Mahabodhi_temple_complex%2C_Bodhgaya_23.jpg/1280px-Mahabodhi_temple_complex%2C_Bodhgaya_23.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 442,
+        "error": null
+      }
+    },
+    {
+      "num": 8,
+      "stateName": "Bihar",
+      "slug": "bihar",
+      "regionType": "state",
+      "role": "Hero Banner",
+      "imageId": 1807,
+      "title": "Famed Buddhist Nalanda University & Monastery",
+      "provider": "openverse",
+      "license": "BY",
+      "resolutionLabel": "FullHD",
+      "scores": {
+        "total": 83,
+        "geo": 26,
+        "tech": 19,
+        "aest": 16,
+        "tour": 17,
+        "rec": 5
+      },
+      "url": "https://live.staticflickr.com/3531/3946578949_ec9aa2fe8c_b.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 178,
+        "error": null
+      }
+    },
+    {
+      "num": 9,
+      "stateName": "Chhattisgarh",
+      "slug": "chhattisgarh",
+      "regionType": "state",
+      "role": "Primary Card",
+      "imageId": 1808,
+      "title": "Chitrakut waterfalls",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "1280x800",
+      "scores": {
+        "total": 85,
+        "geo": 26,
+        "tech": 21,
+        "aest": 16,
+        "tour": 17,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Chitrakut_waterfalls.jpg/1280px-Chitrakut_waterfalls.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 305,
+        "error": null
+      }
+    },
+    {
+      "num": 10,
+      "stateName": "Chhattisgarh",
+      "slug": "chhattisgarh",
+      "regionType": "state",
+      "role": "Hero Banner",
+      "imageId": 1845,
+      "title": "Sunset at Chirakoot Waterfall , District- Bas",
+      "provider": "wikimedia",
+      "license": "Public domain",
+      "resolutionLabel": "4K/UHD",
+      "scores": {
+        "total": 89,
+        "geo": 26,
+        "tech": 25,
+        "aest": 17,
+        "tour": 17,
+        "rec": 4
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Sunset_at_Chirakoot_Waterfall_%2C_District-_Bastar_%2C_City-_Jagdalpur_%2C_Chhattisgarh_%2C_India.jpeg/1920px-Sunset_at_Chirakoot_Waterfall_%2C_District-_Bastar_%2C_City-_Jagdalpur_%2C_Chhattisgarh_%2C_India.jpeg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 319,
+        "error": null
+      }
+    },
+    {
+      "num": 11,
+      "stateName": "Goa",
+      "slug": "goa",
+      "regionType": "state",
+      "role": "Primary Card",
+      "imageId": 384,
+      "title": "Basilica of Bom Jesus (Goa) Front View",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "1280x800",
+      "scores": {
+        "total": 100,
+        "geo": 30,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Basilica_of_Bom_Jesus_%28Goa%29_Front_View.jpg/1280px-Basilica_of_Bom_Jesus_%28Goa%29_Front_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 335,
+        "error": null
+      }
+    },
+    {
+      "num": 12,
+      "stateName": "Goa",
+      "slug": "goa",
+      "regionType": "state",
+      "role": "Hero Banner",
+      "imageId": 383,
+      "title": "Dudhsagar, the milky waterfall, Goa",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 3.0",
+      "resolutionLabel": "FullHD",
+      "scores": {
+        "total": 86,
+        "geo": 26,
+        "tech": 21,
+        "aest": 17,
+        "tour": 17,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Dudhsagar%2C_the_milky_waterfall%2C_Goa.JPG/1280px-Dudhsagar%2C_the_milky_waterfall%2C_Goa.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 432,
+        "error": null
+      }
+    },
+    {
+      "num": 13,
+      "stateName": "Gujarat",
+      "slug": "gujarat",
+      "regionType": "state",
+      "role": "Primary Card",
+      "imageId": 1810,
+      "title": "Rann Utsav Festival, Gujarat, India",
+      "provider": "openverse",
+      "license": "BY",
+      "resolutionLabel": "1280x800",
+      "scores": {
+        "total": 83,
+        "geo": 26,
+        "tech": 19,
+        "aest": 16,
+        "tour": 17,
+        "rec": 5
+      },
+      "url": "https://live.staticflickr.com/65535/52746751472_f1310e3ef9_b.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 165,
+        "error": null
+      }
+    },
+    {
+      "num": 14,
+      "stateName": "Gujarat",
+      "slug": "gujarat",
+      "regionType": "state",
+      "role": "Hero Banner",
+      "imageId": 1849,
+      "title": "Somnath Temple Gujarat",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "FullHD",
+      "scores": {
+        "total": 99,
+        "geo": 30,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 4
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Somnath_Temple_Gujarat.jpg/1920px-Somnath_Temple_Gujarat.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 328,
+        "error": null
+      }
+    },
+    {
+      "num": 15,
+      "stateName": "Haryana",
+      "slug": "haryana",
+      "regionType": "state",
+      "role": "Primary Card",
+      "imageId": 1850,
+      "title": "Brahma Sarovar, Kurukshetra",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 3.0",
+      "resolutionLabel": "1200x800+",
+      "scores": {
+        "total": 99,
+        "geo": 30,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 4
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Brahma_Sarovar%2C_Kurukshetra.jpg/1280px-Brahma_Sarovar%2C_Kurukshetra.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 208,
+        "error": null
+      }
+    },
+    {
+      "num": 16,
+      "stateName": "Haryana",
+      "slug": "haryana",
+      "regionType": "state",
+      "role": "Hero Banner",
+      "imageId": 1811,
+      "title": "Pinjore Gardens, Panchkula, Haryana",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "FullHD",
+      "scores": {
+        "total": 100,
+        "geo": 30,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Pinjore_Gardens%2C_Panchkula%2C_Haryana.jpg/1280px-Pinjore_Gardens%2C_Panchkula%2C_Haryana.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 357,
+        "error": null
+      }
+    },
+    {
+      "num": 17,
+      "stateName": "Himachal Pradesh",
+      "slug": "himachal-pradesh",
+      "regionType": "state",
+      "role": "Primary Card",
+      "imageId": 522,
+      "title": "Steps in Key Gompa monastery, Spiti Valley, H",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "1200x800+",
+      "scores": {
+        "total": 99,
+        "geo": 30,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 4
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Steps_in_Key_Gompa_monastery%2C_Spiti_Valley%2C_Himachal_Pradesh%2C_India.jpg/1280px-Steps_in_Key_Gompa_monastery%2C_Spiti_Valley%2C_Himachal_Pradesh%2C_India.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 263,
+        "error": null
+      }
+    },
+    {
+      "num": 18,
+      "stateName": "Himachal Pradesh",
+      "slug": "himachal-pradesh",
+      "regionType": "state",
+      "role": "Hero Banner",
+      "imageId": 1812,
+      "title": "Hills of Manali",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "FullHD",
+      "scores": {
+        "total": 90,
+        "geo": 26,
+        "tech": 25,
+        "aest": 17,
+        "tour": 17,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Hills_of_Manali.jpg/1920px-Hills_of_Manali.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 478,
+        "error": null
+      }
+    },
+    {
+      "num": 19,
+      "stateName": "Jharkhand",
+      "slug": "jharkhand",
+      "regionType": "state",
+      "role": "Primary Card",
+      "imageId": 1831,
+      "title": "Hundru Falls, Jharkhand, India 2",
+      "provider": "wikimedia",
+      "license": "CC BY 4.0",
+      "resolutionLabel": "1200x800+",
+      "scores": {
+        "total": 99,
+        "geo": 30,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 4
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Hundru_Falls%2C_Jharkhand%2C_India_2.jpg/1280px-Hundru_Falls%2C_Jharkhand%2C_India_2.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 508,
+        "error": null
+      }
+    },
+    {
+      "num": 20,
+      "stateName": "Jharkhand",
+      "slug": "jharkhand",
+      "regionType": "state",
+      "role": "Hero Banner",
+      "imageId": 533,
+      "title": "Hundru Falls, Jharkhand, India 9",
+      "provider": "wikimedia",
+      "license": "CC BY 4.0",
+      "resolutionLabel": "1200x800+",
+      "scores": {
+        "total": 98,
+        "geo": 30,
+        "tech": 23,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Hundru_Falls%2C_Jharkhand%2C_India_9.jpg/1280px-Hundru_Falls%2C_Jharkhand%2C_India_9.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 565,
+        "error": null
+      }
+    },
+    {
+      "num": 21,
+      "stateName": "Karnataka",
+      "slug": "karnataka",
+      "regionType": "state",
+      "role": "Primary Card",
+      "imageId": 1813,
+      "title": "15th-16th century Vaishnavism Vitthala temple",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "1280x800",
+      "scores": {
+        "total": 100,
+        "geo": 30,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/15th-16th_century_Vaishnavism_Vitthala_temple_Garuda_stone_chariot%2C_Hampi_Hindu_monuments_Karnataka_2.jpg/1280px-15th-16th_century_Vaishnavism_Vitthala_temple_Garuda_stone_chariot%2C_Hampi_Hindu_monuments_Karnataka_2.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 319,
+        "error": null
+      }
+    },
+    {
+      "num": 22,
+      "stateName": "Karnataka",
+      "slug": "karnataka",
+      "regionType": "state",
+      "role": "Hero Banner",
+      "imageId": 626,
+      "title": "Mysore palace at night 01",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "FullHD",
+      "scores": {
+        "total": 92,
+        "geo": 24,
+        "tech": 23,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Mysore_palace_at_night_01.jpg/1920px-Mysore_palace_at_night_01.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 463,
+        "error": null
+      }
+    },
+    {
+      "num": 23,
+      "stateName": "Kerala",
+      "slug": "kerala",
+      "regionType": "state",
+      "role": "Primary Card",
+      "imageId": 1832,
+      "title": "Alleppey Backwaters",
+      "provider": "openverse",
+      "license": "BY",
+      "resolutionLabel": "1200x800+",
+      "scores": {
+        "total": 86,
+        "geo": 24,
+        "tech": 19,
+        "aest": 19,
+        "tour": 20,
+        "rec": 4
+      },
+      "url": "https://live.staticflickr.com/3789/10944368005_9b0ba25104_b.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 146,
+        "error": null
+      }
+    },
+    {
+      "num": 24,
+      "stateName": "Kerala",
+      "slug": "kerala",
+      "regionType": "state",
+      "role": "Hero Banner",
+      "imageId": 645,
+      "title": "Munnar tea gardens",
+      "provider": "wikimedia",
+      "license": "Public domain",
+      "resolutionLabel": "4K/UHD",
+      "scores": {
+        "total": 87,
+        "geo": 26,
+        "tech": 23,
+        "aest": 17,
+        "tour": 17,
+        "rec": 4
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Munnar_tea_gardens.jpg/1920px-Munnar_tea_gardens.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 177,
+        "error": null
+      }
+    },
+    {
+      "num": 25,
+      "stateName": "Madhya Pradesh",
+      "slug": "madhya-pradesh",
+      "regionType": "state",
+      "role": "Primary Card",
+      "imageId": 1814,
+      "title": "Kandariya Mahadeva Temple, Khajuraho, Madhya ",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "1200x800+",
+      "scores": {
+        "total": 89,
+        "geo": 26,
+        "tech": 25,
+        "aest": 17,
+        "tour": 17,
+        "rec": 4
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Kandariya_Mahadeva_Temple%2C_Khajuraho%2C_Madhya_Pradesh%2C_India_002.jpg/1280px-Kandariya_Mahadeva_Temple%2C_Khajuraho%2C_Madhya_Pradesh%2C_India_002.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 263,
+        "error": null
+      }
+    },
+    {
+      "num": 26,
+      "stateName": "Madhya Pradesh",
+      "slug": "madhya-pradesh",
+      "regionType": "state",
+      "role": "Hero Banner",
+      "imageId": 1815,
+      "title": "Marble Rocks,Bhedaghat",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "FullHD",
+      "scores": {
+        "total": 91,
+        "geo": 30,
+        "tech": 17,
+        "aest": 19,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Marble_Rocks%2CBhedaghat.jpg/1920px-Marble_Rocks%2CBhedaghat.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 659,
+        "error": null
+      }
+    },
+    {
+      "num": 27,
+      "stateName": "Maharashtra",
+      "slug": "maharashtra",
+      "regionType": "state",
+      "role": "Primary Card",
+      "imageId": 1833,
+      "title": "Ellora caves - Kailasa Temple (cave 16) vrvba",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "1200x800+",
+      "scores": {
+        "total": 87,
+        "geo": 26,
+        "tech": 23,
+        "aest": 17,
+        "tour": 17,
+        "rec": 4
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Ellora_caves_-_Kailasa_Temple_%28cave_16%29_vrvbajel0924_%28480%29.jpg/1280px-Ellora_caves_-_Kailasa_Temple_%28cave_16%29_vrvbajel0924_%28480%29.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 848,
+        "error": null
+      }
+    },
+    {
+      "num": 28,
+      "stateName": "Maharashtra",
+      "slug": "maharashtra",
+      "regionType": "state",
+      "role": "Hero Banner",
+      "imageId": 783,
+      "title": "Chatrapati shivaji Maharaj Statue at Gateway ",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 3.0",
+      "resolutionLabel": "FullHD",
+      "scores": {
+        "total": 94,
+        "geo": 24,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Chatrapati_shivaji_Maharaj_Statue_at_Gateway_Of_India%2C_Mumbai.JPG/1920px-Chatrapati_shivaji_Maharaj_Statue_at_Gateway_Of_India%2C_Mumbai.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 362,
+        "error": null
+      }
+    },
+    {
+      "num": 29,
+      "stateName": "Manipur",
+      "slug": "manipur",
+      "regionType": "state",
+      "role": "Primary Card",
+      "imageId": 856,
+      "title": "Kangla Sanathong (Kangla Grand Gate or Kangla",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "1280x800",
+      "scores": {
+        "total": 100,
+        "geo": 30,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Kangla_Sanathong_%28Kangla_Grand_Gate_or_Kangla_Royal_Gate%29_-_Classical_Meitei_architecture_-_in_the_western_side_of_the_Kangla_Fort_%28Kangla_Palace%29_in_Imphal_West_district_of_Manipur_state_%28Kangleipak%29_02.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 195,
+        "error": null
+      }
+    },
+    {
+      "num": 30,
+      "stateName": "Manipur",
+      "slug": "manipur",
+      "regionType": "state",
+      "role": "Hero Banner",
+      "imageId": 855,
+      "title": "Loktak Lake Manipur 01",
+      "provider": "wikimedia",
+      "license": "CC BY 2.0",
+      "resolutionLabel": "FullHD",
+      "scores": {
+        "total": 98,
+        "geo": 30,
+        "tech": 23,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Loktak_Lake_Manipur_01.jpg/960px-Loktak_Lake_Manipur_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 115,
+        "error": null
+      }
+    },
+    {
+      "num": 31,
+      "stateName": "Meghalaya",
+      "slug": "meghalaya",
+      "regionType": "state",
+      "role": "Primary Card",
+      "imageId": 1834,
+      "title": "Living root bridges of Nongriat village in Ea",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "1200x800+",
+      "scores": {
+        "total": 97,
+        "geo": 30,
+        "tech": 23,
+        "aest": 20,
+        "tour": 20,
+        "rec": 4
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Living_root_bridges_of_Nongriat_village_in_East_Khasi_Hills_district%2C_Meghalaya_JEG7422.jpg/1280px-Living_root_bridges_of_Nongriat_village_in_East_Khasi_Hills_district%2C_Meghalaya_JEG7422.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 914,
+        "error": null
+      }
+    },
+    {
+      "num": 32,
+      "stateName": "Meghalaya",
+      "slug": "meghalaya",
+      "regionType": "state",
+      "role": "Hero Banner",
+      "imageId": 889,
+      "title": "Nohkalikai Falls Cherrapunji",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 3.0",
+      "resolutionLabel": "FullHD",
+      "scores": {
+        "total": 92,
+        "geo": 24,
+        "tech": 23,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Nohkalikai_Falls_Cherrapunji.JPG/960px-Nohkalikai_Falls_Cherrapunji.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 243,
+        "error": null
+      }
+    },
+    {
+      "num": 33,
+      "stateName": "Mizoram",
+      "slug": "mizoram",
+      "regionType": "state",
+      "role": "Primary Card",
+      "imageId": 1851,
+      "title": "Chaltlang veng view , Aizawl city Mizoram - p",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 3.0",
+      "resolutionLabel": "1200x800+",
+      "scores": {
+        "total": 99,
+        "geo": 30,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 4
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Chaltlang_veng_view_%2C_Aizawl_city_Mizoram_-_panoramio.jpg/1280px-Chaltlang_veng_view_%2C_Aizawl_city_Mizoram_-_panoramio.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 314,
+        "error": null
+      }
+    },
+    {
+      "num": 34,
+      "stateName": "Mizoram",
+      "slug": "mizoram",
+      "regionType": "state",
+      "role": "Hero Banner",
+      "imageId": 913,
+      "title": "Vantawng Falls, Mizoram",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "FullHD",
+      "scores": {
+        "total": 96,
+        "geo": 30,
+        "tech": 21,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Vantawng_Falls%2C_Mizoram.jpg/960px-Vantawng_Falls%2C_Mizoram.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 269,
+        "error": null
+      }
+    },
+    {
+      "num": 35,
+      "stateName": "Nagaland",
+      "slug": "nagaland",
+      "regionType": "state",
+      "role": "Primary Card",
+      "imageId": 1852,
+      "title": "Breathtaking beauty of Dzukou Valley in Manip",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "1200x800+",
+      "scores": {
+        "total": 99,
+        "geo": 30,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 4
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Breathtaking_beauty_of_Dzukou_Valley_in_Manipur-Nagaland_border_%28edit%29.jpg/1280px-Breathtaking_beauty_of_Dzukou_Valley_in_Manipur-Nagaland_border_%28edit%29.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 239,
+        "error": null
+      }
+    },
+    {
+      "num": 36,
+      "stateName": "Nagaland",
+      "slug": "nagaland",
+      "regionType": "state",
+      "role": "Hero Banner",
+      "imageId": 936,
+      "title": "Dzükou Valley, Viswema, Nagaland 12",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "FullHD",
+      "scores": {
+        "total": 81,
+        "geo": 26,
+        "tech": 17,
+        "aest": 16,
+        "tour": 17,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Dz%C3%BCkou_Valley%2C_Viswema%2C_Nagaland_12.jpg/960px-Dz%C3%BCkou_Valley%2C_Viswema%2C_Nagaland_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 275,
+        "error": null
+      }
+    },
+    {
+      "num": 37,
+      "stateName": "Odisha",
+      "slug": "odisha",
+      "regionType": "state",
+      "role": "Primary Card",
+      "imageId": 1835,
+      "title": "Suntemple eapupal",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "1200x800+",
+      "scores": {
+        "total": 99,
+        "geo": 30,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 4
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Suntemple_eapupal.jpg/1280px-Suntemple_eapupal.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 634,
+        "error": null
+      }
+    },
+    {
+      "num": 38,
+      "stateName": "Odisha",
+      "slug": "odisha",
+      "regionType": "state",
+      "role": "Hero Banner",
+      "imageId": 969,
+      "title": "Stone wheel engraved in the 13th century buil",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "FullHD",
+      "scores": {
+        "total": 92,
+        "geo": 24,
+        "tech": 23,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Stone_wheel_engraved_in_the_13th_century_built_Konark_Sun_Temple_in_Orissa%2C_India.jpg/960px-Stone_wheel_engraved_in_the_13th_century_built_Konark_Sun_Temple_in_Orissa%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 338,
+        "error": null
+      }
+    },
+    {
+      "num": 39,
+      "stateName": "Punjab",
+      "slug": "punjab",
+      "regionType": "state",
+      "role": "Primary Card",
+      "imageId": 1846,
+      "title": "Golden Temple (Harmandir Sahib) at night, Amr",
+      "provider": "wikimedia",
+      "license": "CC BY 2.0",
+      "resolutionLabel": "1200x800+",
+      "scores": {
+        "total": 99,
+        "geo": 30,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 4
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Golden_Temple_%28Harmandir_Sahib%29_at_night%2C_Amritsar%2C_Punjab%2C_India_%282017%29_2.jpg/1280px-Golden_Temple_%28Harmandir_Sahib%29_at_night%2C_Amritsar%2C_Punjab%2C_India_%282017%29_2.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 315,
+        "error": null
+      }
+    },
+    {
+      "num": 40,
+      "stateName": "Punjab",
+      "slug": "punjab",
+      "regionType": "state",
+      "role": "Hero Banner",
+      "imageId": 1817,
+      "title": "Golden Temple (Harmandir Sahib) at night, Amr",
+      "provider": "wikimedia",
+      "license": "CC BY 2.0",
+      "resolutionLabel": "FullHD",
+      "scores": {
+        "total": 100,
+        "geo": 30,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Golden_Temple_%28Harmandir_Sahib%29_at_night%2C_Amritsar%2C_Punjab%2C_India_%282017%29.jpg/1920px-Golden_Temple_%28Harmandir_Sahib%29_at_night%2C_Amritsar%2C_Punjab%2C_India_%282017%29.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 639,
+        "error": null
+      }
+    },
+    {
+      "num": 41,
+      "stateName": "Rajasthan",
+      "slug": "rajasthan",
+      "regionType": "state",
+      "role": "Primary Card",
+      "imageId": 1818,
+      "title": "Amber Fort Jaipur india",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "1280x800",
+      "scores": {
+        "total": 100,
+        "geo": 30,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Amber_Fort_Jaipur_india.jpg/1280px-Amber_Fort_Jaipur_india.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 121,
+        "error": null
+      }
+    },
+    {
+      "num": 42,
+      "stateName": "Rajasthan",
+      "slug": "rajasthan",
+      "regionType": "state",
+      "role": "Hero Banner",
+      "imageId": 1819,
+      "title": "Hawa Mahal, Jaipur: The iconic ‘Palace of Win",
+      "provider": "openverse",
+      "license": "CC0",
+      "resolutionLabel": "FullHD",
+      "scores": {
+        "total": 98,
+        "geo": 30,
+        "tech": 23,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://pd.w.org/2024/10/169671ce0e7bc9338.86480131-2048x1424.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 807,
+        "error": null
+      }
+    },
+    {
+      "num": 43,
+      "stateName": "Sikkim",
+      "slug": "sikkim",
+      "regionType": "state",
+      "role": "Primary Card",
+      "imageId": 1820,
+      "title": "Tsomgo Lake, Sikkim",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "1280x800",
+      "scores": {
+        "total": 100,
+        "geo": 30,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Tsomgo_Lake%2C_Sikkim.jpg/1280px-Tsomgo_Lake%2C_Sikkim.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 273,
+        "error": null
+      }
+    },
+    {
+      "num": 44,
+      "stateName": "Sikkim",
+      "slug": "sikkim",
+      "regionType": "state",
+      "role": "Hero Banner",
+      "imageId": 1161,
+      "title": "Gurudongmar Lake in May 2015",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "FullHD",
+      "scores": {
+        "total": 94,
+        "geo": 24,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Gurudongmar_Lake_in_May_2015.jpg/960px-Gurudongmar_Lake_in_May_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 85,
+        "error": null
+      }
+    },
+    {
+      "num": 45,
+      "stateName": "Tamil Nadu",
+      "slug": "tamil-nadu",
+      "regionType": "state",
+      "role": "Primary Card",
+      "imageId": 1821,
+      "title": "Meenakshi Temple (6357534075)",
+      "provider": "wikimedia",
+      "license": "CC BY 2.0",
+      "resolutionLabel": "1280x800",
+      "scores": {
+        "total": 100,
+        "geo": 30,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Meenakshi_Temple_%286357534075%29.jpg/1280px-Meenakshi_Temple_%286357534075%29.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 325,
+        "error": null
+      }
+    },
+    {
+      "num": 46,
+      "stateName": "Tamil Nadu",
+      "slug": "tamil-nadu",
+      "regionType": "state",
+      "role": "Hero Banner",
+      "imageId": 1837,
+      "title": "Shore Temple Mamallapuram ASI",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "FullHD",
+      "scores": {
+        "total": 82,
+        "geo": 26,
+        "tech": 19,
+        "aest": 16,
+        "tour": 17,
+        "rec": 4
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Shore_Temple_Mamallapuram_ASI.jpg/1280px-Shore_Temple_Mamallapuram_ASI.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 182,
+        "error": null
+      }
+    },
+    {
+      "num": 47,
+      "stateName": "Telangana",
+      "slug": "telangana",
+      "regionType": "state",
+      "role": "Primary Card",
+      "imageId": 1822,
+      "title": "Charminar, Hyderabad 2023",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "1280x800",
+      "scores": {
+        "total": 98,
+        "geo": 30,
+        "tech": 23,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Charminar%2C_Hyderabad_2023.jpg/1280px-Charminar%2C_Hyderabad_2023.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 511,
+        "error": null
+      }
+    },
+    {
+      "num": 48,
+      "stateName": "Telangana",
+      "slug": "telangana",
+      "regionType": "state",
+      "role": "Hero Banner",
+      "imageId": 1838,
+      "title": "A Majestic Relic of Hyderabad's Golconda Fort",
+      "provider": "openverse",
+      "license": "CC0",
+      "resolutionLabel": "FullHD",
+      "scores": {
+        "total": 91,
+        "geo": 24,
+        "tech": 23,
+        "aest": 20,
+        "tour": 20,
+        "rec": 4
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/A_Majestic_Relic_of_Hyderabad%27s_Golconda_Fort.jpg/1920px-A_Majestic_Relic_of_Hyderabad%27s_Golconda_Fort.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 1128,
+        "error": null
+      }
+    },
+    {
+      "num": 49,
+      "stateName": "Tripura",
+      "slug": "tripura",
+      "regionType": "state",
+      "role": "Primary Card",
+      "imageId": 1839,
+      "title": "2)Neermahal-The marvelous water palace of Tri",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "1200x800+",
+      "scores": {
+        "total": 89,
+        "geo": 26,
+        "tech": 25,
+        "aest": 17,
+        "tour": 17,
+        "rec": 4
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/2%29Neermahal-The_marvelous_water_palace_of_Tripura.jpg/1280px-2%29Neermahal-The_marvelous_water_palace_of_Tripura.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 99,
+        "error": null
+      }
+    },
+    {
+      "num": 50,
+      "stateName": "Tripura",
+      "slug": "tripura",
+      "regionType": "state",
+      "role": "Hero Banner",
+      "imageId": 1844,
+      "title": "Left Facade of Ujjayanta Palace, Agartala, Tr",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "FullHD",
+      "scores": {
+        "total": 99,
+        "geo": 30,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 4
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Left_Facade_of_Ujjayanta_Palace%2C_Agartala%2C_Tripura_02.JPG/1920px-Left_Facade_of_Ujjayanta_Palace%2C_Agartala%2C_Tripura_02.JPG",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 799,
+        "error": null
+      }
+    },
+    {
+      "num": 51,
+      "stateName": "Uttar Pradesh",
+      "slug": "uttar-pradesh",
+      "regionType": "state",
+      "role": "Primary Card",
+      "imageId": 1825,
+      "title": "Taj Mahal -Agra -Uttar Pradesh -DSC 0002",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "1280x800",
+      "scores": {
+        "total": 100,
+        "geo": 30,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Taj_Mahal_-Agra_-Uttar_Pradesh_-DSC_0002.jpg/1280px-Taj_Mahal_-Agra_-Uttar_Pradesh_-DSC_0002.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 176,
+        "error": null
+      }
+    },
+    {
+      "num": 52,
+      "stateName": "Uttar Pradesh",
+      "slug": "uttar-pradesh",
+      "regionType": "state",
+      "role": "Hero Banner",
+      "imageId": 1333,
+      "title": "Taj Mahal in March 2004",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 3.0",
+      "resolutionLabel": "FullHD",
+      "scores": {
+        "total": 90,
+        "geo": 24,
+        "tech": 21,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Taj_Mahal_in_March_2004.jpg/1280px-Taj_Mahal_in_March_2004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 376,
+        "error": null
+      }
+    },
+    {
+      "num": 53,
+      "stateName": "Uttarakhand",
+      "slug": "uttarakhand",
+      "regionType": "state",
+      "role": "Primary Card",
+      "imageId": 1853,
+      "title": "Kedarnath Temple in Uttarakhand, India, photo",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "1200x800+",
+      "scores": {
+        "total": 97,
+        "geo": 30,
+        "tech": 23,
+        "aest": 20,
+        "tour": 20,
+        "rec": 4
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Kedarnath_Temple_in_Uttarakhand%2C_India%2C_photo_by_Yogabrata_Chakraborty.jpg/1280px-Kedarnath_Temple_in_Uttarakhand%2C_India%2C_photo_by_Yogabrata_Chakraborty.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 216,
+        "error": null
+      }
+    },
+    {
+      "num": 54,
+      "stateName": "Uttarakhand",
+      "slug": "uttarakhand",
+      "regionType": "state",
+      "role": "Hero Banner",
+      "imageId": 1826,
+      "title": "Valley of flowers(VOF)",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 3.0",
+      "resolutionLabel": "FullHD",
+      "scores": {
+        "total": 91,
+        "geo": 24,
+        "tech": 23,
+        "aest": 20,
+        "tour": 20,
+        "rec": 4
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Valley_of_flowers%28VOF%29.JPG/1920px-Valley_of_flowers%28VOF%29.JPG",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 861,
+        "error": null
+      }
+    },
+    {
+      "num": 55,
+      "stateName": "West Bengal",
+      "slug": "west-bengal",
+      "regionType": "state",
+      "role": "Primary Card",
+      "imageId": 1840,
+      "title": "Victoria Memorial of Kolkata",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "1200x800+",
+      "scores": {
+        "total": 96,
+        "geo": 30,
+        "tech": 23,
+        "aest": 19,
+        "tour": 20,
+        "rec": 4
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Victoria_Memorial_of_Kolkata.jpg/1280px-Victoria_Memorial_of_Kolkata.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 372,
+        "error": null
+      }
+    },
+    {
+      "num": 56,
+      "stateName": "West Bengal",
+      "slug": "west-bengal",
+      "regionType": "state",
+      "role": "Hero Banner",
+      "imageId": 26,
+      "title": "Victoria Memorial Hall Kolkata",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 3.0",
+      "resolutionLabel": "FullHD",
+      "scores": {
+        "total": 81,
+        "geo": 24,
+        "tech": 13,
+        "aest": 19,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Victoria_Memorial_Hall_Kolkata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 142,
+        "error": null
+      }
+    },
+    {
+      "num": 57,
+      "stateName": "Andaman and Nicobar Islands",
+      "slug": "andaman-and-nicobar-islands",
+      "regionType": "ut",
+      "role": "Primary Card",
+      "imageId": 1841,
+      "title": "Kalapathar Beach at Havelock Island , Andaman",
+      "provider": "openverse",
+      "license": "BY",
+      "resolutionLabel": "1200x800+",
+      "scores": {
+        "total": 80,
+        "geo": 24,
+        "tech": 13,
+        "aest": 19,
+        "tour": 20,
+        "rec": 4
+      },
+      "url": "https://live.staticflickr.com/7141/6713219837_66eb974824.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 94,
+        "error": null
+      }
+    },
+    {
+      "num": 58,
+      "stateName": "Andaman and Nicobar Islands",
+      "slug": "andaman-and-nicobar-islands",
+      "regionType": "ut",
+      "role": "Hero Banner",
+      "imageId": 1511,
+      "title": "Havelock Island, Radhanagar Beach, Andaman Is",
+      "provider": "wikimedia",
+      "license": "CC BY 4.0",
+      "resolutionLabel": "FullHD",
+      "scores": {
+        "total": 94,
+        "geo": 24,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Havelock_Island%2C_Radhanagar_Beach%2C_Andaman_Islands.jpg/960px-Havelock_Island%2C_Radhanagar_Beach%2C_Andaman_Islands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 180,
+        "error": null
+      }
+    },
+    {
+      "num": 59,
+      "stateName": "Chandigarh",
+      "slug": "chandigarh",
+      "regionType": "ut",
+      "role": "Primary Card",
+      "imageId": 1520,
+      "title": "Chandigarh Rock Garden 4",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "1280x800",
+      "scores": {
+        "total": 100,
+        "geo": 30,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Chandigarh_Rock_Garden_4.jpg/1280px-Chandigarh_Rock_Garden_4.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 241,
+        "error": null
+      }
+    },
+    {
+      "num": 60,
+      "stateName": "Chandigarh",
+      "slug": "chandigarh",
+      "regionType": "ut",
+      "role": "Hero Banner",
+      "imageId": 1518,
+      "title": "Sunset view at Sukhna lake Chandigarh, India",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "FullHD",
+      "scores": {
+        "total": 98,
+        "geo": 30,
+        "tech": 23,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sunset_view_at_Sukhna_lake_Chandigarh%2C_India.JPG/960px-Sunset_view_at_Sukhna_lake_Chandigarh%2C_India.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 118,
+        "error": null
+      }
+    },
+    {
+      "num": 61,
+      "stateName": "Dadra and Nagar Haveli and Daman and Diu",
+      "slug": "dadra-and-nagar-haveli-and-daman-and-diu",
+      "regionType": "ut",
+      "role": "Primary Card",
+      "imageId": 1523,
+      "title": "Freedom Memorial in Moti Daman Fort",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "1280x800",
+      "scores": {
+        "total": 92,
+        "geo": 24,
+        "tech": 23,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Freedom_Memorial_in_Moti_Daman_Fort.jpg/960px-Freedom_Memorial_in_Moti_Daman_Fort.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 416,
+        "error": null
+      }
+    },
+    {
+      "num": 62,
+      "stateName": "Dadra and Nagar Haveli and Daman and Diu",
+      "slug": "dadra-and-nagar-haveli-and-daman-and-diu",
+      "regionType": "ut",
+      "role": "Hero Banner",
+      "imageId": 1522,
+      "title": "Diu Fort",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 3.0",
+      "resolutionLabel": "FullHD",
+      "scores": {
+        "total": 94,
+        "geo": 24,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Diu_Fort.JPG/960px-Diu_Fort.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 113,
+        "error": null
+      }
+    },
+    {
+      "num": 63,
+      "stateName": "Delhi",
+      "slug": "delhi",
+      "regionType": "ut",
+      "role": "Primary Card",
+      "imageId": 1828,
+      "title": "India Gate, New Delhi, India, IMG-20180913",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "1280x800",
+      "scores": {
+        "total": 87,
+        "geo": 30,
+        "tech": 13,
+        "aest": 19,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/India_Gate%2C_New_Delhi%2C_India%2C_IMG-20180913.jpg/1280px-India_Gate%2C_New_Delhi%2C_India%2C_IMG-20180913.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 150,
+        "error": null
+      }
+    },
+    {
+      "num": 64,
+      "stateName": "Delhi",
+      "slug": "delhi",
+      "regionType": "ut",
+      "role": "Hero Banner",
+      "imageId": 1842,
+      "title": "Delhi, Humayun's Tomb",
+      "provider": "openverse",
+      "license": "BY",
+      "resolutionLabel": "FullHD",
+      "scores": {
+        "total": 82,
+        "geo": 26,
+        "tech": 19,
+        "aest": 16,
+        "tour": 17,
+        "rec": 4
+      },
+      "url": "https://live.staticflickr.com/5536/9710410947_eed27a8179_b.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 139,
+        "error": null
+      }
+    },
+    {
+      "num": 65,
+      "stateName": "Jammu and Kashmir",
+      "slug": "jammu-and-kashmir",
+      "regionType": "ut",
+      "role": "Primary Card",
+      "imageId": 1829,
+      "title": "Shikara on Dal Lake",
+      "provider": "openverse",
+      "license": "BY",
+      "resolutionLabel": "1280x800",
+      "scores": {
+        "total": 87,
+        "geo": 24,
+        "tech": 19,
+        "aest": 19,
+        "tour": 20,
+        "rec": 5
+      },
+      "url": "https://live.staticflickr.com/5498/10434926295_49bb0bb52e_b.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 165,
+        "error": null
+      }
+    },
+    {
+      "num": 66,
+      "stateName": "Jammu and Kashmir",
+      "slug": "jammu-and-kashmir",
+      "regionType": "ut",
+      "role": "Hero Banner",
+      "imageId": 1847,
+      "title": "Dal Lake Shikara",
+      "provider": "openverse",
+      "license": "BY",
+      "resolutionLabel": "FullHD",
+      "scores": {
+        "total": 86,
+        "geo": 24,
+        "tech": 19,
+        "aest": 19,
+        "tour": 20,
+        "rec": 4
+      },
+      "url": "https://live.staticflickr.com/3234/2776565130_b36db504af_b.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 191,
+        "error": null
+      }
+    },
+    {
+      "num": 67,
+      "stateName": "Ladakh",
+      "slug": "ladakh",
+      "regionType": "ut",
+      "role": "Primary Card",
+      "imageId": 1843,
+      "title": "Panoramic view of Pnagong lake, Pangong Tso, ",
+      "provider": "wikimedia",
+      "license": "CC BY 4.0",
+      "resolutionLabel": "1200x800+",
+      "scores": {
+        "total": 87,
+        "geo": 26,
+        "tech": 23,
+        "aest": 17,
+        "tour": 17,
+        "rec": 4
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Panoramic_view_of_Pnagong_lake%2C_Pangong_Tso%2C_view_form_Pangong_Lake_Rd%2C_194201.jpg/1280px-Panoramic_view_of_Pnagong_lake%2C_Pangong_Tso%2C_view_form_Pangong_Lake_Rd%2C_194201.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 158,
+        "error": null
+      }
+    },
+    {
+      "num": 68,
+      "stateName": "Ladakh",
+      "slug": "ladakh",
+      "regionType": "ut",
+      "role": "Hero Banner",
+      "imageId": 1848,
+      "title": "Heaven at Earth",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "4K/UHD",
+      "scores": {
+        "total": 89,
+        "geo": 26,
+        "tech": 25,
+        "aest": 17,
+        "tour": 17,
+        "rec": 4
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Heaven_at_Earth.jpg/1920px-Heaven_at_Earth.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 500,
+        "error": null
+      }
+    },
+    {
+      "num": 69,
+      "stateName": "Lakshadweep",
+      "slug": "lakshadweep",
+      "regionType": "ut",
+      "role": "Primary Card",
+      "imageId": 1602,
+      "title": "Agatti island, Lakshadweep",
+      "provider": "wikimedia",
+      "license": "CC BY 2.0",
+      "resolutionLabel": "1280x800",
+      "scores": {
+        "total": 83,
+        "geo": 26,
+        "tech": 19,
+        "aest": 16,
+        "tour": 17,
+        "rec": 5
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Agatti_island%2C_Lakshadweep.jpg/960px-Agatti_island%2C_Lakshadweep.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 104,
+        "error": null
+      }
+    },
+    {
+      "num": 70,
+      "stateName": "Lakshadweep",
+      "slug": "lakshadweep",
+      "regionType": "ut",
+      "role": "Hero Banner",
+      "imageId": 1854,
+      "title": "Lakshadweep - Agatti Islands",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "4K/UHD",
+      "scores": {
+        "total": 99,
+        "geo": 30,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 4
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Lakshadweep_-_Agatti_Islands.jpg/1920px-Lakshadweep_-_Agatti_Islands.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 648,
+        "error": null
+      }
+    },
+    {
+      "num": 71,
+      "stateName": "Puducherry",
+      "slug": "puducherry",
+      "regionType": "ut",
+      "role": "Primary Card",
+      "imageId": 1611,
+      "title": "French Quarter, Pondicherry (5) (36845125313)",
+      "provider": "wikimedia",
+      "license": "CC BY 2.0",
+      "resolutionLabel": "1200x800+",
+      "scores": {
+        "total": 93,
+        "geo": 24,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 4
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/French_Quarter%2C_Pondicherry_%285%29_%2836845125313%29.jpg/1280px-French_Quarter%2C_Pondicherry_%285%29_%2836845125313%29.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 318,
+        "error": null
+      }
+    },
+    {
+      "num": 72,
+      "stateName": "Puducherry",
+      "slug": "puducherry",
+      "regionType": "ut",
+      "role": "Hero Banner",
+      "imageId": 1855,
+      "title": "Matrimandir Auroville Pondicherry",
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "resolutionLabel": "4K/UHD",
+      "scores": {
+        "total": 93,
+        "geo": 24,
+        "tech": 25,
+        "aest": 20,
+        "tour": 20,
+        "rec": 4
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Matrimandir_Auroville_Pondicherry.jpg/1920px-Matrimandir_Auroville_Pondicherry.jpg",
+      "live": {
+        "ok": true,
+        "status": 200,
+        "format": "jpeg",
+        "kb": 507,
+        "error": null
+      }
+    }
+  ]
+}

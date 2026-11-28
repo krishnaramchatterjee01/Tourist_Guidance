@@ -1,11 +1,15 @@
 import { getPool } from '../../config/db.js';
 import WikimediaProvider from './providers/wikimediaProvider.js';
+import OpenverseProvider from './providers/openverseProvider.js';
+import UnsplashProvider from './providers/unsplashProvider.js';
 
 export class ImageProviderManager {
   constructor() {
     this.providers = new Map();
-    // Register approved zero-cost providers
+    // Register approved zero-cost multi-source providers
     this.registerProvider(new WikimediaProvider());
+    this.registerProvider(new OpenverseProvider());
+    this.registerProvider(new UnsplashProvider());
   }
 
   registerProvider(provider) {

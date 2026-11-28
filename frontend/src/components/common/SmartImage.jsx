@@ -137,6 +137,7 @@ const SmartImage = forwardRef(function SmartImage(
       loading={loading}
       decoding={decoding}
       fetchpriority={fetchPriority}
+      referrerPolicy="no-referrer"
       srcSet={effectiveSrcSet}
       sizes={effectiveSizes}
       onLoad={handleLoad}

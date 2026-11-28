@@ -1,0 +1,1536 @@
+{
+  "timestamp": "2026-11-28T10:55:59.178Z",
+  "entityCounts": {
+    "statesCount": 36,
+    "districtsCount": 784,
+    "placesCount": 172,
+    "collectionsCount": 5,
+    "itemsCount": 52
+  },
+  "summary": {
+    "totalRegions": 36,
+    "totalAssociations": 72,
+    "replacedCount": 29,
+    "retainedCount": 43,
+    "avgScore": "90.0"
+  },
+  "regions": [
+    {
+      "stateId": 1,
+      "stateName": "Andhra Pradesh",
+      "slug": "andhra-pradesh",
+      "regionType": "state",
+      "primary": {
+        "action": "RETAINED",
+        "imageId": 1803,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Gandikota_Fort_Cuddapah_Andhra_Pradesh_PIC_0156.JPG/1200px-Gandikota_Fort_Cuddapah_Andhra_Pradesh_PIC_0156.JPG",
+        "score": 100,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Gandikota Fort Cuddapah Andhra Pradesh PIC 0156 by PJeganathan (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "2848x2048",
+        "reason": "Existing image is already superior or matches candidate quality (100 pts)"
+      },
+      "hero": {
+        "action": "RETAINED",
+        "imageId": 1804,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Araku_Valley_coffee_plantations_in_Ananthagiri_hills_in_Andhra_Pradesh_01.jpg/1920px-Araku_Valley_coffee_plantations_in_Ananthagiri_hills_in_Andhra_Pradesh_01.jpg",
+        "score": 100,
+        "provider": "wikimedia",
+        "license": "CC BY 4.0",
+        "attribution": "Araku Valley coffee plantations in Ananthagiri hills in Andhra Pradesh 01 by Pinakpani (CC BY 4.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "6000x4000",
+        "reason": "Existing image is already superior or matches candidate quality (100 pts)"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Gandikota_Fort_Cuddapah_Andhra_Pradesh_PIC_0156.JPG/1200px-Gandikota_Fort_Cuddapah_Andhra_Pradesh_PIC_0156.JPG",
+        "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Araku_Valley_coffee_plantations_in_Ananthagiri_hills_in_Andhra_Pradesh_01.jpg/1920px-Araku_Valley_coffee_plantations_in_Ananthagiri_hills_in_Andhra_Pradesh_01.jpg"
+      }
+    },
+    {
+      "stateId": 2,
+      "stateName": "Arunachal Pradesh",
+      "slug": "arunachal-pradesh",
+      "regionType": "state",
+      "primary": {
+        "action": "RETAINED",
+        "imageId": 124,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/An_Apatani_Old_lady_in_Ziro_valley_of_Arunachal_Pradesh.jpg/960px-An_Apatani_Old_lady_in_Ziro_valley_of_Arunachal_Pradesh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 98,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Arunachal2007 (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "2048x1350",
+        "reason": "Existing image is already superior or matches candidate quality (98 pts)"
+      },
+      "hero": {
+        "action": "RETAINED",
+        "imageId": 1805,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Wild_flowers_at_Sela_Pass.jpg/1920px-Wild_flowers_at_Sela_Pass.jpg",
+        "score": 100,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wild flowers at Sela Pass by Ashwani Kumar (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "6000x4000",
+        "reason": "Existing image is already superior or matches candidate quality (100 pts)"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/An_Apatani_Old_lady_in_Ziro_valley_of_Arunachal_Pradesh.jpg/960px-An_Apatani_Old_lady_in_Ziro_valley_of_Arunachal_Pradesh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Wild_flowers_at_Sela_Pass.jpg/1920px-Wild_flowers_at_Sela_Pass.jpg"
+      }
+    },
+    {
+      "stateId": 3,
+      "stateName": "Assam",
+      "slug": "assam",
+      "regionType": "state",
+      "primary": {
+        "action": "RETAINED",
+        "imageId": 178,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Majuli_Island_%28117%29.jpg/960px-Majuli_Island_%28117%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 94,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "PP Yoonus (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "4608x3456",
+        "reason": "Existing image is already superior or matches candidate quality (94 pts)"
+      },
+      "hero": {
+        "action": "RETAINED",
+        "imageId": 177,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Kamakhya_Temple%2C_Guwahati.jpg/960px-Kamakhya_Temple%2C_Guwahati.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 92,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 3.0",
+        "attribution": "Kunal Dalui (CC BY-SA 3.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "3648x2736",
+        "reason": "Existing image is already superior or matches candidate quality (92 pts)"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Majuli_Island_%28117%29.jpg/960px-Majuli_Island_%28117%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Kamakhya_Temple%2C_Guwahati.jpg/960px-Kamakhya_Temple%2C_Guwahati.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    },
+    {
+      "stateId": 4,
+      "stateName": "Bihar",
+      "slug": "bihar",
+      "regionType": "state",
+      "primary": {
+        "action": "RETAINED",
+        "imageId": 1806,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Mahabodhi_temple_complex%2C_Bodhgaya_23.jpg/1200px-Mahabodhi_temple_complex%2C_Bodhgaya_23.jpg",
+        "score": 100,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Mahabodhi temple complex, Bodhgaya 23 by Rohit Sharma (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "6008x4008",
+        "reason": "Existing image is already superior or matches candidate quality (100 pts)"
+      },
+      "hero": {
+        "action": "REPLACED_AND_ENHANCED",
+        "previousImageId": 247,
+        "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Temple_3_-_Sariputta_Stupa_-_Nalanda_Mahavihara_%2810%29.jpg/960px-Temple_3_-_Sariputta_Stupa_-_Nalanda_Mahavihara_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "previousScore": 74,
+        "newImageId": 1807,
+        "newUrl": "https://live.staticflickr.com/3531/3946578949_ec9aa2fe8c_b.jpg",
+        "newScore": 82,
+        "provider": "openverse",
+        "license": "BY",
+        "attribution": "Famed Buddhist Nalanda University & Monastery ruins, brick stupas, ransacked & destroyed by Turkic Muslim invaders under Bakhtiyar Khalji in 1193, the great library was so vast - reported to have burned for three months, Bihar, India, 1993 by Wonderlane via Openverse",
+        "operations": [
+          "aspect_ratio_optimization",
+          "exposure_and_contrast_leveling",
+          "white_balance_correction",
+          "controlled_edge_sharpening"
+        ],
+        "resolution": "FullHD",
+        "reason": "Score improved from 74 to 82 (High Quality): Explicit state geographical match: Bihar"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Mahabodhi_temple_complex%2C_Bodhgaya_23.jpg/1200px-Mahabodhi_temple_complex%2C_Bodhgaya_23.jpg",
+        "activeHeroUrl": "https://live.staticflickr.com/3531/3946578949_ec9aa2fe8c_b.jpg"
+      }
+    },
+    {
+      "stateId": 5,
+      "stateName": "Chhattisgarh",
+      "slug": "chhattisgarh",
+      "regionType": "state",
+      "primary": {
+        "action": "REPLACED_AND_ENHANCED",
+        "previousImageId": 320,
+        "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Bhoramdeo_Temple%2C_Kawardha.jpg/960px-Bhoramdeo_Temple%2C_Kawardha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "previousScore": 74,
+        "newImageId": 1808,
+        "newUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Chitrakut_waterfalls.jpg/1200px-Chitrakut_waterfalls.jpg",
+        "newScore": 84,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Chitrakut waterfalls by Laxmi1mittal (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [
+          "aspect_ratio_optimization",
+          "exposure_and_contrast_leveling",
+          "white_balance_correction",
+          "controlled_edge_sharpening",
+          "wikimedia_high_res_1200px_render"
+        ],
+        "resolution": "1200x800+",
+        "reason": "Score improved from 74 to 84 (High Quality): Explicit state geographical match: Chhattisgarh"
+      },
+      "hero": {
+        "action": "REPLACED_AND_ENHANCED",
+        "previousImageId": 319,
+        "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Chitrakot_panoramic.jpg/960px-Chitrakot_panoramic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "previousScore": 72,
+        "newImageId": 1809,
+        "newUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Chitrakot.webp/1920px-Chitrakot.webp",
+        "newScore": 78,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Chitrakot by Rkc-info (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [
+          "aspect_ratio_optimization",
+          "exposure_and_contrast_leveling",
+          "white_balance_correction",
+          "controlled_edge_sharpening",
+          "wikimedia_high_res_1920px_render"
+        ],
+        "resolution": "FullHD",
+        "reason": "Score improved from 72 to 78 (Acceptable): Explicit state geographical match: Chhattisgarh"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Chitrakut_waterfalls.jpg/1200px-Chitrakut_waterfalls.jpg",
+        "activeHeroUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Chitrakot.webp/1920px-Chitrakot.webp"
+      }
+    },
+    {
+      "stateId": 6,
+      "stateName": "Goa",
+      "slug": "goa",
+      "regionType": "state",
+      "primary": {
+        "action": "RETAINED",
+        "imageId": 384,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Basilica_of_Bom_Jesus_%28Goa%29_Front_View.jpg/960px-Basilica_of_Bom_Jesus_%28Goa%29_Front_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 100,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Ashish Gaur (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "4608x3456",
+        "reason": "Existing image is already superior or matches candidate quality (100 pts)"
+      },
+      "hero": {
+        "action": "RETAINED",
+        "imageId": 383,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Dudhsagar%2C_the_milky_waterfall%2C_Goa.JPG/960px-Dudhsagar%2C_the_milky_waterfall%2C_Goa.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 86,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 3.0",
+        "attribution": "Jagadhatri (CC BY-SA 3.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "2048x1536",
+        "reason": "Existing image is already superior or matches candidate quality (86 pts)"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Basilica_of_Bom_Jesus_%28Goa%29_Front_View.jpg/960px-Basilica_of_Bom_Jesus_%28Goa%29_Front_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Dudhsagar%2C_the_milky_waterfall%2C_Goa.JPG/960px-Dudhsagar%2C_the_milky_waterfall%2C_Goa.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    },
+    {
+      "stateId": 7,
+      "stateName": "Gujarat",
+      "slug": "gujarat",
+      "regionType": "state",
+      "primary": {
+        "action": "REPLACED_AND_ENHANCED",
+        "previousImageId": 392,
+        "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Sun_Temple%2C_Modhera_01.jpg/960px-Sun_Temple%2C_Modhera_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "previousScore": 74,
+        "newImageId": 1810,
+        "newUrl": "https://live.staticflickr.com/65535/52746751472_f1310e3ef9_b.jpg",
+        "newScore": 82,
+        "provider": "openverse",
+        "license": "BY",
+        "attribution": "Rann Utsav Festival, Gujarat, India by Ninara via Openverse",
+        "operations": [
+          "aspect_ratio_optimization",
+          "exposure_and_contrast_leveling",
+          "white_balance_correction",
+          "controlled_edge_sharpening"
+        ],
+        "resolution": "1200x800+",
+        "reason": "Score improved from 74 to 82 (High Quality): Explicit state geographical match: Gujarat"
+      },
+      "hero": {
+        "action": "RETAINED",
+        "imageId": 391,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/GJ25K-31-N-Patan_Rani-ki-Vav_view_from_entrance_3D.jpg/960px-GJ25K-31-N-Patan_Rani-ki-Vav_view_from_entrance_3D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 72,
+        "provider": "wikimedia",
+        "license": "CC BY 4.0",
+        "attribution": "VasuVR (CC BY 4.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "9120x3400",
+        "reason": "Existing image is already superior or matches candidate quality (72 pts)"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://live.staticflickr.com/65535/52746751472_f1310e3ef9_b.jpg",
+        "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/GJ25K-31-N-Patan_Rani-ki-Vav_view_from_entrance_3D.jpg/960px-GJ25K-31-N-Patan_Rani-ki-Vav_view_from_entrance_3D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    },
+    {
+      "stateId": 8,
+      "stateName": "Haryana",
+      "slug": "haryana",
+      "regionType": "state",
+      "primary": {
+        "action": "RETAINED",
+        "imageId": 460,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Yadvindra_garden_or_Pinjore_garden%2Cchandigarh.jpg/960px-Yadvindra_garden_or_Pinjore_garden%2Cchandigarh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 71,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 3.0",
+        "attribution": "Minaxi choudhary (CC BY-SA 3.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "1575x1121",
+        "reason": "Existing image is already superior or matches candidate quality (71 pts)"
+      },
+      "hero": {
+        "action": "REPLACED_AND_ENHANCED",
+        "previousImageId": 459,
+        "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Brahma_Sarovar.JPG/960px-Brahma_Sarovar.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "previousScore": 72,
+        "newImageId": 1811,
+        "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Pinjore_Gardens%2C_Panchkula%2C_Haryana.jpg/1920px-Pinjore_Gardens%2C_Panchkula%2C_Haryana.jpg",
+        "newScore": 99,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Pinjore Gardens, Panchkula, Haryana by Kanad Sanyal (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [
+          "aspect_ratio_optimization",
+          "exposure_and_contrast_leveling",
+          "white_balance_correction",
+          "controlled_edge_sharpening",
+          "wikimedia_high_res_1920px_render"
+        ],
+        "resolution": "4K/UHD",
+        "reason": "Score improved from 72 to 99 (Premium): Verified iconic landmark: Pinjore Gardens in Haryana"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Yadvindra_garden_or_Pinjore_garden%2Cchandigarh.jpg/960px-Yadvindra_garden_or_Pinjore_garden%2Cchandigarh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Pinjore_Gardens%2C_Panchkula%2C_Haryana.jpg/1920px-Pinjore_Gardens%2C_Panchkula%2C_Haryana.jpg"
+      }
+    },
+    {
+      "stateId": 9,
+      "stateName": "Himachal Pradesh",
+      "slug": "himachal-pradesh",
+      "regionType": "state",
+      "primary": {
+        "action": "REPLACED_AND_ENHANCED",
+        "previousImageId": 508,
+        "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Beautiful_Khajjair_01.jpg/960px-Beautiful_Khajjair_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "previousScore": 74,
+        "newImageId": 522,
+        "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Steps_in_Key_Gompa_monastery%2C_Spiti_Valley%2C_Himachal_Pradesh%2C_India.jpg/1200px-Steps_in_Key_Gompa_monastery%2C_Spiti_Valley%2C_Himachal_Pradesh%2C_India.jpg",
+        "newScore": 99,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Steps in Key Gompa monastery, Spiti Valley, Himachal Pradesh, India by Mike Shaw (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [
+          "aspect_ratio_optimization",
+          "exposure_and_contrast_leveling",
+          "white_balance_correction",
+          "controlled_edge_sharpening",
+          "wikimedia_high_res_1200px_render"
+        ],
+        "resolution": "1200x800+",
+        "reason": "Score improved from 74 to 99 (Premium): Verified iconic landmark: Spiti Valley in Himachal Pradesh"
+      },
+      "hero": {
+        "action": "REPLACED_AND_ENHANCED",
+        "previousImageId": 507,
+        "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Dhankar_Gompa%2C_Spiti.jpg/960px-Dhankar_Gompa%2C_Spiti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "previousScore": 74,
+        "newImageId": 1812,
+        "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Hills_of_Manali.jpg/1920px-Hills_of_Manali.jpg",
+        "newScore": 89,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Hills of Manali by Satyamrai7777 (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [
+          "aspect_ratio_optimization",
+          "exposure_and_contrast_leveling",
+          "white_balance_correction",
+          "controlled_edge_sharpening",
+          "wikimedia_high_res_1920px_render"
+        ],
+        "resolution": "FullHD",
+        "reason": "Score improved from 74 to 89 (High Quality): Explicit state geographical match: Himachal Pradesh"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Steps_in_Key_Gompa_monastery%2C_Spiti_Valley%2C_Himachal_Pradesh%2C_India.jpg/1200px-Steps_in_Key_Gompa_monastery%2C_Spiti_Valley%2C_Himachal_Pradesh%2C_India.jpg",
+        "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Hills_of_Manali.jpg/1920px-Hills_of_Manali.jpg"
+      }
+    },
+    {
+      "stateId": 10,
+      "stateName": "Jharkhand",
+      "slug": "jharkhand",
+      "regionType": "state",
+      "primary": {
+        "action": "REPLACED_AND_ENHANCED",
+        "previousImageId": 534,
+        "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Dasam_Falls_in_September.jpg/960px-Dasam_Falls_in_September.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "previousScore": 67,
+        "newImageId": 533,
+        "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Hundru_Falls%2C_Jharkhand%2C_India_9.jpg/1200px-Hundru_Falls%2C_Jharkhand%2C_India_9.jpg",
+        "newScore": 99,
+        "provider": "wikimedia",
+        "license": "CC BY 4.0",
+        "attribution": "Hundru Falls, Jharkhand, India 9 by Kingshuk Mondal (CC BY 4.0) via Wikimedia Commons",
+        "operations": [
+          "aspect_ratio_optimization",
+          "exposure_and_contrast_leveling",
+          "white_balance_correction",
+          "controlled_edge_sharpening",
+          "wikimedia_high_res_1200px_render"
+        ],
+        "resolution": "1200x800+",
+        "reason": "Score improved from 67 to 99 (Premium): Verified iconic landmark: Hundru Falls in Jharkhand"
+      },
+      "hero": {
+        "action": "RETAINED",
+        "imageId": 533,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Hundru_Falls%2C_Jharkhand%2C_India_9.jpg/1200px-Hundru_Falls%2C_Jharkhand%2C_India_9.jpg",
+        "score": 98,
+        "provider": "wikimedia",
+        "license": "CC BY 4.0",
+        "attribution": "Kingshuk Mondal (CC BY 4.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "4000x3000",
+        "reason": "Existing image is already superior or matches candidate quality (98 pts)"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Hundru_Falls%2C_Jharkhand%2C_India_9.jpg/1200px-Hundru_Falls%2C_Jharkhand%2C_India_9.jpg",
+        "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Hundru_Falls%2C_Jharkhand%2C_India_9.jpg/1200px-Hundru_Falls%2C_Jharkhand%2C_India_9.jpg"
+      }
+    },
+    {
+      "stateId": 11,
+      "stateName": "Karnataka",
+      "slug": "karnataka",
+      "regionType": "state",
+      "primary": {
+        "action": "REPLACED_AND_ENHANCED",
+        "previousImageId": 582,
+        "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Amba_Vilas_Palace_at_night..jpg/960px-Amba_Vilas_Palace_at_night..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "previousScore": 70,
+        "newImageId": 1813,
+        "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/15th-16th_century_Vaishnavism_Vitthala_temple_Garuda_stone_chariot%2C_Hampi_Hindu_monuments_Karnataka_2.jpg/1200px-15th-16th_century_Vaishnavism_Vitthala_temple_Garuda_stone_chariot%2C_Hampi_Hindu_monuments_Karnataka_2.jpg",
+        "newScore": 99,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "15th-16th century Vaishnavism Vitthala temple Garuda stone chariot, Hampi Hindu monuments Karnataka 2 by Ms Sarah Welch (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [
+          "aspect_ratio_optimization",
+          "exposure_and_contrast_leveling",
+          "white_balance_correction",
+          "controlled_edge_sharpening",
+          "wikimedia_high_res_1200px_render"
+        ],
+        "resolution": "1200x800+",
+        "reason": "Score improved from 70 to 99 (Premium): Verified iconic landmark: Hampi ruins in Karnataka"
+      },
+      "hero": {
+        "action": "REPLACED_AND_ENHANCED",
+        "previousImageId": 581,
+        "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Stone-Chariot-Hampi-Karnataka-01.jpg/960px-Stone-Chariot-Hampi-Karnataka-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "previousScore": 83,
+        "newImageId": 626,
+        "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Mysore_palace_at_night_01.jpg/1920px-Mysore_palace_at_night_01.jpg",
+        "newScore": 97,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Mysore palace at night 01 by Pinakpani (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [
+          "aspect_ratio_optimization",
+          "exposure_and_contrast_leveling",
+          "white_balance_correction",
+          "controlled_edge_sharpening",
+          "wikimedia_high_res_1920px_render"
+        ],
+        "resolution": "4K/UHD",
+        "reason": "Score improved from 83 to 97 (Premium): Verified iconic landmark: Mysore Palace in Karnataka"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/15th-16th_century_Vaishnavism_Vitthala_temple_Garuda_stone_chariot%2C_Hampi_Hindu_monuments_Karnataka_2.jpg/1200px-15th-16th_century_Vaishnavism_Vitthala_temple_Garuda_stone_chariot%2C_Hampi_Hindu_monuments_Karnataka_2.jpg",
+        "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Mysore_palace_at_night_01.jpg/1920px-Mysore_palace_at_night_01.jpg"
+      }
+    },
+    {
+      "stateId": 12,
+      "stateName": "Kerala",
+      "slug": "kerala",
+      "regionType": "state",
+      "primary": {
+        "action": "REPLACED_AND_ENHANCED",
+        "previousImageId": 646,
+        "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Fishing_nets_in_Fort_Kochi.jpg/960px-Fishing_nets_in_Fort_Kochi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "previousScore": 72,
+        "newImageId": 1625,
+        "newUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Make_Way_For_The_Houseboat%21_-_Backwaters_of_Alappuzha.jpg/1200px-Make_Way_For_The_Houseboat%21_-_Backwaters_of_Alappuzha.jpg",
+        "newScore": 82,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Make Way For The Houseboat! - Backwaters of Alappuzha by 16paruljain (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [
+          "aspect_ratio_optimization",
+          "exposure_and_contrast_leveling",
+          "white_balance_correction",
+          "controlled_edge_sharpening",
+          "wikimedia_high_res_1200px_render"
+        ],
+        "resolution": "1200x800+",
+        "reason": "Score improved from 72 to 82 (High Quality): Explicit state geographical match: Kerala"
+      },
+      "hero": {
+        "action": "REPLACED_AND_ENHANCED",
+        "previousImageId": 645,
+        "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Munnar_tea_gardens.jpg/960px-Munnar_tea_gardens.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "previousScore": 72,
+        "newImageId": 645,
+        "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Munnar_tea_gardens.jpg/1920px-Munnar_tea_gardens.jpg",
+        "newScore": 87,
+        "provider": "wikimedia",
+        "license": "Public domain",
+        "attribution": "Munnar tea gardens by Wikimedia Commons Contributor (Public domain) via Wikimedia Commons",
+        "operations": [
+          "aspect_ratio_optimization",
+          "exposure_and_contrast_leveling",
+          "white_balance_correction",
+          "controlled_edge_sharpening",
+          "wikimedia_high_res_1920px_render"
+        ],
+        "resolution": "4K/UHD",
+        "reason": "Score improved from 72 to 87 (High Quality): Explicit state geographical match: Kerala"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Make_Way_For_The_Houseboat%21_-_Backwaters_of_Alappuzha.jpg/1200px-Make_Way_For_The_Houseboat%21_-_Backwaters_of_Alappuzha.jpg",
+        "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Munnar_tea_gardens.jpg/1920px-Munnar_tea_gardens.jpg"
+      }
+    },
+    {
+      "stateId": 13,
+      "stateName": "Madhya Pradesh",
+      "slug": "madhya-pradesh",
+      "regionType": "state",
+      "primary": {
+        "action": "REPLACED_AND_ENHANCED",
+        "previousImageId": 674,
+        "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Sanchi_Great_Stupa_Torana.jpg/960px-Sanchi_Great_Stupa_Torana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "previousScore": 71,
+        "newImageId": 1814,
+        "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Kandariya_Mahadeva_Temple%2C_Khajuraho%2C_Madhya_Pradesh%2C_India_002.jpg/1200px-Kandariya_Mahadeva_Temple%2C_Khajuraho%2C_Madhya_Pradesh%2C_India_002.jpg",
+        "newScore": 89,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Kandariya Mahadeva Temple, Khajuraho, Madhya Pradesh, India 002 by WarmaFiesta (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [
+          "aspect_ratio_optimization",
+          "exposure_and_contrast_leveling",
+          "white_balance_correction",
+          "controlled_edge_sharpening",
+          "wikimedia_high_res_1200px_render"
+        ],
+        "resolution": "1200x800+",
+        "reason": "Score improved from 71 to 89 (High Quality): Explicit state geographical match: Madhya Pradesh"
+      },
+      "hero": {
+        "action": "REPLACED_AND_ENHANCED",
+        "previousImageId": 673,
+        "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Marble_Rocks_-_Jabalpur.jpg/960px-Marble_Rocks_-_Jabalpur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "previousScore": 74,
+        "newImageId": 1815,
+        "newUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Marble_Rocks%2CBhedaghat.jpg/1920px-Marble_Rocks%2CBhedaghat.jpg",
+        "newScore": 90,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Marble Rocks,Bhedaghat by Nupur Sawant (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [
+          "aspect_ratio_optimization",
+          "exposure_and_contrast_leveling",
+          "white_balance_correction",
+          "controlled_edge_sharpening",
+          "wikimedia_high_res_1920px_render"
+        ],
+        "resolution": "FullHD",
+        "reason": "Score improved from 74 to 90 (Premium): Verified iconic landmark: Bhedaghat Marble Rocks in Madhya Pradesh"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Kandariya_Mahadeva_Temple%2C_Khajuraho%2C_Madhya_Pradesh%2C_India_002.jpg/1200px-Kandariya_Mahadeva_Temple%2C_Khajuraho%2C_Madhya_Pradesh%2C_India_002.jpg",
+        "activeHeroUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Marble_Rocks%2CBhedaghat.jpg/1920px-Marble_Rocks%2CBhedaghat.jpg"
+      }
+    },
+    {
+      "stateId": 14,
+      "stateName": "Maharashtra",
+      "slug": "maharashtra",
+      "regionType": "state",
+      "primary": {
+        "action": "REPLACED_AND_ENHANCED",
+        "previousImageId": 784,
+        "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Ellora_Caves%2C_India%2C_Pillars_at_Kailasa_Temple.jpg/960px-Ellora_Caves%2C_India%2C_Pillars_at_Kailasa_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "previousScore": 74,
+        "newImageId": 1816,
+        "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Ellora_caves_-_Kailasa_Temple_%28cave_16%29_vrvbajel0924_%28463%29.jpg/1200px-Ellora_caves_-_Kailasa_Temple_%28cave_16%29_vrvbajel0924_%28463%29.jpg",
+        "newScore": 89,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Ellora caves - Kailasa Temple (cave 16) vrvbajel0924 (463) by Vinayaraj (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [
+          "aspect_ratio_optimization",
+          "exposure_and_contrast_leveling",
+          "white_balance_correction",
+          "controlled_edge_sharpening",
+          "wikimedia_high_res_1200px_render"
+        ],
+        "resolution": "1200x800+",
+        "reason": "Score improved from 74 to 89 (High Quality): Explicit state geographical match: Maharashtra"
+      },
+      "hero": {
+        "action": "RETAINED",
+        "imageId": 783,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Chatrapati_shivaji_Maharaj_Statue_at_Gateway_Of_India%2C_Mumbai.JPG/960px-Chatrapati_shivaji_Maharaj_Statue_at_Gateway_Of_India%2C_Mumbai.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 94,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 3.0",
+        "attribution": "Vijaykothare (CC BY-SA 3.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "4592x2576",
+        "reason": "Existing image is already superior or matches candidate quality (94 pts)"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Ellora_caves_-_Kailasa_Temple_%28cave_16%29_vrvbajel0924_%28463%29.jpg/1200px-Ellora_caves_-_Kailasa_Temple_%28cave_16%29_vrvbajel0924_%28463%29.jpg",
+        "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Chatrapati_shivaji_Maharaj_Statue_at_Gateway_Of_India%2C_Mumbai.JPG/960px-Chatrapati_shivaji_Maharaj_Statue_at_Gateway_Of_India%2C_Mumbai.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    },
+    {
+      "stateId": 15,
+      "stateName": "Manipur",
+      "slug": "manipur",
+      "regionType": "state",
+      "primary": {
+        "action": "RETAINED",
+        "imageId": 856,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Kangla_Sanathong_%28Kangla_Grand_Gate_or_Kangla_Royal_Gate%29_-_Classical_Meitei_architecture_-_in_the_western_side_of_the_Kangla_Fort_%28Kangla_Palace%29_in_Imphal_West_district_of_Manipur_state_%28Kangleipak%29_02.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 100,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Haoreima (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "4000x2992",
+        "reason": "Existing image is already superior or matches candidate quality (100 pts)"
+      },
+      "hero": {
+        "action": "RETAINED",
+        "imageId": 855,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Loktak_Lake_Manipur_01.jpg/960px-Loktak_Lake_Manipur_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 98,
+        "provider": "wikimedia",
+        "license": "CC BY 2.0",
+        "attribution": "ch_15march (CC BY 2.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "2592x1944",
+        "reason": "Existing image is already superior or matches candidate quality (98 pts)"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Kangla_Sanathong_%28Kangla_Grand_Gate_or_Kangla_Royal_Gate%29_-_Classical_Meitei_architecture_-_in_the_western_side_of_the_Kangla_Fort_%28Kangla_Palace%29_in_Imphal_West_district_of_Manipur_state_%28Kangleipak%29_02.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Loktak_Lake_Manipur_01.jpg/960px-Loktak_Lake_Manipur_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    },
+    {
+      "stateId": 16,
+      "stateName": "Meghalaya",
+      "slug": "meghalaya",
+      "regionType": "state",
+      "primary": {
+        "action": "RETAINED",
+        "imageId": 890,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Living_root_bridges%2C_Nongriat_village%2C_Meghalaya.jpg/960px-Living_root_bridges%2C_Nongriat_village%2C_Meghalaya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 100,
+        "provider": "wikimedia",
+        "license": "CC BY 2.0",
+        "attribution": "Arshiya Urveeja Bose (CC BY 2.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "5184x3456",
+        "reason": "Existing image is already superior or matches candidate quality (100 pts)"
+      },
+      "hero": {
+        "action": "RETAINED",
+        "imageId": 889,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Nohkalikai_Falls_Cherrapunji.JPG/960px-Nohkalikai_Falls_Cherrapunji.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 92,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 3.0",
+        "attribution": "Kunal Dalui (CC BY-SA 3.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "3648x2736",
+        "reason": "Existing image is already superior or matches candidate quality (92 pts)"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Living_root_bridges%2C_Nongriat_village%2C_Meghalaya.jpg/960px-Living_root_bridges%2C_Nongriat_village%2C_Meghalaya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Nohkalikai_Falls_Cherrapunji.JPG/960px-Nohkalikai_Falls_Cherrapunji.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    },
+    {
+      "stateId": 17,
+      "stateName": "Mizoram",
+      "slug": "mizoram",
+      "regionType": "state",
+      "primary": {
+        "action": "RETAINED",
+        "imageId": 914,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Tam_Dil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "score": 63,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Coolcolney (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "920x690",
+        "reason": "Existing image is already superior or matches candidate quality (63 pts)"
+      },
+      "hero": {
+        "action": "RETAINED",
+        "imageId": 913,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Vantawng_Falls%2C_Mizoram.jpg/960px-Vantawng_Falls%2C_Mizoram.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 96,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Didini Tochhawng (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "2500x2500",
+        "reason": "Existing image is already superior or matches candidate quality (96 pts)"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Tam_Dil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Vantawng_Falls%2C_Mizoram.jpg/960px-Vantawng_Falls%2C_Mizoram.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    },
+    {
+      "stateId": 18,
+      "stateName": "Nagaland",
+      "slug": "nagaland",
+      "regionType": "state",
+      "primary": {
+        "action": "RETAINED",
+        "imageId": 937,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Naga_Heritage_Village_03.jpg/960px-Naga_Heritage_Village_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 74,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Ganesh Mohan T (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "4000x3000",
+        "reason": "Existing image is already superior or matches candidate quality (74 pts)"
+      },
+      "hero": {
+        "action": "RETAINED",
+        "imageId": 936,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Dz%C3%BCkou_Valley%2C_Viswema%2C_Nagaland_12.jpg/960px-Dz%C3%BCkou_Valley%2C_Viswema%2C_Nagaland_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 81,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "পাপৰি বৰা (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "1280x960",
+        "reason": "Existing image is already superior or matches candidate quality (81 pts)"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Naga_Heritage_Village_03.jpg/960px-Naga_Heritage_Village_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Dz%C3%BCkou_Valley%2C_Viswema%2C_Nagaland_12.jpg/960px-Dz%C3%BCkou_Valley%2C_Viswema%2C_Nagaland_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    },
+    {
+      "stateId": 19,
+      "stateName": "Odisha",
+      "slug": "odisha",
+      "regionType": "state",
+      "primary": {
+        "action": "RETAINED",
+        "imageId": 970,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Chilika_Lake_or_Chilka_in_Odisha_02.jpg/960px-Chilika_Lake_or_Chilka_in_Odisha_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 100,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Pinakpani (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "4128x3096",
+        "reason": "Existing image is already superior or matches candidate quality (100 pts)"
+      },
+      "hero": {
+        "action": "RETAINED",
+        "imageId": 969,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Stone_wheel_engraved_in_the_13th_century_built_Konark_Sun_Temple_in_Orissa%2C_India.jpg/960px-Stone_wheel_engraved_in_the_13th_century_built_Konark_Sun_Temple_in_Orissa%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 92,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Subhrajyoti07 (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "4984x3638",
+        "reason": "Existing image is already superior or matches candidate quality (92 pts)"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Chilika_Lake_or_Chilka_in_Odisha_02.jpg/960px-Chilika_Lake_or_Chilka_in_Odisha_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Stone_wheel_engraved_in_the_13th_century_built_Konark_Sun_Temple_in_Orissa%2C_India.jpg/960px-Stone_wheel_engraved_in_the_13th_century_built_Konark_Sun_Temple_in_Orissa%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    },
+    {
+      "stateId": 20,
+      "stateName": "Punjab",
+      "slug": "punjab",
+      "regionType": "state",
+      "primary": {
+        "action": "RETAINED",
+        "imageId": 1031,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Khalsa_Heritage_Memorial_176_Edit.jpg/960px-Khalsa_Heritage_Memorial_176_Edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 74,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 3.0",
+        "attribution": "Sanyambahga (CC BY-SA 3.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "3872x2592",
+        "reason": "Existing image is already superior or matches candidate quality (74 pts)"
+      },
+      "hero": {
+        "action": "REPLACED_AND_ENHANCED",
+        "previousImageId": 1030,
+        "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Golden_Temple%2C_Amritsar._%28_in_night_%29.jpg/960px-Golden_Temple%2C_Amritsar._%28_in_night_%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "previousScore": 85,
+        "newImageId": 1817,
+        "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Golden_Temple_%28Harmandir_Sahib%29_at_night%2C_Amritsar%2C_Punjab%2C_India_%282017%29.jpg/1920px-Golden_Temple_%28Harmandir_Sahib%29_at_night%2C_Amritsar%2C_Punjab%2C_India_%282017%29.jpg",
+        "newScore": 99,
+        "provider": "wikimedia",
+        "license": "CC BY 2.0",
+        "attribution": "Golden Temple (Harmandir Sahib) at night, Amritsar, Punjab, India (2017) by shankar s. from Dubai, united arab emirates (CC BY 2.0) via Wikimedia Commons",
+        "operations": [
+          "aspect_ratio_optimization",
+          "exposure_and_contrast_leveling",
+          "white_balance_correction",
+          "controlled_edge_sharpening",
+          "wikimedia_high_res_1920px_render"
+        ],
+        "resolution": "4K/UHD",
+        "reason": "Score improved from 85 to 99 (Premium): Verified iconic landmark: Golden Temple, Harmandir Sahib in Punjab"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Khalsa_Heritage_Memorial_176_Edit.jpg/960px-Khalsa_Heritage_Memorial_176_Edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Golden_Temple_%28Harmandir_Sahib%29_at_night%2C_Amritsar%2C_Punjab%2C_India_%282017%29.jpg/1920px-Golden_Temple_%28Harmandir_Sahib%29_at_night%2C_Amritsar%2C_Punjab%2C_India_%282017%29.jpg"
+      }
+    },
+    {
+      "stateId": 21,
+      "stateName": "Rajasthan",
+      "slug": "rajasthan",
+      "regionType": "state",
+      "primary": {
+        "action": "REPLACED_AND_ENHANCED",
+        "previousImageId": 1079,
+        "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Fresco%2C_Mehrangarh_Fort%2C_Jodhpur%2C_Rajasthan.jpg/960px-Fresco%2C_Mehrangarh_Fort%2C_Jodhpur%2C_Rajasthan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "previousScore": 88,
+        "newImageId": 1818,
+        "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Amber_Fort_Jaipur_india.jpg/1200px-Amber_Fort_Jaipur_india.jpg",
+        "newScore": 99,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Amber Fort Jaipur india by Sumedh Patil (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [
+          "aspect_ratio_optimization",
+          "exposure_and_contrast_leveling",
+          "white_balance_correction",
+          "controlled_edge_sharpening",
+          "wikimedia_high_res_1200px_render"
+        ],
+        "resolution": "1200x800+",
+        "reason": "Score improved from 88 to 99 (Premium): Verified iconic landmark: Amber Fort in Rajasthan"
+      },
+      "hero": {
+        "action": "REPLACED_AND_ENHANCED",
+        "previousImageId": 1078,
+        "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Hawa_Mahal_2011.jpg/960px-Hawa_Mahal_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "previousScore": 92,
+        "newImageId": 1819,
+        "newUrl": "https://pd.w.org/2024/10/169671ce0e7bc9338.86480131-2048x1424.jpg",
+        "newScore": 97,
+        "provider": "openverse",
+        "license": "CC0",
+        "attribution": "Hawa Mahal, Jaipur: The iconic ‘Palace of Winds’ with its stunning pink sandstone facade in Rajasthan. by Siddhant Wadhwani via Openverse",
+        "operations": [
+          "aspect_ratio_optimization",
+          "exposure_and_contrast_leveling",
+          "white_balance_correction",
+          "controlled_edge_sharpening"
+        ],
+        "resolution": "FullHD",
+        "reason": "Score improved from 92 to 97 (Premium): Verified iconic landmark: Hawa Mahal in Rajasthan"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Amber_Fort_Jaipur_india.jpg/1200px-Amber_Fort_Jaipur_india.jpg",
+        "activeHeroUrl": "https://pd.w.org/2024/10/169671ce0e7bc9338.86480131-2048x1424.jpg"
+      }
+    },
+    {
+      "stateId": 22,
+      "stateName": "Sikkim",
+      "slug": "sikkim",
+      "regionType": "state",
+      "primary": {
+        "action": "REPLACED_AND_ENHANCED",
+        "previousImageId": 1162,
+        "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Rumtek_Monastery_01.jpg/960px-Rumtek_Monastery_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "previousScore": 94,
+        "newImageId": 1820,
+        "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Tsomgo_Lake%2C_Sikkim.jpg/1200px-Tsomgo_Lake%2C_Sikkim.jpg",
+        "newScore": 99,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Tsomgo Lake, Sikkim by Varun Pratap (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [
+          "aspect_ratio_optimization",
+          "exposure_and_contrast_leveling",
+          "white_balance_correction",
+          "controlled_edge_sharpening",
+          "wikimedia_high_res_1200px_render"
+        ],
+        "resolution": "1200x800+",
+        "reason": "Score improved from 94 to 99 (Premium): Verified iconic landmark: Tsomgo Lake in Sikkim"
+      },
+      "hero": {
+        "action": "RETAINED",
+        "imageId": 1161,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Gurudongmar_Lake_in_May_2015.jpg/960px-Gurudongmar_Lake_in_May_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 94,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Amit Kumar (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "9110x4342",
+        "reason": "Existing image is already superior or matches candidate quality (94 pts)"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Tsomgo_Lake%2C_Sikkim.jpg/1200px-Tsomgo_Lake%2C_Sikkim.jpg",
+        "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Gurudongmar_Lake_in_May_2015.jpg/960px-Gurudongmar_Lake_in_May_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    },
+    {
+      "stateId": 23,
+      "stateName": "Tamil Nadu",
+      "slug": "tamil-nadu",
+      "regionType": "state",
+      "primary": {
+        "action": "REPLACED_AND_ENHANCED",
+        "previousImageId": 1176,
+        "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Vivekananda_rock_kanyakumari_251.jpg/960px-Vivekananda_rock_kanyakumari_251.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "previousScore": 74,
+        "newImageId": 1821,
+        "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Meenakshi_Temple_%286357534075%29.jpg/1200px-Meenakshi_Temple_%286357534075%29.jpg",
+        "newScore": 99,
+        "provider": "wikimedia",
+        "license": "CC BY 2.0",
+        "attribution": "Meenakshi Temple (6357534075) by BOMBMAN (CC BY 2.0) via Wikimedia Commons",
+        "operations": [
+          "aspect_ratio_optimization",
+          "exposure_and_contrast_leveling",
+          "white_balance_correction",
+          "controlled_edge_sharpening",
+          "wikimedia_high_res_1200px_render"
+        ],
+        "resolution": "1200x800+",
+        "reason": "Score improved from 74 to 99 (Premium): Verified iconic landmark: Meenakshi Temple in Tamil Nadu"
+      },
+      "hero": {
+        "action": "RETAINED",
+        "imageId": 1175,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/An_elephant_relief_on_the_Brihadisvara_Temple%2C_Thanjavur.jpg/960px-An_elephant_relief_on_the_Brihadisvara_Temple%2C_Thanjavur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 94,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Matthew T Rader (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "2890x1927",
+        "reason": "Existing image is already superior or matches candidate quality (94 pts)"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Meenakshi_Temple_%286357534075%29.jpg/1200px-Meenakshi_Temple_%286357534075%29.jpg",
+        "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/An_elephant_relief_on_the_Brihadisvara_Temple%2C_Thanjavur.jpg/960px-An_elephant_relief_on_the_Brihadisvara_Temple%2C_Thanjavur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    },
+    {
+      "stateId": 24,
+      "stateName": "Telangana",
+      "slug": "telangana",
+      "regionType": "state",
+      "primary": {
+        "action": "REPLACED_AND_ENHANCED",
+        "previousImageId": 1252,
+        "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Golconda_Fort_and_Hyderabad_city.jpg/960px-Golconda_Fort_and_Hyderabad_city.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "previousScore": 94,
+        "newImageId": 1822,
+        "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Charminar%2C_Hyderabad_2023.jpg/1200px-Charminar%2C_Hyderabad_2023.jpg",
+        "newScore": 97,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Charminar, Hyderabad 2023 by JyotiPN (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [
+          "aspect_ratio_optimization",
+          "exposure_and_contrast_leveling",
+          "white_balance_correction",
+          "controlled_edge_sharpening",
+          "wikimedia_high_res_1200px_render"
+        ],
+        "resolution": "1200x800+",
+        "reason": "Score improved from 94 to 97 (Premium): Verified iconic landmark: Charminar in Telangana"
+      },
+      "hero": {
+        "action": "REPLACED_AND_ENHANCED",
+        "previousImageId": 1251,
+        "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Palampet_village_and_nearby_farmlands%2C_Telangana_India_-_1.jpg/960px-Palampet_village_and_nearby_farmlands%2C_Telangana_India_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "previousScore": 88,
+        "newImageId": 1823,
+        "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/A_Majestic_Relic_of_Hyderabad%27s_Golconda_Fort.jpg/1920px-A_Majestic_Relic_of_Hyderabad%27s_Golconda_Fort.jpg",
+        "newScore": 97,
+        "provider": "wikimedia",
+        "license": "CC0",
+        "attribution": "A Majestic Relic of Hyderabad's Golconda Fort by LakshanaRamasamy (CC0) via Wikimedia Commons",
+        "operations": [
+          "aspect_ratio_optimization",
+          "exposure_and_contrast_leveling",
+          "white_balance_correction",
+          "controlled_edge_sharpening",
+          "wikimedia_high_res_1920px_render"
+        ],
+        "resolution": "FullHD",
+        "reason": "Score improved from 88 to 97 (Premium): Verified iconic landmark: Golconda Fort in Telangana"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Charminar%2C_Hyderabad_2023.jpg/1200px-Charminar%2C_Hyderabad_2023.jpg",
+        "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/A_Majestic_Relic_of_Hyderabad%27s_Golconda_Fort.jpg/1920px-A_Majestic_Relic_of_Hyderabad%27s_Golconda_Fort.jpg"
+      }
+    },
+    {
+      "stateId": 25,
+      "stateName": "Tripura",
+      "slug": "tripura",
+      "regionType": "state",
+      "primary": {
+        "action": "RETAINED",
+        "imageId": 1316,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/A_View_of_Unakoti%2C_Tripura.jpg/960px-A_View_of_Unakoti%2C_Tripura.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 90,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Dr. Srimanta Ray (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "9000x6000",
+        "reason": "Existing image is already superior or matches candidate quality (90 pts)"
+      },
+      "hero": {
+        "action": "REPLACED_AND_ENHANCED",
+        "previousImageId": 1315,
+        "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Neer_Mahal%2C_the_water_palace_of_Tripura_02.jpg/960px-Neer_Mahal%2C_the_water_palace_of_Tripura_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "previousScore": 90,
+        "newImageId": 1824,
+        "newUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Ujjayanta_Palace%2C_Agartala_%E2%80%93_A_Symbol_of_Tripura%E2%80%99s_Royal_Heritage.jpg/1920px-Ujjayanta_Palace%2C_Agartala_%E2%80%93_A_Symbol_of_Tripura%E2%80%99s_Royal_Heritage.jpg",
+        "newScore": 92,
+        "provider": "openverse",
+        "license": "BY",
+        "attribution": "Ujjayanta Palace, Agartala – A Symbol of Tripura’s Royal Heritage by Unknown authorUnknown author via Openverse",
+        "operations": [
+          "aspect_ratio_optimization",
+          "exposure_and_contrast_leveling",
+          "white_balance_correction",
+          "controlled_edge_sharpening",
+          "wikimedia_high_res_1920px_render"
+        ],
+        "resolution": "FullHD",
+        "reason": "Score improved from 90 to 92 (Premium): Verified iconic landmark: Ujjayanta Palace in Tripura"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/A_View_of_Unakoti%2C_Tripura.jpg/960px-A_View_of_Unakoti%2C_Tripura.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "activeHeroUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Ujjayanta_Palace%2C_Agartala_%E2%80%93_A_Symbol_of_Tripura%E2%80%99s_Royal_Heritage.jpg/1920px-Ujjayanta_Palace%2C_Agartala_%E2%80%93_A_Symbol_of_Tripura%E2%80%99s_Royal_Heritage.jpg"
+      }
+    },
+    {
+      "stateId": 26,
+      "stateName": "Uttar Pradesh",
+      "slug": "uttar-pradesh",
+      "regionType": "state",
+      "primary": {
+        "action": "REPLACED_AND_ENHANCED",
+        "previousImageId": 1334,
+        "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Varanasi_2010_ghats3.jpg/960px-Varanasi_2010_ghats3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "previousScore": 74,
+        "newImageId": 1825,
+        "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Taj_Mahal_-Agra_-Uttar_Pradesh_-DSC_0002.jpg/1200px-Taj_Mahal_-Agra_-Uttar_Pradesh_-DSC_0002.jpg",
+        "newScore": 99,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Taj Mahal -Agra -Uttar Pradesh -DSC 0002 by Tushark18 (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [
+          "aspect_ratio_optimization",
+          "exposure_and_contrast_leveling",
+          "white_balance_correction",
+          "controlled_edge_sharpening",
+          "wikimedia_high_res_1200px_render"
+        ],
+        "resolution": "1200x800+",
+        "reason": "Score improved from 74 to 99 (Premium): Verified iconic landmark: Taj Mahal in Uttar Pradesh"
+      },
+      "hero": {
+        "action": "RETAINED",
+        "imageId": 1333,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Taj_Mahal_in_March_2004.jpg/960px-Taj_Mahal_in_March_2004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 90,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 3.0",
+        "attribution": "Dhirad, picture edited by J. A. Knudsen (CC BY-SA 3.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "2040x1681",
+        "reason": "Existing image is already superior or matches candidate quality (90 pts)"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Taj_Mahal_-Agra_-Uttar_Pradesh_-DSC_0002.jpg/1200px-Taj_Mahal_-Agra_-Uttar_Pradesh_-DSC_0002.jpg",
+        "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Taj_Mahal_in_March_2004.jpg/960px-Taj_Mahal_in_March_2004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    },
+    {
+      "stateId": 27,
+      "stateName": "Uttarakhand",
+      "slug": "uttarakhand",
+      "regionType": "state",
+      "primary": {
+        "action": "RETAINED",
+        "imageId": 1482,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Aarti_at_Har-ki-Pauri%2C_Haridwar.jpg/960px-Aarti_at_Har-ki-Pauri%2C_Haridwar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 74,
+        "provider": "wikimedia",
+        "license": "CC BY 2.0",
+        "attribution": "NID chick (CC BY 2.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "2592x1944",
+        "reason": "Existing image is already superior or matches candidate quality (74 pts)"
+      },
+      "hero": {
+        "action": "REPLACED_AND_ENHANCED",
+        "previousImageId": 1481,
+        "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/The_Prime_Minister%2C_Shri_Narendra_Modi_visits_Kedarnath_Temple%3B_takes_an_overview_of_the_progress_of_reconstruction_projects%2C_in_Uttarakhand_on_November_07%2C_2018_%281%29.JPG/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "previousScore": 0,
+        "newImageId": 1826,
+        "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Valley_of_flowers%28VOF%29.JPG/1920px-Valley_of_flowers%28VOF%29.JPG",
+        "newScore": 91,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 3.0",
+        "attribution": "Valley of flowers(VOF) by Virag Sharma (CC BY-SA 3.0) via Wikimedia Commons",
+        "operations": [
+          "aspect_ratio_optimization",
+          "exposure_and_contrast_leveling",
+          "white_balance_correction",
+          "controlled_edge_sharpening",
+          "wikimedia_high_res_1920px_render"
+        ],
+        "resolution": "FullHD",
+        "reason": "Score improved from 0 to 91 (Premium): Landmark match: Valley of Flowers"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Aarti_at_Har-ki-Pauri%2C_Haridwar.jpg/960px-Aarti_at_Har-ki-Pauri%2C_Haridwar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Valley_of_flowers%28VOF%29.JPG/1920px-Valley_of_flowers%28VOF%29.JPG"
+      }
+    },
+    {
+      "stateId": 28,
+      "stateName": "West Bengal",
+      "slug": "west-bengal",
+      "regionType": "state",
+      "primary": {
+        "action": "REPLACED_AND_ENHANCED",
+        "previousImageId": 27,
+        "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Howrah_bridge_at_night.jpg/960px-Howrah_bridge_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "previousScore": 81,
+        "newImageId": 1827,
+        "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/The_Victoria_Memorial_Hall_Kolkata_West_Bengal_India.jpg/1200px-The_Victoria_Memorial_Hall_Kolkata_West_Bengal_India.jpg",
+        "newScore": 99,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "The Victoria Memorial Hall Kolkata West Bengal India by Sana Syed Ali (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [
+          "aspect_ratio_optimization",
+          "exposure_and_contrast_leveling",
+          "white_balance_correction",
+          "controlled_edge_sharpening",
+          "wikimedia_high_res_1200px_render"
+        ],
+        "resolution": "1200x800+",
+        "reason": "Score improved from 81 to 99 (Premium): Verified iconic landmark: Victoria Memorial in West Bengal"
+      },
+      "hero": {
+        "action": "RETAINED",
+        "imageId": 26,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Victoria_Memorial_Hall_Kolkata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "score": 81,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 3.0",
+        "attribution": "Manojit Pati (CC BY-SA 3.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "800x600",
+        "reason": "Existing image is already superior or matches candidate quality (81 pts)"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/The_Victoria_Memorial_Hall_Kolkata_West_Bengal_India.jpg/1200px-The_Victoria_Memorial_Hall_Kolkata_West_Bengal_India.jpg",
+        "activeHeroUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Victoria_Memorial_Hall_Kolkata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      }
+    },
+    {
+      "stateId": 29,
+      "stateName": "Andaman and Nicobar Islands",
+      "slug": "andaman-and-nicobar-islands",
+      "regionType": "ut",
+      "primary": {
+        "action": "RETAINED",
+        "imageId": 1512,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Cellular_Jail%2C_Andaman_%26_Nicobar%2C_Port_Blair%2C_India%2C_night_view.jpg/960px-Cellular_Jail%2C_Andaman_%26_Nicobar%2C_Port_Blair%2C_India%2C_night_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 94,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Harvinder Chandigarh (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "4608x3456",
+        "reason": "Existing image is already superior or matches candidate quality (94 pts)"
+      },
+      "hero": {
+        "action": "RETAINED",
+        "imageId": 1511,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Havelock_Island%2C_Radhanagar_Beach%2C_Andaman_Islands.jpg/960px-Havelock_Island%2C_Radhanagar_Beach%2C_Andaman_Islands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 94,
+        "provider": "wikimedia",
+        "license": "CC BY 4.0",
+        "attribution": "Vyacheslav Argenberg (CC BY 4.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "4032x2688",
+        "reason": "Existing image is already superior or matches candidate quality (94 pts)"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Cellular_Jail%2C_Andaman_%26_Nicobar%2C_Port_Blair%2C_India%2C_night_view.jpg/960px-Cellular_Jail%2C_Andaman_%26_Nicobar%2C_Port_Blair%2C_India%2C_night_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Havelock_Island%2C_Radhanagar_Beach%2C_Andaman_Islands.jpg/960px-Havelock_Island%2C_Radhanagar_Beach%2C_Andaman_Islands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    },
+    {
+      "stateId": 30,
+      "stateName": "Chandigarh",
+      "slug": "chandigarh",
+      "regionType": "ut",
+      "primary": {
+        "action": "REPLACED_AND_ENHANCED",
+        "previousImageId": 1519,
+        "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Open_Hand_monument%2C_Chandigarh.jpg/960px-Open_Hand_monument%2C_Chandigarh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "previousScore": 88,
+        "newImageId": 1520,
+        "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Chandigarh_Rock_Garden_4.jpg/1200px-Chandigarh_Rock_Garden_4.jpg",
+        "newScore": 99,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Chandigarh Rock Garden 4 by Ijon (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [
+          "aspect_ratio_optimization",
+          "exposure_and_contrast_leveling",
+          "white_balance_correction",
+          "controlled_edge_sharpening",
+          "wikimedia_high_res_1200px_render"
+        ],
+        "resolution": "1200x800+",
+        "reason": "Score improved from 88 to 99 (Premium): Verified iconic landmark: Rock Garden in Chandigarh"
+      },
+      "hero": {
+        "action": "RETAINED",
+        "imageId": 1518,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Sunset_view_at_Sukhna_lake_Chandigarh%2C_India.JPG/960px-Sunset_view_at_Sukhna_lake_Chandigarh%2C_India.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 98,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Harvinder Chandigarh (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "4608x3456",
+        "reason": "Existing image is already superior or matches candidate quality (98 pts)"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Chandigarh_Rock_Garden_4.jpg/1200px-Chandigarh_Rock_Garden_4.jpg",
+        "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Sunset_view_at_Sukhna_lake_Chandigarh%2C_India.JPG/960px-Sunset_view_at_Sukhna_lake_Chandigarh%2C_India.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    },
+    {
+      "stateId": 31,
+      "stateName": "Dadra and Nagar Haveli and Daman and Diu",
+      "slug": "dadra-and-nagar-haveli-and-daman-and-diu",
+      "regionType": "ut",
+      "primary": {
+        "action": "RETAINED",
+        "imageId": 1523,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Freedom_Memorial_in_Moti_Daman_Fort.jpg/960px-Freedom_Memorial_in_Moti_Daman_Fort.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 92,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Nizil Shah (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "3456x4608",
+        "reason": "Existing image is already superior or matches candidate quality (92 pts)"
+      },
+      "hero": {
+        "action": "RETAINED",
+        "imageId": 1522,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Diu_Fort.JPG/960px-Diu_Fort.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 94,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 3.0",
+        "attribution": "Krishna Vir Singh (CC BY-SA 3.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "3456x1944",
+        "reason": "Existing image is already superior or matches candidate quality (94 pts)"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Freedom_Memorial_in_Moti_Daman_Fort.jpg/960px-Freedom_Memorial_in_Moti_Daman_Fort.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Diu_Fort.JPG/960px-Diu_Fort.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    },
+    {
+      "stateId": 32,
+      "stateName": "Delhi",
+      "slug": "delhi",
+      "regionType": "ut",
+      "primary": {
+        "action": "REPLACED_AND_ENHANCED",
+        "previousImageId": 1531,
+        "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Red_Fort_in_Delhi_03-2016_img3.jpg/960px-Red_Fort_in_Delhi_03-2016_img3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "previousScore": 0,
+        "newImageId": 1828,
+        "newUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/India_Gate%2C_New_Delhi%2C_India%2C_IMG-20180913.jpg/1200px-India_Gate%2C_New_Delhi%2C_India%2C_IMG-20180913.jpg",
+        "newScore": 86,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "India Gate, New Delhi, India, IMG-20180913 by Abhijita2017 (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [
+          "aspect_ratio_optimization",
+          "exposure_and_contrast_leveling",
+          "white_balance_correction",
+          "controlled_edge_sharpening",
+          "wikimedia_high_res_1200px_render"
+        ],
+        "resolution": "1200x800+",
+        "reason": "Score improved from 0 to 86 (High Quality): Verified iconic landmark: India Gate in Delhi"
+      },
+      "hero": {
+        "action": "RETAINED",
+        "imageId": 1530,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/India_Gate_at_night_.JPG/960px-India_Gate_at_night_.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 94,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 3.0",
+        "attribution": "Yash stealth (CC BY-SA 3.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "3559x2174",
+        "reason": "Existing image is already superior or matches candidate quality (94 pts)"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/India_Gate%2C_New_Delhi%2C_India%2C_IMG-20180913.jpg/1200px-India_Gate%2C_New_Delhi%2C_India%2C_IMG-20180913.jpg",
+        "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/India_Gate_at_night_.JPG/960px-India_Gate_at_night_.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    },
+    {
+      "stateId": 33,
+      "stateName": "Jammu and Kashmir",
+      "slug": "jammu-and-kashmir",
+      "regionType": "ut",
+      "primary": {
+        "action": "REPLACED_AND_ENHANCED",
+        "previousImageId": 1555,
+        "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Snowy_Mountain_of_Gulmarg.jpg/960px-Snowy_Mountain_of_Gulmarg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "previousScore": 74,
+        "newImageId": 1829,
+        "newUrl": "https://live.staticflickr.com/5498/10434926295_49bb0bb52e_b.jpg",
+        "newScore": 86,
+        "provider": "openverse",
+        "license": "BY",
+        "attribution": "Shikara on Dal Lake by BOMBMAN via Openverse",
+        "operations": [
+          "aspect_ratio_optimization",
+          "exposure_and_contrast_leveling",
+          "white_balance_correction",
+          "controlled_edge_sharpening"
+        ],
+        "resolution": "1200x800+",
+        "reason": "Score improved from 74 to 86 (High Quality): Landmark match: Dal Lake shikara"
+      },
+      "hero": {
+        "action": "RETAINED",
+        "imageId": 1554,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Empty_shikara_on_Dal_Lake%2C_Srinagar%2C_India_2013-08-23_%28flickr_9967093983%29.jpg/960px-Empty_shikara_on_Dal_Lake%2C_Srinagar%2C_India_2013-08-23_%28flickr_9967093983%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 74,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 2.0",
+        "attribution": "Fulvio Spada from Torino, Italy (CC BY-SA 2.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "5021x3394",
+        "reason": "Existing image is already superior or matches candidate quality (74 pts)"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://live.staticflickr.com/5498/10434926295_49bb0bb52e_b.jpg",
+        "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Empty_shikara_on_Dal_Lake%2C_Srinagar%2C_India_2013-08-23_%28flickr_9967093983%29.jpg/960px-Empty_shikara_on_Dal_Lake%2C_Srinagar%2C_India_2013-08-23_%28flickr_9967093983%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    },
+    {
+      "stateId": 34,
+      "stateName": "Ladakh",
+      "slug": "ladakh",
+      "regionType": "ut",
+      "primary": {
+        "action": "RETAINED",
+        "imageId": 1596,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/View_of_Indus_Valley_from_Thikse_Gompa%2C_Ladakh%2C_India.jpg/960px-View_of_Indus_Valley_from_Thikse_Gompa%2C_Ladakh%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 88,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 3.0",
+        "attribution": "Ingo Mehling (CC BY-SA 3.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "17086x4960",
+        "reason": "Existing image is already superior or matches candidate quality (88 pts)"
+      },
+      "hero": {
+        "action": "RETAINED",
+        "imageId": 1595,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/The_poetry_of_the_earth%27s_beauty.Humbleness_of_the_brown_soil%2C_loftiness_of_the_cloudy_sky%2C_infiniteness_of_the_blue_lake.jpg/960px-The_poetry_of_the_earth%27s_beauty.Humbleness_of_the_brown_soil%2C_loftiness_of_the_cloudy_sky%2C_infiniteness_of_the_blue_lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 72,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Neha.cosmo (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "3264x2448",
+        "reason": "Existing image is already superior or matches candidate quality (72 pts)"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/View_of_Indus_Valley_from_Thikse_Gompa%2C_Ladakh%2C_India.jpg/960px-View_of_Indus_Valley_from_Thikse_Gompa%2C_Ladakh%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/The_poetry_of_the_earth%27s_beauty.Humbleness_of_the_brown_soil%2C_loftiness_of_the_cloudy_sky%2C_infiniteness_of_the_blue_lake.jpg/960px-The_poetry_of_the_earth%27s_beauty.Humbleness_of_the_brown_soil%2C_loftiness_of_the_cloudy_sky%2C_infiniteness_of_the_blue_lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    },
+    {
+      "stateId": 35,
+      "stateName": "Lakshadweep",
+      "slug": "lakshadweep",
+      "regionType": "ut",
+      "primary": {
+        "action": "RETAINED",
+        "imageId": 1602,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Agatti_island%2C_Lakshadweep.jpg/960px-Agatti_island%2C_Lakshadweep.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 83,
+        "provider": "wikimedia",
+        "license": "CC BY 2.0",
+        "attribution": "icultist (CC BY 2.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "1024x657",
+        "reason": "Existing image is already superior or matches candidate quality (83 pts)"
+      },
+      "hero": {
+        "action": "RETAINED",
+        "imageId": 1601,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Bangaram_Island_%285799661931%29.jpg/960px-Bangaram_Island_%285799661931%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 72,
+        "provider": "wikimedia",
+        "license": "CC BY 2.0",
+        "attribution": "Mike Prince from Bangalore, India (CC BY 2.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "2048x1365",
+        "reason": "Existing image is already superior or matches candidate quality (72 pts)"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Agatti_island%2C_Lakshadweep.jpg/960px-Agatti_island%2C_Lakshadweep.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Bangaram_Island_%285799661931%29.jpg/960px-Bangaram_Island_%285799661931%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    },
+    {
+      "stateId": 36,
+      "stateName": "Puducherry",
+      "slug": "puducherry",
+      "regionType": "ut",
+      "primary": {
+        "action": "RETAINED",
+        "imageId": 1606,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Windows_of_Pondicherry_-_White_wall%2C_Green_coloured_window_and_grills_%283%29.jpg/960px-Windows_of_Pondicherry_-_White_wall%2C_Green_coloured_window_and_grills_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 72,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "iMahesh (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "4000x6000",
+        "reason": "Existing image is already superior or matches candidate quality (72 pts)"
+      },
+      "hero": {
+        "action": "RETAINED",
+        "imageId": 1605,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Pondicherry-Gandhi_Monument-IMG_20250222_205032-Verbessert-RR.jpg/960px-Pondicherry-Gandhi_Monument-IMG_20250222_205032-Verbessert-RR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "score": 72,
+        "provider": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Rainer Halama (CC BY-SA 4.0) via Wikimedia Commons",
+        "operations": [],
+        "resolution": "3750x2809",
+        "reason": "Existing image is already superior or matches candidate quality (72 pts)"
+      },
+      "apiVerification": {
+        "verified": true,
+        "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Windows_of_Pondicherry_-_White_wall%2C_Green_coloured_window_and_grills_%283%29.jpg/960px-Windows_of_Pondicherry_-_White_wall%2C_Green_coloured_window_and_grills_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Pondicherry-Gandhi_Monument-IMG_20250222_205032-Verbessert-RR.jpg/960px-Pondicherry-Gandhi_Monument-IMG_20250222_205032-Verbessert-RR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    }
+  ]
+}

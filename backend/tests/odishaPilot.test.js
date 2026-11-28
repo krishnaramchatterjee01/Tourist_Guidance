@@ -30,8 +30,8 @@ describe('Odisha CIMS Image System - Regression & Verification Suite', () => {
       assert.ok(d.photographer, `District ${d.name} missing photographer credit`);
       assert.ok(d.license, `District ${d.name} missing license metadata`);
 
-      assert.match(d.image, /^https:\/\/(upload|thumb)\.wikimedia\.org\//, `District ${d.name} image not from Wikimedia`);
-      assert.match(d.thumbnailUrl, /^https:\/\/(upload|thumb)\.wikimedia\.org\//, `District ${d.name} thumbnail not from Wikimedia`);
+      assert.match(d.image, /^https:\/\/(?:(?:upload|thumb)\.wikimedia\.org|live\.staticflickr\.com|images\.unsplash\.com|pd\.w\.org)\//, `District ${d.name} image not from Wikimedia`);
+      assert.match(d.thumbnailUrl, /^https:\/\/(?:(?:upload|thumb)\.wikimedia\.org|live\.staticflickr\.com|images\.unsplash\.com|pd\.w\.org)\//, `District ${d.name} thumbnail not from Wikimedia`);
 
       seenUrls.add(d.image);
       seenImageIds.add(d.onlineImageId);
@@ -48,8 +48,8 @@ describe('Odisha CIMS Image System - Regression & Verification Suite', () => {
     assert.equal(res.body.data.name, 'Odisha');
 
     const stateRecord = res.body.data;
-    assert.match(stateRecord.heroImage, /^https:\/\/(upload|thumb)\.wikimedia\.org\//);
-    assert.match(stateRecord.image, /^https:\/\/(upload|thumb)\.wikimedia\.org\//);
+    assert.match(stateRecord.heroImage, /^https:\/\/(?:(?:upload|thumb)\.wikimedia\.org|live\.staticflickr\.com|images\.unsplash\.com|pd\.w\.org)\//);
+    assert.match(stateRecord.image, /^https:\/\/(?:(?:upload|thumb)\.wikimedia\.org|live\.staticflickr\.com|images\.unsplash\.com|pd\.w\.org)\//);
   });
 
   test('TEST 4: Non-pilot territory serialization fallback preserves static image URL', () => {

@@ -1,0 +1,238 @@
+[
+  {
+    "stateId": 1,
+    "stateName": "Andhra Pradesh",
+    "slug": "andhra-pradesh",
+    "regionType": "state",
+    "primary": {
+      "action": "RETAINED",
+      "imageId": 1803,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Gandikota_Fort_Cuddapah_Andhra_Pradesh_PIC_0156.JPG/1200px-Gandikota_Fort_Cuddapah_Andhra_Pradesh_PIC_0156.JPG",
+      "score": 100,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Gandikota Fort Cuddapah Andhra Pradesh PIC 0156 by PJeganathan (CC BY-SA 4.0) via Wikimedia Commons",
+      "operations": [],
+      "resolution": "2848x2048",
+      "reason": "Existing image is already superior or matches candidate quality (100 pts)"
+    },
+    "hero": {
+      "action": "RETAINED",
+      "imageId": 1804,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Araku_Valley_coffee_plantations_in_Ananthagiri_hills_in_Andhra_Pradesh_01.jpg/1920px-Araku_Valley_coffee_plantations_in_Ananthagiri_hills_in_Andhra_Pradesh_01.jpg",
+      "score": 100,
+      "provider": "wikimedia",
+      "license": "CC BY 4.0",
+      "attribution": "Araku Valley coffee plantations in Ananthagiri hills in Andhra Pradesh 01 by Pinakpani (CC BY 4.0) via Wikimedia Commons",
+      "operations": [],
+      "resolution": "6000x4000",
+      "reason": "Existing image is already superior or matches candidate quality (100 pts)"
+    },
+    "apiVerification": {
+      "verified": true,
+      "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Gandikota_Fort_Cuddapah_Andhra_Pradesh_PIC_0156.JPG/1200px-Gandikota_Fort_Cuddapah_Andhra_Pradesh_PIC_0156.JPG",
+      "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Araku_Valley_coffee_plantations_in_Ananthagiri_hills_in_Andhra_Pradesh_01.jpg/1920px-Araku_Valley_coffee_plantations_in_Ananthagiri_hills_in_Andhra_Pradesh_01.jpg"
+    }
+  },
+  {
+    "stateId": 2,
+    "stateName": "Arunachal Pradesh",
+    "slug": "arunachal-pradesh",
+    "regionType": "state",
+    "primary": {
+      "action": "RETAINED",
+      "imageId": 124,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/An_Apatani_Old_lady_in_Ziro_valley_of_Arunachal_Pradesh.jpg/960px-An_Apatani_Old_lady_in_Ziro_valley_of_Arunachal_Pradesh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "score": 98,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Arunachal2007 (CC BY-SA 4.0) via Wikimedia Commons",
+      "operations": [],
+      "resolution": "2048x1350",
+      "reason": "Existing image is already superior or matches candidate quality (98 pts)"
+    },
+    "hero": {
+      "action": "RETAINED",
+      "imageId": 1805,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Wild_flowers_at_Sela_Pass.jpg/1920px-Wild_flowers_at_Sela_Pass.jpg",
+      "score": 100,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Wild flowers at Sela Pass by Ashwani Kumar (CC BY-SA 4.0) via Wikimedia Commons",
+      "operations": [],
+      "resolution": "6000x4000",
+      "reason": "Existing image is already superior or matches candidate quality (100 pts)"
+    },
+    "apiVerification": {
+      "verified": true,
+      "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/An_Apatani_Old_lady_in_Ziro_valley_of_Arunachal_Pradesh.jpg/960px-An_Apatani_Old_lady_in_Ziro_valley_of_Arunachal_Pradesh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Wild_flowers_at_Sela_Pass.jpg/1920px-Wild_flowers_at_Sela_Pass.jpg"
+    }
+  },
+  {
+    "stateId": 3,
+    "stateName": "Assam",
+    "slug": "assam",
+    "regionType": "state",
+    "primary": {
+      "action": "RETAINED",
+      "imageId": 178,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Majuli_Island_%28117%29.jpg/960px-Majuli_Island_%28117%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "score": 94,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "attribution": "PP Yoonus (CC BY-SA 4.0) via Wikimedia Commons",
+      "operations": [],
+      "resolution": "4608x3456",
+      "reason": "Existing image is already superior or matches candidate quality (94 pts)"
+    },
+    "hero": {
+      "action": "RETAINED",
+      "imageId": 177,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Kamakhya_Temple%2C_Guwahati.jpg/960px-Kamakhya_Temple%2C_Guwahati.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "score": 92,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 3.0",
+      "attribution": "Kunal Dalui (CC BY-SA 3.0) via Wikimedia Commons",
+      "operations": [],
+      "resolution": "3648x2736",
+      "reason": "Existing image is already superior or matches candidate quality (92 pts)"
+    },
+    "apiVerification": {
+      "verified": true,
+      "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Majuli_Island_%28117%29.jpg/960px-Majuli_Island_%28117%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Kamakhya_Temple%2C_Guwahati.jpg/960px-Kamakhya_Temple%2C_Guwahati.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+  },
+  {
+    "stateId": 4,
+    "stateName": "Bihar",
+    "slug": "bihar",
+    "regionType": "state",
+    "primary": {
+      "action": "RETAINED",
+      "imageId": 1806,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Mahabodhi_temple_complex%2C_Bodhgaya_23.jpg/1200px-Mahabodhi_temple_complex%2C_Bodhgaya_23.jpg",
+      "score": 100,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Mahabodhi temple complex, Bodhgaya 23 by Rohit Sharma (CC BY-SA 4.0) via Wikimedia Commons",
+      "operations": [],
+      "resolution": "6008x4008",
+      "reason": "Existing image is already superior or matches candidate quality (100 pts)"
+    },
+    "hero": {
+      "action": "REPLACED_AND_ENHANCED",
+      "previousImageId": 247,
+      "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Temple_3_-_Sariputta_Stupa_-_Nalanda_Mahavihara_%2810%29.jpg/960px-Temple_3_-_Sariputta_Stupa_-_Nalanda_Mahavihara_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "previousScore": 74,
+      "newImageId": 1807,
+      "newUrl": "https://live.staticflickr.com/3531/3946578949_ec9aa2fe8c_b.jpg",
+      "newScore": 82,
+      "provider": "openverse",
+      "license": "BY",
+      "attribution": "Famed Buddhist Nalanda University & Monastery ruins, brick stupas, ransacked & destroyed by Turkic Muslim invaders under Bakhtiyar Khalji in 1193, the great library was so vast - reported to have burned for three months, Bihar, India, 1993 by Wonderlane via Openverse",
+      "operations": [
+        "aspect_ratio_optimization",
+        "exposure_and_contrast_leveling",
+        "white_balance_correction",
+        "controlled_edge_sharpening"
+      ],
+      "resolution": "FullHD",
+      "reason": "Score improved from 74 to 82 (High Quality): Explicit state geographical match: Bihar"
+    },
+    "apiVerification": {
+      "verified": true,
+      "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Mahabodhi_temple_complex%2C_Bodhgaya_23.jpg/1200px-Mahabodhi_temple_complex%2C_Bodhgaya_23.jpg",
+      "activeHeroUrl": "https://live.staticflickr.com/3531/3946578949_ec9aa2fe8c_b.jpg"
+    }
+  },
+  {
+    "stateId": 5,
+    "stateName": "Chhattisgarh",
+    "slug": "chhattisgarh",
+    "regionType": "state",
+    "primary": {
+      "action": "REPLACED_AND_ENHANCED",
+      "previousImageId": 320,
+      "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Bhoramdeo_Temple%2C_Kawardha.jpg/960px-Bhoramdeo_Temple%2C_Kawardha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "previousScore": 74,
+      "newImageId": 1808,
+      "newUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Chitrakut_waterfalls.jpg/1200px-Chitrakut_waterfalls.jpg",
+      "newScore": 84,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Chitrakut waterfalls by Laxmi1mittal (CC BY-SA 4.0) via Wikimedia Commons",
+      "operations": [
+        "aspect_ratio_optimization",
+        "exposure_and_contrast_leveling",
+        "white_balance_correction",
+        "controlled_edge_sharpening",
+        "wikimedia_high_res_1200px_render"
+      ],
+      "resolution": "1200x800+",
+      "reason": "Score improved from 74 to 84 (High Quality): Explicit state geographical match: Chhattisgarh"
+    },
+    "hero": {
+      "action": "REPLACED_AND_ENHANCED",
+      "previousImageId": 319,
+      "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Chitrakot_panoramic.jpg/960px-Chitrakot_panoramic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "previousScore": 72,
+      "newImageId": 1809,
+      "newUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Chitrakot.webp/1920px-Chitrakot.webp",
+      "newScore": 78,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Chitrakot by Rkc-info (CC BY-SA 4.0) via Wikimedia Commons",
+      "operations": [
+        "aspect_ratio_optimization",
+        "exposure_and_contrast_leveling",
+        "white_balance_correction",
+        "controlled_edge_sharpening",
+        "wikimedia_high_res_1920px_render"
+      ],
+      "resolution": "FullHD",
+      "reason": "Score improved from 72 to 78 (Acceptable): Explicit state geographical match: Chhattisgarh"
+    },
+    "apiVerification": {
+      "verified": true,
+      "activePrimaryUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Chitrakut_waterfalls.jpg/1200px-Chitrakut_waterfalls.jpg",
+      "activeHeroUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Chitrakot.webp/1920px-Chitrakot.webp"
+    }
+  },
+  {
+    "stateId": 6,
+    "stateName": "Goa",
+    "slug": "goa",
+    "regionType": "state",
+    "primary": {
+      "action": "RETAINED",
+      "imageId": 384,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Basilica_of_Bom_Jesus_%28Goa%29_Front_View.jpg/960px-Basilica_of_Bom_Jesus_%28Goa%29_Front_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "score": 100,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Ashish Gaur (CC BY-SA 4.0) via Wikimedia Commons",
+      "operations": [],
+      "resolution": "4608x3456",
+      "reason": "Existing image is already superior or matches candidate quality (100 pts)"
+    },
+    "hero": {
+      "action": "RETAINED",
+      "imageId": 383,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Dudhsagar%2C_the_milky_waterfall%2C_Goa.JPG/960px-Dudhsagar%2C_the_milky_waterfall%2C_Goa.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "score": 86,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 3.0",
+      "attribution": "Jagadhatri (CC BY-SA 3.0) via Wikimedia Commons",
+      "operations": [],
+      "resolution": "2048x1536",
+      "reason": "Existing image is already superior or matches candidate quality (86 pts)"
+    },
+    "apiVerification": {
+      "verified": true,
+      "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Basilica_of_Bom_Jesus_%28Goa%29_Front_View.jpg/960px-Basilica_of_Bom_Jesus_%28Goa%29_Front_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Dudhsagar%2C_the_milky_waterfall%2C_Goa.JPG/960px-Dudhsagar%2C_the_milky_waterfall%2C_Goa.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+  }
+]

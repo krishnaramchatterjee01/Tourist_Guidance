@@ -1,0 +1,239 @@
+[
+  {
+    "stateId": 13,
+    "stateName": "Madhya Pradesh",
+    "slug": "madhya-pradesh",
+    "regionType": "state",
+    "primary": {
+      "action": "REPLACED_AND_ENHANCED",
+      "previousImageId": 674,
+      "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Sanchi_Great_Stupa_Torana.jpg/960px-Sanchi_Great_Stupa_Torana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "previousScore": 71,
+      "newImageId": 1814,
+      "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Kandariya_Mahadeva_Temple%2C_Khajuraho%2C_Madhya_Pradesh%2C_India_002.jpg/1200px-Kandariya_Mahadeva_Temple%2C_Khajuraho%2C_Madhya_Pradesh%2C_India_002.jpg",
+      "newScore": 89,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Kandariya Mahadeva Temple, Khajuraho, Madhya Pradesh, India 002 by WarmaFiesta (CC BY-SA 4.0) via Wikimedia Commons",
+      "operations": [
+        "aspect_ratio_optimization",
+        "exposure_and_contrast_leveling",
+        "white_balance_correction",
+        "controlled_edge_sharpening",
+        "wikimedia_high_res_1200px_render"
+      ],
+      "resolution": "1200x800+",
+      "reason": "Score improved from 71 to 89 (High Quality): Explicit state geographical match: Madhya Pradesh"
+    },
+    "hero": {
+      "action": "REPLACED_AND_ENHANCED",
+      "previousImageId": 673,
+      "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Marble_Rocks_-_Jabalpur.jpg/960px-Marble_Rocks_-_Jabalpur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "previousScore": 74,
+      "newImageId": 1815,
+      "newUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Marble_Rocks%2CBhedaghat.jpg/1920px-Marble_Rocks%2CBhedaghat.jpg",
+      "newScore": 90,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Marble Rocks,Bhedaghat by Nupur Sawant (CC BY-SA 4.0) via Wikimedia Commons",
+      "operations": [
+        "aspect_ratio_optimization",
+        "exposure_and_contrast_leveling",
+        "white_balance_correction",
+        "controlled_edge_sharpening",
+        "wikimedia_high_res_1920px_render"
+      ],
+      "resolution": "FullHD",
+      "reason": "Score improved from 74 to 90 (Premium): Verified iconic landmark: Bhedaghat Marble Rocks in Madhya Pradesh"
+    },
+    "apiVerification": {
+      "verified": true,
+      "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Kandariya_Mahadeva_Temple%2C_Khajuraho%2C_Madhya_Pradesh%2C_India_002.jpg/1200px-Kandariya_Mahadeva_Temple%2C_Khajuraho%2C_Madhya_Pradesh%2C_India_002.jpg",
+      "activeHeroUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Marble_Rocks%2CBhedaghat.jpg/1920px-Marble_Rocks%2CBhedaghat.jpg"
+    }
+  },
+  {
+    "stateId": 14,
+    "stateName": "Maharashtra",
+    "slug": "maharashtra",
+    "regionType": "state",
+    "primary": {
+      "action": "REPLACED_AND_ENHANCED",
+      "previousImageId": 784,
+      "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Ellora_Caves%2C_India%2C_Pillars_at_Kailasa_Temple.jpg/960px-Ellora_Caves%2C_India%2C_Pillars_at_Kailasa_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "previousScore": 74,
+      "newImageId": 1816,
+      "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Ellora_caves_-_Kailasa_Temple_%28cave_16%29_vrvbajel0924_%28463%29.jpg/1200px-Ellora_caves_-_Kailasa_Temple_%28cave_16%29_vrvbajel0924_%28463%29.jpg",
+      "newScore": 89,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Ellora caves - Kailasa Temple (cave 16) vrvbajel0924 (463) by Vinayaraj (CC BY-SA 4.0) via Wikimedia Commons",
+      "operations": [
+        "aspect_ratio_optimization",
+        "exposure_and_contrast_leveling",
+        "white_balance_correction",
+        "controlled_edge_sharpening",
+        "wikimedia_high_res_1200px_render"
+      ],
+      "resolution": "1200x800+",
+      "reason": "Score improved from 74 to 89 (High Quality): Explicit state geographical match: Maharashtra"
+    },
+    "hero": {
+      "action": "RETAINED",
+      "imageId": 783,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Chatrapati_shivaji_Maharaj_Statue_at_Gateway_Of_India%2C_Mumbai.JPG/960px-Chatrapati_shivaji_Maharaj_Statue_at_Gateway_Of_India%2C_Mumbai.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "score": 94,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 3.0",
+      "attribution": "Vijaykothare (CC BY-SA 3.0) via Wikimedia Commons",
+      "operations": [],
+      "resolution": "4592x2576",
+      "reason": "Existing image is already superior or matches candidate quality (94 pts)"
+    },
+    "apiVerification": {
+      "verified": true,
+      "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Ellora_caves_-_Kailasa_Temple_%28cave_16%29_vrvbajel0924_%28463%29.jpg/1200px-Ellora_caves_-_Kailasa_Temple_%28cave_16%29_vrvbajel0924_%28463%29.jpg",
+      "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Chatrapati_shivaji_Maharaj_Statue_at_Gateway_Of_India%2C_Mumbai.JPG/960px-Chatrapati_shivaji_Maharaj_Statue_at_Gateway_Of_India%2C_Mumbai.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+  },
+  {
+    "stateId": 15,
+    "stateName": "Manipur",
+    "slug": "manipur",
+    "regionType": "state",
+    "primary": {
+      "action": "RETAINED",
+      "imageId": 856,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Kangla_Sanathong_%28Kangla_Grand_Gate_or_Kangla_Royal_Gate%29_-_Classical_Meitei_architecture_-_in_the_western_side_of_the_Kangla_Fort_%28Kangla_Palace%29_in_Imphal_West_district_of_Manipur_state_%28Kangleipak%29_02.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "score": 100,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Haoreima (CC BY-SA 4.0) via Wikimedia Commons",
+      "operations": [],
+      "resolution": "4000x2992",
+      "reason": "Existing image is already superior or matches candidate quality (100 pts)"
+    },
+    "hero": {
+      "action": "RETAINED",
+      "imageId": 855,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Loktak_Lake_Manipur_01.jpg/960px-Loktak_Lake_Manipur_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "score": 98,
+      "provider": "wikimedia",
+      "license": "CC BY 2.0",
+      "attribution": "ch_15march (CC BY 2.0) via Wikimedia Commons",
+      "operations": [],
+      "resolution": "2592x1944",
+      "reason": "Existing image is already superior or matches candidate quality (98 pts)"
+    },
+    "apiVerification": {
+      "verified": true,
+      "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Kangla_Sanathong_%28Kangla_Grand_Gate_or_Kangla_Royal_Gate%29_-_Classical_Meitei_architecture_-_in_the_western_side_of_the_Kangla_Fort_%28Kangla_Palace%29_in_Imphal_West_district_of_Manipur_state_%28Kangleipak%29_02.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Loktak_Lake_Manipur_01.jpg/960px-Loktak_Lake_Manipur_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+  },
+  {
+    "stateId": 16,
+    "stateName": "Meghalaya",
+    "slug": "meghalaya",
+    "regionType": "state",
+    "primary": {
+      "action": "RETAINED",
+      "imageId": 890,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Living_root_bridges%2C_Nongriat_village%2C_Meghalaya.jpg/960px-Living_root_bridges%2C_Nongriat_village%2C_Meghalaya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "score": 100,
+      "provider": "wikimedia",
+      "license": "CC BY 2.0",
+      "attribution": "Arshiya Urveeja Bose (CC BY 2.0) via Wikimedia Commons",
+      "operations": [],
+      "resolution": "5184x3456",
+      "reason": "Existing image is already superior or matches candidate quality (100 pts)"
+    },
+    "hero": {
+      "action": "RETAINED",
+      "imageId": 889,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Nohkalikai_Falls_Cherrapunji.JPG/960px-Nohkalikai_Falls_Cherrapunji.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "score": 92,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 3.0",
+      "attribution": "Kunal Dalui (CC BY-SA 3.0) via Wikimedia Commons",
+      "operations": [],
+      "resolution": "3648x2736",
+      "reason": "Existing image is already superior or matches candidate quality (92 pts)"
+    },
+    "apiVerification": {
+      "verified": true,
+      "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Living_root_bridges%2C_Nongriat_village%2C_Meghalaya.jpg/960px-Living_root_bridges%2C_Nongriat_village%2C_Meghalaya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Nohkalikai_Falls_Cherrapunji.JPG/960px-Nohkalikai_Falls_Cherrapunji.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+  },
+  {
+    "stateId": 17,
+    "stateName": "Mizoram",
+    "slug": "mizoram",
+    "regionType": "state",
+    "primary": {
+      "action": "RETAINED",
+      "imageId": 914,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Tam_Dil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "score": 63,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Coolcolney (CC BY-SA 4.0) via Wikimedia Commons",
+      "operations": [],
+      "resolution": "920x690",
+      "reason": "Existing image is already superior or matches candidate quality (63 pts)"
+    },
+    "hero": {
+      "action": "RETAINED",
+      "imageId": 913,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Vantawng_Falls%2C_Mizoram.jpg/960px-Vantawng_Falls%2C_Mizoram.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "score": 96,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Didini Tochhawng (CC BY-SA 4.0) via Wikimedia Commons",
+      "operations": [],
+      "resolution": "2500x2500",
+      "reason": "Existing image is already superior or matches candidate quality (96 pts)"
+    },
+    "apiVerification": {
+      "verified": true,
+      "activePrimaryUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Tam_Dil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Vantawng_Falls%2C_Mizoram.jpg/960px-Vantawng_Falls%2C_Mizoram.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+  },
+  {
+    "stateId": 18,
+    "stateName": "Nagaland",
+    "slug": "nagaland",
+    "regionType": "state",
+    "primary": {
+      "action": "RETAINED",
+      "imageId": 937,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Naga_Heritage_Village_03.jpg/960px-Naga_Heritage_Village_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "score": 74,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Ganesh Mohan T (CC BY-SA 4.0) via Wikimedia Commons",
+      "operations": [],
+      "resolution": "4000x3000",
+      "reason": "Existing image is already superior or matches candidate quality (74 pts)"
+    },
+    "hero": {
+      "action": "RETAINED",
+      "imageId": 936,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Dz%C3%BCkou_Valley%2C_Viswema%2C_Nagaland_12.jpg/960px-Dz%C3%BCkou_Valley%2C_Viswema%2C_Nagaland_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "score": 81,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "attribution": "পাপৰি বৰা (CC BY-SA 4.0) via Wikimedia Commons",
+      "operations": [],
+      "resolution": "1280x960",
+      "reason": "Existing image is already superior or matches candidate quality (81 pts)"
+    },
+    "apiVerification": {
+      "verified": true,
+      "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Naga_Heritage_Village_03.jpg/960px-Naga_Heritage_Village_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Dz%C3%BCkou_Valley%2C_Viswema%2C_Nagaland_12.jpg/960px-Dz%C3%BCkou_Valley%2C_Viswema%2C_Nagaland_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+  }
+]

@@ -32,72 +32,89 @@ export class WikimediaProvider extends BaseImageProvider {
       origin: '*'
     });
 
-    try {
-      const res = await fetch(`${this.endpoint}?${params.toString()}`, {
-        headers: {
-          'User-Agent': this.userAgent,
-          'Accept': 'application/json'
+    for (let attempt = 1; attempt <= 3; attempt++) {
+      try {
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 12000);
+
+        const res = await fetch(`${this.endpoint}?${params.toString()}`, {
+          signal: controller.signal,
+          headers: {
+            'User-Agent': this.userAgent,
+            'Accept': 'application/json'
+          }
+        });
+        clearTimeout(timeoutId);
+
+        if (!res.ok) {
+          if (attempt < 3) {
+            await new Promise(r => setTimeout(r, 1000 * attempt));
+            continue;
+          }
+          return [];
         }
-      });
 
-      if (!res.ok) {
+        const json = await res.json();
+        if (!json.query || !json.query.pages) {
+          return [];
+        }
+
+        const pages = Object.values(json.query.pages);
+        const candidates = [];
+
+        for (const page of pages) {
+          if (!page.imageinfo || page.imageinfo.length === 0) continue;
+          const info = page.imageinfo[0];
+
+          // Reject non-raster or SVG files if seeking photograph
+          const mime = info.mime || '';
+          if (!mime.startsWith('image/') || mime.includes('svg')) continue;
+
+          const meta = info.extmetadata || {};
+          const title = (page.title || '').replace(/^File:/i, '').replace(/\.[^.]+$/, '').replace(/_/g, ' ');
+          const artist = this.cleanHtml(meta.Artist?.value || meta.Credit?.value || 'Wikimedia Commons Contributor');
+          const licenseShort = meta.LicenseShortName?.value || meta.UsageTerms?.value || 'CC BY-SA 4.0';
+          const licenseUrl = meta.LicenseUrl?.value || 'https://creativecommons.org/licenses/by-sa/4.0/';
+          const description = this.cleanHtml(meta.ImageDescription?.value || title);
+
+          // Standard Wikimedia thumbnail at requested target width
+          const displayUrl = info.thumburl || info.url;
+          const originalUrl = info.url;
+
+          candidates.push(
+            this.normalizeCandidate({
+              providerName: 'wikimedia',
+              providerImageId: String(page.pageid || page.title),
+              originalUrl,
+              displayUrl,
+              thumbnailUrl: displayUrl,
+              sourcePageUrl: info.descriptionurl || `https://commons.wikimedia.org/wiki/${encodeURIComponent(page.title)}`,
+              title,
+              description,
+              altText: `${title} travel photography`,
+              photographerName: artist,
+              licenseName: licenseShort,
+              licenseUrl,
+              attributionText: `${title} by ${artist} (${licenseShort}) via Wikimedia Commons`,
+              width: info.width,
+              height: info.height,
+              format: mime,
+              qualityScore: this.calculateQualityScore(info, meta)
+            })
+          );
+        }
+
+        return candidates;
+      } catch (err) {
+        if (attempt < 3) {
+          await new Promise(r => setTimeout(r, 1200 * attempt));
+          continue;
+        }
+        console.warn(`[WikimediaProvider Search Warning] Query '${query}':`, err.message);
         return [];
       }
-
-      const json = await res.json();
-      if (!json.query || !json.query.pages) {
-        return [];
-      }
-
-      const pages = Object.values(json.query.pages);
-      const candidates = [];
-
-      for (const page of pages) {
-        if (!page.imageinfo || page.imageinfo.length === 0) continue;
-        const info = page.imageinfo[0];
-
-        // Reject non-raster or SVG files if seeking photograph
-        const mime = info.mime || '';
-        if (!mime.startsWith('image/') || mime.includes('svg')) continue;
-
-        const meta = info.extmetadata || {};
-        const title = (page.title || '').replace(/^File:/i, '').replace(/\.[^.]+$/, '').replace(/_/g, ' ');
-        const artist = this.cleanHtml(meta.Artist?.value || meta.Credit?.value || 'Wikimedia Commons Contributor');
-        const licenseShort = meta.LicenseShortName?.value || meta.UsageTerms?.value || 'CC BY-SA 4.0';
-        const licenseUrl = meta.LicenseUrl?.value || 'https://creativecommons.org/licenses/by-sa/4.0/';
-        const description = this.cleanHtml(meta.ImageDescription?.value || title);
-
-        // Standard Wikimedia thumbnail at requested target width
-        const displayUrl = info.thumburl || info.url;
-        const originalUrl = info.url;
-
-        candidates.push(
-          this.normalizeCandidate({
-            providerImageId: String(page.pageid || page.title),
-            originalUrl,
-            displayUrl,
-            thumbnailUrl: displayUrl,
-            sourcePageUrl: info.descriptionurl || `https://commons.wikimedia.org/wiki/${encodeURIComponent(page.title)}`,
-            title,
-            description,
-            altText: `${title} in West Bengal`,
-            photographerName: artist,
-            licenseName: licenseShort,
-            licenseUrl,
-            attributionText: `${title} by ${artist} (${licenseShort}) via Wikimedia Commons`,
-            width: info.width,
-            height: info.height,
-            format: mime,
-            qualityScore: this.calculateQualityScore(info, meta)
-          })
-        );
-      }
-
-      return candidates;
-    } catch (err) {
-      console.warn(`[WikimediaProvider Search Warning] Query '${query}':`, err.message);
-      return [];
     }
+    return [];
   }
 
   cleanHtml(str) {

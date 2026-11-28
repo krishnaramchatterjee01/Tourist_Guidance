@@ -1,0 +1,257 @@
+[
+  {
+    "stateId": 25,
+    "stateName": "Tripura",
+    "slug": "tripura",
+    "regionType": "state",
+    "primary": {
+      "action": "RETAINED",
+      "imageId": 1316,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/A_View_of_Unakoti%2C_Tripura.jpg/960px-A_View_of_Unakoti%2C_Tripura.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "score": 90,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Dr. Srimanta Ray (CC BY-SA 4.0) via Wikimedia Commons",
+      "operations": [],
+      "resolution": "9000x6000",
+      "reason": "Existing image is already superior or matches candidate quality (90 pts)"
+    },
+    "hero": {
+      "action": "REPLACED_AND_ENHANCED",
+      "previousImageId": 1315,
+      "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Neer_Mahal%2C_the_water_palace_of_Tripura_02.jpg/960px-Neer_Mahal%2C_the_water_palace_of_Tripura_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "previousScore": 90,
+      "newImageId": 1824,
+      "newUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Ujjayanta_Palace%2C_Agartala_%E2%80%93_A_Symbol_of_Tripura%E2%80%99s_Royal_Heritage.jpg/1920px-Ujjayanta_Palace%2C_Agartala_%E2%80%93_A_Symbol_of_Tripura%E2%80%99s_Royal_Heritage.jpg",
+      "newScore": 92,
+      "provider": "openverse",
+      "license": "BY",
+      "attribution": "Ujjayanta Palace, Agartala – A Symbol of Tripura’s Royal Heritage by Unknown authorUnknown author via Openverse",
+      "operations": [
+        "aspect_ratio_optimization",
+        "exposure_and_contrast_leveling",
+        "white_balance_correction",
+        "controlled_edge_sharpening",
+        "wikimedia_high_res_1920px_render"
+      ],
+      "resolution": "FullHD",
+      "reason": "Score improved from 90 to 92 (Premium): Verified iconic landmark: Ujjayanta Palace in Tripura"
+    },
+    "apiVerification": {
+      "verified": true,
+      "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/A_View_of_Unakoti%2C_Tripura.jpg/960px-A_View_of_Unakoti%2C_Tripura.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "activeHeroUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Ujjayanta_Palace%2C_Agartala_%E2%80%93_A_Symbol_of_Tripura%E2%80%99s_Royal_Heritage.jpg/1920px-Ujjayanta_Palace%2C_Agartala_%E2%80%93_A_Symbol_of_Tripura%E2%80%99s_Royal_Heritage.jpg"
+    }
+  },
+  {
+    "stateId": 26,
+    "stateName": "Uttar Pradesh",
+    "slug": "uttar-pradesh",
+    "regionType": "state",
+    "primary": {
+      "action": "REPLACED_AND_ENHANCED",
+      "previousImageId": 1334,
+      "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Varanasi_2010_ghats3.jpg/960px-Varanasi_2010_ghats3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "previousScore": 74,
+      "newImageId": 1825,
+      "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Taj_Mahal_-Agra_-Uttar_Pradesh_-DSC_0002.jpg/1200px-Taj_Mahal_-Agra_-Uttar_Pradesh_-DSC_0002.jpg",
+      "newScore": 99,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Taj Mahal -Agra -Uttar Pradesh -DSC 0002 by Tushark18 (CC BY-SA 4.0) via Wikimedia Commons",
+      "operations": [
+        "aspect_ratio_optimization",
+        "exposure_and_contrast_leveling",
+        "white_balance_correction",
+        "controlled_edge_sharpening",
+        "wikimedia_high_res_1200px_render"
+      ],
+      "resolution": "1200x800+",
+      "reason": "Score improved from 74 to 99 (Premium): Verified iconic landmark: Taj Mahal in Uttar Pradesh"
+    },
+    "hero": {
+      "action": "RETAINED",
+      "imageId": 1333,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Taj_Mahal_in_March_2004.jpg/960px-Taj_Mahal_in_March_2004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "score": 90,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 3.0",
+      "attribution": "Dhirad, picture edited by J. A. Knudsen (CC BY-SA 3.0) via Wikimedia Commons",
+      "operations": [],
+      "resolution": "2040x1681",
+      "reason": "Existing image is already superior or matches candidate quality (90 pts)"
+    },
+    "apiVerification": {
+      "verified": true,
+      "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Taj_Mahal_-Agra_-Uttar_Pradesh_-DSC_0002.jpg/1200px-Taj_Mahal_-Agra_-Uttar_Pradesh_-DSC_0002.jpg",
+      "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Taj_Mahal_in_March_2004.jpg/960px-Taj_Mahal_in_March_2004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+  },
+  {
+    "stateId": 27,
+    "stateName": "Uttarakhand",
+    "slug": "uttarakhand",
+    "regionType": "state",
+    "primary": {
+      "action": "RETAINED",
+      "imageId": 1482,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Aarti_at_Har-ki-Pauri%2C_Haridwar.jpg/960px-Aarti_at_Har-ki-Pauri%2C_Haridwar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "score": 74,
+      "provider": "wikimedia",
+      "license": "CC BY 2.0",
+      "attribution": "NID chick (CC BY 2.0) via Wikimedia Commons",
+      "operations": [],
+      "resolution": "2592x1944",
+      "reason": "Existing image is already superior or matches candidate quality (74 pts)"
+    },
+    "hero": {
+      "action": "REPLACED_AND_ENHANCED",
+      "previousImageId": 1481,
+      "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/The_Prime_Minister%2C_Shri_Narendra_Modi_visits_Kedarnath_Temple%3B_takes_an_overview_of_the_progress_of_reconstruction_projects%2C_in_Uttarakhand_on_November_07%2C_2018_%281%29.JPG/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "previousScore": 0,
+      "newImageId": 1826,
+      "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Valley_of_flowers%28VOF%29.JPG/1920px-Valley_of_flowers%28VOF%29.JPG",
+      "newScore": 91,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 3.0",
+      "attribution": "Valley of flowers(VOF) by Virag Sharma (CC BY-SA 3.0) via Wikimedia Commons",
+      "operations": [
+        "aspect_ratio_optimization",
+        "exposure_and_contrast_leveling",
+        "white_balance_correction",
+        "controlled_edge_sharpening",
+        "wikimedia_high_res_1920px_render"
+      ],
+      "resolution": "FullHD",
+      "reason": "Score improved from 0 to 91 (Premium): Landmark match: Valley of Flowers"
+    },
+    "apiVerification": {
+      "verified": true,
+      "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Aarti_at_Har-ki-Pauri%2C_Haridwar.jpg/960px-Aarti_at_Har-ki-Pauri%2C_Haridwar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Valley_of_flowers%28VOF%29.JPG/1920px-Valley_of_flowers%28VOF%29.JPG"
+    }
+  },
+  {
+    "stateId": 28,
+    "stateName": "West Bengal",
+    "slug": "west-bengal",
+    "regionType": "state",
+    "primary": {
+      "action": "REPLACED_AND_ENHANCED",
+      "previousImageId": 27,
+      "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Howrah_bridge_at_night.jpg/960px-Howrah_bridge_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "previousScore": 81,
+      "newImageId": 1827,
+      "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/The_Victoria_Memorial_Hall_Kolkata_West_Bengal_India.jpg/1200px-The_Victoria_Memorial_Hall_Kolkata_West_Bengal_India.jpg",
+      "newScore": 99,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "attribution": "The Victoria Memorial Hall Kolkata West Bengal India by Sana Syed Ali (CC BY-SA 4.0) via Wikimedia Commons",
+      "operations": [
+        "aspect_ratio_optimization",
+        "exposure_and_contrast_leveling",
+        "white_balance_correction",
+        "controlled_edge_sharpening",
+        "wikimedia_high_res_1200px_render"
+      ],
+      "resolution": "1200x800+",
+      "reason": "Score improved from 81 to 99 (Premium): Verified iconic landmark: Victoria Memorial in West Bengal"
+    },
+    "hero": {
+      "action": "RETAINED",
+      "imageId": 26,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Victoria_Memorial_Hall_Kolkata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "score": 81,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 3.0",
+      "attribution": "Manojit Pati (CC BY-SA 3.0) via Wikimedia Commons",
+      "operations": [],
+      "resolution": "800x600",
+      "reason": "Existing image is already superior or matches candidate quality (81 pts)"
+    },
+    "apiVerification": {
+      "verified": true,
+      "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/The_Victoria_Memorial_Hall_Kolkata_West_Bengal_India.jpg/1200px-The_Victoria_Memorial_Hall_Kolkata_West_Bengal_India.jpg",
+      "activeHeroUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Victoria_Memorial_Hall_Kolkata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    }
+  },
+  {
+    "stateId": 29,
+    "stateName": "Andaman and Nicobar Islands",
+    "slug": "andaman-and-nicobar-islands",
+    "regionType": "ut",
+    "primary": {
+      "action": "RETAINED",
+      "imageId": 1512,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Cellular_Jail%2C_Andaman_%26_Nicobar%2C_Port_Blair%2C_India%2C_night_view.jpg/960px-Cellular_Jail%2C_Andaman_%26_Nicobar%2C_Port_Blair%2C_India%2C_night_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "score": 94,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Harvinder Chandigarh (CC BY-SA 4.0) via Wikimedia Commons",
+      "operations": [],
+      "resolution": "4608x3456",
+      "reason": "Existing image is already superior or matches candidate quality (94 pts)"
+    },
+    "hero": {
+      "action": "RETAINED",
+      "imageId": 1511,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Havelock_Island%2C_Radhanagar_Beach%2C_Andaman_Islands.jpg/960px-Havelock_Island%2C_Radhanagar_Beach%2C_Andaman_Islands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "score": 94,
+      "provider": "wikimedia",
+      "license": "CC BY 4.0",
+      "attribution": "Vyacheslav Argenberg (CC BY 4.0) via Wikimedia Commons",
+      "operations": [],
+      "resolution": "4032x2688",
+      "reason": "Existing image is already superior or matches candidate quality (94 pts)"
+    },
+    "apiVerification": {
+      "verified": true,
+      "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Cellular_Jail%2C_Andaman_%26_Nicobar%2C_Port_Blair%2C_India%2C_night_view.jpg/960px-Cellular_Jail%2C_Andaman_%26_Nicobar%2C_Port_Blair%2C_India%2C_night_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Havelock_Island%2C_Radhanagar_Beach%2C_Andaman_Islands.jpg/960px-Havelock_Island%2C_Radhanagar_Beach%2C_Andaman_Islands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+  },
+  {
+    "stateId": 30,
+    "stateName": "Chandigarh",
+    "slug": "chandigarh",
+    "regionType": "ut",
+    "primary": {
+      "action": "REPLACED_AND_ENHANCED",
+      "previousImageId": 1519,
+      "previousUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Open_Hand_monument%2C_Chandigarh.jpg/960px-Open_Hand_monument%2C_Chandigarh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "previousScore": 88,
+      "newImageId": 1520,
+      "newUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Chandigarh_Rock_Garden_4.jpg/1200px-Chandigarh_Rock_Garden_4.jpg",
+      "newScore": 99,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Chandigarh Rock Garden 4 by Ijon (CC BY-SA 4.0) via Wikimedia Commons",
+      "operations": [
+        "aspect_ratio_optimization",
+        "exposure_and_contrast_leveling",
+        "white_balance_correction",
+        "controlled_edge_sharpening",
+        "wikimedia_high_res_1200px_render"
+      ],
+      "resolution": "1200x800+",
+      "reason": "Score improved from 88 to 99 (Premium): Verified iconic landmark: Rock Garden in Chandigarh"
+    },
+    "hero": {
+      "action": "RETAINED",
+      "imageId": 1518,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Sunset_view_at_Sukhna_lake_Chandigarh%2C_India.JPG/960px-Sunset_view_at_Sukhna_lake_Chandigarh%2C_India.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "score": 98,
+      "provider": "wikimedia",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Harvinder Chandigarh (CC BY-SA 4.0) via Wikimedia Commons",
+      "operations": [],
+      "resolution": "4608x3456",
+      "reason": "Existing image is already superior or matches candidate quality (98 pts)"
+    },
+    "apiVerification": {
+      "verified": true,
+      "activePrimaryUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Chandigarh_Rock_Garden_4.jpg/1200px-Chandigarh_Rock_Garden_4.jpg",
+      "activeHeroUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Sunset_view_at_Sukhna_lake_Chandigarh%2C_India.JPG/960px-Sunset_view_at_Sukhna_lake_Chandigarh%2C_India.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+  }
+]
