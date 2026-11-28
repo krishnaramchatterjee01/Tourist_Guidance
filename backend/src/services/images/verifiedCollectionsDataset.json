@@ -1,0 +1,679 @@
+{
+  "explore": {
+    "udaipur": {
+      "name": "Udaipur",
+      "state": "Rajasthan",
+      "image": {
+        "pageId": "21327983",
+        "fileTitle": "File:City Palace Udaipur Rajasthan India.JPG",
+        "title": "City Palace Udaipur Rajasthan India",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/City_Palace_Udaipur_Rajasthan_India.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/City_Palace_Udaipur_Rajasthan_India.JPG/960px-City_Palace_Udaipur_Rajasthan_India.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/City_Palace_Udaipur_Rajasthan_India.JPG/960px-City_Palace_Udaipur_Rajasthan_India.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:City_Palace_Udaipur_Rajasthan_India.JPG",
+        "photographer": "Hirumon",
+        "licenseName": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "attribution": "Hirumon (CC BY 3.0) via Wikimedia Commons",
+        "width": 4272,
+        "height": 2848,
+        "mime": "image/jpeg",
+        "isLandscape": true
+      }
+    },
+    "rishikesh": {
+      "name": "Rishikesh",
+      "state": "Uttarakhand",
+      "image": {
+        "pageId": "4122243",
+        "fileTitle": "File:Rishikesh, Lakshman Jhula.jpg",
+        "title": "Rishikesh, Lakshman Jhula",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Rishikesh%2C_Lakshman_Jhula.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Rishikesh%2C_Lakshman_Jhula.jpg/960px-Rishikesh%2C_Lakshman_Jhula.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Rishikesh%2C_Lakshman_Jhula.jpg/960px-Rishikesh%2C_Lakshman_Jhula.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Rishikesh,_Lakshman_Jhula.jpg",
+        "photographer": "McKay Savage from London, UK",
+        "licenseName": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "attribution": "McKay Savage from London, UK (CC BY 2.0) via Wikimedia Commons",
+        "width": 2592,
+        "height": 1944,
+        "mime": "image/jpeg",
+        "isLandscape": true
+      }
+    },
+    "hampi": {
+      "name": "Hampi",
+      "state": "Karnataka",
+      "image": {
+        "pageId": "130632953",
+        "fileTitle": "File:Hampi - Hemakuta Hill, Virupaksha Temple.jpg",
+        "title": "Hampi - Hemakuta Hill, Virupaksha Temple",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Hampi_-_Hemakuta_Hill%2C_Virupaksha_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Hampi_-_Hemakuta_Hill%2C_Virupaksha_Temple.jpg/960px-Hampi_-_Hemakuta_Hill%2C_Virupaksha_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Hampi_-_Hemakuta_Hill%2C_Virupaksha_Temple.jpg/960px-Hampi_-_Hemakuta_Hill%2C_Virupaksha_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Hampi_-_Hemakuta_Hill,_Virupaksha_Temple.jpg",
+        "photographer": "Ingo Mehling",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Ingo Mehling (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 7008,
+        "height": 4672,
+        "mime": "image/jpeg",
+        "isLandscape": true
+      }
+    },
+    "munnar": {
+      "name": "Munnar",
+      "state": "Kerala",
+      "image": {
+        "pageId": "108314005",
+        "fileTitle": "File:Landscape view of Echo Point Munnar, Kerela, India.jpg",
+        "title": "Landscape view of Echo Point Munnar, Kerela, India",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Landscape_view_of_Echo_Point_Munnar%2C_Kerela%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Landscape_view_of_Echo_Point_Munnar%2C_Kerela%2C_India.jpg/960px-Landscape_view_of_Echo_Point_Munnar%2C_Kerela%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Landscape_view_of_Echo_Point_Munnar%2C_Kerela%2C_India.jpg/960px-Landscape_view_of_Echo_Point_Munnar%2C_Kerela%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Landscape_view_of_Echo_Point_Munnar,_Kerela,_India.jpg",
+        "photographer": "BroKholi94",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "BroKholi94 (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 4160,
+        "height": 3120,
+        "mime": "image/jpeg",
+        "isLandscape": true
+      }
+    },
+    "andaman-islands": {
+      "name": "Andaman Islands",
+      "state": "Andaman & Nicobar",
+      "image": {
+        "pageId": "102119652",
+        "fileTitle": "File:Havelock Island, Radhanagar Beach, Andaman Islands.jpg",
+        "title": "Havelock Island, Radhanagar Beach, Andaman Islands",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Havelock_Island%2C_Radhanagar_Beach%2C_Andaman_Islands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Havelock_Island%2C_Radhanagar_Beach%2C_Andaman_Islands.jpg/960px-Havelock_Island%2C_Radhanagar_Beach%2C_Andaman_Islands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Havelock_Island%2C_Radhanagar_Beach%2C_Andaman_Islands.jpg/960px-Havelock_Island%2C_Radhanagar_Beach%2C_Andaman_Islands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Havelock_Island,_Radhanagar_Beach,_Andaman_Islands.jpg",
+        "photographer": "Vyacheslav Argenberg",
+        "licenseName": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "attribution": "Vyacheslav Argenberg (CC BY 4.0) via Wikimedia Commons",
+        "width": 4032,
+        "height": 2688,
+        "mime": "image/jpeg",
+        "isLandscape": true
+      }
+    },
+    "leh-ladakh": {
+      "name": "Leh Ladakh",
+      "state": "Ladakh",
+      "image": {
+        "pageId": "39923940",
+        "fileTitle": "File:Pangong Tso 2.jpg",
+        "title": "Pangong Tso 2",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Pangong_Tso_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Pangong_Tso_2.jpg/960px-Pangong_Tso_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Pangong_Tso_2.jpg/960px-Pangong_Tso_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Pangong_Tso_2.jpg",
+        "photographer": "KennyOMG",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "KennyOMG (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 4327,
+        "height": 2093,
+        "mime": "image/jpeg",
+        "isLandscape": true
+      }
+    },
+    "darjeeling": {
+      "name": "Darjeeling",
+      "state": "West Bengal",
+      "image": {
+        "pageId": "4105973",
+        "fileTitle": "File:Kanchenjunga India.jpg",
+        "title": "Kanchenjunga India",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Kanchenjunga_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Kanchenjunga_India.jpg/960px-Kanchenjunga_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Kanchenjunga_India.jpg/960px-Kanchenjunga_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Kanchenjunga_India.jpg",
+        "photographer": "Aaron Ostrovsky",
+        "licenseName": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "attribution": "Aaron Ostrovsky (CC BY-SA 2.0) via Wikimedia Commons",
+        "width": 3456,
+        "height": 2304,
+        "mime": "image/jpeg",
+        "isLandscape": true
+      }
+    },
+    "goa": {
+      "name": "Goa",
+      "state": "Goa",
+      "image": {
+        "pageId": "59201096",
+        "fileTitle": "File:Palolem beach - panoramio (1).jpg",
+        "title": "Palolem beach - panoramio (1)",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Palolem_beach_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Palolem_beach_-_panoramio_%281%29.jpg/960px-Palolem_beach_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Palolem_beach_-_panoramio_%281%29.jpg/960px-Palolem_beach_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Palolem_beach_-_panoramio_(1).jpg",
+        "photographer": "darkobajic",
+        "licenseName": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "attribution": "darkobajic (CC BY 3.0) via Wikimedia Commons",
+        "width": 3260,
+        "height": 2444,
+        "mime": "image/jpeg",
+        "isLandscape": true
+      }
+    },
+    "varanasi": {
+      "name": "Varanasi",
+      "state": "Uttar Pradesh",
+      "image": {
+        "pageId": "51577262",
+        "fileTitle": "File:Ghats on the bank of river Ganga in Varanasi, Uttar Pradesh, India (2016).jpg",
+        "title": "Ghats on the bank of river Ganga in Varanasi, Uttar Pradesh, India (2016)",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Ghats_on_the_bank_of_river_Ganga_in_Varanasi%2C_Uttar_Pradesh%2C_India_%282016%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Ghats_on_the_bank_of_river_Ganga_in_Varanasi%2C_Uttar_Pradesh%2C_India_%282016%29.jpg/960px-Ghats_on_the_bank_of_river_Ganga_in_Varanasi%2C_Uttar_Pradesh%2C_India_%282016%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Ghats_on_the_bank_of_river_Ganga_in_Varanasi%2C_Uttar_Pradesh%2C_India_%282016%29.jpg/960px-Ghats_on_the_bank_of_river_Ganga_in_Varanasi%2C_Uttar_Pradesh%2C_India_%282016%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ghats_on_the_bank_of_river_Ganga_in_Varanasi,_Uttar_Pradesh,_India_(2016).jpg",
+        "photographer": "Sudhir Herle",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Sudhir Herle (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 2527,
+        "height": 1541,
+        "mime": "image/jpeg",
+        "isLandscape": true
+      }
+    },
+    "manali": {
+      "name": "Manali",
+      "state": "Himachal Pradesh",
+      "image": {
+        "pageId": "72669845",
+        "fileTitle": "File:All The Way Up (70428521).jpeg",
+        "title": "All The Way Up (70428521)",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/All_The_Way_Up_%2870428521%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/All_The_Way_Up_%2870428521%29.jpeg/960px-All_The_Way_Up_%2870428521%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/All_The_Way_Up_%2870428521%29.jpeg/960px-All_The_Way_Up_%2870428521%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:All_The_Way_Up_(70428521).jpeg",
+        "photographer": "Akshay Gururaj",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "Akshay Gururaj (CC BY-SA 3.0) via Wikimedia Commons",
+        "width": 2048,
+        "height": 1365,
+        "mime": "image/jpeg",
+        "isLandscape": true
+      }
+    },
+    "jaipur": {
+      "name": "Jaipur",
+      "state": "Rajasthan",
+      "image": {
+        "pageId": "120441070",
+        "fileTitle": "File:Hawa Mahal east facade (14-07-2022).jpg",
+        "title": "Hawa Mahal east facade (14-07-2022)",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Hawa_Mahal_east_facade_%2814-07-2022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Hawa_Mahal_east_facade_%2814-07-2022%29.jpg/960px-Hawa_Mahal_east_facade_%2814-07-2022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Hawa_Mahal_east_facade_%2814-07-2022%29.jpg/960px-Hawa_Mahal_east_facade_%2814-07-2022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Hawa_Mahal_east_facade_(14-07-2022).jpg",
+        "photographer": "Chainwit.",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Chainwit. (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 4032,
+        "height": 3024,
+        "mime": "image/jpeg",
+        "isLandscape": true
+      }
+    },
+    "alleppey": {
+      "name": "Alleppey",
+      "state": "Kerala",
+      "image": {
+        "pageId": "49397992",
+        "fileTitle": "File:Make Way For The Houseboat! - Backwaters of Alappuzha.jpg",
+        "title": "Make Way For The Houseboat! - Backwaters of Alappuzha",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Make_Way_For_The_Houseboat%21_-_Backwaters_of_Alappuzha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Make_Way_For_The_Houseboat%21_-_Backwaters_of_Alappuzha.jpg/960px-Make_Way_For_The_Houseboat%21_-_Backwaters_of_Alappuzha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Make_Way_For_The_Houseboat%21_-_Backwaters_of_Alappuzha.jpg/960px-Make_Way_For_The_Houseboat%21_-_Backwaters_of_Alappuzha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Make_Way_For_The_Houseboat!_-_Backwaters_of_Alappuzha.jpg",
+        "photographer": "16paruljain",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "16paruljain (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 1080,
+        "height": 691,
+        "mime": "image/jpeg",
+        "isLandscape": true
+      }
+    },
+    "amritsar": {
+      "name": "Amritsar",
+      "state": "Punjab",
+      "image": {
+        "pageId": "6434780",
+        "fileTitle": "File:Sikh pilgrim at the Golden Temple (Harmandir Sahib) in Amritsar, India.jpg",
+        "title": "Sikh pilgrim at the Golden Temple (Harmandir Sahib) in Amritsar, India",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Sikh_pilgrim_at_the_Golden_Temple_%28Harmandir_Sahib%29_in_Amritsar%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Sikh_pilgrim_at_the_Golden_Temple_%28Harmandir_Sahib%29_in_Amritsar%2C_India.jpg/960px-Sikh_pilgrim_at_the_Golden_Temple_%28Harmandir_Sahib%29_in_Amritsar%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Sikh_pilgrim_at_the_Golden_Temple_%28Harmandir_Sahib%29_in_Amritsar%2C_India.jpg/960px-Sikh_pilgrim_at_the_Golden_Temple_%28Harmandir_Sahib%29_in_Amritsar%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Sikh_pilgrim_at_the_Golden_Temple_(Harmandir_Sahib)_in_Amritsar,_India.jpg",
+        "photographer": "Paulrudd",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Paulrudd (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 3008,
+        "height": 2000,
+        "mime": "image/jpeg",
+        "isLandscape": true
+      }
+    },
+    "shillong": {
+      "name": "Shillong",
+      "state": "Meghalaya",
+      "image": {
+        "pageId": "33466716",
+        "fileTitle": "File:Umiam lake Shillong Meghalaya India.jpg",
+        "title": "Umiam lake Shillong Meghalaya India",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Umiam_lake_Shillong_Meghalaya_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Umiam_lake_Shillong_Meghalaya_India.jpg/960px-Umiam_lake_Shillong_Meghalaya_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Umiam_lake_Shillong_Meghalaya_India.jpg/960px-Umiam_lake_Shillong_Meghalaya_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Umiam_lake_Shillong_Meghalaya_India.jpg",
+        "photographer": "Nori Syamsunder Rao",
+        "licenseName": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "attribution": "Nori Syamsunder Rao (CC BY 2.0) via Wikimedia Commons",
+        "width": 4608,
+        "height": 2592,
+        "mime": "image/jpeg",
+        "isLandscape": true
+      }
+    },
+    "jaisalmer": {
+      "name": "Jaisalmer",
+      "state": "Rajasthan",
+      "image": {
+        "pageId": "82661250",
+        "fileTitle": "File:Jaisalmer Fort illuminated -Jaisalmer -Rajasthan -Seal Sum 02.jpg",
+        "title": "Jaisalmer Fort illuminated -Jaisalmer -Rajasthan -Seal Sum 02",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Jaisalmer_Fort_illuminated_-Jaisalmer_-Rajasthan_-Seal_Sum_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Jaisalmer_Fort_illuminated_-Jaisalmer_-Rajasthan_-Seal_Sum_02.jpg/960px-Jaisalmer_Fort_illuminated_-Jaisalmer_-Rajasthan_-Seal_Sum_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Jaisalmer_Fort_illuminated_-Jaisalmer_-Rajasthan_-Seal_Sum_02.jpg/960px-Jaisalmer_Fort_illuminated_-Jaisalmer_-Rajasthan_-Seal_Sum_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Jaisalmer_Fort_illuminated_-Jaisalmer_-Rajasthan_-Seal_Sum_02.jpg",
+        "photographer": "Seal sum",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Seal sum (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 4272,
+        "height": 2848,
+        "mime": "image/jpeg",
+        "isLandscape": true
+      }
+    },
+    "gokarna": {
+      "name": "Gokarna",
+      "state": "Karnataka",
+      "image": {
+        "pageId": "182740754",
+        "fileTitle": "File:PXL 20260103 101009613 People and Beach Om Beach Gokarna, Karnataka 08.jpg",
+        "title": "PXL 20260103 101009613 People and Beach Om Beach Gokarna, Karnataka 08",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/PXL_20260103_101009613_People_and_Beach_Om_Beach_Gokarna%2C_Karnataka_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/PXL_20260103_101009613_People_and_Beach_Om_Beach_Gokarna%2C_Karnataka_08.jpg/960px-PXL_20260103_101009613_People_and_Beach_Om_Beach_Gokarna%2C_Karnataka_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/PXL_20260103_101009613_People_and_Beach_Om_Beach_Gokarna%2C_Karnataka_08.jpg/960px-PXL_20260103_101009613_People_and_Beach_Om_Beach_Gokarna%2C_Karnataka_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:PXL_20260103_101009613_People_and_Beach_Om_Beach_Gokarna,_Karnataka_08.jpg",
+        "photographer": "Sourabh.biswas003",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Sourabh.biswas003 (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 3986,
+        "height": 2242,
+        "mime": "image/jpeg",
+        "isLandscape": true
+      }
+    }
+  },
+  "topPlaces": {
+    "taj-mahal": {
+      "name": "Taj Mahal",
+      "location": "Agra, Uttar Pradesh",
+      "image": {
+        "pageId": "11181631",
+        "fileTitle": "File:Taj Mahal East Side.JPG",
+        "title": "Taj Mahal East Side",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Taj_Mahal_East_Side.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Taj_Mahal_East_Side.JPG/960px-Taj_Mahal_East_Side.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Taj_Mahal_East_Side.JPG/960px-Taj_Mahal_East_Side.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Taj_Mahal_East_Side.JPG",
+        "photographer": "Bjørn Christian Tørrissen",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "Bjørn Christian Tørrissen (CC BY-SA 3.0) via Wikimedia Commons",
+        "width": 6042,
+        "height": 3298,
+        "mime": "image/jpeg",
+        "isLandscape": true
+      }
+    },
+    "golden-temple": {
+      "name": "Golden Temple",
+      "location": "Amritsar, Punjab",
+      "image": {
+        "pageId": "6922668",
+        "fileTitle": "File:Akal Takht and Harmandir Sahib, Amritsar, Punjab, India.jpg",
+        "title": "Akal Takht and Harmandir Sahib, Amritsar, Punjab, India",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Akal_Takht_and_Harmandir_Sahib%2C_Amritsar%2C_Punjab%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Akal_Takht_and_Harmandir_Sahib%2C_Amritsar%2C_Punjab%2C_India.jpg/960px-Akal_Takht_and_Harmandir_Sahib%2C_Amritsar%2C_Punjab%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Akal_Takht_and_Harmandir_Sahib%2C_Amritsar%2C_Punjab%2C_India.jpg/960px-Akal_Takht_and_Harmandir_Sahib%2C_Amritsar%2C_Punjab%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Akal_Takht_and_Harmandir_Sahib,_Amritsar,_Punjab,_India.jpg",
+        "photographer": "Jasleen Kaur",
+        "licenseName": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "attribution": "Jasleen Kaur (CC BY-SA 2.0) via Wikimedia Commons",
+        "width": 3637,
+        "height": 2117,
+        "mime": "image/jpeg",
+        "isLandscape": true
+      }
+    },
+    "india-gate": {
+      "name": "India Gate",
+      "location": "New Delhi",
+      "image": {
+        "pageId": "21543074",
+        "fileTitle": "File:A winter evening at India Gate.jpg",
+        "title": "A winter evening at India Gate",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/A_winter_evening_at_India_Gate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/A_winter_evening_at_India_Gate.jpg/960px-A_winter_evening_at_India_Gate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/A_winter_evening_at_India_Gate.jpg/960px-A_winter_evening_at_India_Gate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:A_winter_evening_at_India_Gate.jpg",
+        "photographer": "Gautam4469",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "Gautam4469 (CC BY-SA 3.0) via Wikimedia Commons",
+        "width": 2592,
+        "height": 1944,
+        "mime": "image/jpeg",
+        "isLandscape": true
+      }
+    },
+    "hawa-mahal": {
+      "name": "Hawa Mahal",
+      "location": "Jaipur, Rajasthan",
+      "image": {
+        "pageId": "200065196",
+        "fileTitle": "File:Hawa Mahal 2026.jpg",
+        "title": "Hawa Mahal 2026",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Hawa_Mahal_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Hawa_Mahal_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Hawa_Mahal_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Hawa_Mahal_2026.jpg",
+        "photographer": "Salujapushpit",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Salujapushpit (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 960,
+        "height": 1280,
+        "mime": "image/jpeg",
+        "isLandscape": false
+      }
+    },
+    "dal-lake": {
+      "name": "Dal Lake",
+      "location": "Srinagar, Jammu & Kashmir",
+      "image": {
+        "pageId": "78425112",
+        "fileTitle": "File:Dal Lake Hazratbal Srinagar.jpg",
+        "title": "Dal Lake Hazratbal Srinagar",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Dal_Lake_Hazratbal_Srinagar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Dal_Lake_Hazratbal_Srinagar.jpg/960px-Dal_Lake_Hazratbal_Srinagar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Dal_Lake_Hazratbal_Srinagar.jpg/960px-Dal_Lake_Hazratbal_Srinagar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Dal_Lake_Hazratbal_Srinagar.jpg",
+        "photographer": "Suhail Skindar Sofi",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Suhail Skindar Sofi (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 5727,
+        "height": 3818,
+        "mime": "image/jpeg",
+        "isLandscape": true
+      }
+    },
+    "victoria-memorial": {
+      "name": "Victoria Memorial",
+      "location": "Kolkata, West Bengal",
+      "image": {
+        "pageId": "82132592",
+        "fileTitle": "File:Reflection of Victoria Memorial in one of its ponds, inside its Premises.jpg",
+        "title": "Reflection of Victoria Memorial in one of its ponds, inside its Premises",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Reflection_of_Victoria_Memorial_in_one_of_its_ponds%2C_inside_its_Premises.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Reflection_of_Victoria_Memorial_in_one_of_its_ponds%2C_inside_its_Premises.jpg/960px-Reflection_of_Victoria_Memorial_in_one_of_its_ponds%2C_inside_its_Premises.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Reflection_of_Victoria_Memorial_in_one_of_its_ponds%2C_inside_its_Premises.jpg/960px-Reflection_of_Victoria_Memorial_in_one_of_its_ponds%2C_inside_its_Premises.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Reflection_of_Victoria_Memorial_in_one_of_its_ponds,_inside_its_Premises.jpg",
+        "photographer": "Swagatodey1",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Swagatodey1 (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 6000,
+        "height": 4000,
+        "mime": "image/jpeg",
+        "isLandscape": true
+      }
+    },
+    "qutub-minar": {
+      "name": "Qutub Minar",
+      "location": "New Delhi",
+      "image": {
+        "pageId": "16483291",
+        "fileTitle": "File:Alai Gate and Qutub Minar.jpg",
+        "title": "Alai Gate and Qutub Minar",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Alai_Gate_and_Qutub_Minar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Alai_Gate_and_Qutub_Minar.jpg/960px-Alai_Gate_and_Qutub_Minar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Alai_Gate_and_Qutub_Minar.jpg/960px-Alai_Gate_and_Qutub_Minar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Alai_Gate_and_Qutub_Minar.jpg",
+        "photographer": "Dennis G. Jarvis",
+        "licenseName": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "attribution": "Dennis G. Jarvis (CC BY-SA 2.0) via Wikimedia Commons",
+        "width": 2448,
+        "height": 3264,
+        "mime": "image/jpeg",
+        "isLandscape": false
+      }
+    },
+    "meenakshi-temple": {
+      "name": "Meenakshi Temple",
+      "location": "Madurai, Tamil Nadu",
+      "image": {
+        "pageId": "45076305",
+        "fileTitle": "File:Madurai Meenakshi Amman Koil Temple Tower 1.JPG",
+        "title": "Madurai Meenakshi Amman Koil Temple Tower 1",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Madurai_Meenakshi_Amman_Koil_Temple_Tower_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Madurai_Meenakshi_Amman_Koil_Temple_Tower_1.JPG/960px-Madurai_Meenakshi_Amman_Koil_Temple_Tower_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Madurai_Meenakshi_Amman_Koil_Temple_Tower_1.JPG/960px-Madurai_Meenakshi_Amman_Koil_Temple_Tower_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Madurai_Meenakshi_Amman_Koil_Temple_Tower_1.JPG",
+        "photographer": "Rahuljeswin",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Rahuljeswin (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 2248,
+        "height": 4000,
+        "mime": "image/jpeg",
+        "isLandscape": false
+      }
+    },
+    "gateway-of-india": {
+      "name": "Gateway of India",
+      "location": "Mumbai, Maharashtra",
+      "image": {
+        "pageId": "21332318",
+        "fileTitle": "File:Taj, Gateway of India, New Taj, Mumbai (from left).jpg",
+        "title": "Taj, Gateway of India, New Taj, Mumbai (from left)",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Taj%2C_Gateway_of_India%2C_New_Taj%2C_Mumbai_%28from_left%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Taj%2C_Gateway_of_India%2C_New_Taj%2C_Mumbai_%28from_left%29.jpg/960px-Taj%2C_Gateway_of_India%2C_New_Taj%2C_Mumbai_%28from_left%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Taj%2C_Gateway_of_India%2C_New_Taj%2C_Mumbai_%28from_left%29.jpg/960px-Taj%2C_Gateway_of_India%2C_New_Taj%2C_Mumbai_%28from_left%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Taj,_Gateway_of_India,_New_Taj,_Mumbai_(from_left).jpg",
+        "photographer": "Shobhitsingh309",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "Shobhitsingh309 (CC BY-SA 3.0) via Wikimedia Commons",
+        "width": 1600,
+        "height": 1200,
+        "mime": "image/jpeg",
+        "isLandscape": true
+      }
+    },
+    "ajanta-ellora": {
+      "name": "Ajanta & Ellora Caves",
+      "location": "Aurangabad, Maharashtra",
+      "image": {
+        "pageId": "31951450",
+        "fileTitle": "File:Lascar Ellora's Cave 16 Kailasanatha Temple - a feat of human genius (4558334791).jpg",
+        "title": "Lascar Ellora's Cave 16 Kailasanatha Temple - a feat of human genius (4558334791)",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Lascar_Ellora%27s_Cave_16_Kailasanatha_Temple_-_a_feat_of_human_genius_%284558334791%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Lascar_Ellora%27s_Cave_16_Kailasanatha_Temple_-_a_feat_of_human_genius_%284558334791%29.jpg/960px-Lascar_Ellora%27s_Cave_16_Kailasanatha_Temple_-_a_feat_of_human_genius_%284558334791%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Lascar_Ellora%27s_Cave_16_Kailasanatha_Temple_-_a_feat_of_human_genius_%284558334791%29.jpg/960px-Lascar_Ellora%27s_Cave_16_Kailasanatha_Temple_-_a_feat_of_human_genius_%284558334791%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Lascar_Ellora%27s_Cave_16_Kailasanatha_Temple_-_a_feat_of_human_genius_(4558334791).jpg",
+        "photographer": "Jorge Láscar from Australia",
+        "licenseName": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "attribution": "Jorge Láscar from Australia (CC BY 2.0) via Wikimedia Commons",
+        "width": 2592,
+        "height": 1944,
+        "mime": "image/jpeg",
+        "isLandscape": true
+      }
+    },
+    "konark-sun-temple": {
+      "name": "Konark Sun Temple",
+      "location": "Puri, Odisha",
+      "image": {
+        "pageId": "43629",
+        "fileTitle": "File:Wheel of Konark, Orissa, India.JPG",
+        "title": "Wheel of Konark, Orissa, India",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Wheel_of_Konark%2C_Orissa%2C_India.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Wheel_of_Konark%2C_Orissa%2C_India.JPG/960px-Wheel_of_Konark%2C_Orissa%2C_India.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Wheel_of_Konark%2C_Orissa%2C_India.JPG/960px-Wheel_of_Konark%2C_Orissa%2C_India.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Wheel_of_Konark,_Orissa,_India.JPG",
+        "photographer": "Wikimedia Contributor",
+        "licenseName": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Wikimedia Contributor (CC BY-SA 3.0) via Wikimedia Commons",
+        "width": 1280,
+        "height": 960,
+        "mime": "image/jpeg",
+        "isLandscape": true
+      }
+    },
+    "mysore-palace": {
+      "name": "Mysore Palace",
+      "location": "Mysuru, Karnataka",
+      "image": {
+        "pageId": "73721456",
+        "fileTitle": "File:Mysore Palace Lighting.jpg",
+        "title": "Mysore Palace Lighting",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Mysore_Palace_Lighting.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Mysore_Palace_Lighting.jpg/960px-Mysore_Palace_Lighting.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Mysore_Palace_Lighting.jpg/960px-Mysore_Palace_Lighting.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Mysore_Palace_Lighting.jpg",
+        "photographer": "Supreeth A Raman",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Supreeth A Raman (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 4608,
+        "height": 2592,
+        "mime": "image/jpeg",
+        "isLandscape": true
+      }
+    },
+    "varanasi-ghats": {
+      "name": "Varanasi Ghats",
+      "location": "Varanasi, Uttar Pradesh",
+      "image": {
+        "pageId": "86486051",
+        "fileTitle": "File:A young Pandit holding the lamp of fire.jpg",
+        "title": "A young Pandit holding the lamp of fire",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/A_young_Pandit_holding_the_lamp_of_fire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/A_young_Pandit_holding_the_lamp_of_fire.jpg/960px-A_young_Pandit_holding_the_lamp_of_fire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/A_young_Pandit_holding_the_lamp_of_fire.jpg/960px-A_young_Pandit_holding_the_lamp_of_fire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:A_young_Pandit_holding_the_lamp_of_fire.jpg",
+        "photographer": "Chandrasen Yadav (Chacky yen)",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Chandrasen Yadav (Chacky yen) (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 5818,
+        "height": 3714,
+        "mime": "image/jpeg",
+        "isLandscape": true
+      }
+    },
+    "amber-fort": {
+      "name": "Amber Fort",
+      "location": "Jaipur, Rajasthan",
+      "image": {
+        "pageId": "48911128",
+        "fileTitle": "File:Jaipur 03-2016 02 Amber Fort.jpg",
+        "title": "Jaipur 03-2016 02 Amber Fort",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Jaipur_03-2016_02_Amber_Fort.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Jaipur_03-2016_02_Amber_Fort.jpg/960px-Jaipur_03-2016_02_Amber_Fort.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Jaipur_03-2016_02_Amber_Fort.jpg/960px-Jaipur_03-2016_02_Amber_Fort.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Jaipur_03-2016_02_Amber_Fort.jpg",
+        "photographer": "A.Savin",
+        "licenseName": "FAL",
+        "licenseUrl": "http://artlibre.org/licence/lal/en",
+        "attribution": "A.Savin (FAL) via Wikimedia Commons",
+        "width": 5304,
+        "height": 3315,
+        "mime": "image/jpeg",
+        "isLandscape": true
+      }
+    },
+    "pangong-tso": {
+      "name": "Pangong Tso Lake",
+      "location": "Ladakh",
+      "image": {
+        "pageId": "49284795",
+        "fileTitle": "File:The poetry of the earth's beauty.Humbleness of the brown soil, loftiness of the cloudy sky, infiniteness of the blue lake.jpg",
+        "title": "The poetry of the earth's beauty.Humbleness of the brown soil, loftiness of the cloudy sky, infiniteness of the blue lake",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/The_poetry_of_the_earth%27s_beauty.Humbleness_of_the_brown_soil%2C_loftiness_of_the_cloudy_sky%2C_infiniteness_of_the_blue_lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/The_poetry_of_the_earth%27s_beauty.Humbleness_of_the_brown_soil%2C_loftiness_of_the_cloudy_sky%2C_infiniteness_of_the_blue_lake.jpg/960px-The_poetry_of_the_earth%27s_beauty.Humbleness_of_the_brown_soil%2C_loftiness_of_the_cloudy_sky%2C_infiniteness_of_the_blue_lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/The_poetry_of_the_earth%27s_beauty.Humbleness_of_the_brown_soil%2C_loftiness_of_the_cloudy_sky%2C_infiniteness_of_the_blue_lake.jpg/960px-The_poetry_of_the_earth%27s_beauty.Humbleness_of_the_brown_soil%2C_loftiness_of_the_cloudy_sky%2C_infiniteness_of_the_blue_lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:The_poetry_of_the_earth%27s_beauty.Humbleness_of_the_brown_soil,_loftiness_of_the_cloudy_sky,_infiniteness_of_the_blue_lake.jpg",
+        "photographer": "Neha.cosmo",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Neha.cosmo (CC BY-SA 4.0) via Wikimedia Commons",
+        "width": 3264,
+        "height": 2448,
+        "mime": "image/jpeg",
+        "isLandscape": true
+      }
+    },
+    "dudhsagar-falls": {
+      "name": "Dudhsagar Falls",
+      "location": "Goa",
+      "image": {
+        "pageId": "1920540",
+        "fileTitle": "File:Dudhsagar Falls lower portion.JPG",
+        "title": "Dudhsagar Falls lower portion",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Dudhsagar_Falls_lower_portion.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "displayUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Dudhsagar_Falls_lower_portion.JPG/960px-Dudhsagar_Falls_lower_portion.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Dudhsagar_Falls_lower_portion.JPG/960px-Dudhsagar_Falls_lower_portion.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Dudhsagar_Falls_lower_portion.JPG",
+        "photographer": "No machine-readable author provided. Eltomzo~commonswiki assumed (based on copyright claims).",
+        "licenseName": "Public domain",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "No machine-readable author provided. Eltomzo~commonswiki assumed (based on copyright claims). (Public domain) via Wikimedia Commons",
+        "width": 1536,
+        "height": 2048,
+        "mime": "image/jpeg",
+        "isLandscape": false
+      }
+    }
+  },
+  "curatedAt": "2026-11-28T05:21:46.520Z"
+}

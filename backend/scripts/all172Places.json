@@ -1,0 +1,1378 @@
+[
+  {
+    "id": 90,
+    "name": "Araku Valley & Coffee Estates",
+    "category": "Valleys & Hill Stations",
+    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Alluri Sitharama Raju",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 89,
+    "name": "Borra Caves",
+    "category": "Caves & Geo-Heritage",
+    "image_url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Alluri Sitharama Raju",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 92,
+    "name": "Chaparai Water Cascades & Katiki Falls",
+    "category": "Waterfalls & Nature",
+    "image_url": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Alluri Sitharama Raju",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 91,
+    "name": "Lambasingi (Kashmir of Andhra Pradesh)",
+    "category": "Hill Station & Mist",
+    "image_url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Alluri Sitharama Raju",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 93,
+    "name": "Bojjannakonda & Lingalakonda Buddhist Monastery",
+    "category": "Archaeology & Buddhist Heritage",
+    "image_url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Anakapalli",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 94,
+    "name": "Kondakarla Ava Freshwater Sanctuary",
+    "category": "Eco-Tourism & Bird Sanctuary",
+    "image_url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Anakapalli",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 95,
+    "name": "Muthyalammadu & Panchadarla Shrines",
+    "category": "Heritage & Natural Springs",
+    "image_url": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Anakapalli",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 97,
+    "name": "Gooty Hill Fort",
+    "category": "Forts & Citadels",
+    "image_url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Ananthapuramu",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 96,
+    "name": "Lepakshi Veerabhadra Temple & Monolithic Nandi",
+    "category": "Heritage & Vijayanagara Architecture",
+    "image_url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Ananthapuramu",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 98,
+    "name": "Thimmamma Marrimanu (Giant Banyan Tree)",
+    "category": "Nature & Sacred Groves",
+    "image_url": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Ananthapuramu",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 100,
+    "name": "Gurramkonda Fort & Rangin Mahal",
+    "category": "Forts & Palaces",
+    "image_url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Annamayya",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 99,
+    "name": "Horsley Hills (Yenugu Mallamma Konda)",
+    "category": "Hill Station & Eco-Tourism",
+    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Annamayya",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 101,
+    "name": "Soumyanatha Swamy Temple, Nandalur",
+    "category": "Pilgrimage & Chola Architecture",
+    "image_url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Annamayya",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 103,
+    "name": "Sri Bhavanarayana Swamy Temple",
+    "category": "Pilgrimage & Ancient Temples",
+    "image_url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Bapatla",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 102,
+    "name": "Suryalanka Beach",
+    "category": "Beaches & Coastline",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Bapatla",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 104,
+    "name": "Vodarevu Beach & Fishermen Haven",
+    "category": "Beaches & Coastal Culture",
+    "image_url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Bapatla",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 106,
+    "name": "Kaigal Waterfalls (Dumukurallu)",
+    "category": "Waterfalls & Nature",
+    "image_url": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Chittoor",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 107,
+    "name": "Kaundinya Wildlife Sanctuary",
+    "category": "Wildlife & Elephant Corridors",
+    "image_url": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Chittoor",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 105,
+    "name": "Sri Varasidhi Vinayaka Temple, Kanipakam",
+    "category": "Pilgrimage & Sacred Shrines",
+    "image_url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Chittoor",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 110,
+    "name": "Ainavilli Sri Siddhi Vinayaka Temple",
+    "category": "Pilgrimage & Temples",
+    "image_url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Dr. B.R. Ambedkar Konaseema",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 109,
+    "name": "Antarvedi Sri Lakshmi Narasimha Swamy Temple & Sagara Sangamam",
+    "category": "Pilgrimage & Coastal Confluence",
+    "image_url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Dr. B.R. Ambedkar Konaseema",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 108,
+    "name": "Dindi Backwaters & River Houseboats",
+    "category": "Backwaters & Eco-Tourism",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Dr. B.R. Ambedkar Konaseema",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 114,
+    "name": "Dowleswaram Barrage & Sir Arthur Cotton Museum",
+    "category": "History & Engineering",
+    "image_url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&auto=format&fit=crop&q=80",
+    "district_name": "East Godavari",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 112,
+    "name": "Godavari Arch Bridge & Havelock Bridge Heritage",
+    "category": "Engineering & Heritage",
+    "image_url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&auto=format&fit=crop&q=80",
+    "district_name": "East Godavari",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 111,
+    "name": "Godavari River Ghats & Pushkar Ghat",
+    "category": "River Ghats & Culture",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    "district_name": "East Godavari",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 113,
+    "name": "Kadiyam Flower Nurseries",
+    "category": "Horticulture & Eco-Tourism",
+    "image_url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&auto=format&fit=crop&q=80",
+    "district_name": "East Godavari",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 116,
+    "name": "Dwaraka Tirumala (Chinna Tirupati)",
+    "category": "Pilgrimage & Sacred Peaks",
+    "image_url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Eluru",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 117,
+    "name": "Guntupalli Buddhist Rock-Cut Monuments",
+    "category": "Archaeology & Buddhist Caves",
+    "image_url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Eluru",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 115,
+    "name": "Kolleru Lake & Atapaka Bird Sanctuary",
+    "category": "Wildlife & Ramsar Wetlands",
+    "image_url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Eluru",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 118,
+    "name": "Kondaveedu Fort",
+    "category": "Forts & Citadels",
+    "image_url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Guntur",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 119,
+    "name": "Kotappakonda Trikoteswara Swamy Temple",
+    "category": "Pilgrimage & Hilltop Shrines",
+    "image_url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Guntur",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 120,
+    "name": "Uppalapadu Bird Sanctuary",
+    "category": "Wildlife & Avian Havens",
+    "image_url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Guntur",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 121,
+    "name": "Coringa Wildlife Sanctuary & Mangrove Boardwalk",
+    "category": "Mangroves & Wildlife",
+    "image_url": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Kakinada",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 123,
+    "name": "Draksharamam Sri Bhimeswara Swamy Temple",
+    "category": "Pilgrimage & Pancharama",
+    "image_url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Kakinada",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 122,
+    "name": "Hope Island & Kakinada Bay",
+    "category": "Islands & Beaches",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Kakinada",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 126,
+    "name": "Hamsaladeevi (Krishna Sagara Sangamam)",
+    "category": "Eco-Tourism & Confluence",
+    "image_url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Krishna",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 125,
+    "name": "Machilipatnam Bandar Fort & Dutch Cemetery",
+    "category": "Colonial History & Forts",
+    "image_url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Krishna",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 124,
+    "name": "Manginapudi Beach",
+    "category": "Beaches & Coastline",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Krishna",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 127,
+    "name": "Konda Reddy Buruju (Kurnool Fort Bastion)",
+    "category": "Forts & Citadels",
+    "image_url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Kurnool",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 128,
+    "name": "Oravakallu Rock Garden",
+    "category": "Geo-Heritage & Rock Formations",
+    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Kurnool",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 129,
+    "name": "Rollapadu Wildlife Sanctuary",
+    "category": "Wildlife & Grasslands",
+    "image_url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Kurnool",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 131,
+    "name": "Belum Caves",
+    "category": "Caves & Geo-Heritage",
+    "image_url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Nandyal",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 132,
+    "name": "Mahanandi Sri Mahanandiswara Swamy Temple",
+    "category": "Pilgrimage & Perennial Springs",
+    "image_url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Nandyal",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 130,
+    "name": "Srisailam Sri Mallikarjuna Swamy Temple",
+    "category": "Pilgrimage & Jyotirlinga",
+    "image_url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Nandyal",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 133,
+    "name": "Yaganti Sri Uma Maheshwara Swamy Temple",
+    "category": "Pilgrimage & Cave Shrines",
+    "image_url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Nandyal",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 136,
+    "name": "Kondapalli Fort & Wooden Toy Artisan Colony",
+    "category": "Forts & GI Handicrafts",
+    "image_url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80",
+    "district_name": "NTR",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 135,
+    "name": "Prakasam Barrage & Bhavani Island",
+    "category": "Riverfront & Island Tourism",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    "district_name": "NTR",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 134,
+    "name": "Sri Durga Malleswara Swamy (Kanaka Durga) Temple",
+    "category": "Pilgrimage & Sacred Peaks",
+    "image_url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&auto=format&fit=crop&q=80",
+    "district_name": "NTR",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 139,
+    "name": "Ethipothala Waterfalls",
+    "category": "Waterfalls & Wildlife",
+    "image_url": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Palnadu",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 137,
+    "name": "Nagarjunakonda Island Museum & Buddhist Relics",
+    "category": "Archaeology & Island Heritage",
+    "image_url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Palnadu",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 138,
+    "name": "Nagarjunasagar Dam",
+    "category": "Engineering & Dams",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Palnadu",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 142,
+    "name": "Addapusila & Sambara Shrines",
+    "category": "Folk Culture & Shrines",
+    "image_url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Parvathipuram Manyam",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 141,
+    "name": "Nagavali River Scenic Valleys",
+    "category": "Nature & River Valleys",
+    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Parvathipuram Manyam",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 140,
+    "name": "Thotapalli Barrage & Eco Reservoir",
+    "category": "Eco-Tourism & Reservoirs",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Parvathipuram Manyam",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 143,
+    "name": "Bhairavakona Rock-Cut Cave Temples",
+    "category": "Archaeology & Rock-Cut Caves",
+    "image_url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Prakasam",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 144,
+    "name": "Kothapatnam Beach",
+    "category": "Beaches & Coastline",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Prakasam",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 145,
+    "name": "Singarakonda Sri Prasannanjaneya Swamy Temple",
+    "category": "Pilgrimage & Hill Shrines",
+    "image_url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Prakasam",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 147,
+    "name": "Mypadu Beach",
+    "category": "Beaches & Coastline",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Sri Potti Sriramulu Nellore",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 146,
+    "name": "Nelapattu Bird Sanctuary & Pulicat Lake",
+    "category": "Wildlife & Flamingos",
+    "image_url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Sri Potti Sriramulu Nellore",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 148,
+    "name": "Sri Talpagiri Ranganathaswamy Temple",
+    "category": "Pilgrimage & Dravidian Architecture",
+    "image_url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Sri Potti Sriramulu Nellore",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 150,
+    "name": "Chaitanya Jyoti Museum",
+    "category": "Museums & Architecture",
+    "image_url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Sri Sathya Sai",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 149,
+    "name": "Prashanthi Nilayam (Main Ashram)",
+    "category": "Spiritual & Ashrams",
+    "image_url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Sri Sathya Sai",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 151,
+    "name": "Sri Sathya Sai Space Theatre (Planetarium)",
+    "category": "Science & Astronomy",
+    "image_url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Sri Sathya Sai",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 154,
+    "name": "Kalingapatnam Beach & British Lighthouse",
+    "category": "Beaches & History",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Srikakulam",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 153,
+    "name": "Sri Kurmanatha Swamy Temple, Srikurmam",
+    "category": "Pilgrimage & Heritage",
+    "image_url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Srikakulam",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 152,
+    "name": "Sri Suryanarayana Swamy Temple, Arasavalli",
+    "category": "Pilgrimage & Sun Temples",
+    "image_url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Srikakulam",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 157,
+    "name": "Chandragiri Fort & Raja Mahal",
+    "category": "Forts & Palaces",
+    "image_url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Tirupati",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 156,
+    "name": "Srikalahasteeswara Temple, Srikalahasti",
+    "category": "Pilgrimage & Pancha Bhoota",
+    "image_url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Tirupati",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 158,
+    "name": "Talakona Waterfalls",
+    "category": "Waterfalls & National Parks",
+    "image_url": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Tirupati",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 155,
+    "name": "Tirumala Sri Venkateswara Swamy Temple",
+    "category": "Pilgrimage & Sacred Peaks",
+    "image_url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Tirupati",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 160,
+    "name": "INS Kursura Submarine Museum & TU-142 Aircraft Museum",
+    "category": "Naval Heritage & Museums",
+    "image_url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Visakhapatnam",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 161,
+    "name": "Kailasagiri Hilltop Park & Cable Car",
+    "category": "Hilltop Parks & Ropeways",
+    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Visakhapatnam",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 159,
+    "name": "Rishikonda Beach",
+    "category": "Beaches & Water Sports",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Visakhapatnam",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 162,
+    "name": "Sri Varaha Lakshmi Narasimha Swamy Temple, Simhachalam",
+    "category": "Pilgrimage & Kalinga Heritage",
+    "image_url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Visakhapatnam",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 165,
+    "name": "Bobbili Fort & Saraswati Veena Artisan Village",
+    "category": "Heritage & Musical Craft",
+    "image_url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Vizianagaram",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 164,
+    "name": "Ramatheertham & Bodhikonda Buddhist Remains",
+    "category": "Pilgrimage & Buddhist Archaeology",
+    "image_url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Vizianagaram",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 163,
+    "name": "Vizianagaram Fort & Moti Mahal",
+    "category": "Forts & Palaces",
+    "image_url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Vizianagaram",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 167,
+    "name": "Ksheera Ramalingeswara Swamy Temple, Palakollu",
+    "category": "Pilgrimage & Pancharama",
+    "image_url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80",
+    "district_name": "West Godavari",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 168,
+    "name": "Perupalem Beach",
+    "category": "Beaches & Coastline",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    "district_name": "West Godavari",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 166,
+    "name": "Sri Someswara Swamy Temple, Bhimavaram",
+    "category": "Pilgrimage & Pancharama",
+    "image_url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&auto=format&fit=crop&q=80",
+    "district_name": "West Godavari",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 171,
+    "name": "Ameen Peer Dargah (Asthana-e-Maghdoom Elahi)",
+    "category": "Spiritual & Syncretic Shrines",
+    "image_url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&auto=format&fit=crop&q=80",
+    "district_name": "YSR Kadapa",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 172,
+    "name": "Devuni Kadapa Sri Lakshmi Venkateswara Temple",
+    "category": "Pilgrimage & Sacred Shrines",
+    "image_url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80",
+    "district_name": "YSR Kadapa",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 169,
+    "name": "Gandikota Canyon & Fort (The Grand Canyon of India)",
+    "category": "Geo-Heritage & Canyons",
+    "image_url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&auto=format&fit=crop&q=80",
+    "district_name": "YSR Kadapa",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 170,
+    "name": "Vontimitta Sri Kodandarama Swamy Temple",
+    "category": "Heritage & Vijayanagara Temples",
+    "image_url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&auto=format&fit=crop&q=80",
+    "district_name": "YSR Kadapa",
+    "state_name": "Andhra Pradesh"
+  },
+  {
+    "id": 2,
+    "name": "Buxa Fort & Tiger Reserve",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Alipurduar",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 4,
+    "name": "Chilapata Forest",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Alipurduar",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 1,
+    "name": "Jaldapara National Park",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1575550959106-5a7defe28b56?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Alipurduar",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 3,
+    "name": "Jayanti River & Mahakal Cave",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Alipurduar",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 8,
+    "name": "Biharinath Hill",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Bankura",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 5,
+    "name": "Bishnupur Terracotta Temples",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Bankura",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 6,
+    "name": "Mukutmanipur Dam & Kangsabati Lake",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Bankura",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 7,
+    "name": "Susunia Hills",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Bankura",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 12,
+    "name": "Ballavpur Wildlife Sanctuary",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Birbhum",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 11,
+    "name": "Kankalitala Shaktipeeth",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Birbhum",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 9,
+    "name": "Santiniketan & Visva-Bharati",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Birbhum",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 10,
+    "name": "Tarapith Temple",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Birbhum",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 13,
+    "name": "Cooch Behar Palace (Rajbari)",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Cooch Behar",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 14,
+    "name": "Madan Mohan Temple",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Cooch Behar",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 16,
+    "name": "Rasikbil Bird Sanctuary",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Cooch Behar",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 15,
+    "name": "Sagardighi",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Cooch Behar",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 17,
+    "name": "Bangarh Archaeological Ruins",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Dakshin Dinajpur",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 19,
+    "name": "Mahipal Dighi",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Dakshin Dinajpur",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 18,
+    "name": "Tapan Dighi",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Dakshin Dinajpur",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 21,
+    "name": "Batasia Loop & War Memorial",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1622308644420-ec498ef3ccef?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Darjeeling",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 22,
+    "name": "Darjeeling Himalayan Railway (Toy Train)",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Darjeeling",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 23,
+    "name": "Ghoom Monastery (Yiga Choeling)",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Darjeeling",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 24,
+    "name": "Padmaja Naidu Himalayan Zoological Park",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1575550959106-5a7defe28b56?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Darjeeling",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 20,
+    "name": "Tiger Hill",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Darjeeling",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 25,
+    "name": "Bandel Church (Basilica of the Holy Rosary)",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Hooghly",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 27,
+    "name": "Hangseshwari Temple",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Hooghly",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 26,
+    "name": "Hooghly Imambara",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Hooghly",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 28,
+    "name": "Tarakeswar Temple",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Hooghly",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 31,
+    "name": "Acharya Jagadish Chandra Bose Botanic Garden",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Howrah",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 30,
+    "name": "Belur Math",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Howrah",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 32,
+    "name": "Gadiara",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Howrah",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 29,
+    "name": "Howrah Bridge (Rabindra Setu)",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1558431382-27e303142255?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Howrah",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 33,
+    "name": "Gorumara National Park",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1575550959106-5a7defe28b56?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Jalpaiguri",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 36,
+    "name": "Jalpesh Temple",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Jalpaiguri",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 34,
+    "name": "Murti River & Chapramari Wildlife Sanctuary",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Jalpaiguri",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 35,
+    "name": "Samsing & Suntalekhola",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Jalpaiguri",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 38,
+    "name": "Chilkigarh Kanak Durga Temple & Sacred Grove",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Jhargram",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 40,
+    "name": "Ghagra Waterfalls & Belpahari",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Jhargram",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 37,
+    "name": "Jhargram Rajbari (Palace)",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Jhargram",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 39,
+    "name": "Khandarani Lake & Dam",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Jhargram",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 41,
+    "name": "Deolo Hill",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Kalimpong",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 42,
+    "name": "Morgan House",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Kalimpong",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 44,
+    "name": "Pine View Cactus Nursery",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Kalimpong",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 43,
+    "name": "Zang Dhok Palri Phodang (Durpin Monastery)",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Kalimpong",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 46,
+    "name": "Dakshineswar Kali Temple",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Kolkata",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 48,
+    "name": "Eco Park (Prakriti Tirtha)",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Kolkata",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 47,
+    "name": "Indian Museum",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Kolkata",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 49,
+    "name": "Princep Ghat",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Kolkata",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 45,
+    "name": "Victoria Memorial",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1558431382-27e303142255?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Kolkata",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 50,
+    "name": "Adina Mosque (Pandua)",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Malda",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 51,
+    "name": "Dakhil Darwaza & Baro Shona Masjid",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Malda",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 52,
+    "name": "Firoz Minar",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Malda",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 53,
+    "name": "Jagjivanpur Buddhist Monastery",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Malda",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 54,
+    "name": "Hazarduari Palace",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Murshidabad",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 56,
+    "name": "Kathgola Gardens & Palace",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Murshidabad",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 55,
+    "name": "Katra Mosque",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Murshidabad",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 57,
+    "name": "Motijheel & Eco Park",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Murshidabad",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 61,
+    "name": "Bethuadahari Wildlife Sanctuary",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Nadia",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 58,
+    "name": "ISKCON Mayapur (Temple of Vedic Planetarium)",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Nadia",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 60,
+    "name": "Krishnanagar Rajbari & Ghurni Clay Modeling",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Nadia",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 59,
+    "name": "Nabadwip Dham",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Nadia",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 64,
+    "name": "Bibhutibhushan Wildlife Sanctuary (Parmadan)",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&auto=format&fit=crop&q=80",
+    "district_name": "North 24 Parganas",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 62,
+    "name": "Mangal Pandey Park & Barrackpore Riverside",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=800&auto=format&fit=crop&q=80",
+    "district_name": "North 24 Parganas",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 63,
+    "name": "Taki & Ichamati River",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    "district_name": "North 24 Parganas",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 67,
+    "name": "Churulia (Nazrul Academy)",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Paschim Bardhaman",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 66,
+    "name": "Kalyaneshwari Temple",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Paschim Bardhaman",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 65,
+    "name": "Maithon Dam & Reservoir",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Paschim Bardhaman",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 68,
+    "name": "Gongoni Gorge (Grand Canyon of Bengal)",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Paschim Medinipur",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 70,
+    "name": "Gopegarh Heritage Eco Park",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Paschim Medinipur",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 69,
+    "name": "Kurumbera Fort",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Paschim Medinipur",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 71,
+    "name": "108 Shiva Temples (Nava Kailash, Kalna)",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Purba Bardhaman",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 72,
+    "name": "Curzon Gate & Royal Rajbari",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Purba Bardhaman",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 73,
+    "name": "Krishnasayar Eco Park",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Purba Bardhaman",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 74,
+    "name": "Digha Sea Beach (New & Old Digha)",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Purba Medinipur",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 75,
+    "name": "Mandarmani Beach",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Purba Medinipur",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 77,
+    "name": "Tajpur Beach",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Purba Medinipur",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 76,
+    "name": "Tamluk (Ancient Tamralipta & Bargabhima Temple)",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Purba Medinipur",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 78,
+    "name": "Ayodhya Hills (Ajodhya Hills)",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Purulia",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 79,
+    "name": "Garhpanchkot Ruins & Panchet Dam",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Purulia",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 80,
+    "name": "Joychandi Pahar",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Purulia",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 81,
+    "name": "Muruguma Dam & Lake",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Purulia",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 84,
+    "name": "Bakkhali Beach & Henry's Island",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    "district_name": "South 24 Parganas",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 85,
+    "name": "Diamond Harbour",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=800&auto=format&fit=crop&q=80",
+    "district_name": "South 24 Parganas",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 83,
+    "name": "Gangasagar (Sagar Island)",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&auto=format&fit=crop&q=80",
+    "district_name": "South 24 Parganas",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 82,
+    "name": "Sundarbans National Park",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1575550959106-5a7defe28b56?w=800&auto=format&fit=crop&q=80",
+    "district_name": "South 24 Parganas",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 88,
+    "name": "Burhana Fakir Mosque",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Uttar Dinajpur",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 87,
+    "name": "Karnajora Museum & Eco Park",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Uttar Dinajpur",
+    "state_name": "West Bengal"
+  },
+  {
+    "id": 86,
+    "name": "Raiganj Wildlife Sanctuary (Kulik Bird Sanctuary)",
+    "category": "Scenic Attraction",
+    "image_url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&auto=format&fit=crop&q=80",
+    "district_name": "Uttar Dinajpur",
+    "state_name": "West Bengal"
+  }
+]

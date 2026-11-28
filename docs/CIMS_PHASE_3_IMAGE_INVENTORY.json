@@ -1,0 +1,2179 @@
+{
+  "scannedAt": "2026-11-28T05:13:42.782Z",
+  "frontendPublicFiles": [
+    {
+      "fullPath": "frontend\\public\\images\\attractions\\ajanta-ellora.jpg",
+      "relPath": "attractions\\ajanta-ellora.jpg",
+      "size": 288667,
+      "ext": ".jpg",
+      "name": "ajanta-ellora.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\attractions\\amber-fort.jpg",
+      "relPath": "attractions\\amber-fort.jpg",
+      "size": 273812,
+      "ext": ".jpg",
+      "name": "amber-fort.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\attractions\\dal-lake.jpg",
+      "relPath": "attractions\\dal-lake.jpg",
+      "size": 326285,
+      "ext": ".jpg",
+      "name": "dal-lake.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\attractions\\dudhsagar-falls.jpg",
+      "relPath": "attractions\\dudhsagar-falls.jpg",
+      "size": 868099,
+      "ext": ".jpg",
+      "name": "dudhsagar-falls.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\attractions\\gateway-of-india.jpg",
+      "relPath": "attractions\\gateway-of-india.jpg",
+      "size": 238017,
+      "ext": ".jpg",
+      "name": "gateway-of-india.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\attractions\\golden-temple.jpg",
+      "relPath": "attractions\\golden-temple.jpg",
+      "size": 280928,
+      "ext": ".jpg",
+      "name": "golden-temple.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\attractions\\hawa-mahal.jpg",
+      "relPath": "attractions\\hawa-mahal.jpg",
+      "size": 488379,
+      "ext": ".jpg",
+      "name": "hawa-mahal.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\attractions\\india-gate.jpg",
+      "relPath": "attractions\\india-gate.jpg",
+      "size": 149233,
+      "ext": ".jpg",
+      "name": "india-gate.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\attractions\\konark-sun-temple.jpg",
+      "relPath": "attractions\\konark-sun-temple.jpg",
+      "size": 579023,
+      "ext": ".jpg",
+      "name": "konark-sun-temple.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\attractions\\meenakshi-temple.jpg",
+      "relPath": "attractions\\meenakshi-temple.jpg",
+      "size": 274949,
+      "ext": ".jpg",
+      "name": "meenakshi-temple.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\attractions\\mysore-palace.jpg",
+      "relPath": "attractions\\mysore-palace.jpg",
+      "size": 199478,
+      "ext": ".jpg",
+      "name": "mysore-palace.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\attractions\\pangong-tso.jpg",
+      "relPath": "attractions\\pangong-tso.jpg",
+      "size": 189925,
+      "ext": ".jpg",
+      "name": "pangong-tso.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\attractions\\qutub-minar.jpg",
+      "relPath": "attractions\\qutub-minar.jpg",
+      "size": 416474,
+      "ext": ".jpg",
+      "name": "qutub-minar.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\attractions\\taj-mahal.jpg",
+      "relPath": "attractions\\taj-mahal.jpg",
+      "size": 169113,
+      "ext": ".jpg",
+      "name": "taj-mahal.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\attractions\\varanasi-ghats.jpg",
+      "relPath": "attractions\\varanasi-ghats.jpg",
+      "size": 297241,
+      "ext": ".jpg",
+      "name": "varanasi-ghats.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\attractions\\victoria-memorial.jpg",
+      "relPath": "attractions\\victoria-memorial.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "victoria-memorial.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\destination-placeholder.svg",
+      "relPath": "destination-placeholder.svg",
+      "size": 3806,
+      "ext": ".svg",
+      "name": "destination-placeholder.svg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\destinations\\alleppey.jpg",
+      "relPath": "destinations\\alleppey.jpg",
+      "size": 300577,
+      "ext": ".jpg",
+      "name": "alleppey.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\destinations\\amritsar.jpg",
+      "relPath": "destinations\\amritsar.jpg",
+      "size": 280928,
+      "ext": ".jpg",
+      "name": "amritsar.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\destinations\\andaman.jpg",
+      "relPath": "destinations\\andaman.jpg",
+      "size": 132437,
+      "ext": ".jpg",
+      "name": "andaman.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\destinations\\darjeeling.jpg",
+      "relPath": "destinations\\darjeeling.jpg",
+      "size": 346632,
+      "ext": ".jpg",
+      "name": "darjeeling.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\destinations\\goa.jpg",
+      "relPath": "destinations\\goa.jpg",
+      "size": 231330,
+      "ext": ".jpg",
+      "name": "goa.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\destinations\\gokarna.jpg",
+      "relPath": "destinations\\gokarna.jpg",
+      "size": 214345,
+      "ext": ".jpg",
+      "name": "gokarna.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\destinations\\hampi.jpg",
+      "relPath": "destinations\\hampi.jpg",
+      "size": 445124,
+      "ext": ".jpg",
+      "name": "hampi.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\destinations\\jaipur.jpg",
+      "relPath": "destinations\\jaipur.jpg",
+      "size": 488379,
+      "ext": ".jpg",
+      "name": "jaipur.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\destinations\\jaisalmer.jpg",
+      "relPath": "destinations\\jaisalmer.jpg",
+      "size": 585316,
+      "ext": ".jpg",
+      "name": "jaisalmer.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\destinations\\ladakh.jpg",
+      "relPath": "destinations\\ladakh.jpg",
+      "size": 189925,
+      "ext": ".jpg",
+      "name": "ladakh.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\destinations\\manali.jpg",
+      "relPath": "destinations\\manali.jpg",
+      "size": 318126,
+      "ext": ".jpg",
+      "name": "manali.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\destinations\\munnar.jpg",
+      "relPath": "destinations\\munnar.jpg",
+      "size": 199465,
+      "ext": ".jpg",
+      "name": "munnar.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\destinations\\rishikesh.jpg",
+      "relPath": "destinations\\rishikesh.jpg",
+      "size": 278522,
+      "ext": ".jpg",
+      "name": "rishikesh.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\destinations\\shillong.jpg",
+      "relPath": "destinations\\shillong.jpg",
+      "size": 188879,
+      "ext": ".jpg",
+      "name": "shillong.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\destinations\\udaipur.jpg",
+      "relPath": "destinations\\udaipur.jpg",
+      "size": 208582,
+      "ext": ".jpg",
+      "name": "udaipur.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\destinations\\varanasi.jpg",
+      "relPath": "destinations\\varanasi.jpg",
+      "size": 297241,
+      "ext": ".jpg",
+      "name": "varanasi.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\andhra-pradesh\\alluri-sitharama-raju.jpg",
+      "relPath": "districts\\andhra-pradesh\\alluri-sitharama-raju.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "alluri-sitharama-raju.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\andhra-pradesh\\anakapalli.jpg",
+      "relPath": "districts\\andhra-pradesh\\anakapalli.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "anakapalli.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\andhra-pradesh\\ananthapuramu.jpg",
+      "relPath": "districts\\andhra-pradesh\\ananthapuramu.jpg",
+      "size": 313182,
+      "ext": ".jpg",
+      "name": "ananthapuramu.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\andhra-pradesh\\annamayya.jpg",
+      "relPath": "districts\\andhra-pradesh\\annamayya.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "annamayya.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\andhra-pradesh\\bapatla.jpg",
+      "relPath": "districts\\andhra-pradesh\\bapatla.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "bapatla.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\andhra-pradesh\\chittoor.jpg",
+      "relPath": "districts\\andhra-pradesh\\chittoor.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "chittoor.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\andhra-pradesh\\dr-br-ambedkar-konaseema.jpg",
+      "relPath": "districts\\andhra-pradesh\\dr-br-ambedkar-konaseema.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "dr-br-ambedkar-konaseema.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\andhra-pradesh\\east-godavari.jpg",
+      "relPath": "districts\\andhra-pradesh\\east-godavari.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "east-godavari.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\andhra-pradesh\\eluru.jpg",
+      "relPath": "districts\\andhra-pradesh\\eluru.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "eluru.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\andhra-pradesh\\guntur.jpg",
+      "relPath": "districts\\andhra-pradesh\\guntur.jpg",
+      "size": 196055,
+      "ext": ".jpg",
+      "name": "guntur.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\andhra-pradesh\\kakinada.jpg",
+      "relPath": "districts\\andhra-pradesh\\kakinada.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "kakinada.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\andhra-pradesh\\krishna.jpg",
+      "relPath": "districts\\andhra-pradesh\\krishna.jpg",
+      "size": 213736,
+      "ext": ".jpg",
+      "name": "krishna.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\andhra-pradesh\\kurnool.jpg",
+      "relPath": "districts\\andhra-pradesh\\kurnool.jpg",
+      "size": 338802,
+      "ext": ".jpg",
+      "name": "kurnool.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\andhra-pradesh\\markapuram.jpg",
+      "relPath": "districts\\andhra-pradesh\\markapuram.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "markapuram.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\andhra-pradesh\\nandyal.jpg",
+      "relPath": "districts\\andhra-pradesh\\nandyal.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "nandyal.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\andhra-pradesh\\ntr.jpg",
+      "relPath": "districts\\andhra-pradesh\\ntr.jpg",
+      "size": 213736,
+      "ext": ".jpg",
+      "name": "ntr.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\andhra-pradesh\\palnadu.jpg",
+      "relPath": "districts\\andhra-pradesh\\palnadu.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "palnadu.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\andhra-pradesh\\parvathipuram-manyam.jpg",
+      "relPath": "districts\\andhra-pradesh\\parvathipuram-manyam.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "parvathipuram-manyam.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\andhra-pradesh\\polavaram.jpg",
+      "relPath": "districts\\andhra-pradesh\\polavaram.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "polavaram.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\andhra-pradesh\\prakasam.jpg",
+      "relPath": "districts\\andhra-pradesh\\prakasam.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "prakasam.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\andhra-pradesh\\sri-potti-sriramulu-nellore.jpg",
+      "relPath": "districts\\andhra-pradesh\\sri-potti-sriramulu-nellore.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "sri-potti-sriramulu-nellore.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\andhra-pradesh\\sri-sathya-sai.jpg",
+      "relPath": "districts\\andhra-pradesh\\sri-sathya-sai.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "sri-sathya-sai.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\andhra-pradesh\\srikakulam.jpg",
+      "relPath": "districts\\andhra-pradesh\\srikakulam.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "srikakulam.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\andhra-pradesh\\tirupati.jpg",
+      "relPath": "districts\\andhra-pradesh\\tirupati.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "tirupati.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\andhra-pradesh\\visakhapatnam.jpg",
+      "relPath": "districts\\andhra-pradesh\\visakhapatnam.jpg",
+      "size": 147525,
+      "ext": ".jpg",
+      "name": "visakhapatnam.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\andhra-pradesh\\vizianagaram.jpg",
+      "relPath": "districts\\andhra-pradesh\\vizianagaram.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "vizianagaram.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\andhra-pradesh\\west-godavari.jpg",
+      "relPath": "districts\\andhra-pradesh\\west-godavari.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "west-godavari.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\andhra-pradesh\\ysr-kadapa.jpg",
+      "relPath": "districts\\andhra-pradesh\\ysr-kadapa.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "ysr-kadapa.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\arunachal-pradesh\\anjaw.jpg",
+      "relPath": "districts\\arunachal-pradesh\\anjaw.jpg",
+      "size": 936252,
+      "ext": ".jpg",
+      "name": "anjaw.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\arunachal-pradesh\\bichom.jpg",
+      "relPath": "districts\\arunachal-pradesh\\bichom.jpg",
+      "size": 1020048,
+      "ext": ".jpg",
+      "name": "bichom.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\arunachal-pradesh\\changlang.jpg",
+      "relPath": "districts\\arunachal-pradesh\\changlang.jpg",
+      "size": 1247031,
+      "ext": ".jpg",
+      "name": "changlang.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\arunachal-pradesh\\dibang-valley.jpg",
+      "relPath": "districts\\arunachal-pradesh\\dibang-valley.jpg",
+      "size": 1053799,
+      "ext": ".jpg",
+      "name": "dibang-valley.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\arunachal-pradesh\\east-kameng.jpg",
+      "relPath": "districts\\arunachal-pradesh\\east-kameng.jpg",
+      "size": 1105024,
+      "ext": ".jpg",
+      "name": "east-kameng.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\arunachal-pradesh\\east-siang.jpg",
+      "relPath": "districts\\arunachal-pradesh\\east-siang.jpg",
+      "size": 1075297,
+      "ext": ".jpg",
+      "name": "east-siang.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\arunachal-pradesh\\kamle.jpg",
+      "relPath": "districts\\arunachal-pradesh\\kamle.jpg",
+      "size": 1053456,
+      "ext": ".jpg",
+      "name": "kamle.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\arunachal-pradesh\\keyi-panyor.jpg",
+      "relPath": "districts\\arunachal-pradesh\\keyi-panyor.jpg",
+      "size": 1048271,
+      "ext": ".jpg",
+      "name": "keyi-panyor.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\arunachal-pradesh\\kra-daadi.jpg",
+      "relPath": "districts\\arunachal-pradesh\\kra-daadi.jpg",
+      "size": 1112485,
+      "ext": ".jpg",
+      "name": "kra-daadi.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\arunachal-pradesh\\kurung-kumey.jpg",
+      "relPath": "districts\\arunachal-pradesh\\kurung-kumey.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "kurung-kumey.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\arunachal-pradesh\\leparada.jpg",
+      "relPath": "districts\\arunachal-pradesh\\leparada.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "leparada.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\arunachal-pradesh\\lohit.jpg",
+      "relPath": "districts\\arunachal-pradesh\\lohit.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "lohit.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\arunachal-pradesh\\longding.jpg",
+      "relPath": "districts\\arunachal-pradesh\\longding.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "longding.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\arunachal-pradesh\\lower-dibang-valley.jpg",
+      "relPath": "districts\\arunachal-pradesh\\lower-dibang-valley.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "lower-dibang-valley.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\arunachal-pradesh\\lower-siang.jpg",
+      "relPath": "districts\\arunachal-pradesh\\lower-siang.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "lower-siang.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\arunachal-pradesh\\lower-subansiri.jpg",
+      "relPath": "districts\\arunachal-pradesh\\lower-subansiri.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "lower-subansiri.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\arunachal-pradesh\\namsai.jpg",
+      "relPath": "districts\\arunachal-pradesh\\namsai.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "namsai.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\arunachal-pradesh\\pakke-kessang.jpg",
+      "relPath": "districts\\arunachal-pradesh\\pakke-kessang.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "pakke-kessang.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\arunachal-pradesh\\papum-pare.jpg",
+      "relPath": "districts\\arunachal-pradesh\\papum-pare.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "papum-pare.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\arunachal-pradesh\\shi-yomi.jpg",
+      "relPath": "districts\\arunachal-pradesh\\shi-yomi.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "shi-yomi.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\arunachal-pradesh\\siang.jpg",
+      "relPath": "districts\\arunachal-pradesh\\siang.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "siang.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\arunachal-pradesh\\tawang.jpg",
+      "relPath": "districts\\arunachal-pradesh\\tawang.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "tawang.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\arunachal-pradesh\\tirap.jpg",
+      "relPath": "districts\\arunachal-pradesh\\tirap.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "tirap.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\arunachal-pradesh\\upper-siang.jpg",
+      "relPath": "districts\\arunachal-pradesh\\upper-siang.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "upper-siang.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\arunachal-pradesh\\upper-subansiri.jpg",
+      "relPath": "districts\\arunachal-pradesh\\upper-subansiri.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "upper-subansiri.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\arunachal-pradesh\\west-kameng.jpg",
+      "relPath": "districts\\arunachal-pradesh\\west-kameng.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "west-kameng.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\arunachal-pradesh\\west-siang.jpg",
+      "relPath": "districts\\arunachal-pradesh\\west-siang.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "west-siang.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\uttar-pradesh\\agra.jpg",
+      "relPath": "districts\\uttar-pradesh\\agra.jpg",
+      "size": 169113,
+      "ext": ".jpg",
+      "name": "agra.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\uttar-pradesh\\ayodhya.jpg",
+      "relPath": "districts\\uttar-pradesh\\ayodhya.jpg",
+      "size": 65147,
+      "ext": ".jpg",
+      "name": "ayodhya.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\uttar-pradesh\\jhansi.jpg",
+      "relPath": "districts\\uttar-pradesh\\jhansi.jpg",
+      "size": 446242,
+      "ext": ".jpg",
+      "name": "jhansi.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\uttar-pradesh\\lucknow.jpg",
+      "relPath": "districts\\uttar-pradesh\\lucknow.jpg",
+      "size": 182851,
+      "ext": ".jpg",
+      "name": "lucknow.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\uttar-pradesh\\mathura.jpg",
+      "relPath": "districts\\uttar-pradesh\\mathura.jpg",
+      "size": 264247,
+      "ext": ".jpg",
+      "name": "mathura.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\uttar-pradesh\\prayagraj.jpg",
+      "relPath": "districts\\uttar-pradesh\\prayagraj.jpg",
+      "size": 200773,
+      "ext": ".jpg",
+      "name": "prayagraj.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\uttar-pradesh\\varanasi.jpg",
+      "relPath": "districts\\uttar-pradesh\\varanasi.jpg",
+      "size": 297241,
+      "ext": ".jpg",
+      "name": "varanasi.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\west-bengal\\alipurduar.jpg",
+      "relPath": "districts\\west-bengal\\alipurduar.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "alipurduar.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\west-bengal\\bankura.jpg",
+      "relPath": "districts\\west-bengal\\bankura.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "bankura.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\west-bengal\\birbhum.jpg",
+      "relPath": "districts\\west-bengal\\birbhum.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "birbhum.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\west-bengal\\cooch-behar.jpg",
+      "relPath": "districts\\west-bengal\\cooch-behar.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "cooch-behar.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\west-bengal\\dakshin-dinajpur.jpg",
+      "relPath": "districts\\west-bengal\\dakshin-dinajpur.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "dakshin-dinajpur.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\west-bengal\\darjeeling.jpg",
+      "relPath": "districts\\west-bengal\\darjeeling.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "darjeeling.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\west-bengal\\hooghly.jpg",
+      "relPath": "districts\\west-bengal\\hooghly.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "hooghly.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\west-bengal\\howrah.jpg",
+      "relPath": "districts\\west-bengal\\howrah.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "howrah.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\west-bengal\\jalpaiguri.jpg",
+      "relPath": "districts\\west-bengal\\jalpaiguri.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "jalpaiguri.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\west-bengal\\jhargram.jpg",
+      "relPath": "districts\\west-bengal\\jhargram.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "jhargram.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\west-bengal\\kalimpong.jpg",
+      "relPath": "districts\\west-bengal\\kalimpong.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "kalimpong.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\west-bengal\\kolkata.jpg",
+      "relPath": "districts\\west-bengal\\kolkata.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "kolkata.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\west-bengal\\malda.jpg",
+      "relPath": "districts\\west-bengal\\malda.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "malda.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\west-bengal\\murshidabad.jpg",
+      "relPath": "districts\\west-bengal\\murshidabad.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "murshidabad.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\west-bengal\\nadia.jpg",
+      "relPath": "districts\\west-bengal\\nadia.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "nadia.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\west-bengal\\north-24-parganas.jpg",
+      "relPath": "districts\\west-bengal\\north-24-parganas.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "north-24-parganas.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\west-bengal\\paschim-bardhaman.jpg",
+      "relPath": "districts\\west-bengal\\paschim-bardhaman.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "paschim-bardhaman.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\west-bengal\\paschim-medinipur.jpg",
+      "relPath": "districts\\west-bengal\\paschim-medinipur.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "paschim-medinipur.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\west-bengal\\purba-bardhaman.jpg",
+      "relPath": "districts\\west-bengal\\purba-bardhaman.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "purba-bardhaman.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\west-bengal\\purba-medinipur.jpg",
+      "relPath": "districts\\west-bengal\\purba-medinipur.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "purba-medinipur.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\west-bengal\\purulia.jpg",
+      "relPath": "districts\\west-bengal\\purulia.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "purulia.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\west-bengal\\south-24-parganas.jpg",
+      "relPath": "districts\\west-bengal\\south-24-parganas.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "south-24-parganas.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\districts\\west-bengal\\uttar-dinajpur.jpg",
+      "relPath": "districts\\west-bengal\\uttar-dinajpur.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "uttar-dinajpur.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\fallback\\destination-placeholder.svg",
+      "relPath": "fallback\\destination-placeholder.svg",
+      "size": 3806,
+      "ext": ".svg",
+      "name": "destination-placeholder.svg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\states\\andhra-pradesh.jpg",
+      "relPath": "states\\andhra-pradesh.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "andhra-pradesh.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\states\\arunachal-pradesh.jpg",
+      "relPath": "states\\arunachal-pradesh.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "arunachal-pradesh.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\states\\assam.jpg",
+      "relPath": "states\\assam.jpg",
+      "size": 405007,
+      "ext": ".jpg",
+      "name": "assam.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\states\\bihar.jpg",
+      "relPath": "states\\bihar.jpg",
+      "size": 668394,
+      "ext": ".jpg",
+      "name": "bihar.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\states\\chhattisgarh.jpg",
+      "relPath": "states\\chhattisgarh.jpg",
+      "size": 368461,
+      "ext": ".jpg",
+      "name": "chhattisgarh.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\states\\goa.jpg",
+      "relPath": "states\\goa.jpg",
+      "size": 231330,
+      "ext": ".jpg",
+      "name": "goa.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\states\\gujarat.jpg",
+      "relPath": "states\\gujarat.jpg",
+      "size": 497459,
+      "ext": ".jpg",
+      "name": "gujarat.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\states\\haryana.jpg",
+      "relPath": "states\\haryana.jpg",
+      "size": 213019,
+      "ext": ".jpg",
+      "name": "haryana.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\states\\himachal-pradesh.jpg",
+      "relPath": "states\\himachal-pradesh.jpg",
+      "size": 318126,
+      "ext": ".jpg",
+      "name": "himachal-pradesh.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\states\\jharkhand.jpg",
+      "relPath": "states\\jharkhand.jpg",
+      "size": 467419,
+      "ext": ".jpg",
+      "name": "jharkhand.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\states\\karnataka.jpg",
+      "relPath": "states\\karnataka.jpg",
+      "size": 445124,
+      "ext": ".jpg",
+      "name": "karnataka.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\states\\kerala.jpg",
+      "relPath": "states\\kerala.jpg",
+      "size": 300577,
+      "ext": ".jpg",
+      "name": "kerala.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\states\\madhya-pradesh.jpg",
+      "relPath": "states\\madhya-pradesh.jpg",
+      "size": 274333,
+      "ext": ".jpg",
+      "name": "madhya-pradesh.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\states\\maharashtra.jpg",
+      "relPath": "states\\maharashtra.jpg",
+      "size": 238017,
+      "ext": ".jpg",
+      "name": "maharashtra.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\states\\manipur.jpg",
+      "relPath": "states\\manipur.jpg",
+      "size": 172778,
+      "ext": ".jpg",
+      "name": "manipur.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\states\\meghalaya.jpg",
+      "relPath": "states\\meghalaya.jpg",
+      "size": 490190,
+      "ext": ".jpg",
+      "name": "meghalaya.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\states\\mizoram.jpg",
+      "relPath": "states\\mizoram.jpg",
+      "size": 772414,
+      "ext": ".jpg",
+      "name": "mizoram.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\states\\nagaland.jpg",
+      "relPath": "states\\nagaland.jpg",
+      "size": 357814,
+      "ext": ".jpg",
+      "name": "nagaland.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\states\\odisha.jpg",
+      "relPath": "states\\odisha.jpg",
+      "size": 348091,
+      "ext": ".jpg",
+      "name": "odisha.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\states\\punjab.jpg",
+      "relPath": "states\\punjab.jpg",
+      "size": 280928,
+      "ext": ".jpg",
+      "name": "punjab.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\states\\rajasthan.jpg",
+      "relPath": "states\\rajasthan.jpg",
+      "size": 585316,
+      "ext": ".jpg",
+      "name": "rajasthan.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\states\\sikkim.jpg",
+      "relPath": "states\\sikkim.jpg",
+      "size": 300788,
+      "ext": ".jpg",
+      "name": "sikkim.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\states\\tamil-nadu.jpg",
+      "relPath": "states\\tamil-nadu.jpg",
+      "size": 274949,
+      "ext": ".jpg",
+      "name": "tamil-nadu.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\states\\telangana.jpg",
+      "relPath": "states\\telangana.jpg",
+      "size": 216624,
+      "ext": ".jpg",
+      "name": "telangana.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\states\\tripura.jpg",
+      "relPath": "states\\tripura.jpg",
+      "size": 91088,
+      "ext": ".jpg",
+      "name": "tripura.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\states\\uttar-pradesh.jpg",
+      "relPath": "states\\uttar-pradesh.jpg",
+      "size": 169113,
+      "ext": ".jpg",
+      "name": "uttar-pradesh.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\states\\uttarakhand.jpg",
+      "relPath": "states\\uttarakhand.jpg",
+      "size": 396035,
+      "ext": ".jpg",
+      "name": "uttarakhand.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\states\\west-bengal.jpg",
+      "relPath": "states\\west-bengal.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "west-bengal.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\union-territories\\andaman-and-nicobar-islands.jpg",
+      "relPath": "union-territories\\andaman-and-nicobar-islands.jpg",
+      "size": 132437,
+      "ext": ".jpg",
+      "name": "andaman-and-nicobar-islands.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\union-territories\\chandigarh.jpg",
+      "relPath": "union-territories\\chandigarh.jpg",
+      "size": 447193,
+      "ext": ".jpg",
+      "name": "chandigarh.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\union-territories\\dadra-and-nagar-haveli-and-daman-and-diu.jpg",
+      "relPath": "union-territories\\dadra-and-nagar-haveli-and-daman-and-diu.jpg",
+      "size": 204252,
+      "ext": ".jpg",
+      "name": "dadra-and-nagar-haveli-and-daman-and-diu.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\union-territories\\delhi.jpg",
+      "relPath": "union-territories\\delhi.jpg",
+      "size": 149233,
+      "ext": ".jpg",
+      "name": "delhi.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\union-territories\\jammu-and-kashmir.jpg",
+      "relPath": "union-territories\\jammu-and-kashmir.jpg",
+      "size": 326285,
+      "ext": ".jpg",
+      "name": "jammu-and-kashmir.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\union-territories\\ladakh.jpg",
+      "relPath": "union-territories\\ladakh.jpg",
+      "size": 189925,
+      "ext": ".jpg",
+      "name": "ladakh.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\union-territories\\lakshadweep.jpg",
+      "relPath": "union-territories\\lakshadweep.jpg",
+      "size": 214345,
+      "ext": ".jpg",
+      "name": "lakshadweep.jpg"
+    },
+    {
+      "fullPath": "frontend\\public\\images\\union-territories\\puducherry.jpg",
+      "relPath": "union-territories\\puducherry.jpg",
+      "size": 152998,
+      "ext": ".jpg",
+      "name": "puducherry.jpg"
+    }
+  ],
+  "rootPublicFiles": [
+    {
+      "fullPath": "public\\images\\attractions\\ajanta-ellora.jpg",
+      "relPath": "attractions\\ajanta-ellora.jpg",
+      "size": 288667,
+      "ext": ".jpg",
+      "name": "ajanta-ellora.jpg"
+    },
+    {
+      "fullPath": "public\\images\\attractions\\amber-fort.jpg",
+      "relPath": "attractions\\amber-fort.jpg",
+      "size": 273812,
+      "ext": ".jpg",
+      "name": "amber-fort.jpg"
+    },
+    {
+      "fullPath": "public\\images\\attractions\\dal-lake.jpg",
+      "relPath": "attractions\\dal-lake.jpg",
+      "size": 326285,
+      "ext": ".jpg",
+      "name": "dal-lake.jpg"
+    },
+    {
+      "fullPath": "public\\images\\attractions\\dudhsagar-falls.jpg",
+      "relPath": "attractions\\dudhsagar-falls.jpg",
+      "size": 868099,
+      "ext": ".jpg",
+      "name": "dudhsagar-falls.jpg"
+    },
+    {
+      "fullPath": "public\\images\\attractions\\gateway-of-india.jpg",
+      "relPath": "attractions\\gateway-of-india.jpg",
+      "size": 238017,
+      "ext": ".jpg",
+      "name": "gateway-of-india.jpg"
+    },
+    {
+      "fullPath": "public\\images\\attractions\\golden-temple.jpg",
+      "relPath": "attractions\\golden-temple.jpg",
+      "size": 280928,
+      "ext": ".jpg",
+      "name": "golden-temple.jpg"
+    },
+    {
+      "fullPath": "public\\images\\attractions\\hawa-mahal.jpg",
+      "relPath": "attractions\\hawa-mahal.jpg",
+      "size": 488379,
+      "ext": ".jpg",
+      "name": "hawa-mahal.jpg"
+    },
+    {
+      "fullPath": "public\\images\\attractions\\india-gate.jpg",
+      "relPath": "attractions\\india-gate.jpg",
+      "size": 149233,
+      "ext": ".jpg",
+      "name": "india-gate.jpg"
+    },
+    {
+      "fullPath": "public\\images\\attractions\\konark-sun-temple.jpg",
+      "relPath": "attractions\\konark-sun-temple.jpg",
+      "size": 579023,
+      "ext": ".jpg",
+      "name": "konark-sun-temple.jpg"
+    },
+    {
+      "fullPath": "public\\images\\attractions\\meenakshi-temple.jpg",
+      "relPath": "attractions\\meenakshi-temple.jpg",
+      "size": 274949,
+      "ext": ".jpg",
+      "name": "meenakshi-temple.jpg"
+    },
+    {
+      "fullPath": "public\\images\\attractions\\mysore-palace.jpg",
+      "relPath": "attractions\\mysore-palace.jpg",
+      "size": 199478,
+      "ext": ".jpg",
+      "name": "mysore-palace.jpg"
+    },
+    {
+      "fullPath": "public\\images\\attractions\\pangong-tso.jpg",
+      "relPath": "attractions\\pangong-tso.jpg",
+      "size": 189925,
+      "ext": ".jpg",
+      "name": "pangong-tso.jpg"
+    },
+    {
+      "fullPath": "public\\images\\attractions\\qutub-minar.jpg",
+      "relPath": "attractions\\qutub-minar.jpg",
+      "size": 416474,
+      "ext": ".jpg",
+      "name": "qutub-minar.jpg"
+    },
+    {
+      "fullPath": "public\\images\\attractions\\taj-mahal.jpg",
+      "relPath": "attractions\\taj-mahal.jpg",
+      "size": 169113,
+      "ext": ".jpg",
+      "name": "taj-mahal.jpg"
+    },
+    {
+      "fullPath": "public\\images\\attractions\\varanasi-ghats.jpg",
+      "relPath": "attractions\\varanasi-ghats.jpg",
+      "size": 297241,
+      "ext": ".jpg",
+      "name": "varanasi-ghats.jpg"
+    },
+    {
+      "fullPath": "public\\images\\attractions\\victoria-memorial.jpg",
+      "relPath": "attractions\\victoria-memorial.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "victoria-memorial.jpg"
+    },
+    {
+      "fullPath": "public\\images\\destination-placeholder.svg",
+      "relPath": "destination-placeholder.svg",
+      "size": 3732,
+      "ext": ".svg",
+      "name": "destination-placeholder.svg"
+    },
+    {
+      "fullPath": "public\\images\\destinations\\alleppey.jpg",
+      "relPath": "destinations\\alleppey.jpg",
+      "size": 300577,
+      "ext": ".jpg",
+      "name": "alleppey.jpg"
+    },
+    {
+      "fullPath": "public\\images\\destinations\\amritsar.jpg",
+      "relPath": "destinations\\amritsar.jpg",
+      "size": 280928,
+      "ext": ".jpg",
+      "name": "amritsar.jpg"
+    },
+    {
+      "fullPath": "public\\images\\destinations\\andaman.jpg",
+      "relPath": "destinations\\andaman.jpg",
+      "size": 132437,
+      "ext": ".jpg",
+      "name": "andaman.jpg"
+    },
+    {
+      "fullPath": "public\\images\\destinations\\darjeeling.jpg",
+      "relPath": "destinations\\darjeeling.jpg",
+      "size": 346632,
+      "ext": ".jpg",
+      "name": "darjeeling.jpg"
+    },
+    {
+      "fullPath": "public\\images\\destinations\\goa.jpg",
+      "relPath": "destinations\\goa.jpg",
+      "size": 231330,
+      "ext": ".jpg",
+      "name": "goa.jpg"
+    },
+    {
+      "fullPath": "public\\images\\destinations\\gokarna.jpg",
+      "relPath": "destinations\\gokarna.jpg",
+      "size": 214345,
+      "ext": ".jpg",
+      "name": "gokarna.jpg"
+    },
+    {
+      "fullPath": "public\\images\\destinations\\hampi.jpg",
+      "relPath": "destinations\\hampi.jpg",
+      "size": 445124,
+      "ext": ".jpg",
+      "name": "hampi.jpg"
+    },
+    {
+      "fullPath": "public\\images\\destinations\\jaipur.jpg",
+      "relPath": "destinations\\jaipur.jpg",
+      "size": 488379,
+      "ext": ".jpg",
+      "name": "jaipur.jpg"
+    },
+    {
+      "fullPath": "public\\images\\destinations\\jaisalmer.jpg",
+      "relPath": "destinations\\jaisalmer.jpg",
+      "size": 585316,
+      "ext": ".jpg",
+      "name": "jaisalmer.jpg"
+    },
+    {
+      "fullPath": "public\\images\\destinations\\ladakh.jpg",
+      "relPath": "destinations\\ladakh.jpg",
+      "size": 189925,
+      "ext": ".jpg",
+      "name": "ladakh.jpg"
+    },
+    {
+      "fullPath": "public\\images\\destinations\\manali.jpg",
+      "relPath": "destinations\\manali.jpg",
+      "size": 318126,
+      "ext": ".jpg",
+      "name": "manali.jpg"
+    },
+    {
+      "fullPath": "public\\images\\destinations\\munnar.jpg",
+      "relPath": "destinations\\munnar.jpg",
+      "size": 199465,
+      "ext": ".jpg",
+      "name": "munnar.jpg"
+    },
+    {
+      "fullPath": "public\\images\\destinations\\rishikesh.jpg",
+      "relPath": "destinations\\rishikesh.jpg",
+      "size": 278522,
+      "ext": ".jpg",
+      "name": "rishikesh.jpg"
+    },
+    {
+      "fullPath": "public\\images\\destinations\\shillong.jpg",
+      "relPath": "destinations\\shillong.jpg",
+      "size": 188879,
+      "ext": ".jpg",
+      "name": "shillong.jpg"
+    },
+    {
+      "fullPath": "public\\images\\destinations\\udaipur.jpg",
+      "relPath": "destinations\\udaipur.jpg",
+      "size": 208582,
+      "ext": ".jpg",
+      "name": "udaipur.jpg"
+    },
+    {
+      "fullPath": "public\\images\\destinations\\varanasi.jpg",
+      "relPath": "destinations\\varanasi.jpg",
+      "size": 297241,
+      "ext": ".jpg",
+      "name": "varanasi.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\andhra-pradesh\\alluri-sitharama-raju.jpg",
+      "relPath": "districts\\andhra-pradesh\\alluri-sitharama-raju.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "alluri-sitharama-raju.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\andhra-pradesh\\anakapalli.jpg",
+      "relPath": "districts\\andhra-pradesh\\anakapalli.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "anakapalli.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\andhra-pradesh\\ananthapuramu.jpg",
+      "relPath": "districts\\andhra-pradesh\\ananthapuramu.jpg",
+      "size": 313182,
+      "ext": ".jpg",
+      "name": "ananthapuramu.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\andhra-pradesh\\annamayya.jpg",
+      "relPath": "districts\\andhra-pradesh\\annamayya.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "annamayya.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\andhra-pradesh\\bapatla.jpg",
+      "relPath": "districts\\andhra-pradesh\\bapatla.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "bapatla.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\andhra-pradesh\\chittoor.jpg",
+      "relPath": "districts\\andhra-pradesh\\chittoor.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "chittoor.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\andhra-pradesh\\dr-br-ambedkar-konaseema.jpg",
+      "relPath": "districts\\andhra-pradesh\\dr-br-ambedkar-konaseema.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "dr-br-ambedkar-konaseema.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\andhra-pradesh\\east-godavari.jpg",
+      "relPath": "districts\\andhra-pradesh\\east-godavari.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "east-godavari.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\andhra-pradesh\\eluru.jpg",
+      "relPath": "districts\\andhra-pradesh\\eluru.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "eluru.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\andhra-pradesh\\guntur.jpg",
+      "relPath": "districts\\andhra-pradesh\\guntur.jpg",
+      "size": 196055,
+      "ext": ".jpg",
+      "name": "guntur.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\andhra-pradesh\\kakinada.jpg",
+      "relPath": "districts\\andhra-pradesh\\kakinada.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "kakinada.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\andhra-pradesh\\krishna.jpg",
+      "relPath": "districts\\andhra-pradesh\\krishna.jpg",
+      "size": 213736,
+      "ext": ".jpg",
+      "name": "krishna.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\andhra-pradesh\\kurnool.jpg",
+      "relPath": "districts\\andhra-pradesh\\kurnool.jpg",
+      "size": 338802,
+      "ext": ".jpg",
+      "name": "kurnool.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\andhra-pradesh\\markapuram.jpg",
+      "relPath": "districts\\andhra-pradesh\\markapuram.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "markapuram.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\andhra-pradesh\\nandyal.jpg",
+      "relPath": "districts\\andhra-pradesh\\nandyal.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "nandyal.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\andhra-pradesh\\ntr.jpg",
+      "relPath": "districts\\andhra-pradesh\\ntr.jpg",
+      "size": 213736,
+      "ext": ".jpg",
+      "name": "ntr.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\andhra-pradesh\\palnadu.jpg",
+      "relPath": "districts\\andhra-pradesh\\palnadu.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "palnadu.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\andhra-pradesh\\parvathipuram-manyam.jpg",
+      "relPath": "districts\\andhra-pradesh\\parvathipuram-manyam.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "parvathipuram-manyam.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\andhra-pradesh\\polavaram.jpg",
+      "relPath": "districts\\andhra-pradesh\\polavaram.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "polavaram.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\andhra-pradesh\\prakasam.jpg",
+      "relPath": "districts\\andhra-pradesh\\prakasam.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "prakasam.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\andhra-pradesh\\sri-potti-sriramulu-nellore.jpg",
+      "relPath": "districts\\andhra-pradesh\\sri-potti-sriramulu-nellore.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "sri-potti-sriramulu-nellore.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\andhra-pradesh\\sri-sathya-sai.jpg",
+      "relPath": "districts\\andhra-pradesh\\sri-sathya-sai.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "sri-sathya-sai.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\andhra-pradesh\\srikakulam.jpg",
+      "relPath": "districts\\andhra-pradesh\\srikakulam.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "srikakulam.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\andhra-pradesh\\tirupati.jpg",
+      "relPath": "districts\\andhra-pradesh\\tirupati.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "tirupati.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\andhra-pradesh\\visakhapatnam.jpg",
+      "relPath": "districts\\andhra-pradesh\\visakhapatnam.jpg",
+      "size": 147525,
+      "ext": ".jpg",
+      "name": "visakhapatnam.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\andhra-pradesh\\vizianagaram.jpg",
+      "relPath": "districts\\andhra-pradesh\\vizianagaram.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "vizianagaram.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\andhra-pradesh\\west-godavari.jpg",
+      "relPath": "districts\\andhra-pradesh\\west-godavari.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "west-godavari.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\andhra-pradesh\\ysr-kadapa.jpg",
+      "relPath": "districts\\andhra-pradesh\\ysr-kadapa.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "ysr-kadapa.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\arunachal-pradesh\\anjaw.jpg",
+      "relPath": "districts\\arunachal-pradesh\\anjaw.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "anjaw.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\arunachal-pradesh\\bichom.jpg",
+      "relPath": "districts\\arunachal-pradesh\\bichom.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "bichom.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\arunachal-pradesh\\changlang.jpg",
+      "relPath": "districts\\arunachal-pradesh\\changlang.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "changlang.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\arunachal-pradesh\\dibang-valley.jpg",
+      "relPath": "districts\\arunachal-pradesh\\dibang-valley.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "dibang-valley.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\arunachal-pradesh\\east-kameng.jpg",
+      "relPath": "districts\\arunachal-pradesh\\east-kameng.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "east-kameng.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\arunachal-pradesh\\east-siang.jpg",
+      "relPath": "districts\\arunachal-pradesh\\east-siang.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "east-siang.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\arunachal-pradesh\\kamle.jpg",
+      "relPath": "districts\\arunachal-pradesh\\kamle.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "kamle.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\arunachal-pradesh\\keyi-panyor.jpg",
+      "relPath": "districts\\arunachal-pradesh\\keyi-panyor.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "keyi-panyor.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\arunachal-pradesh\\kra-daadi.jpg",
+      "relPath": "districts\\arunachal-pradesh\\kra-daadi.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "kra-daadi.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\arunachal-pradesh\\kurung-kumey.jpg",
+      "relPath": "districts\\arunachal-pradesh\\kurung-kumey.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "kurung-kumey.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\arunachal-pradesh\\leparada.jpg",
+      "relPath": "districts\\arunachal-pradesh\\leparada.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "leparada.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\arunachal-pradesh\\lohit.jpg",
+      "relPath": "districts\\arunachal-pradesh\\lohit.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "lohit.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\arunachal-pradesh\\longding.jpg",
+      "relPath": "districts\\arunachal-pradesh\\longding.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "longding.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\arunachal-pradesh\\lower-dibang-valley.jpg",
+      "relPath": "districts\\arunachal-pradesh\\lower-dibang-valley.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "lower-dibang-valley.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\arunachal-pradesh\\lower-siang.jpg",
+      "relPath": "districts\\arunachal-pradesh\\lower-siang.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "lower-siang.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\arunachal-pradesh\\lower-subansiri.jpg",
+      "relPath": "districts\\arunachal-pradesh\\lower-subansiri.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "lower-subansiri.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\arunachal-pradesh\\namsai.jpg",
+      "relPath": "districts\\arunachal-pradesh\\namsai.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "namsai.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\arunachal-pradesh\\pakke-kessang.jpg",
+      "relPath": "districts\\arunachal-pradesh\\pakke-kessang.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "pakke-kessang.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\arunachal-pradesh\\papum-pare.jpg",
+      "relPath": "districts\\arunachal-pradesh\\papum-pare.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "papum-pare.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\arunachal-pradesh\\shi-yomi.jpg",
+      "relPath": "districts\\arunachal-pradesh\\shi-yomi.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "shi-yomi.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\arunachal-pradesh\\siang.jpg",
+      "relPath": "districts\\arunachal-pradesh\\siang.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "siang.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\arunachal-pradesh\\tawang.jpg",
+      "relPath": "districts\\arunachal-pradesh\\tawang.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "tawang.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\arunachal-pradesh\\tirap.jpg",
+      "relPath": "districts\\arunachal-pradesh\\tirap.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "tirap.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\arunachal-pradesh\\upper-siang.jpg",
+      "relPath": "districts\\arunachal-pradesh\\upper-siang.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "upper-siang.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\arunachal-pradesh\\upper-subansiri.jpg",
+      "relPath": "districts\\arunachal-pradesh\\upper-subansiri.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "upper-subansiri.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\arunachal-pradesh\\west-kameng.jpg",
+      "relPath": "districts\\arunachal-pradesh\\west-kameng.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "west-kameng.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\arunachal-pradesh\\west-siang.jpg",
+      "relPath": "districts\\arunachal-pradesh\\west-siang.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "west-siang.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\uttar-pradesh\\agra.jpg",
+      "relPath": "districts\\uttar-pradesh\\agra.jpg",
+      "size": 169113,
+      "ext": ".jpg",
+      "name": "agra.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\uttar-pradesh\\ayodhya.jpg",
+      "relPath": "districts\\uttar-pradesh\\ayodhya.jpg",
+      "size": 65147,
+      "ext": ".jpg",
+      "name": "ayodhya.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\uttar-pradesh\\jhansi.jpg",
+      "relPath": "districts\\uttar-pradesh\\jhansi.jpg",
+      "size": 446242,
+      "ext": ".jpg",
+      "name": "jhansi.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\uttar-pradesh\\lucknow.jpg",
+      "relPath": "districts\\uttar-pradesh\\lucknow.jpg",
+      "size": 182851,
+      "ext": ".jpg",
+      "name": "lucknow.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\uttar-pradesh\\mathura.jpg",
+      "relPath": "districts\\uttar-pradesh\\mathura.jpg",
+      "size": 264247,
+      "ext": ".jpg",
+      "name": "mathura.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\uttar-pradesh\\prayagraj.jpg",
+      "relPath": "districts\\uttar-pradesh\\prayagraj.jpg",
+      "size": 200773,
+      "ext": ".jpg",
+      "name": "prayagraj.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\uttar-pradesh\\varanasi.jpg",
+      "relPath": "districts\\uttar-pradesh\\varanasi.jpg",
+      "size": 297241,
+      "ext": ".jpg",
+      "name": "varanasi.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\west-bengal\\alipurduar.jpg",
+      "relPath": "districts\\west-bengal\\alipurduar.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "alipurduar.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\west-bengal\\bankura.jpg",
+      "relPath": "districts\\west-bengal\\bankura.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "bankura.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\west-bengal\\birbhum.jpg",
+      "relPath": "districts\\west-bengal\\birbhum.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "birbhum.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\west-bengal\\cooch-behar.jpg",
+      "relPath": "districts\\west-bengal\\cooch-behar.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "cooch-behar.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\west-bengal\\dakshin-dinajpur.jpg",
+      "relPath": "districts\\west-bengal\\dakshin-dinajpur.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "dakshin-dinajpur.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\west-bengal\\darjeeling.jpg",
+      "relPath": "districts\\west-bengal\\darjeeling.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "darjeeling.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\west-bengal\\hooghly.jpg",
+      "relPath": "districts\\west-bengal\\hooghly.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "hooghly.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\west-bengal\\howrah.jpg",
+      "relPath": "districts\\west-bengal\\howrah.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "howrah.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\west-bengal\\jalpaiguri.jpg",
+      "relPath": "districts\\west-bengal\\jalpaiguri.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "jalpaiguri.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\west-bengal\\jhargram.jpg",
+      "relPath": "districts\\west-bengal\\jhargram.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "jhargram.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\west-bengal\\kalimpong.jpg",
+      "relPath": "districts\\west-bengal\\kalimpong.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "kalimpong.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\west-bengal\\kolkata.jpg",
+      "relPath": "districts\\west-bengal\\kolkata.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "kolkata.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\west-bengal\\malda.jpg",
+      "relPath": "districts\\west-bengal\\malda.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "malda.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\west-bengal\\murshidabad.jpg",
+      "relPath": "districts\\west-bengal\\murshidabad.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "murshidabad.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\west-bengal\\nadia.jpg",
+      "relPath": "districts\\west-bengal\\nadia.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "nadia.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\west-bengal\\north-24-parganas.jpg",
+      "relPath": "districts\\west-bengal\\north-24-parganas.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "north-24-parganas.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\west-bengal\\paschim-bardhaman.jpg",
+      "relPath": "districts\\west-bengal\\paschim-bardhaman.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "paschim-bardhaman.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\west-bengal\\paschim-medinipur.jpg",
+      "relPath": "districts\\west-bengal\\paschim-medinipur.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "paschim-medinipur.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\west-bengal\\purba-bardhaman.jpg",
+      "relPath": "districts\\west-bengal\\purba-bardhaman.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "purba-bardhaman.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\west-bengal\\purba-medinipur.jpg",
+      "relPath": "districts\\west-bengal\\purba-medinipur.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "purba-medinipur.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\west-bengal\\purulia.jpg",
+      "relPath": "districts\\west-bengal\\purulia.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "purulia.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\west-bengal\\south-24-parganas.jpg",
+      "relPath": "districts\\west-bengal\\south-24-parganas.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "south-24-parganas.jpg"
+    },
+    {
+      "fullPath": "public\\images\\districts\\west-bengal\\uttar-dinajpur.jpg",
+      "relPath": "districts\\west-bengal\\uttar-dinajpur.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "uttar-dinajpur.jpg"
+    },
+    {
+      "fullPath": "public\\images\\fallback\\destination-placeholder.svg",
+      "relPath": "fallback\\destination-placeholder.svg",
+      "size": 3806,
+      "ext": ".svg",
+      "name": "destination-placeholder.svg"
+    },
+    {
+      "fullPath": "public\\images\\states\\andhra-pradesh.jpg",
+      "relPath": "states\\andhra-pradesh.jpg",
+      "size": 266160,
+      "ext": ".jpg",
+      "name": "andhra-pradesh.jpg"
+    },
+    {
+      "fullPath": "public\\images\\states\\arunachal-pradesh.jpg",
+      "relPath": "states\\arunachal-pradesh.jpg",
+      "size": 305008,
+      "ext": ".jpg",
+      "name": "arunachal-pradesh.jpg"
+    },
+    {
+      "fullPath": "public\\images\\states\\assam.jpg",
+      "relPath": "states\\assam.jpg",
+      "size": 405007,
+      "ext": ".jpg",
+      "name": "assam.jpg"
+    },
+    {
+      "fullPath": "public\\images\\states\\bihar.jpg",
+      "relPath": "states\\bihar.jpg",
+      "size": 668394,
+      "ext": ".jpg",
+      "name": "bihar.jpg"
+    },
+    {
+      "fullPath": "public\\images\\states\\chhattisgarh.jpg",
+      "relPath": "states\\chhattisgarh.jpg",
+      "size": 368461,
+      "ext": ".jpg",
+      "name": "chhattisgarh.jpg"
+    },
+    {
+      "fullPath": "public\\images\\states\\goa.jpg",
+      "relPath": "states\\goa.jpg",
+      "size": 231330,
+      "ext": ".jpg",
+      "name": "goa.jpg"
+    },
+    {
+      "fullPath": "public\\images\\states\\gujarat.jpg",
+      "relPath": "states\\gujarat.jpg",
+      "size": 497459,
+      "ext": ".jpg",
+      "name": "gujarat.jpg"
+    },
+    {
+      "fullPath": "public\\images\\states\\haryana.jpg",
+      "relPath": "states\\haryana.jpg",
+      "size": 213019,
+      "ext": ".jpg",
+      "name": "haryana.jpg"
+    },
+    {
+      "fullPath": "public\\images\\states\\himachal-pradesh.jpg",
+      "relPath": "states\\himachal-pradesh.jpg",
+      "size": 318126,
+      "ext": ".jpg",
+      "name": "himachal-pradesh.jpg"
+    },
+    {
+      "fullPath": "public\\images\\states\\jharkhand.jpg",
+      "relPath": "states\\jharkhand.jpg",
+      "size": 467419,
+      "ext": ".jpg",
+      "name": "jharkhand.jpg"
+    },
+    {
+      "fullPath": "public\\images\\states\\karnataka.jpg",
+      "relPath": "states\\karnataka.jpg",
+      "size": 445124,
+      "ext": ".jpg",
+      "name": "karnataka.jpg"
+    },
+    {
+      "fullPath": "public\\images\\states\\kerala.jpg",
+      "relPath": "states\\kerala.jpg",
+      "size": 300577,
+      "ext": ".jpg",
+      "name": "kerala.jpg"
+    },
+    {
+      "fullPath": "public\\images\\states\\madhya-pradesh.jpg",
+      "relPath": "states\\madhya-pradesh.jpg",
+      "size": 274333,
+      "ext": ".jpg",
+      "name": "madhya-pradesh.jpg"
+    },
+    {
+      "fullPath": "public\\images\\states\\maharashtra.jpg",
+      "relPath": "states\\maharashtra.jpg",
+      "size": 238017,
+      "ext": ".jpg",
+      "name": "maharashtra.jpg"
+    },
+    {
+      "fullPath": "public\\images\\states\\manipur.jpg",
+      "relPath": "states\\manipur.jpg",
+      "size": 172778,
+      "ext": ".jpg",
+      "name": "manipur.jpg"
+    },
+    {
+      "fullPath": "public\\images\\states\\meghalaya.jpg",
+      "relPath": "states\\meghalaya.jpg",
+      "size": 490190,
+      "ext": ".jpg",
+      "name": "meghalaya.jpg"
+    },
+    {
+      "fullPath": "public\\images\\states\\mizoram.jpg",
+      "relPath": "states\\mizoram.jpg",
+      "size": 772414,
+      "ext": ".jpg",
+      "name": "mizoram.jpg"
+    },
+    {
+      "fullPath": "public\\images\\states\\nagaland.jpg",
+      "relPath": "states\\nagaland.jpg",
+      "size": 357814,
+      "ext": ".jpg",
+      "name": "nagaland.jpg"
+    },
+    {
+      "fullPath": "public\\images\\states\\odisha.jpg",
+      "relPath": "states\\odisha.jpg",
+      "size": 348091,
+      "ext": ".jpg",
+      "name": "odisha.jpg"
+    },
+    {
+      "fullPath": "public\\images\\states\\punjab.jpg",
+      "relPath": "states\\punjab.jpg",
+      "size": 280928,
+      "ext": ".jpg",
+      "name": "punjab.jpg"
+    },
+    {
+      "fullPath": "public\\images\\states\\rajasthan.jpg",
+      "relPath": "states\\rajasthan.jpg",
+      "size": 585316,
+      "ext": ".jpg",
+      "name": "rajasthan.jpg"
+    },
+    {
+      "fullPath": "public\\images\\states\\sikkim.jpg",
+      "relPath": "states\\sikkim.jpg",
+      "size": 300788,
+      "ext": ".jpg",
+      "name": "sikkim.jpg"
+    },
+    {
+      "fullPath": "public\\images\\states\\tamil-nadu.jpg",
+      "relPath": "states\\tamil-nadu.jpg",
+      "size": 274949,
+      "ext": ".jpg",
+      "name": "tamil-nadu.jpg"
+    },
+    {
+      "fullPath": "public\\images\\states\\telangana.jpg",
+      "relPath": "states\\telangana.jpg",
+      "size": 216624,
+      "ext": ".jpg",
+      "name": "telangana.jpg"
+    },
+    {
+      "fullPath": "public\\images\\states\\tripura.jpg",
+      "relPath": "states\\tripura.jpg",
+      "size": 91088,
+      "ext": ".jpg",
+      "name": "tripura.jpg"
+    },
+    {
+      "fullPath": "public\\images\\states\\uttar-pradesh.jpg",
+      "relPath": "states\\uttar-pradesh.jpg",
+      "size": 169113,
+      "ext": ".jpg",
+      "name": "uttar-pradesh.jpg"
+    },
+    {
+      "fullPath": "public\\images\\states\\uttarakhand.jpg",
+      "relPath": "states\\uttarakhand.jpg",
+      "size": 396035,
+      "ext": ".jpg",
+      "name": "uttarakhand.jpg"
+    },
+    {
+      "fullPath": "public\\images\\states\\west-bengal.jpg",
+      "relPath": "states\\west-bengal.jpg",
+      "size": 295722,
+      "ext": ".jpg",
+      "name": "west-bengal.jpg"
+    },
+    {
+      "fullPath": "public\\images\\union-territories\\andaman-and-nicobar-islands.jpg",
+      "relPath": "union-territories\\andaman-and-nicobar-islands.jpg",
+      "size": 132437,
+      "ext": ".jpg",
+      "name": "andaman-and-nicobar-islands.jpg"
+    },
+    {
+      "fullPath": "public\\images\\union-territories\\chandigarh.jpg",
+      "relPath": "union-territories\\chandigarh.jpg",
+      "size": 447193,
+      "ext": ".jpg",
+      "name": "chandigarh.jpg"
+    },
+    {
+      "fullPath": "public\\images\\union-territories\\dadra-and-nagar-haveli-and-daman-and-diu.jpg",
+      "relPath": "union-territories\\dadra-and-nagar-haveli-and-daman-and-diu.jpg",
+      "size": 204252,
+      "ext": ".jpg",
+      "name": "dadra-and-nagar-haveli-and-daman-and-diu.jpg"
+    },
+    {
+      "fullPath": "public\\images\\union-territories\\delhi.jpg",
+      "relPath": "union-territories\\delhi.jpg",
+      "size": 149233,
+      "ext": ".jpg",
+      "name": "delhi.jpg"
+    },
+    {
+      "fullPath": "public\\images\\union-territories\\jammu-and-kashmir.jpg",
+      "relPath": "union-territories\\jammu-and-kashmir.jpg",
+      "size": 326285,
+      "ext": ".jpg",
+      "name": "jammu-and-kashmir.jpg"
+    },
+    {
+      "fullPath": "public\\images\\union-territories\\ladakh.jpg",
+      "relPath": "union-territories\\ladakh.jpg",
+      "size": 189925,
+      "ext": ".jpg",
+      "name": "ladakh.jpg"
+    },
+    {
+      "fullPath": "public\\images\\union-territories\\lakshadweep.jpg",
+      "relPath": "union-territories\\lakshadweep.jpg",
+      "size": 214345,
+      "ext": ".jpg",
+      "name": "lakshadweep.jpg"
+    },
+    {
+      "fullPath": "public\\images\\union-territories\\puducherry.jpg",
+      "relPath": "union-territories\\puducherry.jpg",
+      "size": 152998,
+      "ext": ".jpg",
+      "name": "puducherry.jpg"
+    }
+  ],
+  "totalLocalFiles": 310,
+  "totalBytes": 98019935
+}

@@ -119,6 +119,10 @@ export function serializePlace(row) {
     location: row.location,
     description: row.description,
     image: row.image_url,
+    onlineImageId: row.online_image_id || null,
+    photographer: row.image_photographer || null,
+    license: row.image_license || null,
+    attribution: row.image_attribution || null,
     mapQuery: row.map_query,
     mapUrl: row.map_url || (row.map_query ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(row.map_query)}` : null),
     highlights: row.highlights,
@@ -136,6 +140,10 @@ export function serializeExploreItem(row) {
     name: row.destination_name,
     state: row.state_name,
     img: row.image_url,
+    onlineImageId: row.online_image_id || null,
+    photographer: row.image_photographer || null,
+    license: row.image_license || null,
+    attribution: row.image_attribution || null,
     best: row.best_time,
     highlights: row.highlights,
     badge: row.badge,
@@ -150,6 +158,10 @@ export function serializeTopPlaceItem(row) {
     name: row.destination_name,
     location: row.location,
     img: row.image_url,
+    onlineImageId: row.online_image_id || null,
+    photographer: row.image_photographer || null,
+    license: row.image_license || null,
+    attribution: row.image_attribution || null,
     mapQuery: row.map_query,
     badge: row.badge,
     desc: row.description
@@ -167,7 +179,11 @@ export function serializeSliderItem(row) {
     location: row.location || '',
     desc: row.description,
     buttonUrl: row.button_url,
-    buttonText: row.button_text
+    buttonText: row.button_text,
+    onlineImageId: row.online_image_id || null,
+    photographer: row.image_photographer || null,
+    license: row.image_license || null,
+    attribution: row.image_attribution || null
   };
 }
 

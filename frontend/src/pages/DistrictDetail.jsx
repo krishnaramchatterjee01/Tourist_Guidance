@@ -69,7 +69,7 @@ export default function DistrictDetail() {
       .slice(0, 4);
   }, [district, stateData]);
 
-  const rawBg = district?.heroImage || district?.image || `/images/states/${stateSlug}.jpg`;
+  const rawBg = district?.heroImage || district?.image || '/assets/images/destination-placeholder.svg';
   const heroBg = useBackgroundImage(rawBg);
 
   if (loading) {

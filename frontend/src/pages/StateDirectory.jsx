@@ -148,7 +148,7 @@ export default function StateDirectory() {
       <header
         className="wb-hero has-state-bg"
         style={{
-          backgroundImage: `linear-gradient(180deg, rgba(15, 23, 42, 0.55) 0%, rgba(15, 23, 42, 0.82) 100%), url('${stateData?.heroImage || stateData?.image || `/images/states/${stateSlug}.jpg`}')`
+          backgroundImage: `linear-gradient(180deg, rgba(15, 23, 42, 0.55) 0%, rgba(15, 23, 42, 0.82) 100%), url('${stateData?.heroImage || stateData?.image || '/assets/images/destination-placeholder.svg'}')`
         }}
       >
         <div className="ambient-glow">
