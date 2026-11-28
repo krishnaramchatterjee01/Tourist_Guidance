@@ -2,6 +2,7 @@ import { test, describe, after } from 'node:test';
 import assert from 'node:assert/strict';
 import request from 'supertest';
 import app from '../src/app.js';
+import { serializeDistrict } from '../src/utils/serializer.js';
 import { closePool } from '../src/config/db.js';
 
 describe('Bihar CIMS Image System - Regression & Verification Suite', () => {
@@ -96,14 +97,11 @@ describe('Bihar CIMS Image System - Regression & Verification Suite', () => {
     assert.equal(urls.size, 35, 'Expected 35 unique Assam district images');
   });
 
-  test('TEST 9: Non-pilot states (Meghalaya) remain 100% unchanged', async () => {
-    const res = await request(app).get('/api/states/meghalaya/districts');
-    assert.equal(res.status, 200);
-    assert.equal(res.body.success, true);
-    assert.ok(res.body.data.length > 0);
-
-    // Non-pilot states should not have online CIMS mappings
-    assert.equal(res.body.data[0].onlineImageId, null);
-    assert.ok(res.body.data[0].image);
+  test('Non-pilot territory fallback preserves static image URL', () => {
+    const mockRow = { id: 999, name: 'Control District', image_url: '/assets/images/control.jpg' };
+    const mockState = { slug: 'delhi', name: 'Delhi' };
+    const serialized = serializeDistrict(mockRow, mockState);
+    assert.equal(serialized.onlineImageId, null);
+    assert.equal(serialized.image, '/assets/images/control.jpg');
   });
 });

@@ -149,6 +149,18 @@ export class ImageCollectorService {
   getMpVerifiedDataset() { return this.loadStateDataset('verifiedMpDataset.json'); }
   getMaharashtraVerifiedDataset() { return this.loadStateDataset('verifiedMaharashtraDataset.json'); }
   getManipurVerifiedDataset() { return this.loadStateDataset('verifiedManipurDataset.json'); }
+  getMeghalayaVerifiedDataset() { return this.loadStateDataset('verifiedMeghalayaDataset.json'); }
+  getMizoramVerifiedDataset() { return this.loadStateDataset('verifiedMizoramDataset.json'); }
+  getNagalandVerifiedDataset() { return this.loadStateDataset('verifiedNagalandDataset.json'); }
+  getOdishaVerifiedDataset() { return this.loadStateDataset('verifiedOdishaDataset.json'); }
+  getPunjabVerifiedDataset() { return this.loadStateDataset('verifiedPunjabDataset.json'); }
+  getRajasthanVerifiedDataset() { return this.loadStateDataset('verifiedRajasthanDataset.json'); }
+  getSikkimVerifiedDataset() { return this.loadStateDataset('verifiedSikkimDataset.json'); }
+  getTamilNaduVerifiedDataset() { return this.loadStateDataset('verifiedTamilNaduDataset.json'); }
+  getTelanganaVerifiedDataset() { return this.loadStateDataset('verifiedTelanganaDataset.json'); }
+  getTripuraVerifiedDataset() { return this.loadStateDataset('verifiedTripuraDataset.json'); }
+  getUttarPradeshVerifiedDataset() { return this.loadStateDataset('verifiedUttarPradeshDataset.json'); }
+  getUttarakhandVerifiedDataset() { return this.loadStateDataset('verifiedUttarakhandDataset.json'); }
 
   /**
    * Helper to upsert a verified image into `images` table
@@ -1324,6 +1336,18 @@ export class ImageCollectorService {
   async collectMpPilot(opts) { return this.collectGenericStatePilot('madhya-pradesh', 'Madhya Pradesh', this.getMpVerifiedDataset()); }
   async collectMaharashtraPilot(opts) { return this.collectGenericStatePilot('maharashtra', 'Maharashtra', this.getMaharashtraVerifiedDataset()); }
   async collectManipurPilot(opts) { return this.collectGenericStatePilot('manipur', 'Manipur', this.getManipurVerifiedDataset()); }
+  async collectMeghalayaPilot(opts) { return this.collectGenericStatePilot('meghalaya', 'Meghalaya', this.getMeghalayaVerifiedDataset()); }
+  async collectMizoramPilot(opts) { return this.collectGenericStatePilot('mizoram', 'Mizoram', this.getMizoramVerifiedDataset()); }
+  async collectNagalandPilot(opts) { return this.collectGenericStatePilot('nagaland', 'Nagaland', this.getNagalandVerifiedDataset()); }
+  async collectOdishaPilot(opts) { return this.collectGenericStatePilot('odisha', 'Odisha', this.getOdishaVerifiedDataset()); }
+  async collectPunjabPilot(opts) { return this.collectGenericStatePilot('punjab', 'Punjab', this.getPunjabVerifiedDataset()); }
+  async collectRajasthanPilot(opts) { return this.collectGenericStatePilot('rajasthan', 'Rajasthan', this.getRajasthanVerifiedDataset()); }
+  async collectSikkimPilot(opts) { return this.collectGenericStatePilot('sikkim', 'Sikkim', this.getSikkimVerifiedDataset()); }
+  async collectTamilNaduPilot(opts) { return this.collectGenericStatePilot('tamil-nadu', 'Tamil Nadu', this.getTamilNaduVerifiedDataset()); }
+  async collectTelanganaPilot(opts) { return this.collectGenericStatePilot('telangana', 'Telangana', this.getTelanganaVerifiedDataset()); }
+  async collectTripuraPilot(opts) { return this.collectGenericStatePilot('tripura', 'Tripura', this.getTripuraVerifiedDataset()); }
+  async collectUttarPradeshPilot(opts) { return this.collectGenericStatePilot('uttar-pradesh', 'Uttar Pradesh', this.getUttarPradeshVerifiedDataset()); }
+  async collectUttarakhandPilot(opts) { return this.collectGenericStatePilot('uttarakhand', 'Uttarakhand', this.getUttarakhandVerifiedDataset()); }
 }
 
 export default new ImageCollectorService();

@@ -45,19 +45,25 @@ export function serializeDistrict(row, state = null, attractions = null) {
   // Primary image selection order:
   // 1. Verified CIMS online primary image
   // 2. Verified CIMS online backup image
-  // 3. For Pilot states (16 integrated CIMS states): neutral SVG placeholder to strictly prevent cloned photographs!
-  // 4. For non-pilot states: existing row.image_url
+  // 3. For Pilot states (all 28 integrated CIMS states): neutral SVG placeholder to strictly prevent cloned photographs!
+  // 4. For non-pilot regions (Union Territories): existing row.image_url
   const isPilotState = [
     'west-bengal', 'andhra-pradesh', 'arunachal-pradesh', 'assam',
     'bihar', 'chhattisgarh', 'goa', 'gujarat',
     'haryana', 'himachal-pradesh', 'jharkhand', 'karnataka',
-    'kerala', 'madhya-pradesh', 'maharashtra', 'manipur'
+    'kerala', 'madhya-pradesh', 'maharashtra', 'manipur',
+    'meghalaya', 'mizoram', 'nagaland', 'odisha',
+    'punjab', 'rajasthan', 'sikkim', 'tamil-nadu',
+    'telangana', 'tripura', 'uttar-pradesh', 'uttarakhand'
   ].includes(stateSlug?.toLowerCase()) ||
   [
     'West Bengal', 'Andhra Pradesh', 'Arunachal Pradesh', 'Assam',
     'Bihar', 'Chhattisgarh', 'Goa', 'Gujarat',
     'Haryana', 'Himachal Pradesh', 'Jharkhand', 'Karnataka',
-    'Kerala', 'Madhya Pradesh', 'Maharashtra', 'Manipur'
+    'Kerala', 'Madhya Pradesh', 'Maharashtra', 'Manipur',
+    'Meghalaya', 'Mizoram', 'Nagaland', 'Odisha',
+    'Punjab', 'Rajasthan', 'Sikkim', 'Tamil Nadu',
+    'Telangana', 'Tripura', 'Uttar Pradesh', 'Uttarakhand'
   ].includes(stateName);
   const onlineUrl = row.online_image_url || row.backup_image_url;
   const safeFallback = isPilotState ? '/assets/images/destination-placeholder.svg' : row.image_url;
